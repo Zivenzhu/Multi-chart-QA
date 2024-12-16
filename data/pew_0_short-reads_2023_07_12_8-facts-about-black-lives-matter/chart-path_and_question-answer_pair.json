@@ -6,7 +6,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_2.png",
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_3.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the title of the first chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the title of the first chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Support for the Black Lives Matter movement varies by race, ethnicity, age and partisanship",
         "task": "Direct_Questions/Content",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_2.png",
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_3.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "5; 6",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_2.png",
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_3.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many identical labels are there in the legends of the first chart and the third chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the third chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many identical labels are there in the legends of the first chart and the third chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the third chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_2.png",
             "modified_local_full_qa\\pew_0_short-reads_2023_07_12_8-facts-about-black-lives-matter\\SR_23.07.05_BLM-Facts_3.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: First, identify the race group with the largest percentage gap between those who strongly support and those who somewhat support the Black Lives Matter movement among adults in the first chart.\nNote that if this race group doesn't exist in the following question. Just answer 'Not applicable'.\nThen what is the percentage gap between strongly supporting and somewhat supporting the Black Lives Matter movement among teenagers in this race group in the third chart?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: First, identify the race group with the largest percentage gap between those who strongly support and those who somewhat support the Black Lives Matter movement among adults in the first chart.\nNote that if this race group doesn't exist in the following question. Just answer 'Not applicable'.\nThen what is the percentage gap between strongly supporting and somewhat supporting the Black Lives Matter movement among teenagers in this race group in the third chart?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

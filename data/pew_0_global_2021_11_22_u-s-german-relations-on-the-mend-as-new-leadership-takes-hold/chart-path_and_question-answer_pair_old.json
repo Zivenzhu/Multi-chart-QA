@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_182_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-02.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-03.png"
+        ],
+        "question": "Question:\nWhat does the vertical axis in the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Percentage of people who see their own country as the most important foreign policy partner\nB. Percentage of people who see another country as the most important foreign policy partner\nC. Number of countries considered as important foreign policy partners\nD. Ranking of countries based on importance in foreign policy\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "task": "Direct_Questions/Structure",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "group_182_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-02.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-03.png"
+        ],
+        "question": "Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. How many distinct lines are there in the third chart?\nNote that your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "100; 6",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_182_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-02.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-03.png"
+        ],
+        "question": "Question: How many identical labels are there in the legends of the second chart and the third chart?\nNote that Your final answer should be the number of identical labels in the legends of the second chart and the third chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_182_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-02.png",
+            "modified_local_full_qa\\pew_0_global_2021_11_22_u-s-german-relations-on-the-mend-as-new-leadership-takes-hold\\PG_2021.11.22_us-german-relations_00-03.png"
+        ],
+        "question": "Question: First, identify the country where the ranks of the percentage of people saying the relations between the US and Germany are good and those saying they are bad have exchanged from 2020 to 2021 in the first chart.\nThen, for this country's foreign policy in the second chart, identify which other country's rank, in terms of being regarded as the most important partner, exchanges with that of the U.S. from 2020 to 2021.\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "France",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

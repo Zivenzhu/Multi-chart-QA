@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_27_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\DOS_I3R3_theta105_color_contour.png",
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\Figure1_v6.png"
+        ],
+        "question": "Question: How many colours are used for the bars in the first chart?\nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_27_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\DOS_I3R3_theta105_color_contour.png",
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\Figure1_v6.png"
+        ],
+        "question": "Question: 1. How many subplots are there in the first chart?\nNote that Your final answer should be the total number of subplots in the plot. If the plot does not contain subplots, answer '1'.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 5",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_27_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\DOS_I3R3_theta105_color_contour.png",
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\Figure1_v6.png"
+        ],
+        "question": "Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_27_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\DOS_I3R3_theta105_color_contour.png",
+            "modified_local_full_qa\\arxiv_0_2406.18644v1\\Figure1_v6.png"
+        ],
+        "question": "Question: 1. Which subplot of the first chart, (a, b, c or d), has the most proportion of area which has Eb Min?\nNote that your answer should be only one option from (a, b, c, d).\n2. Which subplot of the second chart, (a, b, c or d), contains two pairs of curves where two curves in each pair have almost the same peak and trough values?\nNote that your answer should be only one option from (a, b, c, d).\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "c; c",
+        "task": "Parallel_Questions/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

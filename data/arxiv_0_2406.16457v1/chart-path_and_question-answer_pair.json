@@ -6,7 +6,7 @@
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\performance_FEM.png",
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\Softplus.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. How many labeled ticks are there on the vertical axis of each subplot in the e group in the first chart?\nNote that Your final answer should be the number of labeled ticks on the vertical axis of only one subplot in the d group. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the layout of the subplots in the b group in the second chart? (Answers should m by n)?\nNote that Your final answer should follow 'n by m' format, where n is the number of rows and m is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. How many labeled ticks are there on the vertical axis of each subplot in the e group in the first chart?\nNote that Your final answer should be the number of labeled ticks on the vertical axis of only one subplot in the d group. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the layout of the subplots in the b group in the second chart? (Answers should m by n)?\nNote that Your final answer should follow 'n by m' format, where n is the number of rows and m is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "8; 2 by 3",
         "task": "Parallel_Questions/Structure",
         "type": "open-ended",
@@ -19,9 +19,9 @@
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\performance_FEM.png",
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\Softplus.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there between the vertical axis of subplots in the c group in the first chart and the vertical axis of subplots in the b group in the second chart?\nNote that Your final answer should be the number of the same tick values based on the constraints above. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there between the vertical axis of subplots in the c group in the first chart and the vertical axis of subplots in the b group in the second chart?\nNote that Your final answer should be the number of the same tick values based on the constraints above. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\performance_FEM.png",
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\Softplus.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What is the Corresponding displacement of the training subplot in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the Corresponding displacement of the NH Training error subplot in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: 1. What is the Corresponding displacement of the training subplot in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the Corresponding displacement of the NH Training error subplot in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1.3",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\performance_FEM.png",
             "modified_local_full_qa\\arxiv_0_2406.16457v1\\Softplus.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly decide what type (convex or concave) is the line in the third chart, noted as T. Then for the three lines in the d group image in the second chart, which label in the legend of MINN has the same line type as T?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly decide what type (convex or concave) is the line in the third chart, noted as T. Then for the three lines in the d group image in the second chart, which label in the legend of MINN has the same line type as T?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Gent MINN",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

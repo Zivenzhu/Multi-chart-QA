@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_191_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-02.png"
+        ],
+        "question": "Question: What is the value of the green bar on the rightmost side in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "13",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_191_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-02.png"
+        ],
+        "question": "Question: 1. How many colours are used for the bars in the second chart?\nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is value written in the spatially highest box on the vertical axis of Rep/Lean Rep in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3; 23",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_191_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-02.png"
+        ],
+        "question": "Question: How many of the same labels are there on the vertical axes of the second chart and the first chart? \nNote that Your final answer should be the number of the same labels on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple identical labels on the vertical axes from different subplots, count them as only one distinct label. If these two charts do not have the same labels on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "9",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_191_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2021_11_09_beyond-red-vs-blue-the-political-typology-2\\PP_2021.11.09_political-typology_00-02.png"
+        ],
+        "question": "Question: Firstly extract the type whose percentage in Dem/Lean Dem ranks the third among all the types in the first chart.\nThen for this type, what is the percentage of people who say a lot more needs to be done because they are fundamentally biased against some racial and ethnic groups, most U.S. laws/institutions need to be completely rebuilt in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "63",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

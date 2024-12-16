@@ -6,7 +6,7 @@
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\lungctscatter.png",
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\NLST23-2d-scatter.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the first chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the first chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\lungctscatter.png",
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\NLST23-2d-scatter.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What is difference between consecutive numerical tick values on the horizontal axis in the third chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\n2. What does the horizontal axis in the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. \\(\\lambda\\)   \nB. \\(\\mu\\)\nC. Time (in seconds)  \nD. Frequency (in Hz)\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: 1. What is difference between consecutive numerical tick values on the horizontal axis in the third chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\n2. What does the horizontal axis in the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. \\(\\lambda\\)   \nB. \\(\\mu\\)\nC. Time (in seconds)  \nD. Frequency (in Hz)\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "0.5; B",
         "task": "Parallel_Questions/Structure",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\lungctscatter.png",
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\NLST23-2d-scatter.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "3",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\lungctscatter.png",
             "modified_local_full_qa\\arxiv_0_2407.04355v1\\NLST23-2d-scatter.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract the title of a subplot where almost all the dots are on the left of the line \u00a6\u00cc=0.5 in the third chart.\nThen for the subplot with the same title in the second chart, how many dots are located on the right of the line \u00a6\u00cc=0.5?\nNote that the answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly extract the title of a subplot where almost all the dots are on the left of the line \u00a6\u00cc=0.5 in the third chart.\nThen for the subplot with the same title in the second chart, how many dots are located on the right of the line \u00a6\u00cc=0.5?\nNote that the answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

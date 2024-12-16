@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_73_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_14_08.290Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_15_36.418Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_16_47.658Z.png"
+        ],
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_73_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_14_08.290Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_15_36.418Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_16_47.658Z.png"
+        ],
+        "question": "Question: \n1. How many explicitly written labels are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of explicitly written labels on the horizontal axis across multiple subplots. If the chart does not have explicitly written labels on the horizontal axis, answer '0'.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "17; 20",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_73_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_14_08.290Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_15_36.418Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_16_47.658Z.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the third chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the third charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_73_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_14_08.290Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_15_36.418Z.png",
+            "modified_local_full_qa\\oecd_0_doctors-consultations\\export-2024-07-26T11_16_47.658Z.png"
+        ],
+        "question": "Question: Firstly extract which country has the fourth highest Doctors' consultations among all the listed horizontal ticks in the year of 2018 in the second chart.\nThen for this country in the year of 2015 in the third chart, which position does its Doctors' consultations rank among all the listed horizontal ticks?\nNote that your answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Third",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_154_question_0",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\consumer-price-index.png",
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\nominal-wages-consumer-prices-and-real-wages-in-the-uk-since-1750.png"
+        ],
+        "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the second chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "500",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_154_question_1",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\consumer-price-index.png",
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\nominal-wages-consumer-prices-and-real-wages-in-the-uk-since-1750.png"
+        ],
+        "question": "Question: \n1. What does the color pink indicate in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. How many distinct lines are there in the second chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "India; 3",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_154_question_2",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\consumer-price-index.png",
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\nominal-wages-consumer-prices-and-real-wages-in-the-uk-since-1750.png"
+        ],
+        "question": "Question: How many of the same tick values are there across all axes in the second chart and the first chart? \nNote that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_154_question_3",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\consumer-price-index.png",
+            "modified_local_full_qa\\owid_0_how-are-incomes-adjusted-for-inflation\\nominal-wages-consumer-prices-and-real-wages-in-the-uk-since-1750.png"
+        ],
+        "question": "Question: 1. Which country's Consumer price index ranks the third in 1990 among all the countries in the legend of the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which label's line is the highest in 1950 among all the labels in the legend of the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "China; Real Average Weekly Wages",
+        "task": "Parallel_Questions/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

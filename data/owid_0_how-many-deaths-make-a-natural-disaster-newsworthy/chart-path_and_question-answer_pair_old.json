@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_158_question_0",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\how-many-deaths-does-it-take-for-a-disaster-to-receive-news-coverage.png",
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\news-coverage-of-disasters.png"
+        ],
+        "question": "Question: \n1. What is the title of the second chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n2. What is the disaster type associated with 280 deaths in the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "News coverage of disasters; Storm",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_158_question_1",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\how-many-deaths-does-it-take-for-a-disaster-to-receive-news-coverage.png",
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\news-coverage-of-disasters.png"
+        ],
+        "question": "Question: \n1. What does the value of the bar in the first chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The number of casualties required for a disaster to receive news coverage.\nB. The frequency of disaster occurrences in the past decade.\nC. The average duration of news coverage for different disasters.\nD. The estimated economic impact of disasters on affected regions.\n2. What does the bar representing 9% in the second chart correspond to? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "A; Flood",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_158_question_2",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\how-many-deaths-does-it-take-for-a-disaster-to-receive-news-coverage.png",
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\news-coverage-of-disasters.png"
+        ],
+        "question": "Question: How many of the same disaster types are there in the first and the second charts?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "10",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_158_question_3",
+        "image": [
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\how-many-deaths-does-it-take-for-a-disaster-to-receive-news-coverage.png",
+            "modified_local_full_qa\\owid_0_how-many-deaths-make-a-natural-disaster-newsworthy\\news-coverage-of-disasters.png"
+        ],
+        "question": "Question: Firstly extract a kind of disaster whose coverage in major US networks ranks the sixth in the second chart.  \nThen for this kind of disaster, how many deaths does it take to receive news coverage in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "882",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

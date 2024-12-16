@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_152_question_0",
+        "image": [
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\historical-gov-spending-gdp.png",
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\social-spending-oecd-longrun.png"
+        ],
+        "question": "Question: What are the names of the labels in the legend of the first chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Germany, United Kingdom, Japan, United States, China",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_152_question_1",
+        "image": [
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\historical-gov-spending-gdp.png",
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\social-spending-oecd-longrun.png"
+        ],
+        "question": "Question: \n1. What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n2. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1880; 2022",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_152_question_2",
+        "image": [
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\historical-gov-spending-gdp.png",
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\social-spending-oecd-longrun.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the first chart? \nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the second and the first charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_152_question_3",
+        "image": [
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\historical-gov-spending-gdp.png",
+            "modified_local_full_qa\\owid_0_historical-poverty-reductions-more-than-a-story-about-free-market-capitalism\\social-spending-oecd-longrun.png"
+        ],
+        "question": "Question: Firstly extract the country whose Government spending as a share of GDP ranks the third in 1900 in the first chart.\nThen for this country, what is the nearest vertical tick value to its Public social spending as a share of GDP in 2000 in the second chart?\nNote that your final answer must an explicitly written vertical tick value in the chart. You should omit the unit after any number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "15%",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

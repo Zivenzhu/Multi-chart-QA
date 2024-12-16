@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_74_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_33_02.791Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_34_32.708Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_35_45.916Z.png"
+        ],
+        "question": "Question: What is difference between consecutive numerical tick values on the vertical axis in the first chart?\nNote that your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_74_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_33_02.791Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_34_32.708Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_35_45.916Z.png"
+        ],
+        "question": "Question:  1. What is the general trend of data from left to right in the first chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Decreasing \nB. Increasing then decreasing \nC. Decreasing then increasing \nD. Increasing \n2. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n3. What is the percentage value for Switzerland in the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
+        "answer": "A; 18; 60",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_74_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_33_02.791Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_34_32.708Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_35_45.916Z.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the 1st and the 2nd charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_74_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_33_02.791Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_34_32.708Z.png",
+            "modified_local_full_qa\\oecd_0_employee-compensation-by-activity\\export-2024-07-26T10_35_45.916Z.png"
+        ],
+        "question": "Question: 1. In how many bars are the employee compensation by activity below 40 in 2022 in the first chart?\nNote that your answer should be a natural number.\n2. In how many bars are the employee compensation by activity below 40 in 2017 in the second chart?\nNote that your answer should be a natural number.\nNote that you have got the answer for the above two questions, the final answer is the answer to the first question minus the answer to the second question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

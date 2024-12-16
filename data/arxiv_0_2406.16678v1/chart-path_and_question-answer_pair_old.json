@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_11_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\code-switching.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\opus100.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\ud.png"
+        ],
+        "question": "Question: 1. In which test time (seconds) does the WtP line reaches its maximum value in the first chart titled with CODE-SWITCHING-CORRUPTED-ASR?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. In which test time (seconds) does the WtP line reaches its maximum value in the third chart titled with UD?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question. You should omit the unit after the numerical value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_11_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\code-switching.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\opus100.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\ud.png"
+        ],
+        "question": "Question: Which label in the legend of Model Groups demonstrate the most different trends from left to right among the three charts?\nNote that if there are more than one labels demonstrate different trends, you answer should be the label whose trends are the most different among three charts. Your answer should be one label in the legend of Model Groups.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "WtP",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_11_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\code-switching.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\opus100.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\ud.png"
+        ],
+        "question": "Question: What is the title of the chart where the SaT line doesn't have any points which are directly over the WtP line?\nNote that your should decide which chart satisfies the constraint and then find the title of it as the answer.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "OPUS100",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_11_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\code-switching.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\opus100.png",
+            "modified_local_full_qa\\arxiv_0_2406.16678v1\\ud.png"
+        ],
+        "question": "Question: In which chart, (CODE-SWITCHING-CORRUPTED-ASR or UD), the F1 Score gap between the rightmost points of the SaT line and the Sat + SM line is larger? \nNote that your answer should be only one option from (CODE-SWITCHING-CORRUPTED-ASR, UD)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "CODE-SWITCHING-CORRUPTED-ASR",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

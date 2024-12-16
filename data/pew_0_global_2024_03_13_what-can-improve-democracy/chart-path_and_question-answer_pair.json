@@ -5,7 +5,7 @@
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_01.png",
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_02.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: What is the total number of explicitly written labels across all axes in the second chart?\nNote that Your final answer should be the total number of explicitly written labels across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit written labels across all axes, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the total number of explicitly written labels across all axes in the second chart?\nNote that Your final answer should be the total number of explicitly written labels across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit written labels across all axes, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "29",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -17,7 +17,7 @@
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_01.png",
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_02.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What is the 3rd most mentioned topic in the second chart for Kenya?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default. \n2. Which country mentions 'Judicial system' as the most frequently mentioned topic in the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the 3rd most mentioned topic in the second chart for Kenya?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default. \n2. Which country mentions 'Judicial system' as the most frequently mentioned topic in the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Citizens; Israel",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",
@@ -29,9 +29,9 @@
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_01.png",
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_02.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: How many of the same labeled countries are there in the second chart and the first chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same labeled countries are there in the second chart and the first chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "24",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -41,9 +41,9 @@
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_01.png",
             "modified_local_full_qa\\pew_0_global_2024_03_13_what-can-improve-democracy\\2024.03.13_democracy-open-end_0_02.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: Firstly identify the country whose people suggest that changing leadership will improve democracy in the first chart.\nThen for this country in the second chart, what is the second mentioned topics when people describe what would help improve democracy?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly identify the country whose people suggest that changing leadership will improve democracy in the first chart.\nThen for this country in the second chart, what is the second mentioned topics when people describe what would help improve democracy?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Politicians",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

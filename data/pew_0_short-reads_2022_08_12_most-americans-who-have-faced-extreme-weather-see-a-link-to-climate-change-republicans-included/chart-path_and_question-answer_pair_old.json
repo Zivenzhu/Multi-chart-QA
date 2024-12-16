@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_215_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_02.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_03.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\ft_2022.08.10_extremeweather_01.png"
+        ],
+        "question": "Question:\nHow many explicitly written labeles are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of explicitly written labeles on the vertical axis across multiple subplots. If the chart does not have explicitly written labeles on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_215_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_02.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_03.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\ft_2022.08.10_extremeweather_01.png"
+        ],
+        "question": "Question:\n1. What percentage of U.S. adults in the South who lean Republican say their local community has experienced long periods of unusually hot weather in the past 12 months, according to the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number.\n2. How many colours are used for the bars in the third chart?\nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "32; 3",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_215_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_02.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_03.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\ft_2022.08.10_extremeweather_01.png"
+        ],
+        "question": "Question: How many of the same labels are there on the horizontal axis in the first chart and the third chart? \nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the first chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If the first and the third charts do not have the same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_215_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_02.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\FT_22.08.10_ExtremeWeather_03.png",
+            "modified_local_full_qa\\pew_0_short-reads_2022_08_12_most-americans-who-have-faced-extreme-weather-see-a-link-to-climate-change-republicans-included\\ft_2022.08.10_extremeweather_01.png"
+        ],
+        "question": "Question: Firstly identify the category of events whose percentage of Dem/Lean Dem people who say climate change contributed a little to their local community is the lowest among all the events in Dem/Lean Dem people in the first chart. \nThen what is the percentage of Dem/Lean Dem people who say their local community has experienced this category of event in the South of U.S. in the past 12 months in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "14",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

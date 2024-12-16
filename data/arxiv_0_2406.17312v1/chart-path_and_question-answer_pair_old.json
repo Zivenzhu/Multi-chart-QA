@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_17_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-corpus_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-instance_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-avg_false-corpus_level.png"
+        ],
+        "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.03",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_17_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-corpus_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-instance_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-avg_false-corpus_level.png"
+        ],
+        "question": "Question:\n1. What does the vertical axis in the third chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Number of samples\nB. Win rate\nC. Time in seconds\nD. Sample size\n2. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "B; 8",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_17_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-corpus_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-instance_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-avg_false-corpus_level.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the second chart and the third chart do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "9",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_17_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-corpus_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-against_random-avg_false-instance_level-eval_PairRM.png",
+            "modified_local_full_qa\\arxiv_0_2406.17312v1\\rq1-avg_false-corpus_level.png"
+        ],
+        "question": "Question: Which colour of line in the third chart, (Green, Orange or Blue), have the most similar trend with the line labeling the smallest in the second chart? \nNote that you answer should be only one option from (Green, Orange or Blue).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Orange",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

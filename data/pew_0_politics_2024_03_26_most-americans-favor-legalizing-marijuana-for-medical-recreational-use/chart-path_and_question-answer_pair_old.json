@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_195_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-02.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-03.png"
+        ],
+        "question": "Question: How many segments are there in the pie in the first chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_195_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-02.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-03.png"
+        ],
+        "question": "Question:\n1. What is the value of the yellow bar on the leftmost and bottommost side in the third chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many distinct segments are there in the bars of the second chart?\nNote that Your final answer should be the total number of distinct segments in the bars of the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "28; 12",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_195_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-02.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-03.png"
+        ],
+        "question": "Question: How many of the same colors are used to draw bars in both the third chart and the second chart? \nNote that Your final answer should be the number of the same colors used to draw bars between the third chart and the second chart across multiple subplots. If the third and the second charts don't have any bars with the same colour or either of them is not a bar chart, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_195_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-01.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-02.png",
+            "modified_local_full_qa\\pew_0_politics_2024_03_26_most-americans-favor-legalizing-marijuana-for-medical-recreational-use\\PP_2024.3.26_marijuana_00-03.png"
+        ],
+        "question": "Question: 1. What is the percentage of people who think marijuana is legal for recreational use and it is good for local economies among all the U.S. adults?\nNote that Your answer should be the exact value.\n2. What is the percentage of people who think marijuana is legal for recreational use and makes the criminal justice system more fair among all the U.S. adults?\nNote that Your answer should be the exact value.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question, The_answer_for_the_second_question",
+        "answer": "29.64, 23.94",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

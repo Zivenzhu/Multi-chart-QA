@@ -6,7 +6,7 @@
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_01_13.723Z.png",
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_05_14.309Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What does the vertical axis in the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Percentage of part-time workers\nB. Average salary in USD\nC. Percentage of full-time workers\nD. Number of employees\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What does the vertical axis in the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Percentage of part-time workers\nB. Average salary in USD\nC. Percentage of full-time workers\nD. Number of employees\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
         "task": "Direct_Questions/Structure",
         "type": "multiple-choice",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_01_13.723Z.png",
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_05_14.309Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many explicitly written labels are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of explicitly written labels on the horizontal axis across multiple subplots. If the chart does not have explicitly written labels on the horizontal axis, answer '0'.\n3. What's the shape representing 'Low pay' in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
+        "question": "Question: \n1. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many explicitly written labels are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of explicitly written labels on the horizontal axis across multiple subplots. If the chart does not have explicitly written labels on the horizontal axis, answer '0'.\n3. What's the shape representing 'Low pay' in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "0; 17; Circle",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_01_13.723Z.png",
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_05_14.309Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same labels are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same labels are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "12",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_01_13.723Z.png",
             "modified_local_full_qa\\oecd_0_incidence-of-low-and-high-pay\\export-2024-07-25T23_05_14.309Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly in the year of 2021, 2018, 2009, extract the proportion of full-time worker gap between low pay and high pay when the high pay is the highest among all the countries in each year respectively.\nThen in which year the gap extracted above is the highest?\nNote that your answer should be a year you specified, such as 'Answer: 2000'.",
+        "question": "Question: Firstly in the year of 2021, 2018, 2009, extract the proportion of full-time worker gap between low pay and high pay when the high pay is the highest among all the countries in each year respectively.\nThen in which year the gap extracted above is the highest?\nNote that your answer should be a year you specified, such as 'Answer: 2000'.",
         "answer": "2018",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

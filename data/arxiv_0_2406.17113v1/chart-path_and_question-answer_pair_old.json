@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_14_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\AM_with_time_all.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\BS_PS_combined.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\Buckle_BPX_combined.png"
+        ],
+        "question": "Question: What is the spatially lowest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_14_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\AM_with_time_all.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\BS_PS_combined.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\Buckle_BPX_combined.png"
+        ],
+        "question": "Question:\n1. How many subplots are there in the third chart?\nNote that Your final answer should be the total number of subplots in the plot. If the plot does not contain subplots, answer '1'.\n2. What is the time range covered by the 't (Gyr)' axis in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 10",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_14_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\AM_with_time_all.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\BS_PS_combined.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\Buckle_BPX_combined.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the first chart and the third chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the third charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_14_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\AM_with_time_all.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\BS_PS_combined.png",
+            "modified_local_full_qa\\arxiv_0_2406.17113v1\\Buckle_BPX_combined.png"
+        ],
+        "question": "Question: Firstly find a label in the legend which has the general trend of firstly increasing but then decreasing in the Halo (<Rb) subplot in the first chart. \nThen for this label in the rightmost subplot of the third chart, from which t(Gyr) does its line start to converge?\nNote that the general trend in this question means you may leave out some outliers and only focus on the grend trend from left to right.\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

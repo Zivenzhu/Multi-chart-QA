@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_181_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-03.png"
+        ],
+        "question": "Question: What is the value of the green line in the year of 2021 in the subplot for Germany in the first chart? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "71",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_181_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-03.png"
+        ],
+        "question": "Question: 1. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that: Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. How many labeled countries are there on the vertical axis of the second chart?\nNote that your final answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "100; 13",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_181_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-03.png"
+        ],
+        "question": "Question: How many of the same labeled countries are there in the second chart and the first chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_181_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-01.png",
+            "modified_local_full_qa\\pew_0_global_2021_10_13_diversity-and-division-in-advanced-economies\\PG_2021.10.13_Diversity_0-03.png"
+        ],
+        "question": "Question: Firstly extract the country whose point increase from 2017 to 2021, in the percentage of people who say having people of many different background, is the fourth largest among all the countries in the first chart.\nThen what is the result of subtracting the overall median from the percentage of people in this country who disagree on basic facts in the second chart?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "-2",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

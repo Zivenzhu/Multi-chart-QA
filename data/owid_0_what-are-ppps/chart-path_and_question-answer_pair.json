@@ -6,7 +6,7 @@
             "modified_local_full_qa\\owid_0_what-are-ppps\\gdp-price-levels-relative-to-the-us.png",
             "modified_local_full_qa\\owid_0_what-are-ppps\\price-levels-relative-to-us-vs-gdp-per-capita.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What does the color purple indicate in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What does the color purple indicate in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "United States",
         "task": "Direct_Questions/Content",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\owid_0_what-are-ppps\\gdp-price-levels-relative-to-the-us.png",
             "modified_local_full_qa\\owid_0_what-are-ppps\\price-levels-relative-to-us-vs-gdp-per-capita.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. How many distinct lines are there in the first chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. How many distinct lines are there in the first chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "99000; 2",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\owid_0_what-are-ppps\\gdp-price-levels-relative-to-the-us.png",
             "modified_local_full_qa\\owid_0_what-are-ppps\\price-levels-relative-to-us-vs-gdp-per-capita.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there on the vertical axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "7",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\owid_0_what-are-ppps\\gdp-price-levels-relative-to-the-us.png",
             "modified_local_full_qa\\owid_0_what-are-ppps\\price-levels-relative-to-us-vs-gdp-per-capita.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract a country whose price levels relative to the US is always below 0.4 from 1990 to 2022 in the second chart.\nThen which of the following ranges does this country's GDP per capita fall within in the third chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. [$2000, $5000)\nB. [$5000, $10000)\nC. [$10000, $20000)\nD. [$20000, $50000)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly extract a country whose price levels relative to the US is always below 0.4 from 1990 to 2022 in the second chart.\nThen which of the following ranges does this country's GDP per capita fall within in the third chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. [$2000, $5000)\nB. [$5000, $10000)\nC. [$10000, $20000)\nD. [$20000, $50000)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

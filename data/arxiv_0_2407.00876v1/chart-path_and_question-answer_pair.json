@@ -5,7 +5,7 @@
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx10.png",
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx11.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: How many labels are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labels on the horizontal axis across multiple subplots. If the chart does not have explicit labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many labels are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labels on the horizontal axis across multiple subplots. If the chart does not have explicit labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -17,7 +17,7 @@
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx10.png",
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx11.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What does the vertical axis in the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question.If the chart has multiple subplots, answ\ner based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Latency (Seconds)\nB. Number of Transactions\nC. Throughput (transactions/second)\nD. Number of Nodes\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What does the vertical axis in the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question.If the chart has multiple subplots, answ\ner based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Latency (Seconds)\nB. Number of Transactions\nC. Throughput (transactions/second)\nD. Number of Nodes\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "C; 7",
         "task": "Parallel_Questions/Structure",
         "type": "open-ended",
@@ -29,9 +29,9 @@
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx10.png",
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx11.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: How many of the same labels are there on the horizontal axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the first chart and the second chart. If a chart has multiple identical labels from different subplots, count them as only one distinct tick value. If these charts do not have the same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same labels are there on the horizontal axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the first chart and the second chart. If a chart has multiple identical labels from different subplots, count them as only one distinct tick value. If these charts do not have the same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -41,7 +41,7 @@
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx10.png",
             "modified_local_full_qa\\arxiv_0_2407.00876v1\\dx11.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: 1. Which label in the Transaction legend has the largest Latency for the task of Revocation in the first chart?\nNote that your final answer should be a label in the legend of Transactions.\n2. Which label in the Nodes legend has the smallest Throughput for the task of Revocation in the second chart?\nNote that your final answer should be a label in the legend of Nodes.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: 1. Which label in the Transaction legend has the largest Latency for the task of Revocation in the first chart?\nNote that your final answer should be a label in the legend of Transactions.\n2. Which label in the Nodes legend has the smallest Throughput for the task of Revocation in the second chart?\nNote that your final answer should be a label in the legend of Nodes.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "2000; 2",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",

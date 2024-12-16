@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_65_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_12_06.428Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_13_30.726Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_14_41.119Z.png"
+        ],
+        "question": "Question: What is the total number of explicitly written labels across all axes in the first chart?\nNote that Your final answer should be the total number of explicitly written labels across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicitly written labels across all axes, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_65_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_12_06.428Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_13_30.726Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_14_41.119Z.png"
+        ],
+        "question": "Question: \n1. What is difference between consecutive numerical tick values on the vertical axis in the second chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\n2. What does the vertical axis in the third chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The number of agricultural producers in each country\nB. The level of agricultural subsidies provided by each country\nC. The Producer Nominal Protection Coefficient in 2020\nD. The average yield of agricultural products per country\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1; C",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_65_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_12_06.428Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_13_30.726Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_14_41.119Z.png"
+        ],
+        "question": "Question: How many of the same labels are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple labels from different subplots with the same value, count them as only one distinct label. If the first and the second charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "18",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_65_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_12_06.428Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_13_30.726Z.png",
+            "modified_local_full_qa\\oecd_0_agricultural-producer-protection\\export-2024-07-24T20_14_41.119Z.png"
+        ],
+        "question": "Question: Firstly extract which country has the highest agricultural producer protection among all the listed horizontal ticks in the year of 2022 in the first chart.\nThen for this country in the year of 2018 in the third chart, which position does its agricultural producer protection rank among all the listed horizontal ticks?\nNote that your answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Third",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

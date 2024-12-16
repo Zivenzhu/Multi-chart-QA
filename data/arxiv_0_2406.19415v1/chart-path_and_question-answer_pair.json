@@ -6,7 +6,7 @@
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gemini_pro_facts.png",
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gpt4_facts.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is difference between consecutive numerical tick values on the vertical axis in the colour bar of the first chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is difference between consecutive numerical tick values on the vertical axis in the colour bar of the first chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "0.1",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gemini_pro_facts.png",
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gpt4_facts.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What is the label of the dashed orange line in the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the general trend of the line Gemini-Pro agreement from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: 1. What is the label of the dashed orange line in the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the general trend of the line Gemini-Pro agreement from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Mistral agreement; B",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gemini_pro_facts.png",
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gpt4_facts.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same colors are used to draw lines in both the second chart and the third chart?\nNote that Your final answer should be the number of the same colors used to draw lines between the second chart and the third chart across multiple subplots. If the second and the third charts do have any lines with the same colour or neither of them is a line chart, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same colors are used to draw lines in both the second chart and the third chart?\nNote that Your final answer should be the number of the same colors used to draw lines between the second chart and the third chart across multiple subplots. If the second and the third charts do have any lines with the same colour or neither of them is a line chart, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gemini_pro_facts.png",
             "modified_local_full_qa\\arxiv_0_2406.19415v1\\agreement_with_native_annotator_on_gpt4_facts.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: First extract an agreement type in the legend which rank the third in Bengali on the agreement with native annotators(on Gemini-Pro generated facts) in the second chart.\nThen for this agreement type, which position, (First, Second, Third, Fourth, ...), does it rank in Bengali on the agreement with native annotators (on GPT-4 generated facts) in the third chart?\nNote that your answer should be an ordinal numeral, such as First or Second.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: First extract an agreement type in the legend which rank the third in Bengali on the agreement with native annotators(on Gemini-Pro generated facts) in the second chart.\nThen for this agreement type, which position, (First, Second, Third, Fourth, ...), does it rank in Bengali on the agreement with native annotators (on GPT-4 generated facts) in the third chart?\nNote that your answer should be an ordinal numeral, such as First or Second.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Fourth",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

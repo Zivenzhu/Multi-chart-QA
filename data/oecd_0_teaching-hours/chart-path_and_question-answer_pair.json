@@ -6,7 +6,7 @@
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_55_16.687Z.png",
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_56_27.667Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the total number of explicitly written labels across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly written labels across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicitly written labels across all axes, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the total number of explicitly written labels across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly written labels across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicitly written labels across all axes, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "25",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_55_16.687Z.png",
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_56_27.667Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What does the horizontal axis of the first chart represent?  \nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom.   You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The countries  \nB. The year  \nC. The population  \nD. The months  \n2. What is the spatially highest labeled tick on the vertical axis in the third chart?  \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.  \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. What does the horizontal axis of the first chart represent?  \nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom.   You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The countries  \nB. The year  \nC. The population  \nD. The months  \n2. What is the spatially highest labeled tick on the vertical axis in the third chart?  \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.  \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; 1250",
         "task": "Parallel_Questions/Structure",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_55_16.687Z.png",
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_56_27.667Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same labels are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same labels are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "11",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_55_16.687Z.png",
             "modified_local_full_qa\\oecd_0_teaching-hours\\export-2024-07-25T02_56_27.667Z.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract a name of a country whose Teaching hours ranks the third among all the listed horizontal ticks in 2021 in the first chart.\nThen for this country in 2020, which position does it rank among all the listed horizontal ticks in the second chart?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly extract a name of a country whose Teaching hours ranks the third among all the listed horizontal ticks in 2021 in the first chart.\nThen for this country in 2020, which position does it rank among all the listed horizontal ticks in the second chart?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Fourth",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

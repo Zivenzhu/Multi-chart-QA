@@ -6,7 +6,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_02.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_03.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the title of the third chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the title of the third chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Younger, non-college Republicans are most supportive of free college tuition",
         "task": "Direct_Questions/Content",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_02.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_03.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many distinct bars are there in the second chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\n2. What is the percentage of Republicans who strongly oppose tuition-free college in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. How many distinct bars are there in the second chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\n2. What is the percentage of Republicans who strongly oppose tuition-free college in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "14; 42",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_02.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_03.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same labels are there on the vertical axis in the first chart and the second chart?\nYour final answer should be the number of the same labels  on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any identical labels on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same labels are there on the vertical axis in the first chart and the second chart?\nYour final answer should be the number of the same labels  on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any identical labels on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "11",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_02.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_08_11_democrats-overwhelmingly-favor-free-college-tuition-while-republicans-are-divided-by-age-education\\ft_2021.08.11_freecollege_03.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly identify the group, from Postgrad, College grad, Some college or HS or less, whose percentage of people who are somewhat favor in making tuition at public colleges and universities free for all American students is the largest among all the groups in the first chart.\nThen in the second chart, what is the percentage of people in this group who are somewhat favor in making tuition at public colleges and universities free for all American students is the largest among Republicans?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly identify the group, from Postgrad, College grad, Some college or HS or less, whose percentage of people who are somewhat favor in making tuition at public colleges and universities free for all American students is the largest among all the groups in the first chart.\nThen in the second chart, what is the percentage of people in this group who are somewhat favor in making tuition at public colleges and universities free for all American students is the largest among Republicans?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "27",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

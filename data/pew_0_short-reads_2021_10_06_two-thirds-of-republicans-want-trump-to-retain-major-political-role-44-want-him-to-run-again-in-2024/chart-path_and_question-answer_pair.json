@@ -6,7 +6,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_04.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_05.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What are the names of the labels in the legend of the second chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What are the names of the labels in the legend of the second chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Not too accepting, Not at all accepting, Very accepting, Somewhat accepting",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_04.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_05.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\n2. How many colours are used for the lines in the first chart?\nNote that Your final answer should be the total number of colours used for the lines in the chart across multiple subplots. If the plot does not have lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\n2. How many colours are used for the lines in the first chart?\nNote that Your final answer should be the total number of colours used for the lines in the chart across multiple subplots. If the plot does not have lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "4; 3",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_04.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_05.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many identical labels are there in the legends of the third chart and the first chart?\nNote that Your final answer should be the number of identical labels in the legends of the third chart and the first chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many identical labels are there in the legends of the third chart and the first chart?\nNote that Your final answer should be the number of identical labels in the legends of the third chart and the first chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_04.png",
             "modified_local_full_qa\\pew_0_short-reads_2021_10_06_two-thirds-of-republicans-want-trump-to-retain-major-political-role-44-want-him-to-run-again-in-2024\\ft_2021.10.06_trumpfuture_05.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly identify the politician party which has a lower percentage of people who say their party should be not too accepting of elected officials in Sept, 2021 in the third chart. \nThen for this politician party, what is the percentage of people who say their party should be not too accepting of elected officials who call elected officials from the other party \"evil\" in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly identify the politician party which has a lower percentage of people who say their party should be not too accepting of elected officials in Sept, 2021 in the third chart. \nThen for this politician party, what is the percentage of people who say their party should be not too accepting of elected officials who call elected officials from the other party \"evil\" in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "38",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

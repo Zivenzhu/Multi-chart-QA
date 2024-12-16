@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_112_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_57_56.161Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_59_26.354Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T11_00_52.831Z.png"
+        ],
+        "question": "Question: How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_112_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_57_56.161Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_59_26.354Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T11_00_52.831Z.png"
+        ],
+        "question": "Question: \n1. What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n2. What is difference between consecutive numerical tick values on the vertical axis in the third chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Canada; 5",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_112_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_57_56.161Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_59_26.354Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T11_00_52.831Z.png"
+        ],
+        "question": "Question: How many identical labels are there in the legends of the first chart and the third chart? \nNote that Your final answer should be the number of identical labels in the legends of the first chart and the third chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_112_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_57_56.161Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T10_59_26.354Z.png",
+            "modified_local_full_qa\\oecd_0_pension-spending\\export-2024-07-25T11_00_52.831Z.png"
+        ],
+        "question": "Question: Firstly extract a chart from these three charts where the highest public Pension spending is the highest among all the three charts.\nThen counting from left to right, how many consecutive countries satisfy the condition that the Public Pension spending is no less than the Private Pension spending in this extracted chart? \nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

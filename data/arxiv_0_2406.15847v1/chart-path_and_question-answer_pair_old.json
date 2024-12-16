@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_6_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\data_splits.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\distribution_comparison.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\solfsmy_comparison.png"
+        ],
+        "question": "Question: 1. What does the vertical axis in the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. SFU\nB. Date\nC. Percentage of data\nD. Accuracy\n2. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "A; 0.5",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_6_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\data_splits.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\distribution_comparison.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\solfsmy_comparison.png"
+        ],
+        "question": "Question: In this question, please leave out the 'Distribution' suffix of the labels in the second chart and answer the question. How many identical labels are there in the legends of the second chart and the first chart?\nNote that Your final answer should be the number of identical labels in the legends of the second chart and the first chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_6_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\data_splits.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\distribution_comparison.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\solfsmy_comparison.png"
+        ],
+        "question": "Question: 1. Whether the SFU of F10.7 is bigger than, smaller than or equal to the SFU of Y10.7 in the year of 2002 in the first chart?\nNote that you final answer should choose only one from (Bigger, Samller, Equal).\n2. Which solar activity categories has the largest proportion of w in its percentage of data in the second chart?\nNote that your answer should be one of the horizontal tick label.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Bigger; High",
+        "task": "Parallel_Questions/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_6_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\data_splits.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\distribution_comparison.png",
+            "modified_local_full_qa\\arxiv_0_2406.15847v1\\solfsmy_comparison.png"
+        ],
+        "question": "Question: Firstly find only one label from (low, moderate, elevated, high) with which the row in the third chart has the phenomenon that the line of Mean Error [STDE] is mostly lower than that of Mean Error (Benchmark) [STDE].\nThen for the label you found in the above question, which position does the height of its bar rank in the second chart with the topic of solar activity categories distribution?\nNote that your final answer should express the ordinal numbers using letters, such as first, second, third, forth.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Third",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

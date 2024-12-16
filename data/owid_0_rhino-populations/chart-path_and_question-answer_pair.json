@@ -6,7 +6,7 @@
             "modified_local_full_qa\\owid_0_rhino-populations\\northern-white-rhinos.png",
             "modified_local_full_qa\\owid_0_rhino-populations\\southern-white-rhinos.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the rightmost labeled tick on the horizontal colour bar in the second chart?\nNote that your final answer should be the tick value on the horizontal color bar that is explicitly written, including the case when the horizontal color bar is shared across multiple subplots. When the horizontal color bar is present on both the top and bottom of the plot, answer based on the color bar at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the color bar label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal color bar, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the rightmost labeled tick on the horizontal colour bar in the second chart?\nNote that your final answer should be the tick value on the horizontal color bar that is explicitly written, including the case when the horizontal color bar is shared across multiple subplots. When the horizontal color bar is present on both the top and bottom of the plot, answer based on the color bar at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the color bar label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal color bar, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1,500",
         "task": "Direct_Questions/Content",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\owid_0_rhino-populations\\northern-white-rhinos.png",
             "modified_local_full_qa\\owid_0_rhino-populations\\southern-white-rhinos.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. What is the title of first the chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n2. How many colours are used for the colour bar in the third chart?\nNote that your final answer should be the total number of colors used in the color bar, excluding the 'No data' segment.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the title of first the chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n2. How many colours are used for the colour bar in the third chart?\nNote that your final answer should be the total number of colors used in the color bar, excluding the 'No data' segment.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Black rhino population, 2021; 9",
         "task": "Parallel_Questions/Content",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\owid_0_rhino-populations\\northern-white-rhinos.png",
             "modified_local_full_qa\\owid_0_rhino-populations\\southern-white-rhinos.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\nHow many of the same tick values are there on the horizontal colour bar in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal colour bar across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal colour bar, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question:\nHow many of the same tick values are there on the horizontal colour bar in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal colour bar across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal colour bar, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\owid_0_rhino-populations\\northern-white-rhinos.png",
             "modified_local_full_qa\\owid_0_rhino-populations\\southern-white-rhinos.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Based on all three charts, which region in the chart has the largest population of all types of rhinos?\nNote that this a choice question. Your final answer should be the option that most closely matches the question.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The northeast part\nB. The northwest part\nC. The southern part\nD. The central part\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Based on all three charts, which region in the chart has the largest population of all types of rhinos?\nNote that this a choice question. Your final answer should be the option that most closely matches the question.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The northeast part\nB. The northwest part\nC. The southern part\nD. The central part\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

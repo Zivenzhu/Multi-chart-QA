@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_21_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\flatanalysis_dec.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin1.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin2.png"
+        ],
+        "question": "Question: What is the general trend of the line with the label of 313 from left to right in the first chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Direct_Questions/Content",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "group_21_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\flatanalysis_dec.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin1.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin2.png"
+        ],
+        "question": "Question:\n1. What is the tilt when Dragonfly 508 was shifted, in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the leftmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "-0.35; -20",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_21_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\flatanalysis_dec.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin1.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin2.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the third chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_21_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\flatanalysis_dec.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin1.png",
+            "modified_local_full_qa\\arxiv_0_2406.17979v1\\FTCal_SPIE_thin2.png"
+        ],
+        "question": "Question: 1. How many peaks are there in the second chart with model H\u00ce\u00b1+[NII]*15.0%?\n2. How many peaks are there in the third chart with model: [OIII]\nNote that you have got the answer for the above two questions, the final answer is the answer to the first question plus the answer to the second question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

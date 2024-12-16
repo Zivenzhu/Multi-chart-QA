@@ -6,7 +6,7 @@
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\diarrheal-death-rates-children-vs-gdp-per-capita.png",
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\number-of-deaths-from-diarrheal-diseases-by-risk-factor-for-under-5s.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many distinct lines are there in the third chart? \nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many distinct lines are there in the third chart? \nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "9",
         "task": "Direct_Questions/Content",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\diarrheal-death-rates-children-vs-gdp-per-capita.png",
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\number-of-deaths-from-diarrheal-diseases-by-risk-factor-for-under-5s.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What is the rightmost labeled tick on the horizontal axis in the second chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. You should omit any units apart from the numbers. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \n2. How many labeled ticks are there on the vertical axis in the first chart?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: \n1. What is the rightmost labeled tick on the horizontal axis in the second chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. You should omit any units apart from the numbers. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \n2. How many labeled ticks are there on the vertical axis in the first chart?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "100,000; 7",
         "task": "Parallel_Questions/Structure",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\diarrheal-death-rates-children-vs-gdp-per-capita.png",
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\number-of-deaths-from-diarrheal-diseases-by-risk-factor-for-under-5s.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there on the vertical axis in the first chart and the third chart? \nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the third charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the third chart? \nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the third charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\diarrheal-death-rates-children-vs-gdp-per-capita.png",
             "modified_local_full_qa\\owid_0_childhood-diarrheal-diseases\\number-of-deaths-from-diarrheal-diseases-by-risk-factor-for-under-5s.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract a year among all the listed horizontal ticks when the gap in Diarrheal disease deaths between 70+ years and Under-5s is the smallest in the first chart.\nThen in this year, what is the approximate Unsafe sanitation deaths in the third chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 250,000\nB. 500,000\nC. 437,500\nD. 375,000\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly extract a year among all the listed horizontal ticks when the gap in Diarrheal disease deaths between 70+ years and Under-5s is the smallest in the first chart.\nThen in this year, what is the approximate Unsafe sanitation deaths in the third chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 250,000\nB. 500,000\nC. 437,500\nD. 375,000\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "D",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

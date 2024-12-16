@@ -6,9 +6,9 @@
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\confounded_pairs_Recall_line_plot.png",
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\first_order_connections_Precision_line_plot.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there across all axes in the first chart and the third chart?\nNote that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there across all axes in the first chart and the third chart?\nNote that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "13",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -19,9 +19,9 @@
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\confounded_pairs_Recall_line_plot.png",
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\first_order_connections_Precision_line_plot.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: In which chart the Recall gap between our models and the base model is the largest when number of variables is 10?\nNote that your answer should be only one option from (First, Second or Third)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: In which chart the Recall gap between our models and the base model is the largest when number of variables is 10?\nNote that your answer should be only one option from (First, Second or Third)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Second",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\confounded_pairs_Recall_line_plot.png",
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\first_order_connections_Precision_line_plot.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: In which chart the Recall of both our models and base model achieves the local maximum when number of variables is 14?\nNote that your answer should be only one option from (First, Second or Third)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: In which chart the Recall of both our models and base model achieves the local maximum when number of variables is 14?\nNote that your answer should be only one option from (First, Second or Third)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Second",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\confounded_pairs_Recall_line_plot.png",
             "modified_local_full_qa\\arxiv_0_2407.00529v1\\first_order_connections_Precision_line_plot.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract a label in the legend of the third chart, with the title called First-order Direct Relations, whose line is below the other line.\nThen, for this label in the first chart with the title called Confounded Pairs, identify the number of variables from the axis tick values (10, 12, 14, 16, 18) where the Precision line of the label achieves its local minimum.\nNote that your answer should be only one option from (10, 12, 14, 16, 18).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly extract a label in the legend of the third chart, with the title called First-order Direct Relations, whose line is below the other line.\nThen, for this label in the first chart with the title called Confounded Pairs, identify the number of variables from the axis tick values (10, 12, 14, 16, 18) where the Precision line of the label achieves its local minimum.\nNote that your answer should be only one option from (10, 12, 14, 16, 18).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "14",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

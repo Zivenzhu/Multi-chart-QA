@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_90_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_00_29.712Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_02_01.512Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_05_34.972Z.png"
+        ],
+        "question": "Question: How many countries are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "17",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_90_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_00_29.712Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_02_01.512Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_05_34.972Z.png"
+        ],
+        "question": "Question: \n1. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "29; 5",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_90_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_00_29.712Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_02_01.512Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_05_34.972Z.png"
+        ],
+        "question": "Question: How many of the same countries are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same countries on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple countries from different subplots with the same name, count them as only one distinct country. If these two charts do not have identical countries on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "8",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_90_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_00_29.712Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_02_01.512Z.png",
+            "modified_local_full_qa\\oecd_0_housing-overcrowding\\export-2024-07-26T00_05_34.972Z.png"
+        ],
+        "question": "Question: Firstly calculate the housing overcrowding gap between the largest proportion of households and the second largest in year of 2020, 2019 and 2015 respectively.\nThen in which year the gap is the largest?\nYour answer should be a specifed year, such as 'Answer: 2000'.",
+        "answer": "2015",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

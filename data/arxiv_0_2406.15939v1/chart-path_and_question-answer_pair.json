@@ -6,7 +6,7 @@
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_1.png",
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_2.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What is the value of the lowest tick on the vertical axis of the leftmost subplot in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many labeled ticks are there on the three colour bars in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n3. What is the spatially lowest labeled tick on the vertical axis of the rightmost subplot in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
+        "question": "Question: \n1. What is the value of the lowest tick on the vertical axis of the leftmost subplot in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many labeled ticks are there on the three colour bars in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n3. What is the spatially lowest labeled tick on the vertical axis of the rightmost subplot in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "-0.6; 12; 0",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -19,9 +19,9 @@
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_1.png",
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_2.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many identical labels are there in the legends of the third chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the third chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many identical labels are there in the legends of the third chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the third chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_1.png",
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_2.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Which subplot from the second chart, (Left, Middle or Right), is the most similar to the left subplot of the third chart?\nNote that Your final answer should be only one option chosen from (Left, Middle or Right).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which subplot from the second chart, (Left, Middle or Right), is the most similar to the left subplot of the third chart?\nNote that Your final answer should be only one option chosen from (Left, Middle or Right).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Middle",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_1.png",
             "modified_local_full_qa\\arxiv_0_2406.15939v1\\fig22_2.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: First, identify the color that occupies the most area in the left subplot of the second chart. Then, for each of the three subplots (Left, Middle, or Right) in the third chart, determine which subplot has the highest occupation ratio of this color.\nNote that Your final answer should be only one option chosen from (Left, Middle or Right).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: First, identify the color that occupies the most area in the left subplot of the second chart. Then, for each of the three subplots (Left, Middle, or Right) in the third chart, determine which subplot has the highest occupation ratio of this color.\nNote that Your final answer should be only one option chosen from (Left, Middle or Right).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Left",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

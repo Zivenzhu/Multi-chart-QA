@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_161_question_0",
+        "image": [
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\gini-coefficient-before-and-after-tax-lis.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\inequality-of-incomes-before-and-after-taxes-and-transfers-scatter.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\reduction-in-income-inequality.png"
+        ],
+        "question": "Question: How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_161_question_1",
+        "image": [
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\gini-coefficient-before-and-after-tax-lis.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\inequality-of-incomes-before-and-after-taxes-and-transfers-scatter.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\reduction-in-income-inequality.png"
+        ],
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the Gini coefficient after taxes in 2022 in the United States from the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "40; 0.4",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_161_question_2",
+        "image": [
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\gini-coefficient-before-and-after-tax-lis.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\inequality-of-incomes-before-and-after-taxes-and-transfers-scatter.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\reduction-in-income-inequality.png"
+        ],
+        "question": "Question: How many of the same labeled countries are there in the second chart and the third chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_161_question_3",
+        "image": [
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\gini-coefficient-before-and-after-tax-lis.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\inequality-of-incomes-before-and-after-taxes-and-transfers-scatter.png",
+            "modified_local_full_qa\\owid_0_income-inequality-before-and-after-taxes\\reduction-in-income-inequality.png"
+        ],
+        "question": "Question: Firstly, extract a country whose dot has the largest radius among all countries in the second chart.\nThen which explicitly written vertical value does the line for this country fluctuate around after 2015 in the third chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20%",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

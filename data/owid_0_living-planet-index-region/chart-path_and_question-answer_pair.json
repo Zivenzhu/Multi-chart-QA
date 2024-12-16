@@ -5,7 +5,7 @@
             "modified_local_full_qa\\owid_0_living-planet-index-region\\global-living-planet-index.png",
             "modified_local_full_qa\\owid_0_living-planet-index-region\\living-planet-index-by-region.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: What is the general trend of Europe and Central Asia data from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the general trend of Europe and Central Asia data from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
         "task": "Direct_Questions/Content",
         "type": "multiple-choice",
@@ -17,7 +17,7 @@
             "modified_local_full_qa\\owid_0_living-planet-index-region\\global-living-planet-index.png",
             "modified_local_full_qa\\owid_0_living-planet-index-region\\living-planet-index-by-region.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What was the value of the Living Planet Index for 'Asia and Pacific' in 2000 in the second chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You are allowed to extract numbers within some text when needed.\n2. What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What was the value of the Living Planet Index for 'Asia and Pacific' in 2000 in the second chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You are allowed to extract numbers within some text when needed.\n2. What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "60%; 12",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -29,9 +29,9 @@
             "modified_local_full_qa\\owid_0_living-planet-index-region\\global-living-planet-index.png",
             "modified_local_full_qa\\owid_0_living-planet-index-region\\living-planet-index-by-region.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -41,9 +41,9 @@
             "modified_local_full_qa\\owid_0_living-planet-index-region\\global-living-planet-index.png",
             "modified_local_full_qa\\owid_0_living-planet-index-region\\living-planet-index-by-region.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. Question: Firstly the nearest horizontal axis value v0 to the year when the living planet index of Latin America and the Caribbean is around 20% in the second chart.\nThen for year = v0 in the first chart, what is the living planet index, freshwater by Upper estimate?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly the nearest horizontal axis value v0 to the year when the living planet index of Latin America and the Caribbean is around 20% in the second chart.\nThen for year = v0 in the first chart, what is the living planet index, freshwater by Upper estimate?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "40%",
-        "task": "Sequential_Reasoning",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

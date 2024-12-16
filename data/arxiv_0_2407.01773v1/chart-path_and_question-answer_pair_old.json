@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_47_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixStarPSR2v2.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixv3.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\circular-candiwPSR-color-v3.png"
+        ],
+        "question": "Question: \n1. How many colours are used to draw dots in the third chart?\nNote that your answer should be a natural number.\n2. What does the vertical axis in the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Spectra Index\nB. Peak Flux (mJy)\nC. Fractional Polarization\nD. Fractional Circular Polarization\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; C",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_47_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixStarPSR2v2.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixv3.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\circular-candiwPSR-color-v3.png"
+        ],
+        "question": "Question: How many of the same explicitly written tick values are there across all axes in the first chart and the third chart?\nNote that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "13",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_47_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixStarPSR2v2.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixv3.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\circular-candiwPSR-color-v3.png"
+        ],
+        "question": "Question: 1. What is the Spectra Index axis tick value v0 such that the line Spectra Index = v0 best separates the blue circle dots from the green square dots in the first chart?\nNote that your answer should only be the value v0 which best meets the constraint.\n2. What is the Spectra Index axis tick value v0 such that the line Spectra Index = v0 best separates the solid dots and the hollow dots in the second chart?\nNote that your answer should only be the value v0 which best meets the constraint.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "-1; -1",
+        "task": "Parallel_Questions/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_47_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixStarPSR2v2.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\Area51_PvsSpixv3.png",
+            "modified_local_full_qa\\arxiv_0_2407.01773v1\\circular-candiwPSR-color-v3.png"
+        ],
+        "question": "Question: Firstly approximate the center of the blue dot cluster in the first chart and the red solid dot cluster in the second chart.\nThen, in which chart, First or Second, is the center of the cluster lower? \nNote that your answer should be only one option from (First, second)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Second",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

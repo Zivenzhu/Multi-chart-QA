@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_105_question_0",
+        "image": [
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_01_45.105Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_04_25.542Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_05_36.571Z.png"
+        ],
+        "question": "Question: What is the title of the first chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Net lending/borrowing by sector",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_105_question_1",
+        "image": [
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_01_45.105Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_04_25.542Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_05_36.571Z.png"
+        ],
+        "question": "Question:  \n1. What does the vertical axis in the second chart represent? You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The total borrowing by sector in 2012\nB. The net lending/borrowing by sector as a percentage of GDP in 2012\nC. The total revenue by sector in 2012\nD. The net exports by sector as a percentage of GDP in 2012\nNote that this a choice question. Your final answer should be the option that most closely matches the question.If the chart has multiple subplots, answer based on the subplot on the left and at the bottom.\n2. What is the general trend of data from left to right in the third chart?   \nNote that This a choice question. Your final answer should be the option that most closely matches the question.   \nA. Increasing   \nB.Stable    \nC. Decreasing   \nD. First increasing then decreasing    \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "B; C",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_105_question_2",
+        "image": [
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_01_45.105Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_04_25.542Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_05_36.571Z.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the third chart and the first chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the third chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the third and the first charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_105_question_3",
+        "image": [
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_01_45.105Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_04_25.542Z.png",
+            "modified_local_full_qa\\oecd_0_net-lendingborrowing-by-sector\\export-2024-07-25T15_05_36.571Z.png"
+        ],
+        "question": "Question: 1. How many bars have a Net lending/borrowing by sector proportion greater than 0 in 2022 in the first chart?\nNote that your answer should be a natural number.\n2. How many bars have a Net lending/borrowing by sector proportion greater than 0 in 2007 in the third chart?\nNote that your answer should be a natural number.\nNote that you have got the answer for the above two questions, the final answer is the answer to the first question minus the answer to the second question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "-8",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

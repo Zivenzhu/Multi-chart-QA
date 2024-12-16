@@ -6,7 +6,7 @@
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z1.png",
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z50.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the layout of the subplots in the first chart? (Answers should m by n)?\nNote that Your final answer should follow 'n by m' format, where n is the number of rows and m is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the layout of the subplots in the first chart? (Answers should m by n)?\nNote that Your final answer should follow 'n by m' format, where n is the number of rows and m is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1 by 1",
         "task": "Direct_Questions/Structure",
         "type": "open-ended",
@@ -19,7 +19,7 @@
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z1.png",
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z50.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What is the label of the yellow solid line in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question: 1. What is the label of the yellow solid line in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "L_T = 155\u00c2\u00b5m harmonic FL; 0.008",
         "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
@@ -32,9 +32,9 @@
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z1.png",
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z50.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first chart and the second chart do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first chart and the second chart do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
-        "task": "Comparative_Reasoning/Easy",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -45,9 +45,9 @@
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z1.png",
             "modified_local_full_qa\\arxiv_0_2406.17942v1\\FLM_vs_LT_harm_Z50.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. For LT=155, 262, 771\u00ce\u00bcm, what pattern, (Bigger, Smaller or Almost equal) do VFP have over harmonic FL in Fraction of Thermal Velocity in the first chart?\n2. For B=0, 1, 3, 12, 40T, what pattern, (Bigger, Smaller or Almost equal) do VFP have over harmonic FL in Fraction of Thermal Velocity in the second chart?\nNote that you have got the answers for the above two questions. If the answers are the same, give the final answer in the format of 'Answer: Common_Pattern_name; Same'. Otherwise, give the final answer in the format of 'Answer: Pattern_for_question1; Pattern_for_question2; Different'.",
+        "question": "Question: 1. For LT=155, 262, 771\u00ce\u00bcm, what pattern, (Bigger, Smaller or Almost equal) do VFP have over harmonic FL in Fraction of Thermal Velocity in the first chart?\n2. For B=0, 1, 3, 12, 40T, what pattern, (Bigger, Smaller or Almost equal) do VFP have over harmonic FL in Fraction of Thermal Velocity in the second chart?\nNote that you have got the answers for the above two questions. If the answers are the same, give the final answer in the format of 'Answer: Common_Pattern_name; Same'. Otherwise, give the final answer in the format of 'Answer: Pattern_for_question1; Pattern_for_question2; Different'.",
         "answer": "Smaller; Same",
-        "task": "Comparative_Reasoning/Hard",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

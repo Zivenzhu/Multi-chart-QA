@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_3_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\hn.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\prostate.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\rel_hn.png"
+        ],
+        "question": "Question:\n1. What does the color red indicate in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What are the names of the labels in the legend of the first chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Bladder; PTV70, PTV56, PTV52, SpinalCord, Larynx, Brainstem, OralCavity, ParotidLeft, ParotidRight, Body",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_3_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\hn.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\prostate.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\rel_hn.png"
+        ],
+        "question": "Question: How many of the same colors are used to draw lines in both the first chart and the second chart?\nNote that Your final answer should be the number of the same colors used to draw lines between the first chart and the second chart across multiple subplots. If these two charts do have any lines with the same color or neither of them is a line chart, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_3_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\hn.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\prostate.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\rel_hn.png"
+        ],
+        "question": "Question:\n1. From which Dose [Gy] does PTV drops sharply in the GPT-RedPlan subplot of the second chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit [Gy] and only contain the numerical value in your answer.\n2. From which Dose [Gy] does PTV-52 drops sharply in the GPT-RedPlan subplot of the first chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit [Gy] and only contain the numerical value in your answer.\nNow that you have got the answer for the above 2 questions, the final answer is the answer to the first question minus the answer to the second question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20",
+        "task": "Comparative_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_3_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\hn.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\prostate.png",
+            "modified_local_full_qa\\arxiv_0_2406.15609v2\\rel_hn.png"
+        ],
+        "question": "Question: For an organ which has the lowest minimum ratio in its vertical axis range in the V15 subplot of the third chart, what is the approximate Volume [%] it when its Dose [Gy] reaches 10 in the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit [%] and only contain the numerical value in your answer.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "40",
+        "task": "Sequential_Reasoning/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]

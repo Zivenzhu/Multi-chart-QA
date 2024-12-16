@@ -1,0 +1,50 @@
+[
+    {
+        "id": "group_200_question_0",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_01.png",
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_02.png"
+        ],
+        "question": "Question: How many distinct bars are there in the first chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_200_question_1",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_01.png",
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_02.png"
+        ],
+        "question": "Question: \n1. What does the darkest blue segment in the bar 'Addressing climate change is __ to them personally' represent in the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What does the vertical axis in the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Different generations of Republicans\nB. Percentage of Republicans and Republican leaners\nC. Different groups or sectors being evaluated for their efforts to reduce the effects of global climate change\nD. The amount of effort being put into reducing the effects of global climate change\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "A top concern; C",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_200_question_2",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_01.png",
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_02.png"
+        ],
+        "question": "Question: How many of the same colors are used to draw segments, such as bars or dots, in both the second chart and the first chart?\nNote that Your final answer should be the number of the same colors used to draw segments, such as bars or dots, between the second chart and the first chart across multiple subplots. If these two charts don't have any segments, such as bars or dots, with the same color, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_200_question_3",
+        "image": [
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_01.png",
+            "modified_local_full_qa\\pew_0_short-reads_2021_07_23_on-climate-change-republicans-are-open-to-some-policy-approaches-even-as-they-assign-the-issue-low-priority\\ft_2021.07.15_GOPclimatechange_02.png"
+        ],
+        "question": "Question: 1. To what extent, A great deal, Some, Not too much or Not at all, is the percentage of human activity contributing to climate change the largest among all the percentages in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which issue shows the largest percentage gap between Gen Z and Boomers & older generations in terms of those who think it is doing too little to help reduce the effects of global climate change in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Some; You, yourself, as an individual",
+        "task": "Parallel_Questions/Content_required",
+        "type": "open-ended",
+        "context": null
+    }
+]
