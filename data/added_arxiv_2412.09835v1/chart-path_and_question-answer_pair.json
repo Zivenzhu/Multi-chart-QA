@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.09835v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.09835v1/rank_difference.png",
+            "data/added_arxiv_2412.09835v1/rank_difference_distribution.png",
+            "data/added_arxiv_2412.09835v1/synthetic_pc.png"
+        ],
+        "question": "What is the highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "2.5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09835v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.09835v1/rank_difference.png",
+            "data/added_arxiv_2412.09835v1/rank_difference_distribution.png",
+            "data/added_arxiv_2412.09835v1/synthetic_pc.png"
+        ],
+        "question": "1. How many colors are used for the bars in the second chart? Note that your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. 2. What is the spatially highest labeled tick on the vertical axis in the third chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Now that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3; 1.0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09835v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.09835v1/rank_difference.png",
+            "data/added_arxiv_2412.09835v1/rank_difference_distribution.png",
+            "data/added_arxiv_2412.09835v1/synthetic_pc.png"
+        ],
+        "question": "Question: Which chart shows a comparison involving accuracy? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. A. First Chart B. Second Chart C. Third Chart Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09835v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.09835v1/rank_difference.png",
+            "data/added_arxiv_2412.09835v1/rank_difference_distribution.png",
+            "data/added_arxiv_2412.09835v1/synthetic_pc.png"
+        ],
+        "question": "Question: Firstly, identify the average rank difference value for γ = 1.0 in the first chart for non-ties. Then, determine the accuracy percentage for the same γ value in the third chart. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1.5; 80%",
+        "type": "open-ended",
+        "context": null
+    }
+]

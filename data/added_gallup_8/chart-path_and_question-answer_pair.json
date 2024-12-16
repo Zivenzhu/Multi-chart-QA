@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_8_question_0",
+        "image": [
+            "data/added_gallup_8/1.png",
+            "data/added_gallup_8/2.png"
+        ],
+        "question": "What is the highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "$1,100",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_8_question_1",
+        "image": [
+            "data/added_gallup_8/1.png",
+            "data/added_gallup_8/2.png"
+        ],
+        "question": "What percentage of people in 2024 expect to spend the same amount on holiday gifts as last year, according to the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "55%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_8_question_2",
+        "image": [
+            "data/added_gallup_8/1.png",
+            "data/added_gallup_8/2.png"
+        ],
+        "question": "Question: Which chart indicates a trend over time involving dollar amounts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Both Charts\nD. Neither Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_8_question_3",
+        "image": [
+            "data/added_gallup_8/1.png",
+            "data/added_gallup_8/2.png"
+        ],
+        "question": "Question: Firstly extract the average holiday spending amount in 2008 according to the first chart. Then, in the second chart, what percentage of people expected to spend less that year?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "$616; 34%",
+        "type": "open-ended",
+        "context": null
+    }
+]

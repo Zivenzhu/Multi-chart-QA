@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_22_question_0",
+        "image": [
+            "data/added_weforum_22/1.png",
+            "data/added_weforum_22/2.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "22",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_22_question_1",
+        "image": [
+            "data/added_weforum_22/1.png",
+            "data/added_weforum_22/2.png"
+        ],
+        "question": "1. How many countries are listed in the first chart? \nNote that Your final answer should be the total number of countries listed in the chart. \n2. What is the highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "20; 15",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_22_question_2",
+        "image": [
+            "data/added_weforum_22/1.png",
+            "data/added_weforum_22/2.png"
+        ],
+        "question": "Question: How many of the same labeled countries are there in the first chart and the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_22_question_3",
+        "image": [
+            "data/added_weforum_22/1.png",
+            "data/added_weforum_22/2.png"
+        ],
+        "question": "Question: Firstly extract the country with the highest number of people needing interventions against neglected tropical diseases in 2021 from the first chart. \nThen, in the second chart, what is the cumulative economic impact in trillions projected for 2050?\nNote that your answer should be a numerical value followed by the unit.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "12.5 trillion",
+        "type": "open-ended",
+        "context": null
+    }
+]

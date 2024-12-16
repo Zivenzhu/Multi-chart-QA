@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_12_question_0",
+        "image": [
+            "data/added_weforum_12/1.png",
+            "data/added_weforum_12/2.png",
+            "data/added_weforum_12/3.png"
+        ],
+        "question": "What is the gender parity score for the Political Empowerment subindex in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "22.5%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_12_question_1",
+        "image": [
+            "data/added_weforum_12/1.png",
+            "data/added_weforum_12/2.png",
+            "data/added_weforum_12/3.png"
+        ],
+        "question": "1. How many labeled countries are there in the second chart?\nNote that your answer should be a natural number.\n2. What is the earliest year labeled on the horizontal axis in the third chart?\nNote that your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "17; 2006",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_12_question_2",
+        "image": [
+            "data/added_weforum_12/1.png",
+            "data/added_weforum_12/2.png",
+            "data/added_weforum_12/3.png"
+        ],
+        "question": "Question: Which subindex shows the greatest range of scores across countries in the second chart compared to the other subindexes?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Political Empowerment subindex",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_12_question_3",
+        "image": [
+            "data/added_weforum_12/1.png",
+            "data/added_weforum_12/2.png",
+            "data/added_weforum_12/3.png"
+        ],
+        "question": "Question: Firstly extract the gender parity score for the Health and Survival subindex in the first chart.\nThen use this score to determine which country in the second chart is closest to achieving full parity in the Health and Survival subindex.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Guyana",
+        "type": "open-ended",
+        "context": null
+    }
+]

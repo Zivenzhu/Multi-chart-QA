@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.08245v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.08245v1/Eoes-N_mirror-new.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_gated_Ne17p_20_40_estim.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_new_calib_sum2b.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "20",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08245v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.08245v1/Eoes-N_mirror-new.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_gated_Ne17p_20_40_estim.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_new_calib_sum2b.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct curves are there in the third chart?\nNote that Your final answer should be the total number of distinct curves in the chart across multiple subplots. If the plot is not considered a curve plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "18; 3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08245v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.08245v1/Eoes-N_mirror-new.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_gated_Ne17p_20_40_estim.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_new_calib_sum2b.png"
+        ],
+        "question": "Question: What are the two main themes observed in both the second and third charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Energy Distribution and Mass Number\nB. Intensity and Angle Measurement\nC. Mass and Charge\nD. Nuclear Stability and Reaction",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08245v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.08245v1/Eoes-N_mirror-new.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_gated_Ne17p_20_40_estim.png",
+            "data/added_arxiv_2412.08245v1/Rho3_S3_new_calib_sum2b.png"
+        ],
+        "question": "Question: Firstly extract the highest intensity value from the second chart.\nThen in the third chart, what is the spatially highest labeled tick on the vertical axis?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20; 200",
+        "type": "open-ended",
+        "context": null
+    }
+]

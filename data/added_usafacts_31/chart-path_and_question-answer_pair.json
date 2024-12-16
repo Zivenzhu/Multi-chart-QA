@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_31_question_0",
+        "image": [
+            "data/added_usafacts_31/1.png",
+            "data/added_usafacts_31/2.png"
+        ],
+        "question": "What is the source of the data used in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Centers for Disease Control and Prevention",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_31_question_1",
+        "image": [
+            "data/added_usafacts_31/1.png",
+            "data/added_usafacts_31/2.png"
+        ],
+        "question": "1. How many states did not report data in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the percentage range shown in the legend of the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "4; 1.0% to 99.5%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_31_question_2",
+        "image": [
+            "data/added_usafacts_31/1.png",
+            "data/added_usafacts_31/2.png"
+        ],
+        "question": "Question: Which two states are highlighted for having the highest percentage of out-of-state residents obtaining abortions in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Kansas and Missouri\nB. Kansas and Washington, DC\nC. Missouri and New York\nD. Maryland and New York\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_31_question_3",
+        "image": [
+            "data/added_usafacts_31/1.png",
+            "data/added_usafacts_31/2.png"
+        ],
+        "question": "Question: Firstly identify the state with the highest percentage of abortions obtained by out-of-state residents from the first chart. \nThen determine what percentage of residents received abortions in-state for this state from the second chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "DC, 1.0%",
+        "type": "open-ended",
+        "context": null
+    }
+]

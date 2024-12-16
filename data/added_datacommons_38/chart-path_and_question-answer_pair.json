@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_datacommons_38_question_0",
+        "image": [
+            "data/added_datacommons_38/1.png",
+            "data/added_datacommons_38/2.png"
+        ],
+        "question": "What is the vertical axis label on the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Count of Housing Units",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_38_question_1",
+        "image": [
+            "data/added_datacommons_38/1.png",
+            "data/added_datacommons_38/2.png"
+        ],
+        "question": "What is the highest labeled tick value on the vertical axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "8K",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_38_question_2",
+        "image": [
+            "data/added_datacommons_38/1.png",
+            "data/added_datacommons_38/2.png"
+        ],
+        "question": "1. What is the total number of explicitly labeled ticks on the horizontal axis in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the label of the first tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "2; New York City",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_38_question_3",
+        "image": [
+            "data/added_datacommons_38/1.png",
+            "data/added_datacommons_38/2.png"
+        ],
+        "question": "Question: Which city shows a significantly higher number of housing units with a specific room count compared to the other city?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "New York City",
+        "type": "open-ended",
+        "context": null
+    }
+]

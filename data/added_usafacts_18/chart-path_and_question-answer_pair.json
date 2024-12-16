@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_18_question_0",
+        "image": [
+            "data/added_usafacts_18/1.png",
+            "data/added_usafacts_18/2.png",
+            "data/added_usafacts_18/3.png"
+        ],
+        "question": "What percentage of public high schools in the Midwest have advanced academic courses?\nNote that Your final answer should be the percentage value explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "69%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_18_question_1",
+        "image": [
+            "data/added_usafacts_18/1.png",
+            "data/added_usafacts_18/2.png",
+            "data/added_usafacts_18/3.png"
+        ],
+        "question": "1. What percentage of public high schools with more than 75% students of color offer advanced courses?\nNote that Your final answer should be the percentage value explicitly written in the chart.\n2. What is the percentage of predominantly white public schools with college and career readiness graduation requirements?\nNote that Your final answer should be the percentage value explicitly written in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "65%; 55%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_18_question_2",
+        "image": [
+            "data/added_usafacts_18/1.png",
+            "data/added_usafacts_18/2.png",
+            "data/added_usafacts_18/3.png"
+        ],
+        "question": "Question: Which region has the highest percentage of public high schools with CTE programs, and which group of schools has the lowest percentage of offering advanced courses?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Northeast, 25% or less students of color\nB. Northeast, More than 75% students of color\nC. South, 26% - 75% students of color\nD. West, 26% - 75% students of color\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_18_question_3",
+        "image": [
+            "data/added_usafacts_18/1.png",
+            "data/added_usafacts_18/2.png",
+            "data/added_usafacts_18/3.png"
+        ],
+        "question": "Firstly extract the region with the highest percentage of high schools offering advanced academic courses from the first chart.\nThen, what is the percentage of schools with college and career readiness requirements in the group with more than 75% students of color from the third chart?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Northeast; 69%",
+        "type": "open-ended",
+        "context": null
+    }
+]

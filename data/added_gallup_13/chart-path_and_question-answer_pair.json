@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_13_question_0",
+        "image": [
+            "data/added_gallup_13/1.png",
+            "data/added_gallup_13/2.png",
+            "data/added_gallup_13/3.png"
+        ],
+        "question": "What percentage of households report that their waste is collected by a municipal/local government in the first chart? Note that your answer should be an integer percentage without the '%' symbol. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "44",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_13_question_1",
+        "image": [
+            "data/added_gallup_13/1.png",
+            "data/added_gallup_13/2.png",
+            "data/added_gallup_13/3.png"
+        ],
+        "question": "1. How many countries are listed in the second chart?\nNote that your answer should be a natural number.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that your answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "21; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_13_question_2",
+        "image": [
+            "data/added_gallup_13/1.png",
+            "data/added_gallup_13/2.png",
+            "data/added_gallup_13/3.png"
+        ],
+        "question": "Question: What is the main focus of the first and second charts?\nNote that this is a choice question. Your answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Transportation methods\nB. Waste disposal methods\nC. Household energy usage\nD. Water consumption methods\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_13_question_3",
+        "image": [
+            "data/added_gallup_13/1.png",
+            "data/added_gallup_13/2.png",
+            "data/added_gallup_13/3.png"
+        ],
+        "question": "Firstly, identify the country with the highest percentage of households burning their waste in the second chart. Then, determine what percentage of households globally burn their waste in the first chart.\nNote that your answer should provide both the country and the percentage as found in the charts. Note that your answer format should be as follows: Answer: The_country_you_identify, The_percentage_you_identify",
+        "answer": "Eswatini, 14",
+        "type": "open-ended",
+        "context": null
+    }
+]

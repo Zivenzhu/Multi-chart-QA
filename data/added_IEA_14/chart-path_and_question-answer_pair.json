@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_14_question_0",
+        "image": [
+            "data/added_IEA_14/1.png",
+            "data/added_IEA_14/2.png"
+        ],
+        "question": "What is the lowest labeled tick on the vertical axis in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "100",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_14_question_1",
+        "image": [
+            "data/added_IEA_14/1.png",
+            "data/added_IEA_14/2.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_for_the_first_question\n2. What is the share of 'other renewables' in the electricity generation mix at its lowest point in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_for_the_second_question\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "12; Around 5%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_14_question_2",
+        "image": [
+            "data/added_IEA_14/1.png",
+            "data/added_IEA_14/2.png"
+        ],
+        "question": "Question: Which month shows a lower average CO2 intensity in Germany during the midday in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. January\nB. July\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_IEA_14_question_3",
+        "image": [
+            "data/added_IEA_14/1.png",
+            "data/added_IEA_14/2.png"
+        ],
+        "question": "Firstly, examine which month has a higher CO2 intensity at midnight in the first chart.\nThen, using this month, determine which share of electricity generation mix is more prominent in the second chart during February 2024.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "January; Hydro",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_45_question_0",
+        "image": [
+            "data/added_weforum_45/1.png",
+            "data/added_weforum_45/2.png",
+            "data/added_weforum_45/3.png"
+        ],
+        "question": "What is the top barrier mentioned in the third chart based on the share of voice?\nNote that your answer should be the barrier with the highest percentage of share of voice.\nAnswer: The_answer_you_get.",
+        "answer": "Food insecurity",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_45_question_1",
+        "image": [
+            "data/added_weforum_45/1.png",
+            "data/added_weforum_45/2.png",
+            "data/added_weforum_45/3.png"
+        ],
+        "question": "1. How many colors are used for the lines in the first chart?\nNote that your final answer should be the total number of colors used for the lines in the chart. If the plot is not considered a line plot, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that your final answer should be the total number of distinct bars in the chart. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3; 21",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_45_question_2",
+        "image": [
+            "data/added_weforum_45/1.png",
+            "data/added_weforum_45/2.png",
+            "data/added_weforum_45/3.png"
+        ],
+        "question": "Question: What are the two most discussed barriers in the second and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Food insecurity and COVID-19 impacts\nB. Gender inequality and Extreme weather events\nC. Lack of water access and Malnutrition\nD. Political instability and Lack of healthcare access\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_45_question_3",
+        "image": [
+            "data/added_weforum_45/1.png",
+            "data/added_weforum_45/2.png",
+            "data/added_weforum_45/3.png"
+        ],
+        "question": "Question: Firstly, extract the barrier with the highest gender score in Latin America from the first chart. \nThen, find the enabler score for the sub-barrier with the highest share in the third chart.\nNote that your answer should be a number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "type": "open-ended",
+        "context": null
+    }
+]

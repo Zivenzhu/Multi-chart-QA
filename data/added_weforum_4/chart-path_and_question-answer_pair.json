@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_4_question_0",
+        "image": [
+            "data/added_weforum_4/1.png",
+            "data/added_weforum_4/2.png"
+        ],
+        "question": "What percentage of global GHG emissions is attributed to the steel sector in the first chart?\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "7%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_4_question_1",
+        "image": [
+            "data/added_weforum_4/1.png",
+            "data/added_weforum_4/2.png"
+        ],
+        "question": "1. How many sectors are represented in the first chart?\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get\n2. What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "8; 2019",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_4_question_2",
+        "image": [
+            "data/added_weforum_4/1.png",
+            "data/added_weforum_4/2.png"
+        ],
+        "question": "Question: Which chart shows the trend of global energy emissions over time?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First chart\nB. Second chart\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_4_question_3",
+        "image": [
+            "data/added_weforum_4/1.png",
+            "data/added_weforum_4/2.png"
+        ],
+        "question": "Question: Firstly extract the sector with the largest share of global GHG emissions in the first chart. \nThen what is the overall trend for this sector's emissions from 2019 to 2023 in the second chart?\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "Oil and gas; Decreasing",
+        "type": "open-ended",
+        "context": null
+    }
+]

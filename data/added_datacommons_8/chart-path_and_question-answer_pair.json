@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_8_question_0",
+        "image": [
+            "data/added_datacommons_8/1.png",
+            "data/added_datacommons_8/2.png",
+            "data/added_datacommons_8/3.png"
+        ],
+        "question": "What is the maximum household median income shown in the first chart? Note that your answer should be the highest value explicitly written on the vertical axis.",
+        "answer": "110K",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_8_question_1",
+        "image": [
+            "data/added_datacommons_8/1.png",
+            "data/added_datacommons_8/2.png",
+            "data/added_datacommons_8/3.png"
+        ],
+        "question": "1. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many states are labeled in the third chart?\nNote that Your final answer should be the total number of labeled states in the chart across multiple subplots. If there are no explicitly labeled states, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "15K; 2",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_8_question_2",
+        "image": [
+            "data/added_datacommons_8/1.png",
+            "data/added_datacommons_8/2.png",
+            "data/added_datacommons_8/3.png"
+        ],
+        "question": "Question: Which state is labeled in all three charts?\nNote that your answer should be a state name explicitly written in all three charts. If there is more than one state, answer with the first one you find.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "California",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_8_question_3",
+        "image": [
+            "data/added_datacommons_8/1.png",
+            "data/added_datacommons_8/2.png",
+            "data/added_datacommons_8/3.png"
+        ],
+        "question": "Firstly, identify the state with the highest population without health insurance in the third chart.\nThen, what is the household median income for this state in the first chart?\nNote that your answer should be a number explicitly written and relevant to the question in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Texas, 70K",
+        "type": "open-ended",
+        "context": null
+    }
+]

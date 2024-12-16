@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.05061v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.05061v1/confusion_matrix.png",
+            "data/added_arxiv_2412.05061v1/lc_po_ex.png",
+            "data/added_arxiv_2412.05061v1/orphan_lc.png"
+        ],
+        "question": "What is the value of the lowest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05061v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.05061v1/confusion_matrix.png",
+            "data/added_arxiv_2412.05061v1/lc_po_ex.png",
+            "data/added_arxiv_2412.05061v1/orphan_lc.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many colors are used to plot the data points in the third chart?\nNote that Your final answer should be the total number of colors used to plot the data points, excluding colors of lines or axes, across multiple subplots. If the plot does not have any data points, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "12; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05061v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.05061v1/confusion_matrix.png",
+            "data/added_arxiv_2412.05061v1/lc_po_ex.png",
+            "data/added_arxiv_2412.05061v1/orphan_lc.png"
+        ],
+        "question": "Question: What is the common theme between the second and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Population Growth\nB. Light Curves\nC. Financial Markets\nD. Climate Change\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05061v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.05061v1/confusion_matrix.png",
+            "data/added_arxiv_2412.05061v1/lc_po_ex.png",
+            "data/added_arxiv_2412.05061v1/orphan_lc.png"
+        ],
+        "question": "Firstly extract the value of the parameter 'n0' from the second chart.\nThen what is the corresponding value of 'n0' in the third chart?\nNote that your answer should be a number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2.67; 1",
+        "type": "open-ended",
+        "context": null
+    }
+]

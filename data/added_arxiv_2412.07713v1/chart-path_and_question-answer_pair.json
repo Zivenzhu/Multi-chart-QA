@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.07713v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.07713v1/low_recall_lcr.png",
+            "data/added_arxiv_2412.07713v1/low_recall_ncn.png",
+            "data/added_arxiv_2412.07713v1/normalDist.png"
+        ],
+        "question": "What is the maximum value on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.035",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07713v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.07713v1/low_recall_lcr.png",
+            "data/added_arxiv_2412.07713v1/low_recall_ncn.png",
+            "data/added_arxiv_2412.07713v1/normalDist.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 0.000",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07713v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.07713v1/low_recall_lcr.png",
+            "data/added_arxiv_2412.07713v1/low_recall_ncn.png",
+            "data/added_arxiv_2412.07713v1/normalDist.png"
+        ],
+        "question": "Question: Which class consistently shows the highest recall@K in both the first and second charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Psychology\nB. Environmental Science\nC. Philosophy\nD. Art\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07713v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.07713v1/low_recall_lcr.png",
+            "data/added_arxiv_2412.07713v1/low_recall_ncn.png",
+            "data/added_arxiv_2412.07713v1/normalDist.png"
+        ],
+        "question": "Question: Firstly extract a discipline that has the lowest recall@K by K=20 in the first chart.\nThen for this discipline, what is the recall@K value by K=20 in the second chart?\nNote that your answer should be a numerical value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Psychology; 0.05",
+        "type": "open-ended",
+        "context": null
+    }
+]

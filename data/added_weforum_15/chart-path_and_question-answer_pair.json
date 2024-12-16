@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_15_question_0",
+        "image": [
+            "data/added_weforum_15/1.png",
+            "data/added_weforum_15/2.png"
+        ],
+        "question": "What is the projected percentage decrease in CO2 emissions from the peak in 2024 to 2050 in the first chart? Note that your answer should be a percentage value explicitly stated in the chart.",
+        "answer": "49%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_15_question_1",
+        "image": [
+            "data/added_weforum_15/1.png",
+            "data/added_weforum_15/2.png"
+        ],
+        "question": "What is the spatially highest labeled tick on the vertical axis in the second chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. Ignore units or scales that are written separately from the tick.",
+        "answer": "700",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_15_question_2",
+        "image": [
+            "data/added_weforum_15/1.png",
+            "data/added_weforum_15/2.png"
+        ],
+        "question": "Which energy source shows a decreasing trend in the second chart, and how does this relate to the trend in CO2 emissions in the first chart? Note that your answer should indicate the relationship between the trends in both charts.",
+        "answer": "Coal; its decrease aligns with the projected decrease in CO2 emissions.",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_15_question_3",
+        "image": [
+            "data/added_weforum_15/1.png",
+            "data/added_weforum_15/2.png"
+        ],
+        "question": "Firstly extract the year when CO2 emissions are projected to peak in the first chart. Then identify the primary energy sources that appear to increase around this year in the second chart.",
+        "answer": "2024; Solar and Wind",
+        "type": "open-ended",
+        "context": null
+    }
+]

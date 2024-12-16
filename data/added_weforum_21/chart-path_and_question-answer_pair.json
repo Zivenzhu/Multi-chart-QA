@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_21_question_0",
+        "image": [
+            "data/added_weforum_21/1.png",
+            "data/added_weforum_21/2.png"
+        ],
+        "question": "What is the sector with the largest percentage of green jobs in the first chart?\nNote that your answer should include the sector name and the percentage.\nAnswer: The_answer_you_get.",
+        "answer": "Construction, 16.41%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_21_question_1",
+        "image": [
+            "data/added_weforum_21/1.png",
+            "data/added_weforum_21/2.png"
+        ],
+        "question": "What percentage of green jobs in Europe are indirect according to the second chart?\nNote that your answer should be the percentage of indirect green jobs.\nAnswer: The_answer_you_get.",
+        "answer": "3.2%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_21_question_2",
+        "image": [
+            "data/added_weforum_21/1.png",
+            "data/added_weforum_21/2.png"
+        ],
+        "question": "Which region has the highest overall share of green jobs according to the second chart, and how does it compare to the sector with the largest percentage in the first chart?\nNote that your answer should include the region name and the sectors' percentage from the first chart.\nAnswer: The_answer_you_get.",
+        "answer": "Africa, 11.9% overall green jobs; Construction, 16.41%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_21_question_3",
+        "image": [
+            "data/added_weforum_21/1.png",
+            "data/added_weforum_21/2.png"
+        ],
+        "question": "Firstly extract the sector with the smallest percentage in the first chart. \nThen, which region has a higher percentage of direct green jobs than this sector's percentage?\nNote that your answer should include the region name.\nAnswer: The_answer_you_get.",
+        "answer": "Electricity, steam and air conditioning supply, 1.14%; Africa, Latin America, South and West Asia, East, South-East Asia and Oceania, North America",
+        "type": "open-ended",
+        "context": null
+    }
+]

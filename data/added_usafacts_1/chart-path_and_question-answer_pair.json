@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_1_question_0",
+        "image": [
+            "data/added_usafacts_1/1.png",
+            "data/added_usafacts_1/2.png",
+            "data/added_usafacts_1/3.png"
+        ],
+        "question": "What is the peak rate of gun-related deaths in the first chart and around which year does it occur? Note that your answer format should be as follows: Answer: The_peak_rate; The_year",
+        "answer": "15.5; 1993",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_1_question_1",
+        "image": [
+            "data/added_usafacts_1/1.png",
+            "data/added_usafacts_1/2.png",
+            "data/added_usafacts_1/3.png"
+        ],
+        "question": "1. What is the age-adjusted rate of suicides in 2023 in the second chart? \nNote that your answer format should be as follows: Answer: The_rate_for_2023.\n2. What is the highest gun-related death rate in 2023 based on the third chart?\nNote that your answer format should be as follows: Answer: The_highest_rate.",
+        "answer": "8.0; 31",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_1_question_2",
+        "image": [
+            "data/added_usafacts_1/1.png",
+            "data/added_usafacts_1/2.png",
+            "data/added_usafacts_1/3.png"
+        ],
+        "question": "Question: Which of these categories is higher in the second chart for the year 2023?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Suicides\nB. Homicides\nC. Accidental\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_1_question_3",
+        "image": [
+            "data/added_usafacts_1/1.png",
+            "data/added_usafacts_1/2.png",
+            "data/added_usafacts_1/3.png"
+        ],
+        "question": "Firstly extract the state with the lowest gun-related death rate in 2023 from the third chart.\nThen, based on the first chart, what is the general trend for gun-related deaths from the year 2000 to 2023?\nNote that your answer format should be as follows: Answer: The_state_with_lowest_rate; The_trend_description",
+        "answer": "Massachusetts; Slight increase",
+        "type": "open-ended",
+        "context": null
+    }
+]

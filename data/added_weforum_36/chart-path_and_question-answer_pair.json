@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_36_question_0",
+        "image": [
+            "data/added_weforum_36/1.png",
+            "data/added_weforum_36/2.png",
+            "data/added_weforum_36/3.png"
+        ],
+        "question": "What is the percentage of CDP respondents in the 'Healthcare' sector that identify physical climate risks with potential to have a substantive impact on their business according to the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "64%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_36_question_1",
+        "image": [
+            "data/added_weforum_36/1.png",
+            "data/added_weforum_36/2.png",
+            "data/added_weforum_36/3.png"
+        ],
+        "question": "1. What is the total number of explicitly labeled ticks across all axes in the second chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_36_question_2",
+        "image": [
+            "data/added_weforum_36/1.png",
+            "data/added_weforum_36/2.png",
+            "data/added_weforum_36/3.png"
+        ],
+        "question": "Question: Which industry is perceived to have the highest financial impact of physical risks in terms of % annual EBITDA at risk according to the second chart, and which industry perceives the highest benefit-to-cost ratio of adaptation and resilience measures according to the third chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Food & beverages\nB. Healthcare\nC. Oil & gas\nD. Communication services\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_36_question_3",
+        "image": [
+            "data/added_weforum_36/1.png",
+            "data/added_weforum_36/2.png",
+            "data/added_weforum_36/3.png"
+        ],
+        "question": "Firstly, extract the industry with the lowest percentage of CDP respondents identifying physical climate risks from the first chart.\nThen, for this industry, what is the median company self-perceived benefit-to-cost ratio according to the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Oil & gas, 14x",
+        "type": "open-ended",
+        "context": null
+    }
+]

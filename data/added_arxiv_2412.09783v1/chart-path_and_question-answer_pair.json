@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.09783v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.09783v1/mass_vs_delta_y_and_1G_fraction_v3.png",
+            "data/added_arxiv_2412.09783v1/methods_vectors_v3.png",
+            "data/added_arxiv_2412.09783v1/primary_results_basic_grid_6by2_v3.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "21",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09783v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.09783v1/mass_vs_delta_y_and_1G_fraction_v3.png",
+            "data/added_arxiv_2412.09783v1/methods_vectors_v3.png",
+            "data/added_arxiv_2412.09783v1/primary_results_basic_grid_6by2_v3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "11; 60",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09783v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.09783v1/mass_vs_delta_y_and_1G_fraction_v3.png",
+            "data/added_arxiv_2412.09783v1/methods_vectors_v3.png",
+            "data/added_arxiv_2412.09783v1/primary_results_basic_grid_6by2_v3.png"
+        ],
+        "question": "Question: Which chart has the most subplots?\nNote that your answer should be a numeral, referring to the chart number as provided.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09783v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.09783v1/mass_vs_delta_y_and_1G_fraction_v3.png",
+            "data/added_arxiv_2412.09783v1/methods_vectors_v3.png",
+            "data/added_arxiv_2412.09783v1/primary_results_basic_grid_6by2_v3.png"
+        ],
+        "question": "Question: Firstly extract the range of [Fe/H] where the fraction of 1G stars is approximately 40% in the first chart. \nThen identify the corresponding subplot in the third chart based on this [Fe/H] range.\nNote that your answer should be the subplot description or index based on the range provided.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "−1.99 < [Fe/H] < −1.96",
+        "type": "open-ended",
+        "context": null
+    }
+]

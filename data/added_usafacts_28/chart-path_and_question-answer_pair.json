@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_28_question_0",
+        "image": [
+            "data/added_usafacts_28/1.png",
+            "data/added_usafacts_28/2.png",
+            "data/added_usafacts_28/3.png"
+        ],
+        "question": "What was the US fertility rate in 2023 according to the first chart? \nNote that Your final answer should be the number next to the point on the chart for 2023. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "54.5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_28_question_1",
+        "image": [
+            "data/added_usafacts_28/1.png",
+            "data/added_usafacts_28/2.png",
+            "data/added_usafacts_28/3.png"
+        ],
+        "question": "1. What is the total number of explicitly labeled ticks on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across the horizontal axis in the chart. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many bars are there for the 35-39 age group in the second chart?\nNote that Your final answer should be the total number of bars for the 35-39 age group in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "12; 2",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_28_question_2",
+        "image": [
+            "data/added_usafacts_28/1.png",
+            "data/added_usafacts_28/2.png",
+            "data/added_usafacts_28/3.png"
+        ],
+        "question": "Question: What is the primary focus of the second and third charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Birth rates by age group and state\nB. Economic growth by region and age\nC. Population density by state and age\nD. Health statistics by age group and location\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_28_question_3",
+        "image": [
+            "data/added_usafacts_28/1.png",
+            "data/added_usafacts_28/2.png",
+            "data/added_usafacts_28/3.png"
+        ],
+        "question": "Question: Firstly extract the state with the least decrease in fertility rate between 2005 and 2022 from the third chart.\nThen what was the birth rate for women aged 40-44 in 2023 according to the second chart?\nNote that your answer should be a number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "12.6",
+        "type": "open-ended",
+        "context": null
+    }
+]

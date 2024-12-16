@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_datacommons_10_question_0",
+        "image": [
+            "data/added_datacommons_10/1.png",
+            "data/added_datacommons_10/2.png"
+        ],
+        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "12%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_10_question_1",
+        "image": [
+            "data/added_datacommons_10/1.png",
+            "data/added_datacommons_10/2.png"
+        ],
+        "question": "How many colors are used for the bars in the second chart? Note that your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "1",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_10_question_2",
+        "image": [
+            "data/added_datacommons_10/1.png",
+            "data/added_datacommons_10/2.png"
+        ],
+        "question": "Question: Which country has a higher percentage of government expenditure on education compared to total spending according to the first chart? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Canada\nB. United States of America\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_10_question_3",
+        "image": [
+            "data/added_datacommons_10/1.png",
+            "data/added_datacommons_10/2.png"
+        ],
+        "question": "Firstly, extract the country with the higher fraction of government expenditure on education compared to GDP in the first chart. Then, which country has a higher fraction of government expenditure on tertiary education in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Canada",
+        "type": "open-ended",
+        "context": null
+    }
+]

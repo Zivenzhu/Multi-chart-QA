@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.08766v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
+            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
+            "data/added_arxiv_2412.08766v1/linder.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "-0.70",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08766v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
+            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
+            "data/added_arxiv_2412.08766v1/linder.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "10",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08766v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
+            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
+            "data/added_arxiv_2412.08766v1/linder.png"
+        ],
+        "question": "Question: Which chart shows a color gradient for the variable W*?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08766v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
+            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
+            "data/added_arxiv_2412.08766v1/linder.png"
+        ],
+        "question": "Question: Firstly extract the value of W* when W0 is -1.0 in the first chart for Hilltop (K = 3). Then what is the corresponding value of Z_pivot at W0 = -1.0 in the second chart for Hilltop (K = 3)?\nNote that your answer should be grounded to the values explicitly written in the charts.\nNote that your answer format should be as follows: Answer: The_value_for_W*_you_get, The_value_for_Z_pivot_you_get.",
+        "answer": "-0.98, 0.170",
+        "type": "open-ended",
+        "context": null
+    }
+]

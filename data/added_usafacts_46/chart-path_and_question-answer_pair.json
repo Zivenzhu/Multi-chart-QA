@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_46_question_0",
+        "image": [
+            "data/added_usafacts_46/1.png",
+            "data/added_usafacts_46/2.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2020",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_46_question_1",
+        "image": [
+            "data/added_usafacts_46/1.png",
+            "data/added_usafacts_46/2.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_46_question_2",
+        "image": [
+            "data/added_usafacts_46/1.png",
+            "data/added_usafacts_46/2.png"
+        ],
+        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Social Security and Benefits\nB. Education and Employment\nC. Population and Income\nD. Technology and Innovation\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_46_question_3",
+        "image": [
+            "data/added_usafacts_46/1.png",
+            "data/added_usafacts_46/2.png"
+        ],
+        "question": "Question: Firstly extract the benefit type with the highest number of recipients in 2020 from the first chart.\nThen, what is the average monthly Social Security benefit for this group in December 2023 according to the second chart?\nNote that your answer should be a monetary value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "$1,905",
+        "type": "open-ended",
+        "context": null
+    }
+]

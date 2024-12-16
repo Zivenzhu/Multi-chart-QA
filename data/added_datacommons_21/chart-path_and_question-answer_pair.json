@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_21_question_0",
+        "image": [
+            "data/added_datacommons_21/1.png",
+            "data/added_datacommons_21/2.png",
+            "data/added_datacommons_21/3.png"
+        ],
+        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? Note that your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2015",
+        "type": "1",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_21_question_1",
+        "image": [
+            "data/added_datacommons_21/1.png",
+            "data/added_datacommons_21/2.png",
+            "data/added_datacommons_21/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart? Note that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. 2. How many distinct colors are used in the third chart? Note that your final answer should be the total number of distinct colors used in the chart across multiple subplots. If the chart does not use colors to represent data, answer '0'. Now that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 6",
+        "type": "2",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_21_question_2",
+        "image": [
+            "data/added_datacommons_21/1.png",
+            "data/added_datacommons_21/2.png",
+            "data/added_datacommons_21/3.png"
+        ],
+        "question": "Question: What is the common theme among these charts? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. A. Education and Employment B. Health Insurance and Gender C. Transportation and Environment D. Housing and Urban Development Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "3",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_21_question_3",
+        "image": [
+            "data/added_datacommons_21/1.png",
+            "data/added_datacommons_21/2.png",
+            "data/added_datacommons_21/3.png"
+        ],
+        "question": "Question: Firstly identify the year when the number of people with private health insurance is the highest in the first chart. Then, in this year, what is the trend for uninsured women in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2021; Stable",
+        "type": "4",
+        "context": null
+    }
+]

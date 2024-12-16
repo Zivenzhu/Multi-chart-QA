@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_11_question_0",
+        "image": [
+            "data/added_IEA_11/1.png",
+            "data/added_IEA_11/2.png"
+        ],
+        "question": "What is the labeled unit on the vertical axis in the first chart?\nNote that Your final answer should be the unit label explicitly written on the vertical axis. If the chart does not have a unit label, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "GW",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_11_question_1",
+        "image": [
+            "data/added_IEA_11/1.png",
+            "data/added_IEA_11/2.png"
+        ],
+        "question": "1. How many segments are there in the bars in the first chart?\nNote that Your final answer should be the total number of segments in the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is the explicitly labeled year on the horizontal axis in the second chart?\nNote that Your final answer should be the year explicitly labeled on the horizontal axis. If the chart does not have explicit labeled years, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 2023",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_11_question_2",
+        "image": [
+            "data/added_IEA_11/1.png",
+            "data/added_IEA_11/2.png"
+        ],
+        "question": "Question: Which chart shows a larger increase in manufacturing capacity from 2023 to 2030?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. Solar PV manufacturing capacity\nB. Batteries manufacturing capacity\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_IEA_11_question_3",
+        "image": [
+            "data/added_IEA_11/1.png",
+            "data/added_IEA_11/2.png"
+        ],
+        "question": "Firstly identify the utilization level in 2023 in the first chart.\nThen, using this information, determine if the utilization level in 2023 for the second chart is higher or lower.\nNote that your answer format should be as follows: Answer: Higher_or_Lower",
+        "answer": "Lower",
+        "type": "open-ended",
+        "context": null
+    }
+]

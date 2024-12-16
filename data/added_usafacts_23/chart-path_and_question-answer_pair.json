@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_23_question_0",
+        "image": [
+            "data/added_usafacts_23/1.png",
+            "data/added_usafacts_23/2.png",
+            "data/added_usafacts_23/3.png"
+        ],
+        "question": "What is the cumulative amount of fentanyl seized by September 2023 according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Over 25,000 pounds",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_23_question_1",
+        "image": [
+            "data/added_usafacts_23/1.png",
+            "data/added_usafacts_23/2.png",
+            "data/added_usafacts_23/3.png"
+        ],
+        "question": "1. How many explicitly labeled ticks are on the vertical axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get \n2. What is the percentage of fentanyl seized at official ports of entry in 2023 according to the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5; Approximately 90%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_23_question_2",
+        "image": [
+            "data/added_usafacts_23/1.png",
+            "data/added_usafacts_23/2.png",
+            "data/added_usafacts_23/3.png"
+        ],
+        "question": "Question: Which year shows the highest cumulative amount of fentanyl seized by September in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2020\nB. 2021\nC. 2022\nD. 2023\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_23_question_3",
+        "image": [
+            "data/added_usafacts_23/1.png",
+            "data/added_usafacts_23/2.png",
+            "data/added_usafacts_23/3.png"
+        ],
+        "question": "Question: Firstly, determine the month in 2024 when the monthly amount of fentanyl seized peaked in the second chart. \nThen, use this information to find what the cumulative amount of fentanyl seized by this month in 2024 is in the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "August; Approximately 13,000 pounds",
+        "type": "open-ended",
+        "context": null
+    }
+]

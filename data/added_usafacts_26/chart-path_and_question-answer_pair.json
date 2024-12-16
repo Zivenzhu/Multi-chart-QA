@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_26_question_0",
+        "image": [
+            "data/added_usafacts_26/1.png",
+            "data/added_usafacts_26/2.png",
+            "data/added_usafacts_26/3.png"
+        ],
+        "question": "What is the highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Answer: The_answer_you_get",
+        "answer": "35",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_26_question_1",
+        "image": [
+            "data/added_usafacts_26/1.png",
+            "data/added_usafacts_26/2.png",
+            "data/added_usafacts_26/3.png"
+        ],
+        "question": "What is the lowest labeled tick on the horizontal axis in the second chart? Note that your final answer should be the tick value on the horizontal axis that is explicitly written. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Answer: The_answer_you_get",
+        "answer": "2000",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_26_question_2",
+        "image": [
+            "data/added_usafacts_26/1.png",
+            "data/added_usafacts_26/2.png",
+            "data/added_usafacts_26/3.png"
+        ],
+        "question": "Question: Which state is highlighted as having the highest drug overdose death rate in the third chart and what is the main drug involved in overdoses in 2022 according to the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. West Virginia, Cocaine\nB. Kentucky, Methamphetamine\nC. West Virginia, Fentanyl and other synthetic opioids\nD. Ohio, Heroin\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_26_question_3",
+        "image": [
+            "data/added_usafacts_26/1.png",
+            "data/added_usafacts_26/2.png",
+            "data/added_usafacts_26/3.png"
+        ],
+        "question": "Firstly extract the year when the highest rate of unintentional drug overdose deaths occurred in the first chart. Then, for this year, which drug had the highest involvement rate in overdose deaths according to the second chart?\nNote that your answer should be a full name of the drug. Answer: The_answer_you_get",
+        "answer": "Fentanyl and other synthetic opioids",
+        "type": "open-ended",
+        "context": null
+    }
+]

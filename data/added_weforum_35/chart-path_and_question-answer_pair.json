@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_35_question_0",
+        "image": [
+            "data/added_weforum_35/1.png",
+            "data/added_weforum_35/2.png",
+            "data/added_weforum_35/3.png"
+        ],
+        "question": "What is the increase in precipitation intensity at a global warming scenario of +4°C in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "+30%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_35_question_1",
+        "image": [
+            "data/added_weforum_35/1.png",
+            "data/added_weforum_35/2.png",
+            "data/added_weforum_35/3.png"
+        ],
+        "question": "1. What is the current temperature increase indicated in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many labeled temperature pathways are shown in the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "+1.2°C; 5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_35_question_2",
+        "image": [
+            "data/added_weforum_35/1.png",
+            "data/added_weforum_35/2.png",
+            "data/added_weforum_35/3.png"
+        ],
+        "question": "Question: Which chart shows data about GDP investments related to climate change?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_35_question_3",
+        "image": [
+            "data/added_weforum_35/1.png",
+            "data/added_weforum_35/2.png",
+            "data/added_weforum_35/3.png"
+        ],
+        "question": "Question: Firstly extract the increase in temperature for a global warming scenario of +1.5°C from the first chart. \nThen, in the second chart, how does this temperature scenario relate to the CO2 concentration pathways?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "+1.9°C; It is one of the projected pathways for CO2 concentration by 2100.",
+        "type": "open-ended",
+        "context": null
+    }
+]

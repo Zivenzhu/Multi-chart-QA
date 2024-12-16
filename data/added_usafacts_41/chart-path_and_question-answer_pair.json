@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_41_question_0",
+        "image": [
+            "data/added_usafacts_41/1.png",
+            "data/added_usafacts_41/2.png",
+            "data/added_usafacts_41/3.png"
+        ],
+        "question": "What is the percentage range indicated in the color bar of the first chart? Note that your answer should be the range of percentages shown in the color bar.",
+        "answer": "14% to 78%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_41_question_1",
+        "image": [
+            "data/added_usafacts_41/1.png",
+            "data/added_usafacts_41/2.png",
+            "data/added_usafacts_41/3.png"
+        ],
+        "question": "1. What is the percentage range indicated in the color bar of the second chart? Note that your answer should be the range of percentages shown in the color bar. \n2. What is the percentage of votes cast by mail for people aged 65 years and over in the third chart? Note that your answer should be the percentage explicitly listed in the chart.",
+        "answer": "7% to 35%; 38%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_41_question_2",
+        "image": [
+            "data/added_usafacts_41/1.png",
+            "data/added_usafacts_41/2.png",
+            "data/added_usafacts_41/3.png"
+        ],
+        "question": "Question: Which region shows the highest percentage for mail-in voting compared to early voting in the charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Western US\nB. Southern US\nC. Midwestern US\nD. Northeastern US\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_41_question_3",
+        "image": [
+            "data/added_usafacts_41/1.png",
+            "data/added_usafacts_41/2.png",
+            "data/added_usafacts_41/3.png"
+        ],
+        "question": "Firstly, identify which age group has the highest percentage of votes cast on Election Day in the third chart. Then, in the first chart, which region is most popular for mail-in voting?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "18 to 24 years; Western US",
+        "type": "open-ended",
+        "context": null
+    }
+]

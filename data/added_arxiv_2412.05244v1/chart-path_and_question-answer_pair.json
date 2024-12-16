@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.05244v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.05244v1/ablation_thresholding.png",
+            "data/added_arxiv_2412.05244v1/ablations.png",
+            "data/added_arxiv_2412.05244v1/wave_fam_dec.png"
+        ],
+        "question": "What is the highest average scaled score in the first chart? Note that your final answer should be the highest numerical value explicitly shown on the vertical axis or within the chart itself. If there are multiple subplots, consider all of them together. Answer: The_answer_you_get.",
+        "answer": "0.95",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05244v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.05244v1/ablation_thresholding.png",
+            "data/added_arxiv_2412.05244v1/ablations.png",
+            "data/added_arxiv_2412.05244v1/wave_fam_dec.png"
+        ],
+        "question": "1. How many wavelet families are compared in the second chart? Note that your final answer should be the total number of distinct wavelet families mentioned. \n2. What is the spatially lowest labeled tick on the vertical axis in the third chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, focusing on the axis at the left. Ignore units or scales written separately. Now that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "5; 0.0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05244v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.05244v1/ablation_thresholding.png",
+            "data/added_arxiv_2412.05244v1/ablations.png",
+            "data/added_arxiv_2412.05244v1/wave_fam_dec.png"
+        ],
+        "question": "Question: Which chart shows data related to wavelet decomposition levels and vocabulary size? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. A. First chart B. Second chart C. Third chart D. None of the charts. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05244v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.05244v1/ablation_thresholding.png",
+            "data/added_arxiv_2412.05244v1/ablations.png",
+            "data/added_arxiv_2412.05244v1/wave_fam_dec.png"
+        ],
+        "question": "Question: Firstly extract the thresholding method with the lowest average scaled score in the first chart. Then identify the wavelet family with the highest score for Zero Shot (MASE) in the second chart. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "None; Daub-3",
+        "type": "open-ended",
+        "context": null
+    }
+]

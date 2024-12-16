@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_34_question_0",
+        "image": [
+            "data/added_usafacts_34/1.png",
+            "data/added_usafacts_34/2.png",
+            "data/added_usafacts_34/3.png"
+        ],
+        "question": "What is the share of population living in subsidized housing in Woodruff County, AR according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "17.3%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_34_question_1",
+        "image": [
+            "data/added_usafacts_34/1.png",
+            "data/added_usafacts_34/2.png",
+            "data/added_usafacts_34/3.png"
+        ],
+        "question": "What percentage of households with subsidies earned $15K to <$20K in annual income according to the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "15%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_34_question_2",
+        "image": [
+            "data/added_usafacts_34/1.png",
+            "data/added_usafacts_34/2.png",
+            "data/added_usafacts_34/3.png"
+        ],
+        "question": "1. How many distinct color shades are used in the map in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the primary source of income for the majority of households in subsidized housing according to the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "5; Other income",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_34_question_3",
+        "image": [
+            "data/added_usafacts_34/1.png",
+            "data/added_usafacts_34/2.png",
+            "data/added_usafacts_34/3.png"
+        ],
+        "question": "Question: Which chart provides information about the primary source of income for households in subsidized housing?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

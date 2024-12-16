@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_16_question_0",
+        "image": [
+            "data/added_weforum_16/1.png",
+            "data/added_weforum_16/2.png"
+        ],
+        "question": "What is the cumulative number of agreements in 2020 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Answer: 360",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_16_question_1",
+        "image": [
+            "data/added_weforum_16/1.png",
+            "data/added_weforum_16/2.png"
+        ],
+        "question": "How many income groups are represented in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Answer: 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_16_question_2",
+        "image": [
+            "data/added_weforum_16/1.png",
+            "data/added_weforum_16/2.png"
+        ],
+        "question": "Question: Which chart has more categories for grouping the data?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Answer: A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_16_question_3",
+        "image": [
+            "data/added_weforum_16/1.png",
+            "data/added_weforum_16/2.png"
+        ],
+        "question": "Question: Firstly identify the year when the highest number of new agreements with 3 or more provisions were made in the first chart.\nThen, for this year, how many carbon pricing mechanisms are implemented in upper middle income countries in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Answer: 9",
+        "type": "open-ended",
+        "context": null
+    }
+]

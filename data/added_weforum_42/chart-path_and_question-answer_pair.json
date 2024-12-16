@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_42_question_0",
+        "image": [
+            "data/added_weforum_42/1.png",
+            "data/added_weforum_42/2.png"
+        ],
+        "question": "What percentage of global wildfire-related BC emissions is contributed by the 'Rest of the world' in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "31%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_42_question_1",
+        "image": [
+            "data/added_weforum_42/1.png",
+            "data/added_weforum_42/2.png"
+        ],
+        "question": "How many countries are labeled as member states in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "8",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_42_question_2",
+        "image": [
+            "data/added_weforum_42/1.png",
+            "data/added_weforum_42/2.png"
+        ],
+        "question": "Question: How many countries are labeled in both charts?\nNote that your answer should be a natural number. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_42_question_3",
+        "image": [
+            "data/added_weforum_42/1.png",
+            "data/added_weforum_42/2.png"
+        ],
+        "question": "Firstly extract a country that is labeled as a top emitter with a 6% contribution in the first chart. \nThen find if this country is labeled as a member state or observer country in the second chart.\nNote that your answer should be either 'Member state' or 'Observer country'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Russia, Member state",
+        "type": "open-ended",
+        "context": null
+    }
+]

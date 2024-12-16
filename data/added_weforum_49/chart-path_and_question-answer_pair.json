@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_49_question_0",
+        "image": [
+            "data/added_weforum_49/1.png",
+            "data/added_weforum_49/2.png"
+        ],
+        "question": "What phase corresponds to 'First go-to-market projects' in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Phase 2",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_49_question_1",
+        "image": [
+            "data/added_weforum_49/1.png",
+            "data/added_weforum_49/2.png"
+        ],
+        "question": "1. What technology adoption phase is represented on the far right of the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the range of Mtpa for the Steel sector in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Phase 3; 0.05 – 0.2 Mtpa",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_49_question_2",
+        "image": [
+            "data/added_weforum_49/1.png",
+            "data/added_weforum_49/2.png"
+        ],
+        "question": "Question: What is the main focus of the First Movers Coalition in both charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Renewable Energy\nB. Emerging Climate Technologies\nC. Fossil Fuels\nD. Transportation\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_49_question_3",
+        "image": [
+            "data/added_weforum_49/1.png",
+            "data/added_weforum_49/2.png"
+        ],
+        "question": "Question: Firstly, identify the sector with the highest Mtpa range in the second chart.\nThen, which phase in the first chart corresponds to large-scale commercialization?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Shipping; Phase 3",
+        "type": "open-ended",
+        "context": null
+    }
+]

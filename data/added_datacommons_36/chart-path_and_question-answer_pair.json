@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_36_question_0",
+        "image": [
+            "data/added_datacommons_36/1.png",
+            "data/added_datacommons_36/2.png",
+            "data/added_datacommons_36/3.png"
+        ],
+        "question": "What is the source mentioned in the first chart? \nNote that your answer should be the text explicitly written as the source in the chart. \nAnswer: The_answer_you_get",
+        "answer": "census.gov",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_36_question_1",
+        "image": [
+            "data/added_datacommons_36/1.png",
+            "data/added_datacommons_36/2.png",
+            "data/added_datacommons_36/3.png"
+        ],
+        "question": "1. How many distinct bars are there in the first chart? \nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. \n2. What is the lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "10; 0 USD",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_36_question_2",
+        "image": [
+            "data/added_datacommons_36/1.png",
+            "data/added_datacommons_36/2.png",
+            "data/added_datacommons_36/3.png"
+        ],
+        "question": "Question: Which chart shows data related to rental amounts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_36_question_3",
+        "image": [
+            "data/added_datacommons_36/1.png",
+            "data/added_datacommons_36/2.png",
+            "data/added_datacommons_36/3.png"
+        ],
+        "question": "Question: Firstly extract the year when the median home value reached approximately 1.5M USD in the second chart. \nThen in the third chart, which range has the highest count of housing units for that year?\nNote that your answer should be the range as explicitly written in the chart.\nAnswer: The_answer_you_get",
+        "answer": "2022; Homes Valued Between $1,500,000 and $1,999,999",
+        "type": "open-ended",
+        "context": null
+    }
+]

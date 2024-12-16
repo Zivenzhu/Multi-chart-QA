@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_12_question_0",
+        "image": [
+            "data/added_usafacts_12/1.png",
+            "data/added_usafacts_12/2.png"
+        ],
+        "question": "What is the homicide rate per 100,000 people for New Orleans in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "58.4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_12_question_1",
+        "image": [
+            "data/added_usafacts_12/1.png",
+            "data/added_usafacts_12/2.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the number of homicides in Philadelphia in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "0; 534",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_12_question_2",
+        "image": [
+            "data/added_usafacts_12/1.png",
+            "data/added_usafacts_12/2.png"
+        ],
+        "question": "Question: Which city had the highest percent change in homicide rate from 2018 to 2022 according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Portland",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_12_question_3",
+        "image": [
+            "data/added_usafacts_12/1.png",
+            "data/added_usafacts_12/2.png"
+        ],
+        "question": "Firstly extract the county with the highest homicide rate in the first chart.\nThen what was the percent change in this county's homicide rate from 2018 to 2022 in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "92%",
+        "type": "open-ended",
+        "context": null
+    }
+]

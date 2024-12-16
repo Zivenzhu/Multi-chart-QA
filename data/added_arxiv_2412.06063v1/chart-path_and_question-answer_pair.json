@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.06063v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.06063v1/fair-law-school-two-groups-avg.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-10x3.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-40x10.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06063v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.06063v1/fair-law-school-two-groups-avg.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-10x3.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-40x10.png"
+        ],
+        "question": "1. What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the spatially highest labeled tick on the vertical axis in the second chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "16; 1.0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06063v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.06063v1/fair-law-school-two-groups-avg.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-10x3.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-40x10.png"
+        ],
+        "question": "Question: Which chart shows a more consistent mean relative regression loss across its range of entries?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06063v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.06063v1/fair-law-school-two-groups-avg.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-10x3.png",
+            "data/added_arxiv_2412.06063v1/fair-synthetic-40x10.png"
+        ],
+        "question": "Question: Firstly extract the value of the minimum relative regression loss at the range entry 4 in the second chart. Then in the third chart, what is the value of the mean relative regression loss at the same range entry?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.75; 0.94",
+        "type": "open-ended",
+        "context": null
+    }
+]

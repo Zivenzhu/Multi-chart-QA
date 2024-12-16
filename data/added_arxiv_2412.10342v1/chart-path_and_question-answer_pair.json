@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_arxiv_2412.10342v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.10342v1/ablation_isc.png",
+            "data/added_arxiv_2412.10342v1/ablation_srdl.png"
+        ],
+        "question": "What is the lowest accuracy value shown in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "55",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.10342v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.10342v1/ablation_isc.png",
+            "data/added_arxiv_2412.10342v1/ablation_srdl.png"
+        ],
+        "question": "What is the highest accuracy value in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "74.6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.10342v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.10342v1/ablation_isc.png",
+            "data/added_arxiv_2412.10342v1/ablation_srdl.png"
+        ],
+        "question": "Question: Which chart shows a relationship between visual complexity and accuracy?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.10342v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.10342v1/ablation_isc.png",
+            "data/added_arxiv_2412.10342v1/ablation_srdl.png"
+        ],
+        "question": "Question: Firstly, identify the method with the highest accuracy in the first chart at a visual complexity of 0.2.\nThen, determine which bar in the second chart has an accuracy closest to this value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "w/o V",
+        "type": "open-ended",
+        "context": null
+    }
+]

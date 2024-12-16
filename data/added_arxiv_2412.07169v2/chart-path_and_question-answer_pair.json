@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.07169v2_question_0",
+        "image": [
+            "data/added_arxiv_2412.07169v2/increasing_points_sig_0.1_width.png",
+            "data/added_arxiv_2412.07169v2/increasing_sigma_width.png",
+            "data/added_arxiv_2412.07169v2/initial_dropout_initial_dropout_rate.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2^10",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07169v2_question_1",
+        "image": [
+            "data/added_arxiv_2412.07169v2/increasing_points_sig_0.1_width.png",
+            "data/added_arxiv_2412.07169v2/increasing_sigma_width.png",
+            "data/added_arxiv_2412.07169v2/initial_dropout_initial_dropout_rate.png"
+        ],
+        "question": "1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many distinct lines are there in the third chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Note that If a line has multiple segments, count it as one line. If the plot is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07169v2_question_2",
+        "image": [
+            "data/added_arxiv_2412.07169v2/increasing_points_sig_0.1_width.png",
+            "data/added_arxiv_2412.07169v2/increasing_sigma_width.png",
+            "data/added_arxiv_2412.07169v2/initial_dropout_initial_dropout_rate.png"
+        ],
+        "question": "Question: Which chart shows a more detailed analysis of the 'Constant' method?\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07169v2_question_3",
+        "image": [
+            "data/added_arxiv_2412.07169v2/increasing_points_sig_0.1_width.png",
+            "data/added_arxiv_2412.07169v2/increasing_sigma_width.png",
+            "data/added_arxiv_2412.07169v2/initial_dropout_initial_dropout_rate.png"
+        ],
+        "question": "Question: Firstly extract the method with the lowest uncertainty width coverage at Noise Level 0.5 in the second chart. \nThen, in the first chart, what is the coverage value for this method at the highest number of training points?\nNote that your answer should be a numeric value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.5",
+        "type": "open-ended",
+        "context": null
+    }
+]

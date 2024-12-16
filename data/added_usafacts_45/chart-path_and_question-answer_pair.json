@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_45_question_0",
+        "image": [
+            "data/added_usafacts_45/1.png",
+            "data/added_usafacts_45/2.png"
+        ],
+        "question": "What is the total estimated change in federal spending for the year 2023 in the first chart? Note that your final answer should be the value explicitly written on the chart for the year 2023.",
+        "answer": "$1.58B",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_45_question_1",
+        "image": [
+            "data/added_usafacts_45/1.png",
+            "data/added_usafacts_45/2.png"
+        ],
+        "question": "Which state received the highest amount of money per person from the State Opioid Response grant program in 2023 according to the second chart? Note that your final answer should be the state explicitly written on the chart.",
+        "answer": "Delaware",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_45_question_2",
+        "image": [
+            "data/added_usafacts_45/1.png",
+            "data/added_usafacts_45/2.png"
+        ],
+        "question": "Question: What is the main focus of the two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Climate Change\nB. Opioid Crisis\nC. Education Spending\nD. Infrastructure Development\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_45_question_3",
+        "image": [
+            "data/added_usafacts_45/1.png",
+            "data/added_usafacts_45/2.png"
+        ],
+        "question": "Firstly extract the year with the highest federal spending in response to the opioid crisis from the first chart. Then identify the state with the highest per-capita funding from the federal government for opioid response in the second chart during that year.\nNote that your answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2020, Delaware",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.05145v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.05145v1/ames_plot_sample.png",
+            "data/added_arxiv_2412.05145v1/fluency_results.png",
+            "data/added_arxiv_2412.05145v1/heatmap_metrics_tight.png"
+        ],
+        "question": "What is the contribution value of 'Above grade (ground) living area square feet (854)' in the first chart? Note that your answer should be the numerical value explicitly shown next to the feature label. Answer format: Answer: The_answer_you_get",
+        "answer": "-20000",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05145v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.05145v1/ames_plot_sample.png",
+            "data/added_arxiv_2412.05145v1/fluency_results.png",
+            "data/added_arxiv_2412.05145v1/heatmap_metrics_tight.png"
+        ],
+        "question": "What is the lowest labeled tick value on the vertical axis in the third chart? Note that your answer should be the tick value on the vertical axis that is explicitly written, including all subplots. Answer format: Answer: The_answer_you_get",
+        "answer": "0.93",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05145v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.05145v1/ames_plot_sample.png",
+            "data/added_arxiv_2412.05145v1/fluency_results.png",
+            "data/added_arxiv_2412.05145v1/heatmap_metrics_tight.png"
+        ],
+        "question": "1. How many different categories are shown in the legend in the second chart? Note that your answer should be the total number of categories explicitly labeled in the legend. 2. How many subplots are there in the third chart? Note that your answer should be the total number of distinct subplots present in the chart. Answer format: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.05145v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.05145v1/ames_plot_sample.png",
+            "data/added_arxiv_2412.05145v1/fluency_results.png",
+            "data/added_arxiv_2412.05145v1/heatmap_metrics_tight.png"
+        ],
+        "question": "Which chart explicitly compares fluency scores based on the number of exemplars? Note that your answer should be the chart number that fits the description. A. First Chart B. Second Chart C. Third Chart Answer format: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

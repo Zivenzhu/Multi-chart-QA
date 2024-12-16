@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_25_question_0",
+        "image": [
+            "data/added_weforum_25/1.png",
+            "data/added_weforum_25/2.png",
+            "data/added_weforum_25/3.png"
+        ],
+        "question": "What is the sickness absence rate for women in 2022 according to the first chart? \nNote that your answer should be the exact percentage value given for women in 2022. \nAnswer: The_answer_you_get",
+        "answer": "3.2%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_25_question_1",
+        "image": [
+            "data/added_weforum_25/1.png",
+            "data/added_weforum_25/2.png",
+            "data/added_weforum_25/3.png"
+        ],
+        "question": "1. How many distinct reasons for sickness absence are listed in the second chart for 2022? \nNote that your answer should include all distinct categories shown in the legend. \n2. What is the GDP impact of closing the women’s health gap for depressive disorders according to the third chart?\nNote that your answer should be in billions of dollars as shown in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "11; 100 billion",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_25_question_2",
+        "image": [
+            "data/added_weforum_25/1.png",
+            "data/added_weforum_25/2.png",
+            "data/added_weforum_25/3.png"
+        ],
+        "question": "Question: Which condition among the top ten conditions by GDP impact has the highest impact according to the third chart?\nNote that this is a choice question. Your final answer should match one of the conditions listed in the chart.\nA. Depressive disorders\nB. Migraine\nC. Premenstrual syndrome\nD. Osteoarthritis\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_25_question_3",
+        "image": [
+            "data/added_weforum_25/1.png",
+            "data/added_weforum_25/2.png",
+            "data/added_weforum_25/3.png"
+        ],
+        "question": "Firstly, identify the year with the lowest sickness absence rate for women from the first chart. \nThen, for this year, what was the percentage of sickness absence due to mental health conditions among young women according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2017; 10.5%",
+        "type": "open-ended",
+        "context": null
+    }
+]

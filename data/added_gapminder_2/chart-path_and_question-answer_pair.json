@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gapminder_2_question_0",
+        "image": [
+            "data/added_gapminder_2/1.png",
+            "data/added_gapminder_2/2.png",
+            "data/added_gapminder_2/3.png"
+        ],
+        "question": "What percentage of the population was living under extreme poverty in the year 1800? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "81%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_2_question_1",
+        "image": [
+            "data/added_gapminder_2/1.png",
+            "data/added_gapminder_2/2.png",
+            "data/added_gapminder_2/3.png"
+        ],
+        "question": "1. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What percentage of the population was living under extreme poverty in the year 1911?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "500; 62%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_2_question_2",
+        "image": [
+            "data/added_gapminder_2/1.png",
+            "data/added_gapminder_2/2.png",
+            "data/added_gapminder_2/3.png"
+        ],
+        "question": "Question: Which year shows the lowest percentage of the population living in extreme poverty?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 1800\nB. 1911\nC. 2023\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_2_question_3",
+        "image": [
+            "data/added_gapminder_2/1.png",
+            "data/added_gapminder_2/2.png",
+            "data/added_gapminder_2/3.png"
+        ],
+        "question": "Question: Firstly extract the year when the percentage of people living under extreme poverty was the highest across all the years listed.\nThen for this year, what is the income level threshold for extreme poverty?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1800, Level 1",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gapminder_4_question_0",
+        "image": [
+            "data/added_gapminder_4/1.png",
+            "data/added_gapminder_4/2.png",
+            "data/added_gapminder_4/3.png"
+        ],
+        "question": "What is the highest explicitly labeled tick on the vertical axis in the first chart? Note that your answer should be based on the vertical axis at the left. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
+        "answer": "100",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_4_question_1",
+        "image": [
+            "data/added_gapminder_4/1.png",
+            "data/added_gapminder_4/2.png",
+            "data/added_gapminder_4/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that your answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct segments are there in the area of the third chart?\nNote that your answer should be the total number of distinct segments in the chart across multiple subplots. If the chart does not have distinct segments, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_4_question_2",
+        "image": [
+            "data/added_gapminder_4/1.png",
+            "data/added_gapminder_4/2.png",
+            "data/added_gapminder_4/3.png"
+        ],
+        "question": "Question: Which chart shows the largest population represented on the horizontal axis?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. All are equal\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_4_question_3",
+        "image": [
+            "data/added_gapminder_4/1.png",
+            "data/added_gapminder_4/2.png",
+            "data/added_gapminder_4/3.png"
+        ],
+        "question": "Question: Firstly extract the horizontal axis maximum value in the second chart.\nThen, which position does this value occupy in the order of horizontal axis maximum values of all charts?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Second",
+        "type": "open-ended",
+        "context": null
+    }
+]

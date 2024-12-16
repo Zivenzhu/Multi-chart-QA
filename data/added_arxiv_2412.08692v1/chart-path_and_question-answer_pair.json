@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.08692v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.08692v1/Periodogram.png",
+            "data/added_arxiv_2412.08692v1/RM_Effects_WJs.png",
+            "data/added_arxiv_2412.08692v1/RM_vs_impact.png"
+        ],
+        "question": "What is the period in days for K2-139 as indicated by the peak in the first chart?\nNote that Your final answer should be the period in days that is explicitly written near the peak in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "16.9",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08692v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.08692v1/Periodogram.png",
+            "data/added_arxiv_2412.08692v1/RM_Effects_WJs.png",
+            "data/added_arxiv_2412.08692v1/RM_vs_impact.png"
+        ],
+        "question": "What is the value of lambda (λ) for the planet TOI-558b in the second chart?\nNote that Your final answer should be the value of lambda (λ) that is explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "11.7",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08692v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.08692v1/Periodogram.png",
+            "data/added_arxiv_2412.08692v1/RM_Effects_WJs.png",
+            "data/added_arxiv_2412.08692v1/RM_vs_impact.png"
+        ],
+        "question": "1. What is the false alarm probability (FAP) percentage indicated in the first chart?\nNote that Your final answer should be the FAP percentage that is explicitly written in the chart.\n2. How many subplots are there in the second chart?\nNote that Your final answer should be the total number of subplots in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1%; 8",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08692v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.08692v1/Periodogram.png",
+            "data/added_arxiv_2412.08692v1/RM_Effects_WJs.png",
+            "data/added_arxiv_2412.08692v1/RM_vs_impact.png"
+        ],
+        "question": "Question: What is the relationship between the period and power in the first chart compared to the radial velocity (RV) and hours from mid-transit in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Both charts show periodic variations.\nB. The first chart shows periodic variations, while the second chart shows linear trends.\nC. Both charts show linear trends.\nD. The first chart shows linear trends, while the second chart shows periodic variations.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

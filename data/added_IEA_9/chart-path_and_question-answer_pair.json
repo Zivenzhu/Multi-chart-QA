@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_9_question_0",
+        "image": [
+            "data/added_IEA_9/1.png",
+            "data/added_IEA_9/2.png"
+        ],
+        "question": "What is the percentage value for the 'Electrification and renewables' segment in the 'Improvement by mitigation measures' category in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Approximately 1%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_9_question_1",
+        "image": [
+            "data/added_IEA_9/1.png",
+            "data/added_IEA_9/2.png"
+        ],
+        "question": "1. How many segments are there in the 'Improvement by mitigation measures' bar in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get. \n2. How many different categories are displayed on the horizontal axis in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5; 3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_9_question_2",
+        "image": [
+            "data/added_IEA_9/1.png",
+            "data/added_IEA_9/2.png"
+        ],
+        "question": "Question: Which mitigation measure appears to have the largest contribution in Sub-Saharan Africa compared to the other regions in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Clean cooking",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_9_question_3",
+        "image": [
+            "data/added_IEA_9/1.png",
+            "data/added_IEA_9/2.png"
+        ],
+        "question": "Firstly extract the percentage improvement from 2022 to 2030 in the first chart. Then identify which region in the second chart focuses the most on 'Electrification and renewables.'\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Approximately 2%; Advanced economies",
+        "type": "open-ended",
+        "context": null
+    }
+]

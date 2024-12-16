@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_30_question_0",
+        "image": [
+            "data/added_weforum_30/1.png",
+            "data/added_weforum_30/2.png"
+        ],
+        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "1970",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_30_question_1",
+        "image": [
+            "data/added_weforum_30/1.png",
+            "data/added_weforum_30/2.png"
+        ],
+        "question": "How many labeled ticks are there on the vertical axis in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_30_question_2",
+        "image": [
+            "data/added_weforum_30/1.png",
+            "data/added_weforum_30/2.png"
+        ],
+        "question": "Question: What are the two main themes most relevant to these two charts? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Wildlife conservation and Environmental funding\nB. Technology and Innovation\nC. Education and Employment\nD. Transportation and Infrastructure\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_30_question_3",
+        "image": [
+            "data/added_weforum_30/1.png",
+            "data/added_weforum_30/2.png"
+        ],
+        "question": "Firstly extract the year when the average change in wildlife populations is at its lowest in the first chart. Then for this year, what is the funding amount for fossil fuel-prolonging projects in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "$5.4bn",
+        "type": "open-ended",
+        "context": null
+    }
+]

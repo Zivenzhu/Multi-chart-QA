@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_10_question_0",
+        "image": [
+            "data/added_usafacts_10/1.png",
+            "data/added_usafacts_10/2.png",
+            "data/added_usafacts_10/3.png"
+        ],
+        "question": "What is the percentage of people stopped while illegally crossing the border with a prior criminal conviction in 2020 according to the second chart?\nNote that your answer should be a percentage value as explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.5%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_10_question_1",
+        "image": [
+            "data/added_usafacts_10/1.png",
+            "data/added_usafacts_10/2.png",
+            "data/added_usafacts_10/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the vertical axis in the first chart?\nNote that your answer should be the total number of labeled ticks on the vertical axis. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the percentage of 'Driving under the influence' convictions in the third chart?\nNote that your answer should be a percentage value as explicitly written in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 13.6%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_10_question_2",
+        "image": [
+            "data/added_usafacts_10/1.png",
+            "data/added_usafacts_10/2.png",
+            "data/added_usafacts_10/3.png"
+        ],
+        "question": "Question: Which of these years has the lowest number of criminal noncitizen arrests according to the first chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2019\nB. 2020\nC. 2021\nD. 2022\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_10_question_3",
+        "image": [
+            "data/added_usafacts_10/1.png",
+            "data/added_usafacts_10/2.png",
+            "data/added_usafacts_10/3.png"
+        ],
+        "question": "Firstly extract the year with the highest percentage of criminal noncitizen arrests relative to total apprehensions from the second chart.\nThen, what was the most common prior conviction for people arrested by USBP in that year according to the third chart?\nNote that your answer should be based on the most common conviction type explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2017, Illegal entry, re-entry",
+        "type": "open-ended",
+        "context": null
+    }
+]

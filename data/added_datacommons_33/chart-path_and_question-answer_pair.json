@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_datacommons_33_question_0",
+        "image": [
+            "data/added_datacommons_33/1.png",
+            "data/added_datacommons_33/2.png"
+        ],
+        "question": "What is the highest Air Quality Index value shown in the first chart? \nNote that Your final answer should be the highest value of Air Quality Index explicitly shown on the vertical axis of the first chart.\nAnswer: The_answer_you_get.",
+        "answer": "25",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_33_question_1",
+        "image": [
+            "data/added_datacommons_33/1.png",
+            "data/added_datacommons_33/2.png"
+        ],
+        "question": "What is the lowest percentage of adults with blood pressure who take medication shown in the second chart? \nNote that Your final answer should be the lowest percentage value explicitly shown on the horizontal axis of the second chart.\nAnswer: The_answer_you_get.",
+        "answer": "55.5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_33_question_2",
+        "image": [
+            "data/added_datacommons_33/1.png",
+            "data/added_datacommons_33/2.png"
+        ],
+        "question": "Which county appears in both charts?\nNote that your answer should be the name of the county as labeled in the charts.\nAnswer: The_answer_you_get",
+        "answer": "Atlantic County, NJ",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_33_question_3",
+        "image": [
+            "data/added_datacommons_33/1.png",
+            "data/added_datacommons_33/2.png"
+        ],
+        "question": "Firstly, find the county with the highest High Blood Pressure percentage in the first chart. \nThen, determine the Air Quality Index of this county in the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Not Applicable",
+        "type": "open-ended",
+        "context": null
+    }
+]

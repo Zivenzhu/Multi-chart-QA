@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_3_question_0",
+        "image": [
+            "data/added_usafacts_3/1.png",
+            "data/added_usafacts_3/2.png",
+            "data/added_usafacts_3/3.png"
+        ],
+        "question": "What is the lowest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right, answer based on the axis at the left. Ignore units or scales written separately from the tick. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
+        "answer": "0.0%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_3_question_1",
+        "image": [
+            "data/added_usafacts_3/1.png",
+            "data/added_usafacts_3/2.png",
+            "data/added_usafacts_3/3.png"
+        ],
+        "question": "1. How many explicitly labeled ticks are there on the horizontal axis in the second chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that your final answer should be the total number of distinct bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions, your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "10; 12",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_3_question_2",
+        "image": [
+            "data/added_usafacts_3/1.png",
+            "data/added_usafacts_3/2.png",
+            "data/added_usafacts_3/3.png"
+        ],
+        "question": "Question: What is a common theme present in all three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Inflation\nB. Employment\nC. Population\nD. Education\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_3_question_3",
+        "image": [
+            "data/added_usafacts_3/1.png",
+            "data/added_usafacts_3/2.png",
+            "data/added_usafacts_3/3.png"
+        ],
+        "question": "First, identify the year with the highest CPI-base inflation rate in the second chart. Then, in the first chart, what is the headline inflation rate for that year?\nNote that your answer should be grounded to some text that is explicitly written and relevant to the question in the charts. If you need to answer multiple terms, separate them with commas. Unless specified in the question, you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "June 1920, 23.7%",
+        "type": "open-ended",
+        "context": null
+    }
+]

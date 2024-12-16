@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_15_question_0",
+        "image": [
+            "data/added_gallup_15/1.png",
+            "data/added_gallup_15/2.png",
+            "data/added_gallup_15/3.png"
+        ],
+        "question": "What is the average rating for 'Life today' in 2024 in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4.6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_15_question_1",
+        "image": [
+            "data/added_gallup_15/1.png",
+            "data/added_gallup_15/2.png",
+            "data/added_gallup_15/3.png"
+        ],
+        "question": "1. What is the percentage of people who think economic conditions are getting worse in 2024 in the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. What is the percentage of people who believe children are respected in 2024 in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "80; 26",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_15_question_2",
+        "image": [
+            "data/added_gallup_15/1.png",
+            "data/added_gallup_15/2.png",
+            "data/added_gallup_15/3.png"
+        ],
+        "question": "Question: Which year shows a significant decline in both economic optimism and child welfare based on the second and third charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2012\nB. 2016\nC. 2024\nD. 2018\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_15_question_3",
+        "image": [
+            "data/added_gallup_15/1.png",
+            "data/added_gallup_15/2.png",
+            "data/added_gallup_15/3.png"
+        ],
+        "question": "Firstly extract the year when the 'Life today' rating reached its highest point in the first chart. Then what is the percentage of people who believe children have the opportunity to learn and grow in that year in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2018; 40",
+        "type": "open-ended",
+        "context": null
+    }
+]

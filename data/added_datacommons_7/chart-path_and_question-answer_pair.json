@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_7_question_0",
+        "image": [
+            "data/added_datacommons_7/1.png",
+            "data/added_datacommons_7/2.png",
+            "data/added_datacommons_7/3.png"
+        ],
+        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "700B",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_7_question_1",
+        "image": [
+            "data/added_datacommons_7/1.png",
+            "data/added_datacommons_7/2.png",
+            "data/added_datacommons_7/3.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "22",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_7_question_2",
+        "image": [
+            "data/added_datacommons_7/1.png",
+            "data/added_datacommons_7/2.png",
+            "data/added_datacommons_7/3.png"
+        ],
+        "question": "1. What is the rightmost labeled tick on the horizontal axis in the second chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many labeled ticks are there on the vertical axis in the third chart? Note that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "2020; 7",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_7_question_3",
+        "image": [
+            "data/added_datacommons_7/1.png",
+            "data/added_datacommons_7/2.png",
+            "data/added_datacommons_7/3.png"
+        ],
+        "question": "Question: Comparing the first and second charts, which decade shows the most significant volatility in GDP growth rate?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 1970s\nB. 1980s\nC. 1990s\nD. 2000s\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

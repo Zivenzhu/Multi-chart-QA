@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_19_question_0",
+        "image": [
+            "data/added_gallup_19/1.png",
+            "data/added_gallup_19/2.png",
+            "data/added_gallup_19/3.png"
+        ],
+        "question": "What is the percentage of people who think economic conditions are getting worse in the first chart for the year 2024? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "62",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_19_question_1",
+        "image": [
+            "data/added_gallup_19/1.png",
+            "data/added_gallup_19/2.png",
+            "data/added_gallup_19/3.png"
+        ],
+        "question": "How many countries are listed in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "11",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_19_question_2",
+        "image": [
+            "data/added_gallup_19/1.png",
+            "data/added_gallup_19/2.png",
+            "data/added_gallup_19/3.png"
+        ],
+        "question": "1. What is the percentage of people satisfied with the educational system in 2024 in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. What is the percentage of people getting better in the U.K. in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "61; 19",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_19_question_3",
+        "image": [
+            "data/added_gallup_19/1.png",
+            "data/added_gallup_19/2.png",
+            "data/added_gallup_19/3.png"
+        ],
+        "question": "Question: Which chart shows a comparison of the U.K. with other countries?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

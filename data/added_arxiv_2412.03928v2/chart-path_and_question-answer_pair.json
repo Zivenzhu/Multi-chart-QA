@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_arxiv_2412.03928v2_question_0",
+        "image": [
+            "data/added_arxiv_2412.03928v2/Figure_objdet.png",
+            "data/added_arxiv_2412.03928v2/Figure_seg.png"
+        ],
+        "question": "What is the highest mAP score achieved by any model in the first chart?\nNote that your answer should be a numerical value from the chart.\nAnswer in the format: Answer: The_answer_you_get",
+        "answer": "Answer: 0.41",
+        "type": "1",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03928v2_question_1",
+        "image": [
+            "data/added_arxiv_2412.03928v2/Figure_objdet.png",
+            "data/added_arxiv_2412.03928v2/Figure_seg.png"
+        ],
+        "question": "Which model achieved the lowest DICE score in the second chart?\nNote that your answer must be grounded to some text that is explicitly written and relevant to the question in the chart.\nAnswer in the format: Answer: The_answer_you_get",
+        "answer": "Answer: MaskRCNN",
+        "type": "1",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03928v2_question_2",
+        "image": [
+            "data/added_arxiv_2412.03928v2/Figure_objdet.png",
+            "data/added_arxiv_2412.03928v2/Figure_seg.png"
+        ],
+        "question": "Question: Which model is present in both charts and how do its scores compare between the two charts?\nNote that your answer should include the model name and a comparison of its scores.\nAnswer in the format: Answer: The_answer_you_get",
+        "answer": "Answer: MaskRCNN; mAP: 0.375, DICE: 0.0",
+        "type": "3",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03928v2_question_3",
+        "image": [
+            "data/added_arxiv_2412.03928v2/Figure_objdet.png",
+            "data/added_arxiv_2412.03928v2/Figure_seg.png"
+        ],
+        "question": "Question: Firstly, identify the model with the highest mAP score in the first chart. Then, what is the DICE score of this model in the second chart?\nNote that your answer should include both the model name and the DICE score.\nAnswer in the format: Answer: The_answer_you_get",
+        "answer": "Answer: SSD; DICE: Not Applicable",
+        "type": "4",
+        "context": null
+    }
+]

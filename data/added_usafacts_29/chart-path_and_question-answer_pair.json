@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_29_question_0",
+        "image": [
+            "data/added_usafacts_29/1.png",
+            "data/added_usafacts_29/2.png",
+            "data/added_usafacts_29/3.png"
+        ],
+        "question": "What is the percentage of adults who skipped medical treatment because of cost in 2023 according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "27%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_29_question_1",
+        "image": [
+            "data/added_usafacts_29/1.png",
+            "data/added_usafacts_29/2.png",
+            "data/added_usafacts_29/3.png"
+        ],
+        "question": "1. What is the lowest labeled tick on the vertical axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many forms of medical treatment are listed in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "0%; 5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_29_question_2",
+        "image": [
+            "data/added_usafacts_29/1.png",
+            "data/added_usafacts_29/2.png",
+            "data/added_usafacts_29/3.png"
+        ],
+        "question": "Question: Which chart shows a higher percentage of people affected: those who skipped any medical treatment due to cost or those without health insurance in 2023?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Those who skipped any medical treatment due to cost",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_29_question_3",
+        "image": [
+            "data/added_usafacts_29/1.png",
+            "data/added_usafacts_29/2.png",
+            "data/added_usafacts_29/3.png"
+        ],
+        "question": "Question: Firstly extract the year when the percentage of adults who skipped medical treatment because of cost was lowest according to the first chart.\nThen, for this year, what is the percentage of Americans without health insurance according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2019; 9.2%",
+        "type": "open-ended",
+        "context": null
+    }
+]

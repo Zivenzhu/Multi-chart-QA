@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_23_question_0",
+        "image": [
+            "data/added_datacommons_23/1.png",
+            "data/added_datacommons_23/2.png",
+            "data/added_datacommons_23/3.png"
+        ],
+        "question": "What is the horizontal axis label in the first chart? \nNote that your final answer should be the text of the label on the horizontal axis. If the chart does not have a horizontal axis label, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Unemployment Rate",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_23_question_1",
+        "image": [
+            "data/added_datacommons_23/1.png",
+            "data/added_datacommons_23/2.png",
+            "data/added_datacommons_23/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the spatially lowest labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "8; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_23_question_2",
+        "image": [
+            "data/added_datacommons_23/1.png",
+            "data/added_datacommons_23/2.png",
+            "data/added_datacommons_23/3.png"
+        ],
+        "question": "Question: Which county is labeled in all three charts?\nNote that your answer should be a county name.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Imperial County, CA",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_23_question_3",
+        "image": [
+            "data/added_datacommons_23/1.png",
+            "data/added_datacommons_23/2.png",
+            "data/added_datacommons_23/3.png"
+        ],
+        "question": "Question: Firstly extract the highest prevalence of obesity percentage labeled in the first chart. \nThen in the second chart, what is the corresponding unemployment rate tick for this prevalence?\nNote that your answer should be a percentage for the first part and a numerical value for the second part.\nNote that your answer format should be as follows: Answer: The_answer_for_the_first_part; The_answer_for_the_second_part",
+        "answer": "50%; 0",
+        "type": "open-ended",
+        "context": null
+    }
+]

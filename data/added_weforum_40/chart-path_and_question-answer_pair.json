@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_40_question_0",
+        "image": [
+            "data/added_weforum_40/1.png",
+            "data/added_weforum_40/2.png"
+        ],
+        "question": "What is the highest value of investment needed in the first chart? \nNote that Your final answer should be the highest value explicitly labeled on the vertical axis for the bars in the first chart. If the chart does not have explicit labeled ticks, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4.42",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_40_question_1",
+        "image": [
+            "data/added_weforum_40/1.png",
+            "data/added_weforum_40/2.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks, answer '0'.\n2. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 9",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_40_question_2",
+        "image": [
+            "data/added_weforum_40/1.png",
+            "data/added_weforum_40/2.png"
+        ],
+        "question": "Question: What are the main themes of the two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Investor Returns and Carbon Credits\nB. Population Growth and Urbanization\nC. Economic Growth and Inflation\nD. Renewable Energy and Sustainability\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_40_question_3",
+        "image": [
+            "data/added_weforum_40/1.png",
+            "data/added_weforum_40/2.png"
+        ],
+        "question": "Question: Firstly extract the year with the highest cumulative investor profit in the first chart. \nThen, for this year, what is the total available credits to issue in the second chart?\nNote that your answer should be grounded to some text that is explicitly written and relevant to the question in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2045; 538.17",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_39_question_0",
+        "image": [
+            "data/added_usafacts_39/1.png",
+            "data/added_usafacts_39/2.png",
+            "data/added_usafacts_39/3.png"
+        ],
+        "question": "What is the homicide rate per 100,000 people in St. Louis according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "57.2",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_39_question_1",
+        "image": [
+            "data/added_usafacts_39/1.png",
+            "data/added_usafacts_39/2.png",
+            "data/added_usafacts_39/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the total amount of security assistance provided to Ukraine by March 2024 in the third chart?\nNote that Your final answer should be the sum of all security assistance categories in billions.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 44.9B",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_39_question_2",
+        "image": [
+            "data/added_usafacts_39/1.png",
+            "data/added_usafacts_39/2.png",
+            "data/added_usafacts_39/3.png"
+        ],
+        "question": "Question: Which year in the second chart marks the highest voter turnout rate?\nNote that your answer should be a year.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2020",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_39_question_3",
+        "image": [
+            "data/added_usafacts_39/1.png",
+            "data/added_usafacts_39/2.png",
+            "data/added_usafacts_39/3.png"
+        ],
+        "question": "Question: Firstly extract the city with the highest homicide rate in the first chart.\nThen calculate how much security assistance was provided through Presidential drawdowns up to March 2024 in the third chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "New Orleans; 25.99B",
+        "type": "open-ended",
+        "context": null
+    }
+]

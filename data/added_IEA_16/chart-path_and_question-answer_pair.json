@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_16_question_0",
+        "image": [
+            "data/added_IEA_16/1.png",
+            "data/added_IEA_16/2.png"
+        ],
+        "question": "What is the unit used on the vertical axis in the first chart?\nNote that your final answer should be the unit explicitly written on the vertical axis. If there is no unit explicitly written, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "million people",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_16_question_1",
+        "image": [
+            "data/added_IEA_16/1.png",
+            "data/added_IEA_16/2.png"
+        ],
+        "question": "What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "United Kingdom",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_16_question_2",
+        "image": [
+            "data/added_IEA_16/1.png",
+            "data/added_IEA_16/2.png"
+        ],
+        "question": "Question: What is a common theme between the two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Electricity Access\nB. Population Growth\nC. Energy Generation\nD. Climate Change\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_IEA_16_question_3",
+        "image": [
+            "data/added_IEA_16/1.png",
+            "data/added_IEA_16/2.png"
+        ],
+        "question": "Firstly extract the country with the largest population without access to electricity in 2000 from the first chart.\nThen for this country, how many types of electricity generation sources are represented in the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "6",
+        "type": "open-ended",
+        "context": null
+    }
+]

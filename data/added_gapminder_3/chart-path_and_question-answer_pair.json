@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gapminder_3_question_0",
+        "image": [
+            "data/added_gapminder_3/1.png",
+            "data/added_gapminder_3/2.png",
+            "data/added_gapminder_3/3.png"
+        ],
+        "question": "What is the GDP per capita of China in the year 2023 according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "16k",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_3_question_1",
+        "image": [
+            "data/added_gapminder_3/1.png",
+            "data/added_gapminder_3/2.png",
+            "data/added_gapminder_3/3.png"
+        ],
+        "question": "How many countries are explicitly labeled in the third chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "13",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_3_question_2",
+        "image": [
+            "data/added_gapminder_3/1.png",
+            "data/added_gapminder_3/2.png",
+            "data/added_gapminder_3/3.png"
+        ],
+        "question": "Question: What are the two keywords most relevant to these charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Population and Economy\nB. Geography and Climate\nC. Health and Education\nD. Agriculture and Industry\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gapminder_3_question_3",
+        "image": [
+            "data/added_gapminder_3/1.png",
+            "data/added_gapminder_3/2.png",
+            "data/added_gapminder_3/3.png"
+        ],
+        "question": "Question: Firstly extract the country with the highest GDP per capita in 2023 from the first chart. \nThen find the population rank of this country in the third chart.\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Third",
+        "type": "open-ended",
+        "context": null
+    }
+]

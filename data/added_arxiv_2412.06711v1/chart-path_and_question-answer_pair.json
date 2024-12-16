@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.06711v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.06711v1/scalability.png",
+            "data/added_arxiv_2412.06711v1/scalability_2curve.png",
+            "data/added_arxiv_2412.06711v1/upward_closure_accuracy_analysis.png"
+        ],
+        "question": "What is the title of subplot (b) in the first chart?\nNote that Your final answer should be the explicitly written title of the subplot, including any symbols or numbers. If the chart does not have any explicit title for the subplot, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Number of subgroups",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06711v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.06711v1/scalability.png",
+            "data/added_arxiv_2412.06711v1/scalability_2curve.png",
+            "data/added_arxiv_2412.06711v1/upward_closure_accuracy_analysis.png"
+        ],
+        "question": "1. How many subplots are there in the first chart?\nNote that Your final answer should be the total number of subplots in the chart. If the chart does not have any subplots, answer '0'.\n2. How many bar categories are represented in the third chart?\nNote that Your final answer should be the total number of different bar categories represented in the chart. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06711v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.06711v1/scalability.png",
+            "data/added_arxiv_2412.06711v1/scalability_2curve.png",
+            "data/added_arxiv_2412.06711v1/upward_closure_accuracy_analysis.png"
+        ],
+        "question": "Question: Which chart focuses on the concept of 'Upward Closure Accuracy'?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nD. None of the Charts\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.06711v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.06711v1/scalability.png",
+            "data/added_arxiv_2412.06711v1/scalability_2curve.png",
+            "data/added_arxiv_2412.06711v1/upward_closure_accuracy_analysis.png"
+        ],
+        "question": "Question: Firstly, determine which subplot in the first chart has the highest time value for KNN.\nThen, what is the highest upward closure accuracy value in the third chart?\nNote that your answer should be a decimal or integer value representing the accuracy.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Plot (a); 1.0",
+        "type": "open-ended",
+        "context": null
+    }
+]

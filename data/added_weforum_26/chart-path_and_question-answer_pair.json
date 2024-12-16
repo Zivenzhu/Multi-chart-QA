@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_26_question_0",
+        "image": [
+            "data/added_weforum_26/1.png",
+            "data/added_weforum_26/2.png"
+        ],
+        "question": "What is the time range for the first labeled period on the vertical axis in the first chart?\nNote that your answer should specify the range in the format 'YYYY-YYYY'.\nAnswer: The_answer_you_get",
+        "answer": "1971-1980",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_26_question_1",
+        "image": [
+            "data/added_weforum_26/1.png",
+            "data/added_weforum_26/2.png"
+        ],
+        "question": "What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nAnswer: The_answer_you_get",
+        "answer": "0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_26_question_2",
+        "image": [
+            "data/added_weforum_26/1.png",
+            "data/added_weforum_26/2.png"
+        ],
+        "question": "Question: Which color is used to represent 'China' in both charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Blue\nB. Green\nC. Yellow\nD. Purple\nAnswer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_26_question_3",
+        "image": [
+            "data/added_weforum_26/1.png",
+            "data/added_weforum_26/2.png"
+        ],
+        "question": "Firstly, identify the period with the highest retirements in the first chart.\nThen, according to the second chart, which energy source is expected to see the most growth by 2050 in the STEPS scenario?\nNote that your answer should be a specific energy source.\nAnswer: The_answer_you_get",
+        "answer": "Clean energy",
+        "type": "open-ended",
+        "context": null
+    }
+]

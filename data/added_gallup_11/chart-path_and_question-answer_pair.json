@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_11_question_0",
+        "image": [
+            "data/added_gallup_11/1.png",
+            "data/added_gallup_11/2.png",
+            "data/added_gallup_11/3.png"
+        ],
+        "question": "What is the overall index value for QTR 4 2020 in the first chart? Note that your final answer should be the explicitly written value for the overall index in the chart. If the chart does not have this information, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "72",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_11_question_1",
+        "image": [
+            "data/added_gallup_11/1.png",
+            "data/added_gallup_11/2.png",
+            "data/added_gallup_11/3.png"
+        ],
+        "question": "1. What is the lowest labeled tick on the vertical axis in the second chart?\nNote that your final answer should be the tick value on the vertical axis that is explicitly written. \n2. How many distinct lines are there in the third chart?\nNote that your final answer should be the total number of distinct lines in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "40; 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_11_question_2",
+        "image": [
+            "data/added_gallup_11/1.png",
+            "data/added_gallup_11/2.png",
+            "data/added_gallup_11/3.png"
+        ],
+        "question": "Question: Which chart shows the perception of the U.S. economy's current state?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_11_question_3",
+        "image": [
+            "data/added_gallup_11/1.png",
+            "data/added_gallup_11/2.png",
+            "data/added_gallup_11/3.png"
+        ],
+        "question": "Question: Firstly extract the future expectations index value for QTR 1 2020 in the first chart.\nThen what is the percentage of small-business owners who rate their company's financial situation as very/somewhat good today for the same quarter in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "67, 83",
+        "type": "open-ended",
+        "context": null
+    }
+]

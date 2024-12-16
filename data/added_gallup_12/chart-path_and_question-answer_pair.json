@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_12_question_0",
+        "image": [
+            "data/added_gallup_12/1.png",
+            "data/added_gallup_12/2.png"
+        ],
+        "question": "What percentage of small-business owners estimate that the U.S. economy will recover from COVID-19 beyond 2021 in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "34%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_12_question_1",
+        "image": [
+            "data/added_gallup_12/1.png",
+            "data/added_gallup_12/2.png"
+        ],
+        "question": "What percentage of small-business owners estimate that their businesses will recover within the first half of 2021 in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "26%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_12_question_2",
+        "image": [
+            "data/added_gallup_12/1.png",
+            "data/added_gallup_12/2.png"
+        ],
+        "question": "Question: Which chart shows a higher percentage of small-business owners estimating recovery beyond 2021?\nNote that your answer should be either 'first chart' or 'second chart'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "first chart",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_12_question_3",
+        "image": [
+            "data/added_gallup_12/1.png",
+            "data/added_gallup_12/2.png"
+        ],
+        "question": "Question: Firstly, find the percentage of small-business owners who believe the economy will recover within a few more weeks in the first chart.\nThen, in the second chart, what is the percentage of small-business owners who estimate the same recovery period for their businesses?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "8%",
+        "type": "open-ended",
+        "context": null
+    }
+]

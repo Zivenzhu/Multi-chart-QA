@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_10_question_0",
+        "image": [
+            "data/added_gallup_10/1.png",
+            "data/added_gallup_10/2.png"
+        ],
+        "question": "What is the percentage of nonretirees who expect Social Security to be their only major source of income from the second chart?\nNote that your answer should be a percentage value explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "21",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_10_question_1",
+        "image": [
+            "data/added_gallup_10/1.png",
+            "data/added_gallup_10/2.png"
+        ],
+        "question": "1. What percentage of retired Americans use Social Security as a major income source according to the first chart?\nNote that your answer should be a percentage value explicitly written in the chart. \n2. How many distinct income source categories are mentioned in the second chart?\nNote that your answer should be the total number of distinct categories mentioned explicitly in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "60; 5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_10_question_2",
+        "image": [
+            "data/added_gallup_10/1.png",
+            "data/added_gallup_10/2.png"
+        ],
+        "question": "Question: What is the main topic covered by both charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Retirement Savings\nB. Social Security Income\nC. Health Benefits\nD. Employment Status\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_10_question_3",
+        "image": [
+            "data/added_gallup_10/1.png",
+            "data/added_gallup_10/2.png"
+        ],
+        "question": "Firstly identify the percentage of retirees who are financially comfortable with Social Security and one other major source of income from the second chart. \nThen, what is the closest percentage expectation of nonretirees from the first chart regarding using Social Security as a major income source?\nNote that your answer should be a percentage value explicitly written in the charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "78; 35",
+        "type": "open-ended",
+        "context": null
+    }
+]

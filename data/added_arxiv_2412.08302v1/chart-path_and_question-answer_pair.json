@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.08302v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.08302v1/flatband_all.png",
+            "data/added_arxiv_2412.08302v1/flatband_simulation_new.png",
+            "data/added_arxiv_2412.08302v1/fltband.png"
+        ],
+        "question": "What is the RF Magnitude range in the first chart (a)? Note that your final answer should be the range of values explicitly written on the color bar, including units.",
+        "answer": "-19.8 to -18.4 dBm",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08302v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.08302v1/flatband_all.png",
+            "data/added_arxiv_2412.08302v1/flatband_simulation_new.png",
+            "data/added_arxiv_2412.08302v1/fltband.png"
+        ],
+        "question": "1. What is the leftmost labeled tick on the horizontal axis in the second chart (a)?\nNote that your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n2. How many labeled ticks are there on the vertical axis in the third chart (a)?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "0.0; 3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08302v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.08302v1/flatband_all.png",
+            "data/added_arxiv_2412.08302v1/flatband_simulation_new.png",
+            "data/added_arxiv_2412.08302v1/fltband.png"
+        ],
+        "question": "Question: What is the common variable measured across the first, second, and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Energy bands\nB. Voltage\nC. RF Phase\nD. Conductive state\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.08302v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.08302v1/flatband_all.png",
+            "data/added_arxiv_2412.08302v1/flatband_simulation_new.png",
+            "data/added_arxiv_2412.08302v1/fltband.png"
+        ],
+        "question": "Question: Firstly extract the state labeled as 'conductive' in the second chart (a). \nThen in the third chart (c), what is the corresponding color used for this state?\nNote that your answer should be the color name as explicitly used in the charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Red",
+        "type": "open-ended",
+        "context": null
+    }
+]

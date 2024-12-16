@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_37_question_0",
+        "image": [
+            "data/added_usafacts_37/1.png",
+            "data/added_usafacts_37/2.png",
+            "data/added_usafacts_37/3.png"
+        ],
+        "question": "What is the lowest labeled percentage on the vertical axis in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_37_question_1",
+        "image": [
+            "data/added_usafacts_37/1.png",
+            "data/added_usafacts_37/2.png",
+            "data/added_usafacts_37/3.png"
+        ],
+        "question": "What is the darkest color range for renter households in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "60.3%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_37_question_2",
+        "image": [
+            "data/added_usafacts_37/1.png",
+            "data/added_usafacts_37/2.png",
+            "data/added_usafacts_37/3.png"
+        ],
+        "question": "1. How many labeled states are there in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get. 2. How many labeled states are there in the third chart? Note that your answer format should be as follows: Answer: The_answer_you_get. Now that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "51; 51",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_37_question_3",
+        "image": [
+            "data/added_usafacts_37/1.png",
+            "data/added_usafacts_37/2.png",
+            "data/added_usafacts_37/3.png"
+        ],
+        "question": "Question: Which two states are highlighted as having the highest cost-burdened shares in the second and third charts? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. A. Florida and New York B. California and Texas C. Florida and California D. Texas and New York Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    }
+]

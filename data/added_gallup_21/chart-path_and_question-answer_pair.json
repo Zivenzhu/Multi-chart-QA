@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_21_question_0",
+        "image": [
+            "data/added_gallup_21/1.png",
+            "data/added_gallup_21/2.png"
+        ],
+        "question": "What is the percentage of Gen Z members aged 25 to 27 who strongly agree or agree with the statement 'I feel prepared for the future' in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "61",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_21_question_1",
+        "image": [
+            "data/added_gallup_21/1.png",
+            "data/added_gallup_21/2.png"
+        ],
+        "question": "What percentage of Gen Z K-12 students who hope to pursue a bachelor's degree strongly agree or agree with the statement 'I have the ability to get my dream job' in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "80",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_21_question_2",
+        "image": [
+            "data/added_gallup_21/1.png",
+            "data/added_gallup_21/2.png"
+        ],
+        "question": "Question: Which group shows the highest percentage of feeling prepared for the future across both charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Gen Z aged 25 to 27\nB. Gen Z K-12 students pursuing a bachelor's degree\nC. Asian Gen Z\nD. Male Gen Z\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_21_question_3",
+        "image": [
+            "data/added_gallup_21/1.png",
+            "data/added_gallup_21/2.png"
+        ],
+        "question": "Question: Firstly extract the percentage of Gen Z males who strongly agree or agree with the statement 'I feel prepared for the future' in the first chart. \nThen, compare it to the percentage of Gen Z K-12 students who hope to pursue an associate degree and strongly agree or agree with the statement 'I feel prepared for the future' in the second chart. Which group has a higher percentage?\nNote that your answer format should be as follows: Answer: The_group_with_higher_percentage",
+        "answer": "Gen Z males",
+        "type": "open-ended",
+        "context": null
+    }
+]

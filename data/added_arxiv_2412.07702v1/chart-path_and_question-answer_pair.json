@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.07702v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.07702v1/1129_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1141_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1216_spectrum.png"
+        ],
+        "question": "What is the frequency range represented on the horizontal axis in the first chart? Note that your final answer should include the smallest and largest explicitly labeled tick values on the horizontal axis. If there are no labeled ticks, answer 'Not Applicable'. Your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "0.1 to 10",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07702v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.07702v1/1129_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1141_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1216_spectrum.png"
+        ],
+        "question": "1. How many different symbols are used in the legend of the second chart?\nNote that Your final answer should be the total number of different symbols used in the legend. \n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. Ignore units or scales that are written separately from the tick. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 1",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07702v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.07702v1/1129_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1141_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1216_spectrum.png"
+        ],
+        "question": "Question: What is the common keyword most relevant to these charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Astronomy\nB. Biology\nC. Economics\nD. Geography\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.07702v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.07702v1/1129_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1141_spectrum.png",
+            "data/added_arxiv_2412.07702v1/1216_spectrum.png"
+        ],
+        "question": "Question: Firstly, identify the chart with the highest peak flux density value. \nThen, for this chart, what is the value of the highest labeled tick on the horizontal axis?\nNote that your answer should be the tick value on the horizontal axis that is explicitly written. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "10",
+        "type": "open-ended",
+        "context": null
+    }
+]

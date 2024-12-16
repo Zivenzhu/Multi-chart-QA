@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_29_question_0",
+        "image": [
+            "data/added_datacommons_29/1.png",
+            "data/added_datacommons_29/2.png",
+            "data/added_datacommons_29/3.png"
+        ],
+        "question": "What is the range of the vertical axis in the first chart?\nNote that Your final answer should be the range from the lowest to the highest labeled tick value on the vertical axis, including the case when vertical axis is shared across multiple subplots. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_lowest_value_to_the_highest_value",
+        "answer": "0 to 60",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_29_question_1",
+        "image": [
+            "data/added_datacommons_29/1.png",
+            "data/added_datacommons_29/2.png",
+            "data/added_datacommons_29/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the source of the data in the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. Now that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; gaftp.epa.gov",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_29_question_2",
+        "image": [
+            "data/added_datacommons_29/1.png",
+            "data/added_datacommons_29/2.png",
+            "data/added_datacommons_29/3.png"
+        ],
+        "question": "Question: Which chart shows a trend of decreasing values over time?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_29_question_3",
+        "image": [
+            "data/added_datacommons_29/1.png",
+            "data/added_datacommons_29/2.png",
+            "data/added_datacommons_29/3.png"
+        ],
+        "question": "Question: Firstly extract the year when the maximum concentration of Smoke PM2.5 is highest in the first chart. \nThen, in this year, how many days exceeded a Smoke PM2.5 level of 12 ppm in the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2020; 16",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_16_question_0",
+        "image": [
+            "data/added_usafacts_16/1.png",
+            "data/added_usafacts_16/2.png",
+            "data/added_usafacts_16/3.png"
+        ],
+        "question": "What percentage of the federal budget is dedicated to the Department of Education in FY 2024 according to the third chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4.0%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_16_question_1",
+        "image": [
+            "data/added_usafacts_16/1.png",
+            "data/added_usafacts_16/2.png",
+            "data/added_usafacts_16/3.png"
+        ],
+        "question": "1. How many departments are listed in the first chart?\nNote that Your final answer should be the total number of departments listed in the chart.\n2. What is the amount allocated for Federal Student Aid in the second chart?\nNote that Your final answer should be the amount allocated for Federal Student Aid as explicitly written.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "10; $160.69B",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_16_question_2",
+        "image": [
+            "data/added_usafacts_16/1.png",
+            "data/added_usafacts_16/2.png",
+            "data/added_usafacts_16/3.png"
+        ],
+        "question": "Question: Which agency receives the highest percentage of federal funding in the first chart compared to the highest funded sub-agency in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Department of Health and Human Services and Federal Student Aid\nB. Department of Veterans Affairs and Office of Postsecondary Education\nC. Social Security Administration and Office of English Language Acquisition\nD. Department of Agriculture and Office of Vocational and Adult Education\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_16_question_3",
+        "image": [
+            "data/added_usafacts_16/1.png",
+            "data/added_usafacts_16/2.png",
+            "data/added_usafacts_16/3.png"
+        ],
+        "question": "Question: Firstly extract the percentage of federal expenses allocated to the Department of Defense – Military Programs in the first chart. \nThen, using this percentage, identify the closest spending sub-agency in the second chart.\nNote that your answer should be the name of the sub-agency.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Elementary and Secondary Education",
+        "type": "open-ended",
+        "context": null
+    }
+]

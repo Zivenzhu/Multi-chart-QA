@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.03675v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixDeepFrame_cbarmax1_OverplotSpectralExtractionWidths_F277W.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixOutData_cbarmax6_OverplotSpectralExtractionWidths.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_CompareRefpix-BGSubtracted_Int0Gp8_idx008.png"
+        ],
+        "question": "What is the maximum value on the color bar in the second chart? Note that your final answer should be the maximum value explicitly written on the color bar. If the chart does not have a color bar, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03675v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixDeepFrame_cbarmax1_OverplotSpectralExtractionWidths_F277W.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixOutData_cbarmax6_OverplotSpectralExtractionWidths.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_CompareRefpix-BGSubtracted_Int0Gp8_idx008.png"
+        ],
+        "question": "1. How many distinct spectral traces are indicated in the first chart? Note that your final answer should be the total number of distinct spectral traces indicated by different colors or styles in the chart.\n2. What is the unit of measurement for the color bar in the third chart? Note that your final answer should be the unit explicitly written next to or on the color bar.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; DN",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03675v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixDeepFrame_cbarmax1_OverplotSpectralExtractionWidths_F277W.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixOutData_cbarmax6_OverplotSpectralExtractionWidths.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_CompareRefpix-BGSubtracted_Int0Gp8_idx008.png"
+        ],
+        "question": "Question: Which chart shows a more complex background pattern, indicating more variability in the data?\nNote that this is a choice question. Your final answer should be the chart that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.03675v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixDeepFrame_cbarmax1_OverplotSpectralExtractionWidths_F277W.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_BadPixOutData_cbarmax6_OverplotSpectralExtractionWidths.png",
+            "data/added_arxiv_2412.03675v1/W17b_NIRISS-SOSS_CompareRefpix-BGSubtracted_Int0Gp8_idx008.png"
+        ],
+        "question": "Question: Firstly extract the spectral order with the highest extraction width in the first chart. Then identify which integration is shown in the third chart's top subplot.\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Order 1, Integration 0",
+        "type": "open-ended",
+        "context": null
+    }
+]

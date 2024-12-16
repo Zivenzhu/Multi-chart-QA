@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_9_question_0",
+        "image": [
+            "data/added_usafacts_9/1.png",
+            "data/added_usafacts_9/2.png"
+        ],
+        "question": "What is the percentage of job growth attributed to small businesses in the first chart?\nNote that your answer should be a percentage explicitly shown in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "61.1%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_9_question_1",
+        "image": [
+            "data/added_usafacts_9/1.png",
+            "data/added_usafacts_9/2.png"
+        ],
+        "question": "What year is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2024",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_9_question_2",
+        "image": [
+            "data/added_usafacts_9/1.png",
+            "data/added_usafacts_9/2.png"
+        ],
+        "question": "Question: What is the primary focus of the first chart compared to the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Business size and employment\nB. Employment rates and business applications\nC. Job growth and economic impact\nD. Business applications and pandemic effects\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_9_question_3",
+        "image": [
+            "data/added_usafacts_9/1.png",
+            "data/added_usafacts_9/2.png"
+        ],
+        "question": "Firstly extract the percentage of total employment by small businesses in the first chart. \nThen, using this information, determine if high-propensity business applications are shown separately in the second chart.\nNote that your answer should be 'Yes' or 'No'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Yes",
+        "type": "open-ended",
+        "context": null
+    }
+]

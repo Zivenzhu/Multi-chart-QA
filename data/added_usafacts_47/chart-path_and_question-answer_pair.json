@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_usafacts_47_question_0",
+        "image": [
+            "data/added_usafacts_47/1.png",
+            "data/added_usafacts_47/2.png",
+            "data/added_usafacts_47/3.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "26",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_47_question_1",
+        "image": [
+            "data/added_usafacts_47/1.png",
+            "data/added_usafacts_47/2.png",
+            "data/added_usafacts_47/3.png"
+        ],
+        "question": "What is the spatially highest labeled tick on the vertical axis in the second chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "220K",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_47_question_2",
+        "image": [
+            "data/added_usafacts_47/1.png",
+            "data/added_usafacts_47/2.png",
+            "data/added_usafacts_47/3.png"
+        ],
+        "question": "Question: Which year is significant across all three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2018\nB. 2020\nC. 2019\nD. 2021\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_47_question_3",
+        "image": [
+            "data/added_usafacts_47/1.png",
+            "data/added_usafacts_47/2.png",
+            "data/added_usafacts_47/3.png"
+        ],
+        "question": "Question: Firstly extract the type of vehicle that showed the highest sales figure in 2021 in the first chart.\nThen in which year did the Toyota RAV4 overtake the Toyota Prius as the most common hybrid EV in the market according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2019",
+        "type": "open-ended",
+        "context": null
+    }
+]

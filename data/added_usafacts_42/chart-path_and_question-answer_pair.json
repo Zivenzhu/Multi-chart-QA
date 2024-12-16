@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_42_question_0",
+        "image": [
+            "data/added_usafacts_42/1.png",
+            "data/added_usafacts_42/2.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "20",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_42_question_1",
+        "image": [
+            "data/added_usafacts_42/1.png",
+            "data/added_usafacts_42/2.png"
+        ],
+        "question": "1. How many colours are used for the bars in the second chart? \nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. \n2. What is the rightmost labeled tick on the horizontal axis in the first chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 2022",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_42_question_2",
+        "image": [
+            "data/added_usafacts_42/1.png",
+            "data/added_usafacts_42/2.png"
+        ],
+        "question": "Question: What key trend is common between the two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increase in voter turnout over time\nB. Racial disparities in voting trends\nC. Midterm elections have higher turnout than presidential elections\nD. Voting rates have decreased over time\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_42_question_3",
+        "image": [
+            "data/added_usafacts_42/1.png",
+            "data/added_usafacts_42/2.png"
+        ],
+        "question": "Firstly identify the year with the highest voter turnout in presidential elections from the first chart. Then, for this year, what is the total voter turnout percentage reported in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2020, 66.8%",
+        "type": "open-ended",
+        "context": null
+    }
+]

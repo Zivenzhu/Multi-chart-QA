@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_14_question_0",
+        "image": [
+            "data/added_gallup_14/1.png",
+            "data/added_gallup_14/2.png",
+            "data/added_gallup_14/3.png"
+        ],
+        "question": "What is the percentage of people who believe children are treated with respect and dignity in Vietnam according to the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "94",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_14_question_1",
+        "image": [
+            "data/added_gallup_14/1.png",
+            "data/added_gallup_14/2.png",
+            "data/added_gallup_14/3.png"
+        ],
+        "question": "What is the country with the lowest percentage of people who believe children have opportunities to learn and grow in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Yemen",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_14_question_2",
+        "image": [
+            "data/added_gallup_14/1.png",
+            "data/added_gallup_14/2.png",
+            "data/added_gallup_14/3.png"
+        ],
+        "question": "Question: How many countries appear in both the 'Most likely' lists of the first and second charts?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_14_question_3",
+        "image": [
+            "data/added_gallup_14/1.png",
+            "data/added_gallup_14/2.png",
+            "data/added_gallup_14/3.png"
+        ],
+        "question": "Question: Firstly extract the percentage of people in Saudi Arabia who believe children are treated with respect and dignity from the first chart. \nThen compare it to the percentage of people who believe children have opportunities to learn and grow in Saudi Arabia from the third chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "97; 92",
+        "type": "open-ended",
+        "context": null
+    }
+]

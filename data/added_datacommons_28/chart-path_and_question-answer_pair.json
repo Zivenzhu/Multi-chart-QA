@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_28_question_0",
+        "image": [
+            "data/added_datacommons_28/1.png",
+            "data/added_datacommons_28/2.png",
+            "data/added_datacommons_28/3.png"
+        ],
+        "question": "What is the highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
+        "answer": "700",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_28_question_1",
+        "image": [
+            "data/added_datacommons_28/1.png",
+            "data/added_datacommons_28/2.png",
+            "data/added_datacommons_28/3.png"
+        ],
+        "question": "1. What is the source of data for the first chart? \nNote that your answer should be the text explicitly written as the data source in the chart. \n2. What is the source of data for the second chart?\nNote that your answer should be the text explicitly written as the data source in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "aqs.epa.gov; data.cdc.gov",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_28_question_2",
+        "image": [
+            "data/added_datacommons_28/1.png",
+            "data/added_datacommons_28/2.png",
+            "data/added_datacommons_28/3.png"
+        ],
+        "question": "Question: Which chart shows data related to PM 2.5 concentration?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_28_question_3",
+        "image": [
+            "data/added_datacommons_28/1.png",
+            "data/added_datacommons_28/2.png",
+            "data/added_datacommons_28/3.png"
+        ],
+        "question": "Firstly extract the year when the Air Quality Index reached its peak in the first chart.\nThen find the maximum ozone concentration in parts per billion (ppb) for that year in the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1980s; 120 ppb",
+        "type": "open-ended",
+        "context": null
+    }
+]

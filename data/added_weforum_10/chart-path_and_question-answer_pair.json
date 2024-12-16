@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_10_question_0",
+        "image": [
+            "data/added_weforum_10/1.png",
+            "data/added_weforum_10/2.png"
+        ],
+        "question": "What is the measles vaccine coverage percentage in the Americas in 2020 according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "73",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_10_question_1",
+        "image": [
+            "data/added_weforum_10/1.png",
+            "data/added_weforum_10/2.png"
+        ],
+        "question": "1. How many WHO regions are listed in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. What is the year range shown on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6; 1980 to 2021",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_10_question_2",
+        "image": [
+            "data/added_weforum_10/1.png",
+            "data/added_weforum_10/2.png"
+        ],
+        "question": "Question: Which chart provides information specifically about measles vaccinations?\nNote that this is a choice question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Both charts\nD. Neither chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_10_question_3",
+        "image": [
+            "data/added_weforum_10/1.png",
+            "data/added_weforum_10/2.png"
+        ],
+        "question": "Firstly, identify the region with the lowest measles vaccine coverage in 2000 from the first chart. Then, determine the number of one-year-olds vaccinated against measles in 2000 from the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Western Pacific; Approximately 40 million",
+        "type": "open-ended",
+        "context": null
+    }
+]

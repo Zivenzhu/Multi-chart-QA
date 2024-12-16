@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_17_question_0",
+        "image": [
+            "data/added_usafacts_17/1.png",
+            "data/added_usafacts_17/2.png"
+        ],
+        "question": "What percentage of parents considered 'teachers and staff' very important when choosing schools for private, nonreligious schools in the second chart? \nNote that Your final answer should be the percentage value that is explicitly written in the chart.\nAnswer: The_answer_you_get",
+        "answer": "92%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_17_question_1",
+        "image": [
+            "data/added_usafacts_17/1.png",
+            "data/added_usafacts_17/2.png"
+        ],
+        "question": "1. What is the percentage of parents who considered switching schools for students in private, religious schools in the first chart? \nNote that Your final answer should be the percentage value that is explicitly written in the chart.\n2. What is the percentage of parents who considered 'academic performance' very important for public, assigned schools in the second chart?\nNote that Your final answer should be the percentage value that is explicitly written in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "50%; 53%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_17_question_2",
+        "image": [
+            "data/added_usafacts_17/1.png",
+            "data/added_usafacts_17/2.png"
+        ],
+        "question": "Question: Which school type had the highest percentage of parents considering 'teachers and staff' as very important when considering school changes in the second chart, and which school type had the highest percentage of parents considering switching schools in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Public, assigned; Private, nonreligious\nB. Private, nonreligious; Private, religious\nC. Private, nonreligious; Public, assigned\nD. Public, chosen; Private, religious\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_17_question_3",
+        "image": [
+            "data/added_usafacts_17/1.png",
+            "data/added_usafacts_17/2.png"
+        ],
+        "question": "Question: Firstly identify the school type with the lowest percentage of parents considering school switching in the first chart.\nThen, for this school type, what percentage of parents considered 'curriculum, academics' very important in the second chart?\nNote that your answer should be a percentage value.\nAnswer: The_answer_you_get",
+        "answer": "58%",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_gallup_9_question_0",
+        "image": [
+            "data/added_gallup_9/1.png",
+            "data/added_gallup_9/2.png",
+            "data/added_gallup_9/3.png"
+        ],
+        "question": "What is the lowest percentage shown on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_9_question_1",
+        "image": [
+            "data/added_gallup_9/1.png",
+            "data/added_gallup_9/2.png",
+            "data/added_gallup_9/3.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "12; 8",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_9_question_2",
+        "image": [
+            "data/added_gallup_9/1.png",
+            "data/added_gallup_9/2.png",
+            "data/added_gallup_9/3.png"
+        ],
+        "question": "Question: What are the two keywords most relevant to these three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Expectation and Reality\nB. Age and Gender\nC. Health and Wellness\nD. Technology and Innovation\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_9_question_3",
+        "image": [
+            "data/added_gallup_9/1.png",
+            "data/added_gallup_9/2.png",
+            "data/added_gallup_9/3.png"
+        ],
+        "question": "Question: Firstly, identify the percentage of nonretirees aged 45-60 projecting comfort in retirement based on the second chart.\nThen, find this percentage on the vertical axis in the first chart and determine the approximate year when it was closest to the 'Reality' line.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2008",
+        "type": "open-ended",
+        "context": null
+    }
+]

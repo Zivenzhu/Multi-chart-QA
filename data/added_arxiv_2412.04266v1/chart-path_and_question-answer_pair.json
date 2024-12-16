@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.04266v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.04266v1/post_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_cross_attn_IE.png"
+        ],
+        "question": "What is the information entropy value for the 6th decoder layer in the third chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "4.5",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.04266v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.04266v1/post_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_cross_attn_IE.png"
+        ],
+        "question": "1. What is the highest value on the vertical axis in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "7; 6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.04266v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.04266v1/post_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_cross_attn_IE.png"
+        ],
+        "question": "Question: What are the two keywords most relevant to the first and second charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Revenue and Profit\nB. Information Entropy and Layers\nC. Sales and Growth\nD. Performance and Metrics\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "A",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.04266v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.04266v1/post_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_bleu.png",
+            "data/added_arxiv_2412.04266v1/pre_cross_attn_IE.png"
+        ],
+        "question": "Firstly, identify the decoder layer with the lowest information entropy value in the third chart.\nThen, what is the corresponding value of the green bar for this decoder layer in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "4.32",
+        "type": "open-ended",
+        "context": null
+    }
+]

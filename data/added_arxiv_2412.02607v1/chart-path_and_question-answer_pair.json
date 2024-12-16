@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.02607v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.02607v1/DD_plot.png",
+            "data/added_arxiv_2412.02607v1/cos_mdm_theta_01.png",
+            "data/added_arxiv_2412.02607v1/ctau.png"
+        ],
+        "question": "What is the lowest labeled tick on the vertical axis in the first chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.1",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02607v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.02607v1/DD_plot.png",
+            "data/added_arxiv_2412.02607v1/cos_mdm_theta_01.png",
+            "data/added_arxiv_2412.02607v1/ctau.png"
+        ],
+        "question": "1. What is the total number of explicitly labeled ticks across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 1000",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02607v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.02607v1/DD_plot.png",
+            "data/added_arxiv_2412.02607v1/cos_mdm_theta_01.png",
+            "data/added_arxiv_2412.02607v1/ctau.png"
+        ],
+        "question": "Question: What is the common physical property represented by the color gradients in the first and second charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Temperature\nB. Density\nC. Angle\nD. Velocity\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02607v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.02607v1/DD_plot.png",
+            "data/added_arxiv_2412.02607v1/cos_mdm_theta_01.png",
+            "data/added_arxiv_2412.02607v1/ctau.png"
+        ],
+        "question": "Question: Firstly extract the threshold value marked by the solid line in the first chart. \nThen, using this threshold value, determine whether the highest labeled tick on the vertical axis in the third chart is above or below this threshold.\nNote that your answer should be either 'Above' or 'Below'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Below",
+        "type": "open-ended",
+        "context": null
+    }
+]

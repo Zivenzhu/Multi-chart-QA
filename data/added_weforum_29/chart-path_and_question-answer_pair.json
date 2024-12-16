@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_29_question_0",
+        "image": [
+            "data/added_weforum_29/1.png",
+            "data/added_weforum_29/2.png",
+            "data/added_weforum_29/3.png"
+        ],
+        "question": "What percentage of respondents identified 'Extreme weather' as a global risk in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "66%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_29_question_1",
+        "image": [
+            "data/added_weforum_29/1.png",
+            "data/added_weforum_29/2.png",
+            "data/added_weforum_29/3.png"
+        ],
+        "question": "1. What is the number of disasters categorized as 'Flood' in the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "164; 12",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_29_question_2",
+        "image": [
+            "data/added_weforum_29/1.png",
+            "data/added_weforum_29/2.png",
+            "data/added_weforum_29/3.png"
+        ],
+        "question": "Question: Which chart most directly relates to environmental concerns?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The first chart\nB. The second chart\nC. The third chart\nD. All of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_29_question_3",
+        "image": [
+            "data/added_weforum_29/1.png",
+            "data/added_weforum_29/2.png",
+            "data/added_weforum_29/3.png"
+        ],
+        "question": "Question: Firstly, identify the risk category for 'Cyberattacks' from the first chart. \nThen, which type of natural disaster has the least occurrences in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Technological; Volcanic activity",
+        "type": "open-ended",
+        "context": null
+    }
+]

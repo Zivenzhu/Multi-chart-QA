@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_usafacts_2_question_0",
+        "image": [
+            "data/added_usafacts_2/1.png",
+            "data/added_usafacts_2/2.png"
+        ],
+        "question": "What is the total aid in billions of inflation-adjusted dollars given to Egypt since FY 2001 according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "45.8",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_2_question_1",
+        "image": [
+            "data/added_usafacts_2/1.png",
+            "data/added_usafacts_2/2.png"
+        ],
+        "question": "What is the darkest shade representing in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "$500M",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_2_question_2",
+        "image": [
+            "data/added_usafacts_2/1.png",
+            "data/added_usafacts_2/2.png"
+        ],
+        "question": "Question: Which country received the most US foreign aid according to the first chart, and what is the corresponding range of aid this country received in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Afghanistan; $500M",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_2_question_3",
+        "image": [
+            "data/added_usafacts_2/1.png",
+            "data/added_usafacts_2/2.png"
+        ],
+        "question": "Question: Firstly identify a country that received $15.4B in aid from the first chart. Then, determine the shade range this country falls into on the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Kenya; $500M",
+        "type": "open-ended",
+        "context": null
+    }
+]

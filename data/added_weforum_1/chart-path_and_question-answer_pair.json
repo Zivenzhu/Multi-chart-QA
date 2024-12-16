@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_weforum_1_question_0",
+        "image": [
+            "data/added_weforum_1/1.png",
+            "data/added_weforum_1/2.png"
+        ],
+        "question": "What is the total change in employment in 2050 for the 'Other green jobs' sector in the first chart? Note that your final answer should be the value explicitly written for the 'Other green jobs' in 2050 in the first chart. If the chart does not have explicit labeled values, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "172",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_1_question_1",
+        "image": [
+            "data/added_weforum_1/1.png",
+            "data/added_weforum_1/2.png"
+        ],
+        "question": "1. How many labeled ticks are there on the vertical axis in the first chart? Note that your final answer should be the total number of labeled ticks on the vertical axis. If the chart does not have explicit labeled ticks, answer '0'.\n2. What is the value of the 'Gray jobs' sector in 2040 in the second chart? Note that your final answer should be the value explicitly written for the 'Gray jobs' in 2040 in the second chart. If the chart does not have explicit labeled values, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "6; -52",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_1_question_2",
+        "image": [
+            "data/added_weforum_1/1.png",
+            "data/added_weforum_1/2.png"
+        ],
+        "question": "Question: Which sector shows a decrease in employment from 2030 to 2050 in both charts?\nNote that this is a choice question. Your answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Green jobs\nB. Gray jobs\nC. Other green jobs\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_1_question_3",
+        "image": [
+            "data/added_weforum_1/1.png",
+            "data/added_weforum_1/2.png"
+        ],
+        "question": "Firstly, determine the total employment change in 2040 for the 'Green jobs' sector in the first chart. Then, using this information, identify whether the 'Green jobs' sector in 2040 in the second chart has a larger, smaller, or equal change compared to the first chart.\nNote that your answer format should be as follows: Answer: Larger/Smaller/Equal.",
+        "answer": "Equal",
+        "type": "open-ended",
+        "context": null
+    }
+]

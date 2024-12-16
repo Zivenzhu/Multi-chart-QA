@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.09720v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.09720v1/fig9_spmontage.png",
+            "data/added_arxiv_2412.09720v1/plot_RVcurve_V447Sct.png",
+            "data/added_arxiv_2412.09720v1/plot_orbit_V742Cas.png"
+        ],
+        "question": "What is the wavelength range covered in the first chart? \nNote that Your final answer should be the numerical range of the horizontal axis in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4230 Å to 6400 Å",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09720v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.09720v1/fig9_spmontage.png",
+            "data/added_arxiv_2412.09720v1/plot_RVcurve_V447Sct.png",
+            "data/added_arxiv_2412.09720v1/plot_orbit_V742Cas.png"
+        ],
+        "question": "How many explicitly labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09720v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.09720v1/fig9_spmontage.png",
+            "data/added_arxiv_2412.09720v1/plot_RVcurve_V447Sct.png",
+            "data/added_arxiv_2412.09720v1/plot_orbit_V742Cas.png"
+        ],
+        "question": "1. What is the highest value on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many distinct colors are used for the data points in the third chart?\nNote that Your final answer should be the total number of distinct colors used for the data points in the chart across multiple subplots. Note that If the plot is not considered a scatter plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "120 km/s; 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.09720v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.09720v1/fig9_spmontage.png",
+            "data/added_arxiv_2412.09720v1/plot_RVcurve_V447Sct.png",
+            "data/added_arxiv_2412.09720v1/plot_orbit_V742Cas.png"
+        ],
+        "question": "Firstly, identify the element with the label 'Si2' in the first chart. \nThen, find the range of the phase where RV (Radial Velocity) is less than 0 in the second chart.\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Si2 is labeled at wavelengths 6340 Å and 6380 Å; Phase range 0.0 to 0.4",
+        "type": "open-ended",
+        "context": null
+    }
+]

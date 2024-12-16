@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_arxiv_2412.02847v1_question_0",
+        "image": [
+            "data/added_arxiv_2412.02847v1/BigMoonPop1.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop1g.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop2.png"
+        ],
+        "question": "What is the label of the vertical axis in the first chart? Note that Your final answer should be the label of the vertical axis that is explicitly written. If the chart does not have a label on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Answer: amoon, init (AU)",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02847v1_question_1",
+        "image": [
+            "data/added_arxiv_2412.02847v1/BigMoonPop1.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop1g.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop2.png"
+        ],
+        "question": "How many distinct outcomes are indicated in the legend of the second chart? Note that Your final answer should be the total number of distinct outcomes indicated in the legend of the chart. If the chart does not have a legend, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Answer: 3",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02847v1_question_2",
+        "image": [
+            "data/added_arxiv_2412.02847v1/BigMoonPop1.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop1g.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop2.png"
+        ],
+        "question": "Question: Which term appears in the legend of both the second and third charts? Note that your answer should be a single word that appears in the legend of both charts. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Answer: smoon",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2412.02847v1_question_3",
+        "image": [
+            "data/added_arxiv_2412.02847v1/BigMoonPop1.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop1g.png",
+            "data/added_arxiv_2412.02847v1/BigMoonPop2.png"
+        ],
+        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the label of the horizontal axis in the third chart?\nNote that Your final answer should be the label of the horizontal axis that is explicitly written. If the chart does not have a label on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "Answer: 5; abin (AU)",
+        "type": "open-ended",
+        "context": null
+    }
+]

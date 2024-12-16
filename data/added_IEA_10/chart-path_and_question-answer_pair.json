@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_10_question_0",
+        "image": [
+            "data/added_IEA_10/1.png",
+            "data/added_IEA_10/2.png"
+        ],
+        "question": "What is the category with the smallest segment in the first chart? Note that your final answer should be the category label explicitly written on the chart. If multiple categories have the same size, list all of them. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Desalination",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_10_question_1",
+        "image": [
+            "data/added_IEA_10/1.png",
+            "data/added_IEA_10/2.png"
+        ],
+        "question": "What is the leftmost labeled tick on the horizontal axis in the second chart? Note that your final answer should be the tick value on the horizontal axis that is explicitly written. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "India",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_10_question_2",
+        "image": [
+            "data/added_IEA_10/1.png",
+            "data/added_IEA_10/2.png"
+        ],
+        "question": "Question: Which region shows a decrease in energy demand in the second chart and is also related to a category in the first chart?\nNote that your answer should be a region explicitly labeled in the second chart that is relevant to a category in the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Europe",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_10_question_3",
+        "image": [
+            "data/added_IEA_10/1.png",
+            "data/added_IEA_10/2.png"
+        ],
+        "question": "Question: Firstly extract the category with the largest segment in the first chart.\nThen which region shows the highest increase in energy demand in the second chart?\nNote that your answer should be a category from the first chart and a region from the second chart.\nNote that your answer format should be as follows: Answer: The_category_from_first_chart, The_region_from_second_chart",
+        "answer": "Electric vehicles, India",
+        "type": "open-ended",
+        "context": null
+    }
+]

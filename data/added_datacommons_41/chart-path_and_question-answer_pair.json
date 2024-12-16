@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_datacommons_41_question_0",
+        "image": [
+            "data/added_datacommons_41/1.png",
+            "data/added_datacommons_41/2.png",
+            "data/added_datacommons_41/3.png"
+        ],
+        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "10",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_41_question_1",
+        "image": [
+            "data/added_datacommons_41/1.png",
+            "data/added_datacommons_41/2.png",
+            "data/added_datacommons_41/3.png"
+        ],
+        "question": "What is the spatially highest labeled tick on the vertical axis in the second chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "2M",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_41_question_2",
+        "image": [
+            "data/added_datacommons_41/1.png",
+            "data/added_datacommons_41/2.png",
+            "data/added_datacommons_41/3.png"
+        ],
+        "question": "Question: Which group has the highest impoverished population in California in 2022 between the second and third charts? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Hispanic or Latino Americans",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_41_question_3",
+        "image": [
+            "data/added_datacommons_41/1.png",
+            "data/added_datacommons_41/2.png",
+            "data/added_datacommons_41/3.png"
+        ],
+        "question": "Firstly, what is the trend in the impoverished population for women in the first chart? Then, which racial group has the highest impoverished population in the second chart? Note that your answer format should be as follows: Answer: The_first_answer_you_get; The_second_answer_you_get.",
+        "answer": "Decreasing; Hispanic or Latino Americans",
+        "type": "open-ended",
+        "context": null
+    }
+]

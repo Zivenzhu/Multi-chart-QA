@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_39_question_0",
+        "image": [
+            "data/added_weforum_39/1.png",
+            "data/added_weforum_39/2.png",
+            "data/added_weforum_39/3.png"
+        ],
+        "question": "What is the projected global carbon credit market size in 2030 according to Morgan Stanley in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "100",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_39_question_1",
+        "image": [
+            "data/added_weforum_39/1.png",
+            "data/added_weforum_39/2.png",
+            "data/added_weforum_39/3.png"
+        ],
+        "question": "1. How many distinct color categories are used in the second chart for carbon potential?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "3; 0",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_39_question_2",
+        "image": [
+            "data/added_weforum_39/1.png",
+            "data/added_weforum_39/2.png",
+            "data/added_weforum_39/3.png"
+        ],
+        "question": "Question: Which chart provides information about specific countries?\nNote that this is a choice question. Your final answer should be either 'First chart', 'Second chart', or 'Third chart'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Second chart",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_39_question_3",
+        "image": [
+            "data/added_weforum_39/1.png",
+            "data/added_weforum_39/2.png",
+            "data/added_weforum_39/3.png"
+        ],
+        "question": "Question: Firstly extract the country with the highest carbon potential in the second chart. \nThen, how many projected scenarios are there for the global carbon credit market size in 2030 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Sudan; 5",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_13_question_0",
+        "image": [
+            "data/added_IEA_13/1.png",
+            "data/added_IEA_13/2.png"
+        ],
+        "question": "What is the share of total energy consumption for renewable fuels in 2023 in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5.0%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_13_question_1",
+        "image": [
+            "data/added_IEA_13/1.png",
+            "data/added_IEA_13/2.png"
+        ],
+        "question": "1. What is the renewable energy demand in Transport for 2030 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. How many sectors are labeled in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "22 EJ; 4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_13_question_2",
+        "image": [
+            "data/added_IEA_13/1.png",
+            "data/added_IEA_13/2.png"
+        ],
+        "question": "Which sector has the highest share of demand for renewable fuels in 2023 as shown in the second chart, and which sector sees the largest growth in renewable energy demand by 2030 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Industry; Industry",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_13_question_3",
+        "image": [
+            "data/added_IEA_13/1.png",
+            "data/added_IEA_13/2.png"
+        ],
+        "question": "Firstly identify the energy demand for Buildings in 2023 in the second chart. \nThen determine how much this demand grows by 2030 in the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7 EJ; 2 EJ",
+        "type": "open-ended",
+        "context": null
+    }
+]

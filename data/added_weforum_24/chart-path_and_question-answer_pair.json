@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_weforum_24_question_0",
+        "image": [
+            "data/added_weforum_24/1.png",
+            "data/added_weforum_24/2.png",
+            "data/added_weforum_24/3.png"
+        ],
+        "question": "What percentage of respondents currently feel that menopause symptoms affect their ability to do their job according to the first chart?\nNote that your answer should be a percentage.\nAnswer: The_answer_you_get",
+        "answer": "18%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_24_question_1",
+        "image": [
+            "data/added_weforum_24/1.png",
+            "data/added_weforum_24/2.png",
+            "data/added_weforum_24/3.png"
+        ],
+        "question": "1. How many categories are listed in the second chart regarding actions not taken by employers?\nNote that your answer should be the total number of categories.\n2. What percentage of women feel embarrassed to talk about their body in the third chart?\nNote that your answer should be a percentage.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 28%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_weforum_24_question_2",
+        "image": [
+            "data/added_weforum_24/1.png",
+            "data/added_weforum_24/2.png",
+            "data/added_weforum_24/3.png"
+        ],
+        "question": "Question: Which keyword is most relevant to both the first and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Employment\nB. Menopause\nC. Support\nD. Training\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_weforum_24_question_3",
+        "image": [
+            "data/added_weforum_24/1.png",
+            "data/added_weforum_24/2.png",
+            "data/added_weforum_24/3.png"
+        ],
+        "question": "Firstly, identify the percentage of respondents who did not have menopause training for all staff in the second chart.\nThen, what is the spatially highest labeled percentage in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "84%; 80%",
+        "type": "open-ended",
+        "context": null
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_IEA_26_question_0",
+        "image": [
+            "data/added_IEA_26/1.png",
+            "data/added_IEA_26/2.png"
+        ],
+        "question": "What is the share of digital jobs among total postings in all sectors for Singapore in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "12",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_26_question_1",
+        "image": [
+            "data/added_IEA_26/1.png",
+            "data/added_IEA_26/2.png"
+        ],
+        "question": "1. How many distinct colors are used for the dots in the first chart?\nNote that Your final answer should be the total number of colors used for the dots in the chart. \n2. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 0%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_26_question_2",
+        "image": [
+            "data/added_IEA_26/1.png",
+            "data/added_IEA_26/2.png"
+        ],
+        "question": "Question: Which country shows a strong economy-wide demand for digital profiles, including from utilities, according to the first chart, and what skill shows the highest demand in Q2 2023 according to the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. New Zealand and Telecommunications\nB. Singapore and Data analysis\nC. Portugal and Cybersecurity\nD. Australia and SQL\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_IEA_26_question_3",
+        "image": [
+            "data/added_IEA_26/1.png",
+            "data/added_IEA_26/2.png"
+        ],
+        "question": "Question: Firstly extract a country with a lower economy-wide demand for digital profiles, but opportunities among utilities from the first chart. \nThen, for this country, which digital skill is emphasized in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "United States; Data analysis",
+        "type": "open-ended",
+        "context": null
+    }
+]

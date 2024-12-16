@@ -1,0 +1,50 @@
+[
+    {
+        "id": "added_IEA_32_question_0",
+        "image": [
+            "data/added_IEA_32/1.png",
+            "data/added_IEA_32/2.png",
+            "data/added_IEA_32/3.png"
+        ],
+        "question": "What is the peak electricity demand index value for India in 2050 under the APS scenario in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_32_question_1",
+        "image": [
+            "data/added_IEA_32/1.png",
+            "data/added_IEA_32/2.png",
+            "data/added_IEA_32/3.png"
+        ],
+        "question": "What is the atmospheric methane concentration in 2020 according to the third chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1900",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_32_question_2",
+        "image": [
+            "data/added_IEA_32/1.png",
+            "data/added_IEA_32/2.png",
+            "data/added_IEA_32/3.png"
+        ],
+        "question": "Question: Which country or region shows the highest increase in peak electricity demand index from 2022 to 2050 under the STEPS scenario between the first and second charts? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "India",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_IEA_32_question_3",
+        "image": [
+            "data/added_IEA_32/1.png",
+            "data/added_IEA_32/2.png",
+            "data/added_IEA_32/3.png"
+        ],
+        "question": "Question: Firstly extract the year when the atmospheric methane concentration reached 1800 in the third chart.\nThen, in the second chart, which country or region had the most significant contribution to peak electricity demand from heating in 2050 under the APS scenario?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "European Union",
+        "type": "open-ended",
+        "context": null
+    }
+]

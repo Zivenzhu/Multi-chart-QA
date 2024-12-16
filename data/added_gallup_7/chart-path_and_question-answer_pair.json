@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_7_question_0",
+        "image": [
+            "data/added_gallup_7/1.png",
+            "data/added_gallup_7/2.png"
+        ],
+        "question": "What percentage of Black women are interested in starting a business according to the first chart? \nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
+        "answer": "57",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_7_question_1",
+        "image": [
+            "data/added_gallup_7/1.png",
+            "data/added_gallup_7/2.png"
+        ],
+        "question": "What is the percentage increase in satisfaction with the standard of living for women earning less than $60,000 who own a business compared to those who do not in the second chart?\nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
+        "answer": "+23",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_7_question_2",
+        "image": [
+            "data/added_gallup_7/1.png",
+            "data/added_gallup_7/2.png"
+        ],
+        "question": "Question: What are the two main topics discussed in these charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. \nA. Business Ownership and Health\nB. Entrepreneurship and Satisfaction\nC. Income Levels and Education\nD. Gender Equality and Employment\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_7_question_3",
+        "image": [
+            "data/added_gallup_7/1.png",
+            "data/added_gallup_7/2.png"
+        ],
+        "question": "Firstly, determine which group has the lowest interest in starting a business from the first chart. \nThen, for this group, identify their income category with the smallest increase in satisfaction with the standard of living in the second chart.\nNote that your answer should be a specific income range. \nAnswer: The_answer_you_get",
+        "answer": "Women, <$60,000",
+        "type": "open-ended",
+        "context": null
+    }
+]

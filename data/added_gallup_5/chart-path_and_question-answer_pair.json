@@ -1,0 +1,46 @@
+[
+    {
+        "id": "added_gallup_5_question_0",
+        "image": [
+            "data/added_gallup_5/1.png",
+            "data/added_gallup_5/2.png"
+        ],
+        "question": "What is the highest percentage of confidence in the president recorded in the first chart?\nNote that Your final answer should be the percentage value that is explicitly written.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "71%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_5_question_1",
+        "image": [
+            "data/added_gallup_5/1.png",
+            "data/added_gallup_5/2.png"
+        ],
+        "question": "What is the lowest percentage of confidence in the Fed Chair recorded in the second chart?\nNote that Your final answer should be the percentage value that is explicitly written.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "31%",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_gallup_5_question_2",
+        "image": [
+            "data/added_gallup_5/1.png",
+            "data/added_gallup_5/2.png"
+        ],
+        "question": "Question: Which chart shows a greater overall decline in confidence from 2001 to 2024?\nNote that this is a choice question. Your final answer should be either 'First chart' or 'Second chart'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "First chart",
+        "type": "multiple-choice",
+        "context": null
+    },
+    {
+        "id": "added_gallup_5_question_3",
+        "image": [
+            "data/added_gallup_5/1.png",
+            "data/added_gallup_5/2.png"
+        ],
+        "question": "Firstly, identify the president with the highest initial confidence percentage in the first chart.\nThen, what is the confidence percentage for the corresponding Fed Chair at the same starting year in the second chart?\nNote that The answer must include the confidence percentage in the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "71%",
+        "type": "open-ended",
+        "context": null
+    }
+]
