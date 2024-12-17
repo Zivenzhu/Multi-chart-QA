@@ -8,4 +8,5 @@ MultiChartQA is an extensive and demanding benchmark that features real-world ch
 
 ## Overview
 
-[View the MultiChartQA Example PDF](assets/method.pdf)
+![method_00](https://github.com/user-attachments/assets/99165254-bf8c-43a0-b62e-1ae5e0b9ebdf)
+
