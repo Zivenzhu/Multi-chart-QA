@@ -1,7 +1,0 @@
-Answer: Switzerland
-
-Answer: B; 99000
-
-Answer: 7
-
-Answer: 20%

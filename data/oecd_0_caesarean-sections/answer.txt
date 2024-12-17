@@ -1,7 +1,0 @@
-Answer: B
-
-Answer: 0; 1
-
-Answer: 5
-
-Answer: C

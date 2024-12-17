@@ -1,7 +1,0 @@
-Answer: Better
-
-Answer: Rep/lean Rep, Dem/lean Dem; 1
-
-Answer: 2
-
-Answer: 15

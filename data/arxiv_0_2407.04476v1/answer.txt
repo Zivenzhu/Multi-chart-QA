@@ -1,7 +1,0 @@
-Answer: 8
-
-Answer: 1
-
-Answer: 8; 6
-
-Answer: First; Second

@@ -1,7 +1,0 @@
-Answer: 100
-
-Answer: 7; Share of deaths that are registered, 2019
-
-Answer: 0%; 10
-
-Answer: 4

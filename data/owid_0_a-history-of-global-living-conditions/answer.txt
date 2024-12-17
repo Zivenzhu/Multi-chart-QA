@@ -1,7 +1,0 @@
-Answer: 1820
-
-Answer: A; D
-
-Answer: 4
-
-Answer: Lower than

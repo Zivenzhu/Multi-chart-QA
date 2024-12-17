@@ -1,7 +1,0 @@
-Answer: 1
-
-Answer: A; Gemma7B
-
-Answer: 1
-
-Answer: GPT3.5

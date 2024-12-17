@@ -1,7 +1,0 @@
-Answer: 1 by 1
-
-Answer: L_T = 155µm harmonic FL; 0.008
-
-Answer: 2
-
-Answer: Smaller; Same

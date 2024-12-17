@@ -1,7 +1,0 @@
-Answer: 20
-
-Answer: 40; 10; Finland
-
-Answer: 6
-
-Answer: 1

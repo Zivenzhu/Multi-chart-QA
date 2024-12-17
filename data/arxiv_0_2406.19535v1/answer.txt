@@ -1,7 +1,0 @@
-Answer: 4
-
-Answer: 12; 1
-
-Answer: 5
-
-Answer: Middle

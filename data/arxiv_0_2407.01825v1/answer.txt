@@ -1,7 +1,0 @@
-Answer: 1.0
-
-Answer: Exp Avg Gap AdamW, Exp Avg Gap SGDM, Avg Gap AdamW, Avg Gap SGDM; 5
-
-Answer: 6
-
-Answer: First

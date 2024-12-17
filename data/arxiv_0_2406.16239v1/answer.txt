@@ -1,7 +1,0 @@
-Answer: 3; 2
-
-Answer: 0
-
-Answer: CV SWKRLS-phase; CV SWKRLS
-
-Answer: 10^-5

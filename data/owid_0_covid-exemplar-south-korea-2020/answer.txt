@@ -1,7 +1,0 @@
-Answer: A
-
-Answer: 50; 100
-
-Answer: C
-
-Answer: B; Mar 21, 2020

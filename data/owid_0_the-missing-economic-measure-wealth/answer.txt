@@ -1,7 +1,0 @@
-Answer: 1900
-
-Answer: 3,000; 20,000
-
-Answer: 3
-
-Answer: Portugal; United States

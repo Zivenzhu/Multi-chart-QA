@@ -1,7 +1,0 @@
-Answer: Japan
-
-Answer: 0; OECD - Average
-
-Answer: 4
-
-Answer: 2

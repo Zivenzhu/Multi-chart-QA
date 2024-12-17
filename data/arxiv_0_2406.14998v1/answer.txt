@@ -1,7 +1,0 @@
-Answer: A; 0.4
-
-Answer: 4
-
-Answer: 2.5
-
-Answer: B

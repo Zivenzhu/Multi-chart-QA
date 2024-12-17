@@ -1,7 +1,0 @@
-Answer: A
-
-Answer: 12; C
-
-Answer: 1
-
-Answer: Partially Mixing; C

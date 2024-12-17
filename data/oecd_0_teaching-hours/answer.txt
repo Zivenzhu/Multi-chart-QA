@@ -1,7 +1,0 @@
-Answer: 25
-
-Answer: A; 1250
-
-Answer: 11
-
-Answer: Fourth

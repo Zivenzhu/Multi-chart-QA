@@ -1,7 +1,0 @@
-Answer: 18
-
-Answer: B; 9.8
-
-Answer: 4
-
-Answer: A

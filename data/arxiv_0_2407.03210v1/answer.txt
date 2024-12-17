@@ -1,7 +1,0 @@
-Answer: 1
-
-Answer: 0.004; 33
-
-Answer: 9
-
-Answer: First

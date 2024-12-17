@@ -1,7 +1,0 @@
-Answer: B
-
-Answer: 23; 0
-
-Answer: 9
-
-Answer: First

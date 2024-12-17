@@ -1,7 +1,0 @@
-Answer: 20
-
-Answer: 5; Very/Somewhat pessimistic
-
-Answer: B
-
-Answer: 48

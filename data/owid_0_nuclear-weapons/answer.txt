@@ -1,7 +1,0 @@
-Answer: Deployed strategic warheads, Deployed nonstrategic warheads, Nondeployed warheads, Retired warheads
-
-Answer: 3; Russia
-
-Answer: 9
-
-Answer: 4; United States

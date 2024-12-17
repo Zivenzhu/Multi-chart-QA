@@ -1,7 +1,0 @@
-Answer: 1BB-1F, 2BB-1F, 2BB-2F
-
-Answer: 1.50; D
-
-Answer: 3
-
-Answer: Yes, 1.0.

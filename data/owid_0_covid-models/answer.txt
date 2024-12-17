@@ -1,7 +1,0 @@
-Answer: 2
-
-Answer: 11; 60
-
-Answer: 4
-
-Answer: Lower; IHME (mean)

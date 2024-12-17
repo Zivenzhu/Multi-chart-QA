@@ -1,7 +1,0 @@
-Answer: 24; WD: 5e-4
-
-Answer: 7
-
-Answer: SimCLR; Weights /= 9
-
-Answer: 40

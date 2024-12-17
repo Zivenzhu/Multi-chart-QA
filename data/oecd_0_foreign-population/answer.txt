@@ -1,7 +1,0 @@
-Answer: 0
-
-Answer: C; 50
-
-Answer: 6
-
-Answer: 8

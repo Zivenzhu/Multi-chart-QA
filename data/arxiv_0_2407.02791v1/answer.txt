@@ -1,7 +1,0 @@
-Answer: A
-
-Answer: 28; 2; 4
-
-Answer: 0
-
-Answer: GPT4(chatbot); w/o Input events generation

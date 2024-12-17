@@ -1,7 +1,0 @@
-Answer: 4900
-
-Answer: 12; 3
-
-Answer: Visit 3n; A
-
-Answer: 6

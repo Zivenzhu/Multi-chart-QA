@@ -1,7 +1,0 @@
-Answer: C
-
-Answer: -0.35; -20
-
-Answer: 6
-
-Answer: 6

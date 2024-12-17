@@ -1,7 +1,0 @@
-Answer: 19; 0.3
-
-Answer: 5
-
-Answer: 2012
-
-Answer: 2012

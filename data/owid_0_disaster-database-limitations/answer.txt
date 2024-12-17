@@ -1,7 +1,0 @@
-Answer: 123
-
-Answer: 30; 20
-
-Answer: 6
-
-Answer: Medium

@@ -1,7 +1,0 @@
-Answer: 0; Cubic Rewards; 200
-
-Answer: 2
-
-Answer: 90
-
-Answer: 500

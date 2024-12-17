@@ -1,7 +1,0 @@
-Answer: 6
-
-Answer: A; D
-
-Answer: 2
-
-Answer: (4, 2); (1, 6)

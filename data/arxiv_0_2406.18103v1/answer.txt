@@ -1,7 +1,0 @@
-Answer: -2.0
-
-Answer: 1; 0.75
-
-Answer: 2
-
-Answer: 5

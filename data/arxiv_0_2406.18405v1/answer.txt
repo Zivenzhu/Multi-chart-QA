@@ -1,7 +1,0 @@
-Answer: 6
-
-Answer: 3 by 2; 6.67
-
-Answer: 2
-
-Answer: 0.8365

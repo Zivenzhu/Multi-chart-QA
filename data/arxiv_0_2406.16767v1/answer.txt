@@ -1,7 +1,0 @@
-Answer: gpt-3.5
-
-Answer: 2; human, gpt-3.5
-
-Answer: 4
-
-Answer: 4

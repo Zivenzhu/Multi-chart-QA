@@ -1,7 +1,0 @@
-Answer: 13
-
-Answer: Second
-
-Answer: Second
-
-Answer: 14

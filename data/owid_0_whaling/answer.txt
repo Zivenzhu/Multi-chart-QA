@@ -1,7 +1,0 @@
-Answer: 118
-
-Answer: 80,000; D
-
-Answer: 1
-
-Answer: 340,280

@@ -1,7 +1,0 @@
-Answer: 3
-
-Answer: A; 60
-
-Answer: 2
-
-Answer: Third; Second

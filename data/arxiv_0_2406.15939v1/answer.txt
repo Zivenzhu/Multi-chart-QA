@@ -1,7 +1,0 @@
-Answer: -0.6; 12; 0 
-
-Answer: 1
-
-Answer: Middle
-
-Answer: Left

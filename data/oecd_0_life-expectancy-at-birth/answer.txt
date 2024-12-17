@@ -1,7 +1,0 @@
-Answer: 16
-
-Answer: 25; 5
-
-Answer: 6
-
-Answer: True, 75

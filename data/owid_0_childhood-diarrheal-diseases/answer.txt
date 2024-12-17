@@ -1,7 +1,0 @@
-Answer: 9
-
-Answer: 100,000; 7
-
-Answer: 4
-
-Answer: D

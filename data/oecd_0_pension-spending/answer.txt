@@ -1,7 +1,0 @@
-Answer: 5
-
-Answer: Canada; 5
-
-Answer: 2
-
-Answer: 6

@@ -1,7 +1,0 @@
-Answer: 0
-
-Answer: 12; C
-
-Answer: 5
-
-Answer: 2022

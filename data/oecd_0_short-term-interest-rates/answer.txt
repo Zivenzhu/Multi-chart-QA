@@ -1,7 +1,0 @@
-Answer: Switzerland
-
-Answer: 2; Short-term interest rates
-
-Answer: 5
-
-Answer: -1

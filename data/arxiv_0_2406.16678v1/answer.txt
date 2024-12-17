@@ -1,7 +1,0 @@
-Answer: 2
-
-Answer: WtP
-
-Answer: OPUS100
-
-Answer: CODE-SWITCHING-CORRUPTED-ASR

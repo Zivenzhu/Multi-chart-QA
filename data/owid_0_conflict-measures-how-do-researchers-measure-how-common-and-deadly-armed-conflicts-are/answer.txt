@@ -1,7 +1,0 @@
-Answer: D
-
-Answer: 4; 10
-
-Answer: 5
-
-Answer: Third

@@ -1,7 +1,0 @@
-Answer: 0.0002
-
-Answer: C; 3.40
-
-Answer: 0
-
-Answer: 2

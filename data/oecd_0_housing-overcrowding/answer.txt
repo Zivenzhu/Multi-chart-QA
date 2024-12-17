@@ -1,7 +1,0 @@
-Answer: 17
-
-Answer: 29; 5
-
-Answer: 8
-
-Answer: 2015

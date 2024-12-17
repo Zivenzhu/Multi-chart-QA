@@ -1,7 +1,0 @@
-Answer: 52
-
-Answer: 4; 42
-
-Answer: 7
-
-Answer: 37

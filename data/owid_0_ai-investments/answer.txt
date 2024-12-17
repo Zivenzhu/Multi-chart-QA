@@ -1,7 +1,0 @@
-Answer: 2023
-
-Answer: D; 8
-
-Answer: 4
-
-Answer: NeurIPS; 2020

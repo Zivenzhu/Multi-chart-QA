@@ -1,7 +1,0 @@
-Answer: 0.1
-
-Answer: Mistral agreement; B
-
-Answer: 5
-
-Answer: Fourth

@@ -1,7 +1,0 @@
-Answer: 0.03
-
-Answer: B; 8
-
-Answer: 9
-
-Answer: Orange

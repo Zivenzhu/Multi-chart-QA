@@ -1,7 +1,0 @@
-Answer: Deaths from cancer
-
-Answer: 100; 0; 1
-
-Answer: 5
-
-Answer: C

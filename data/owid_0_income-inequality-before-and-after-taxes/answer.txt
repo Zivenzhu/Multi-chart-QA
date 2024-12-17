@@ -1,7 +1,0 @@
-Answer: 6
-
-Answer: 40; 0.4
-
-Answer: 7
-
-Answer: 20%

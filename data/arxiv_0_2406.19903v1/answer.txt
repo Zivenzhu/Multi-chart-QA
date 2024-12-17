@@ -1,7 +1,0 @@
-Answer: 4 by 3
-
-Answer: Two-step; 0.6
-
-Answer: 3
-
-Answer: Fourth

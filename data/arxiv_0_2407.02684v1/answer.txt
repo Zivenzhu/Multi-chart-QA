@@ -1,7 +1,0 @@
-Answer: 2.5
-
-Answer: B; 3.0
-
-Answer: 4; 3 by 3
-
-Answer: 1

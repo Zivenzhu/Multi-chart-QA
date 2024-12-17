@@ -1,7 +1,0 @@
-Answer: 0.0
-
-Answer: 0.5; Real Probability Density Functions
-
-Answer: 2
-
-Answer: 0.10

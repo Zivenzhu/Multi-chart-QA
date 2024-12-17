@@ -1,7 +1,0 @@
-Answer: 6
-
-Answer: 20; D
-
-Answer: 6
-
-Answer: First; Second

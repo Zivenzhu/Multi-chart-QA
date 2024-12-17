@@ -1,7 +1,0 @@
-Answer: 4G
-
-Answer: A; 10G; 5
-
-Answer: 5
-
-Answer: 2011

@@ -1,7 +1,0 @@
-Answer: 5,000
-
-Answer: Germany; Daily new confirmed COVID-19 cases and deaths, Germany
-
-Answer: 5
-
-Answer: D; Apr 10, 2020

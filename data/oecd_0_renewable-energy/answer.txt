@@ -1,7 +1,0 @@
-Answer: Korea
-
-Answer: 100; 19
-
-Answer: 10
-
-Answer: 3

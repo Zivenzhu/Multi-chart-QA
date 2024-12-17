@@ -1,7 +1,0 @@
-Answer: Belgium
-
-Answer: 9; 0.4
-
-Answer: 2
-
-Answer: Great Britain; 2000

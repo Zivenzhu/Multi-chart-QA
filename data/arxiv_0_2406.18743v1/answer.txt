@@ -1,7 +1,0 @@
-Answer: 10^44
-
-Answer: Grey; 1.5
-
-Answer: 5
-
-Answer: 10^-5

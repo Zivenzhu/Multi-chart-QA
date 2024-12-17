@@ -1,7 +1,0 @@
-Answer: Tax on corporate profits
-
-Answer: 12; 20; 0
-
-Answer: 4
-
-Answer: 1

@@ -1,7 +1,0 @@
-Answer: 10
-
-Answer: B; 40; 30
-
-Answer: 5
-
-Answer: 5

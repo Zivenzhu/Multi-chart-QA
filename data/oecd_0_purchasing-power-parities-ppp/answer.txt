@@ -1,7 +1,0 @@
-Answer: Purchasing power parities (PPP)
-
-Answer: 1000; 250
-
-Answer: 18; 0
-
-Answer: 8

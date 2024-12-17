@@ -1,7 +1,0 @@
-Answer: 28
-
-Answer: 9; 6
-
-Answer: A
-
-Answer: 3.36; Santa Clara County, CA (30%)

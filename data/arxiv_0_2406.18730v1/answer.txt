@@ -1,7 +1,0 @@
-Answer: 6
-
-Answer: 34; 1:1 line, This work, ULX from Fabrika+15; D
-
-Answer: 6
-
-Answer: -0.25

@@ -1,7 +1,0 @@
-Answer: C
-
-Answer: 17; 0
-
-Answer: 5
-
-Answer: 2020

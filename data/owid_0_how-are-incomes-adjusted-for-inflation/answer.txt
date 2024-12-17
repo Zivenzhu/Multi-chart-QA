@@ -1,7 +1,0 @@
-Answer: 500
-
-Answer: India; 3
-
-Answer: 2
-
-Answer: China; Real Average Weekly Wages

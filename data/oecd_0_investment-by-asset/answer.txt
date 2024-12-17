@@ -1,7 +1,0 @@
-Answer: Latvia
-
-Answer: 40; Investment by asset
-
-Answer: 5
-
-Answer: 1

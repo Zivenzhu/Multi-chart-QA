@@ -1,7 +1,0 @@
-Answer: 0.1
-
-Answer: 5; 5; 2
-
-Answer: 7
-
-Answer: C

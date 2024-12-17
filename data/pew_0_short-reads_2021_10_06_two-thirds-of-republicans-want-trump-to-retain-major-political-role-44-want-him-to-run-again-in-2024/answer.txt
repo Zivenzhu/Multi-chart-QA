@@ -1,7 +1,0 @@
-Answer: Not too accepting, Not at all accepting, Very accepting, Somewhat accepting 
-
-Answer: 4; 3
-
-Answer: 2
-
-Answer: 38

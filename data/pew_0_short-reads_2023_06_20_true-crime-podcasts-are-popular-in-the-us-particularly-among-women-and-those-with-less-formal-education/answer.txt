@@ -1,7 +1,0 @@
-Answer: Men, Women
-
-Answer: 8; 41
-
-Answer: 5
-
-Answer: Some college; 5

@@ -1,7 +1,0 @@
-Answer: A; C
-
-Answer: B
-
-Answer: 2010; Neonatal preterm birth
-
-Answer: 70+ year-olds; Malaria

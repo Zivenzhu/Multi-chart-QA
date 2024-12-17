@@ -1,7 +1,0 @@
-Answer: 80
-
-Answer: C; 2; D
-
-Answer: 7
-
-Answer: 1

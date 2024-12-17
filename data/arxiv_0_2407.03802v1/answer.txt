@@ -1,7 +1,0 @@
-Answer: T=0 K, T=100 K, T=200 K, T=300 K, T=400 K, T=500 K, T=600 K, T=700 K, T=800 K, T=900 K, T=1000 K
-
-Answer: 120; C
-
-Answer: 1; 70
-
-Answer: 6

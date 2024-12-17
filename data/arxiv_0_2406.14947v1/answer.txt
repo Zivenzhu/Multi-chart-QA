@@ -1,7 +1,0 @@
-Answer: A; 0.7
-
-Answer: 8
-
-Answer: inventec; FSMT
-
-Answer: LiCS

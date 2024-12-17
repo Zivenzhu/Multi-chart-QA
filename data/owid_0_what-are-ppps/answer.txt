@@ -1,7 +1,0 @@
-Answer: United States
-
-Answer: 99000; 2
-
-Answer: 7
-
-Answer: B

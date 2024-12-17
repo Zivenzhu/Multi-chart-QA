@@ -1,7 +1,0 @@
-Answer: 4
-
-Answer: C; 7
-
-Answer: 4
-
-Answer: 2000; 2

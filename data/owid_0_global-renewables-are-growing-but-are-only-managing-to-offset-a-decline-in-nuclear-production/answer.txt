@@ -1,7 +1,0 @@
-Answer: 2023
-
-Answer: A; D
-
-Answer: 4
-
-Answer: 2010; 2023

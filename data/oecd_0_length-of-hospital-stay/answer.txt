@@ -1,7 +1,0 @@
-Answer: Japan
-
-Answer: Length of hospital stay; 20
-
-Answer: 5
-
-Answer: 2

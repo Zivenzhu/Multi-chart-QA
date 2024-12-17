@@ -1,7 +1,0 @@
-Answer: D
-
-Answer: 11; 5
-
-Answer: 7; GDP per capita, 2022
-
-Answer: 6

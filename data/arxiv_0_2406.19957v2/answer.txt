@@ -1,7 +1,0 @@
-Answer: 7
-
-Answer: 21; 1
-
-Answer: 6
-
-Answer: A

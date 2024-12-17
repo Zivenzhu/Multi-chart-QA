@@ -1,7 +1,0 @@
-Answer: 1.0
-
-Answer: 2; 200
-
-Answer: 9
-
-Answer: 200; 1000

@@ -1,7 +1,0 @@
-Answer: 125
-
-Answer: 25; 6
-
-Answer: 6
-
-Answer: Second, 100

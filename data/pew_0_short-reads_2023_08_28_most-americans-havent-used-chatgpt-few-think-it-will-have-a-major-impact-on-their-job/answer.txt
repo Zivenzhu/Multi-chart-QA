@@ -1,7 +1,0 @@
-Answer: 65+
-
-Answer: 3; 16
-
-Answer: 7
-
-Answer: 29

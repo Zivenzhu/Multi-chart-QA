@@ -1,7 +1,0 @@
-Answer: Bladder; PTV70, PTV56, PTV52, SpinalCord, Larynx, Brainstem, OralCavity, ParotidLeft, ParotidRight, Body
-
-Answer: 6
-
-Answer: 20
-
-Answer: 40

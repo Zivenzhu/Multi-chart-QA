@@ -1,7 +1,0 @@
-Answer: Mexico
-
-Answer: 1; 25k; 18
-
-Answer: 5
-
-Answer: 125k

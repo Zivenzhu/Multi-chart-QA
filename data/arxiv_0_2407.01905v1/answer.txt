@@ -1,7 +1,0 @@
-Answer: 5
-
-Answer: 0.0; 10
-
-Answer: 5; Anomaly, Normal; C
-
-Answer: 6

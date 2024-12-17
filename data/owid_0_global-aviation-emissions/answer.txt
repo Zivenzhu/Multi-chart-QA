@@ -1,7 +1,0 @@
-Answer: 3 by 3
-
-Answer: 81; B
-
-Answer: 4
-
-Answer: CO₂ per unit energy (gCO₂eq per MJ); 2%
