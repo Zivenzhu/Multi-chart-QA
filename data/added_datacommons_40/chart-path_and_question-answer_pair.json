@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_40_question_0",
         "image": [
-            "data/added_datacommons_40/1.png",
-            "data/added_datacommons_40/2.png",
-            "data/added_datacommons_40/3.png"
+            "data\\added_datacommons_40\\1.png",
+            "data\\added_datacommons_40\\2.png",
+            "data\\added_datacommons_40\\3.png"
         ],
-        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "20",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_40_question_1",
         "image": [
-            "data/added_datacommons_40/1.png",
-            "data/added_datacommons_40/2.png",
-            "data/added_datacommons_40/3.png"
+            "data\\added_datacommons_40\\1.png",
+            "data\\added_datacommons_40\\2.png",
+            "data\\added_datacommons_40\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 0",
+        "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 0",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_40_question_2",
         "image": [
-            "data/added_datacommons_40/1.png",
-            "data/added_datacommons_40/2.png",
-            "data/added_datacommons_40/3.png"
+            "data\\added_datacommons_40\\1.png",
+            "data\\added_datacommons_40\\2.png",
+            "data\\added_datacommons_40\\3.png"
         ],
-        "question": "Question: Which chart has the highest median home value of housing unit displayed on the vertical axis?\nNote that your answer should be either 'first', 'second', or 'third'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "first",
+        "question": "Question: In the first and second charts, which chart has the largest area of the red cluster?\nNote that your answer should be either 'First' or 'Second''.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "First",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_40_question_3",
         "image": [
-            "data/added_datacommons_40/1.png",
-            "data/added_datacommons_40/2.png",
-            "data/added_datacommons_40/3.png"
+            "data\\added_datacommons_40\\1.png",
+            "data\\added_datacommons_40\\2.png",
+            "data\\added_datacommons_40\\3.png"
         ],
         "question": "Question: Firstly identify the range of high blood pressure percentage shown in the first chart.\nThen determine if this range is completely covered in the third chart.\nNote that your answer should be 'Yes' or 'No'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Yes",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

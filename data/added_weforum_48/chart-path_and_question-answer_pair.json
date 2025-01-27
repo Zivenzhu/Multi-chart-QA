@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_48_question_0",
         "image": [
-            "data/added_weforum_48/1.png",
-            "data/added_weforum_48/2.png",
-            "data/added_weforum_48/3.png"
+            "data\\added_weforum_48\\1.png",
+            "data\\added_weforum_48\\2.png",
+            "data\\added_weforum_48\\3.png"
         ],
-        "question": "What is the range of emissions for first-generation (1G) feedstocks in the first chart? \nNote that your final answer should include the range explicitly written in the chart.\nAnswer: The_answer_you_get",
+        "question": "Question: What is the range of emissions for first-generation (1G) feedstocks in the first chart? \nNote that your final answer should include the range explicitly written in the chart.\nAnswer: The_answer_you_get",
         "answer": "10-20",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_48_question_1",
         "image": [
-            "data/added_weforum_48/1.png",
-            "data/added_weforum_48/2.png",
-            "data/added_weforum_48/3.png"
+            "data\\added_weforum_48\\1.png",
+            "data\\added_weforum_48\\2.png",
+            "data\\added_weforum_48\\3.png"
         ],
-        "question": "1. How many distinct colors are used in the bars of the first chart?\nNote that your final answer should be the total number of distinct colors used for the bars in the chart. \n2. What is the commitment threshold value in the second and third charts?\nNote that your final answer should be the value of the red line representing the commitment threshold across the charts.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 30",
+        "question": "Question:\n1. How many distinct colors are used in the bars of the first chart?\nNote that your final answer should be the total number of distinct colors used for the bars in the chart. \n2. Which type of feedstock shows the greatest reduction in emissions when carbon capture is applied based on the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. HEFA\nB. Isobutanol AtJ\nC. Ethanol AtJ\nD. Microbiologic conversion\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; C",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_48_question_2",
         "image": [
-            "data/added_weforum_48/1.png",
-            "data/added_weforum_48/2.png",
-            "data/added_weforum_48/3.png"
+            "data\\added_weforum_48\\1.png",
+            "data\\added_weforum_48\\2.png",
+            "data\\added_weforum_48\\3.png"
         ],
-        "question": "Question: Which type of feedstock shows a greater reduction in emissions when carbon capture is applied based on the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. HEFA\nB. Isobutanol AtJ\nC. Ethanol AtJ\nD. Microbiologic conversion\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question: What is the commitment threshold value in the second and third charts?\nNote that your final answer should be the approximate value of the red line representing the commitment threshold across the charts. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "14",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_48_question_3",
         "image": [
-            "data/added_weforum_48/1.png",
-            "data/added_weforum_48/2.png",
-            "data/added_weforum_48/3.png"
+            "data\\added_weforum_48\\1.png",
+            "data\\added_weforum_48\\2.png",
+            "data\\added_weforum_48\\3.png"
         ],
-        "question": "Firstly, identify the feedstock with the highest default emissions in the second chart's HEFA section. \nThen, what is the impact of ILUC on this feedstock's emissions in the third chart?\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Palm oil; 77",
+        "question": "Question: Firstly, identify the feedstock with the highest default emissions in the HEFA section of the second chart. \nThen, what are the default emissions for this feedstock with **No land-use change** in the third chart?\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "37",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

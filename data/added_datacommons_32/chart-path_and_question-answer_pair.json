@@ -2,44 +2,48 @@
     {
         "id": "added_datacommons_32_question_0",
         "image": [
-            "data/added_datacommons_32/1.png",
-            "data/added_datacommons_32/2.png"
+            "data\\added_datacommons_32\\1.png",
+            "data\\added_datacommons_32\\2.png"
         ],
-        "question": "What is the horizontal axis label in the first chart? \nNote that Your final answer should be the label of the horizontal axis, including any units or scales that are written as part of the label. \nIf the chart does not have a horizontal axis label, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the horizontal axis label in the first chart? \nNote that Your final answer should be the label of the horizontal axis, including any units or scales that are written as part of the label. If the chart does not have a horizontal axis label, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "Asthma (%)",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_32_question_1",
         "image": [
-            "data/added_datacommons_32/1.png",
-            "data/added_datacommons_32/2.png"
+            "data\\added_datacommons_32\\1.png",
+            "data\\added_datacommons_32\\2.png"
         ],
-        "question": "How many labeled counties are there in the second chart?\nNote that Your final answer should be the total number of labeled counties in the chart. \nIf the chart does not have any labeled counties, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "3",
+        "question": "Question:\n1. How many labeled counties are there in the second chart?\nNote that Your final answer should be the total number of labeled counties in the chart. If the chart does not have any labeled counties, answer '0'. \n2. How many labeled counties are there in the first chart?\nNote that Your final answer should be the total number of labeled counties in the chart. If the chart does not have any labeled counties, answer '0'. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3; 1",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_32_question_2",
         "image": [
-            "data/added_datacommons_32/1.png",
-            "data/added_datacommons_32/2.png"
+            "data\\added_datacommons_32\\1.png",
+            "data\\added_datacommons_32\\2.png"
         ],
         "question": "Question: Which chart shows the higher range of PM2.5 concentrations?\nNote that your answer should be either 'First chart' or 'Second chart'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Second chart",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_32_question_3",
         "image": [
-            "data/added_datacommons_32/1.png",
-            "data/added_datacommons_32/2.png"
+            "data\\added_datacommons_32\\1.png",
+            "data\\added_datacommons_32\\2.png"
         ],
-        "question": "Question: Firstly identify the county with the highest asthma percentage in the first chart. \nThen determine if this county is also labeled in the second chart.\nNote that your answer should be either 'Yes' or 'No'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly identify the labeled county with the highest asthma percentage in the first chart. \nThen determine if this county is also labeled in the second chart.\nNote that your answer should be either 'Yes' or 'No'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "No",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

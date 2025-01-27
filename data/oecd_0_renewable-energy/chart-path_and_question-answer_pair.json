@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_117_question_0",
+        "id": "oecd_0_renewable-energy_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
         ],
         "question": "Question: Which country has the lowest percentage of renewable energy excluding solid biofuels in 2020 in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Korea",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_117_question_1",
+        "id": "oecd_0_renewable-energy_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
         ],
         "question": "Question: \n1. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many countries are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "100; 19",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_117_question_2",
+        "id": "oecd_0_renewable-energy_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
         ],
         "question": "Question: How many of the same countries are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same countries on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple countries from different subplots with the same name, count them as only one distinct country. If these two charts do not have identical countries on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "10",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_117_question_3",
+        "id": "oecd_0_renewable-energy_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
-            "modified_local_full_qa\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_23_50.044Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_25_19.369Z.png",
+            "data\\oecd_0_renewable-energy\\export-2024-07-25T07_26_30.635Z.png"
         ],
         "question": "Question: First, sort the countries on the horizontal tick in descending order based on the size of their renewable energy, with the larger countries placed on the left.\nThen traverse the sorted country list from left to right, and find the largest natural number n such that the leftmost n countries are the same and listed in the same order across all three charts.\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "3",

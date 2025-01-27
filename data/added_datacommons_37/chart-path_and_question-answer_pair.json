@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_37_question_0",
         "image": [
-            "data/added_datacommons_37/1.png",
-            "data/added_datacommons_37/2.png",
-            "data/added_datacommons_37/3.png"
+            "data\\added_datacommons_37\\1.png",
+            "data\\added_datacommons_37\\2.png",
+            "data\\added_datacommons_37\\3.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the third chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the third chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2022",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_37_question_1",
         "image": [
-            "data/added_datacommons_37/1.png",
-            "data/added_datacommons_37/2.png",
-            "data/added_datacommons_37/3.png"
+            "data\\added_datacommons_37\\1.png",
+            "data\\added_datacommons_37\\2.png",
+            "data\\added_datacommons_37\\3.png"
         ],
-        "question": "1. How many colors are used for the bars in the first chart? \nNote that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "10; 140K",
+        "question": "Question:\n1. How many colors are used for the bars in the first chart? \nNote that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "12; 140K",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_37_question_2",
         "image": [
-            "data/added_datacommons_37/1.png",
-            "data/added_datacommons_37/2.png",
-            "data/added_datacommons_37/3.png"
+            "data\\added_datacommons_37\\1.png",
+            "data\\added_datacommons_37\\2.png",
+            "data\\added_datacommons_37\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Commute and Time\nB. Transportation and Distance\nC. Work and Mode\nD. Population and Employment\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Population and Employment\nB. Transportation and Distance\nC. Work and Mode\nD. Commute and Time\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_37_question_3",
         "image": [
-            "data/added_datacommons_37/1.png",
-            "data/added_datacommons_37/2.png",
-            "data/added_datacommons_37/3.png"
+            "data\\added_datacommons_37\\1.png",
+            "data\\added_datacommons_37\\2.png",
+            "data\\added_datacommons_37\\3.png"
         ],
-        "question": "Question: Firstly extract the mode of commute with the highest number in the second chart. \nThen what is the corresponding mean commute time in minutes in the third chart?\nNote that your answer should be an integer or decimal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "30",
+        "question": "Question: Firstly, in the third chart, find the Mean Commute Time for 2016, and denote it as t0.\nThen, in the first chart, locate the bar corresponding to the interval that contains t0. What is the rank of this bar's height?\nNote that your answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "First",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

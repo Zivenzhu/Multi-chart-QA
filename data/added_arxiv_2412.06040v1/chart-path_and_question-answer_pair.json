@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.06040v1_question_0",
         "image": [
-            "data/added_arxiv_2412.06040v1/s1group_col.png",
-            "data/added_arxiv_2412.06040v1/s2agent_col.png",
-            "data/added_arxiv_2412.06040v1/s2group_col.png"
+            "data\\added_arxiv_2412.06040v1\\1.png",
+            "data\\added_arxiv_2412.06040v1\\2.png",
+            "data\\added_arxiv_2412.06040v1\\3.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Neutral",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.06040v1_question_1",
         "image": [
-            "data/added_arxiv_2412.06040v1/s1group_col.png",
-            "data/added_arxiv_2412.06040v1/s2agent_col.png",
-            "data/added_arxiv_2412.06040v1/s2group_col.png"
+            "data\\added_arxiv_2412.06040v1\\1.png",
+            "data\\added_arxiv_2412.06040v1\\2.png",
+            "data\\added_arxiv_2412.06040v1\\3.png"
         ],
-        "question": "1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "6; 12",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.06040v1_question_2",
         "image": [
-            "data/added_arxiv_2412.06040v1/s1group_col.png",
-            "data/added_arxiv_2412.06040v1/s2agent_col.png",
-            "data/added_arxiv_2412.06040v1/s2group_col.png"
+            "data\\added_arxiv_2412.06040v1\\1.png",
+            "data\\added_arxiv_2412.06040v1\\2.png",
+            "data\\added_arxiv_2412.06040v1\\3.png"
         ],
-        "question": "Question: What are the two main categories being compared across all charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Chatbots and Human Assistants\nB. AI and Humans\nC. Negative and Positive Moral Agency\nD. Immoral and Neutral Actions\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "question": "Question: What are the two main categories being compared across all charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Chatbots and Human Assistants\nB. AI and Humans\nC. Immoral and Neutral Actions\nD. Negative and Positive Moral Agency\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.06040v1_question_3",
         "image": [
-            "data/added_arxiv_2412.06040v1/s1group_col.png",
-            "data/added_arxiv_2412.06040v1/s2agent_col.png",
-            "data/added_arxiv_2412.06040v1/s2group_col.png"
+            "data\\added_arxiv_2412.06040v1\\1.png",
+            "data\\added_arxiv_2412.06040v1\\2.png",
+            "data\\added_arxiv_2412.06040v1\\3.png"
         ],
-        "question": "Question: Firstly extract the label on the horizontal axis that appears in both the first and third charts. \nThen in the second chart, what is the spatially lowest labeled tick on the vertical axis?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Immoral; 0",
+        "question": "Question: First, in the sub-chart of *Agent's negative moral agency* in the second chart, find the type of AI with the highest negative moral agency and denote it as \\( c_0 \\).  \nThen, in the sub-chart of *Group's negative moral agency* in the third chart, what is the negative moral agency of \\( c_0 \\) for AIs?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

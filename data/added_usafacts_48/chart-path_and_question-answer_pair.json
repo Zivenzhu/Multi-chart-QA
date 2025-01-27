@@ -2,44 +2,48 @@
     {
         "id": "added_usafacts_48_question_0",
         "image": [
-            "data/added_usafacts_48/1.png",
-            "data/added_usafacts_48/2.png"
+            "data\\added_usafacts_48\\1.png",
+            "data\\added_usafacts_48\\2.png"
         ],
-        "question": "What is the lowest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "0",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_48_question_1",
         "image": [
-            "data/added_usafacts_48/1.png",
-            "data/added_usafacts_48/2.png"
+            "data\\added_usafacts_48\\1.png",
+            "data\\added_usafacts_48\\2.png"
         ],
-        "question": "How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "10",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. What is the data source of the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; Energy Information Administration",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_48_question_2",
         "image": [
-            "data/added_usafacts_48/1.png",
-            "data/added_usafacts_48/2.png"
+            "data\\added_usafacts_48\\1.png",
+            "data\\added_usafacts_48\\2.png"
         ],
-        "question": "Question: Which energy source shows a significant increase in consumption in the second chart compared to the first chart? \nNote that your answer should be grounded in the charts and should focus on the trends shown. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "Natural gas",
+        "question": "Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_48_question_3",
         "image": [
-            "data/added_usafacts_48/1.png",
-            "data/added_usafacts_48/2.png"
+            "data\\added_usafacts_48\\1.png",
+            "data\\added_usafacts_48\\2.png"
         ],
-        "question": "Question: Firstly extract the year when coal consumption peaked from the first chart. \nThen, for this year, what is the approximate level of natural gas consumption in the second chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "2005, 22 quadrillion BTUs",
+        "question": "Question: Firstly extract the year when coal consumption peaked from the first chart. \nThen, for this year, what is the consumption of natural gas in the second chart? \nNote that Your final answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "23",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_11_question_0",
         "image": [
-            "data/added_usafacts_11/1.png",
-            "data/added_usafacts_11/2.png",
-            "data/added_usafacts_11/3.png"
+            "data\\added_usafacts_11\\1.png",
+            "data\\added_usafacts_11\\2.png",
+            "data\\added_usafacts_11\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "18",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "10",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_11_question_1",
         "image": [
-            "data/added_usafacts_11/1.png",
-            "data/added_usafacts_11/2.png",
-            "data/added_usafacts_11/3.png"
+            "data\\added_usafacts_11\\1.png",
+            "data\\added_usafacts_11\\2.png",
+            "data\\added_usafacts_11\\3.png"
         ],
-        "question": "How many colors are used for the bars in the second chart? Note that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: How many colors are used for the bars in the second chart? \nNote that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "3",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_11_question_2",
         "image": [
-            "data/added_usafacts_11/1.png",
-            "data/added_usafacts_11/2.png",
-            "data/added_usafacts_11/3.png"
+            "data\\added_usafacts_11\\1.png",
+            "data\\added_usafacts_11\\2.png",
+            "data\\added_usafacts_11\\3.png"
         ],
-        "question": "1. What is the spatially highest labeled tick on the vertical axis in the third chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \n2. What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the third chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \n2. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "40K; Jan 2024",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_11_question_3",
         "image": [
-            "data/added_usafacts_11/1.png",
-            "data/added_usafacts_11/2.png",
-            "data/added_usafacts_11/3.png"
+            "data\\added_usafacts_11\\1.png",
+            "data\\added_usafacts_11\\2.png",
+            "data\\added_usafacts_11\\3.png"
         ],
-        "question": "Which chart shows the highest number of repatriations during the COVID-19 public health emergency period?",
-        "answer": "Second chart",
+        "question": "Question: Among these three charts, one chart, A, is a further explanation of another chart, B. Which chart is A?\nNote that your answer should be \"First\", \"Second\", or \"Third\".\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Second",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

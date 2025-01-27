@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_7_question_0",
         "image": [
-            "data/added_usafacts_7/1.png",
-            "data/added_usafacts_7/2.png",
-            "data/added_usafacts_7/3.png"
+            "data\\added_usafacts_7\\1.png",
+            "data\\added_usafacts_7\\2.png",
+            "data\\added_usafacts_7\\3.png"
         ],
-        "question": "What is the vertical axis title in the first chart? Note that your answer should be the exact text of the vertical axis title if present. If the vertical axis does not have a title, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the subtitle of the first chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "Sectoral output of retail industry subsectors, inflation adjusted (2023 dollars)",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_7_question_1",
         "image": [
-            "data/added_usafacts_7/1.png",
-            "data/added_usafacts_7/2.png",
-            "data/added_usafacts_7/3.png"
+            "data\\added_usafacts_7\\1.png",
+            "data\\added_usafacts_7\\2.png",
+            "data\\added_usafacts_7\\3.png"
         ],
-        "question": "1. How many distinct colors are used for the sections in the second chart?\nNote that Your final answer should be the total number of distinct colors used for the sections in the chart. If the plot is not considered a pie chart, answer '0'.\n2. How many explicitly labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "8; 5",
+        "question": "Question:\n1. How many distinct colors are used for the sections in the second chart?\nNote that Your final answer should be the total number of distinct colors used for the sections in the chart. If the plot is not considered a pie chart, answer '0'.\n2. How many explicitly labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 9",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_7_question_2",
         "image": [
-            "data/added_usafacts_7/1.png",
-            "data/added_usafacts_7/2.png",
-            "data/added_usafacts_7/3.png"
+            "data\\added_usafacts_7\\1.png",
+            "data\\added_usafacts_7\\2.png",
+            "data\\added_usafacts_7\\3.png"
         ],
-        "question": "Question: Which chart provides information about employment changes in specific retail subsectors?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "question": "Question: Which chart provides information about employment changes in specific retail subsectors?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Third chart\nB. Second chart\nC. First chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_usafacts_7_question_3",
         "image": [
-            "data/added_usafacts_7/1.png",
-            "data/added_usafacts_7/2.png",
-            "data/added_usafacts_7/3.png"
+            "data\\added_usafacts_7\\1.png",
+            "data\\added_usafacts_7\\2.png",
+            "data\\added_usafacts_7\\3.png"
         ],
-        "question": "Firstly extract the retail subsector with the highest employment growth from 2010 to 2023 in the third chart. Then, which chart would help you identify the overall trend in sectoral output for this subsector?\nNote that your answer should be one of the chart numbers (first, second, or third).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "First",
+        "question": "Question: Firstly extract the retail subsector with the highest employment growth from 2010 to 2023 in the third chart. \nThen, which chart would help you identify the overall trend in sectoral output for this subsector?\nNote that your answer should be one of the chart numbers (first, second, or third).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "first",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

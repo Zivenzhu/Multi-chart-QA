@@ -2,44 +2,48 @@
     {
         "id": "added_IEA_29_question_0",
         "image": [
-            "data/added_IEA_29/1.png",
-            "data/added_IEA_29/2.png"
+            "data\\added_IEA_29\\1.png",
+            "data\\added_IEA_29\\2.png"
         ],
-        "question": "What is the percentage value for the electric premium for small cars in Germany in 2022 in the first chart?\nNote that Your final answer should be the percentage value explicitly written in the chart.\nAnswer: The_answer_you_get",
-        "answer": "0",
+        "question": "Question: What is the percentage value for the electric premium for small cars in Germany in 2022 in the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nAnswer: The_answer_you_get",
+        "answer": "50",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_29_question_1",
         "image": [
-            "data/added_IEA_29/1.png",
-            "data/added_IEA_29/2.png"
+            "data\\added_IEA_29\\1.png",
+            "data\\added_IEA_29\\2.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written. Ignore units or scales that are written separately from the tick.\nAnswer: The_answer_you_get",
-        "answer": "100",
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written. Ignore units or scales that are written separately from the tick.\n2. How many colors are used for lines in the first chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "100; 5",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_29_question_2",
         "image": [
-            "data/added_IEA_29/1.png",
-            "data/added_IEA_29/2.png"
+            "data\\added_IEA_29\\1.png",
+            "data\\added_IEA_29\\2.png"
         ],
-        "question": "Question: How many of the same labeled countries or regions are there in the first chart and the second chart?\nNote that your answer should be a natural number.\nAnswer: The_answer_you_get",
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_29_question_3",
         "image": [
-            "data/added_IEA_29/1.png",
-            "data/added_IEA_29/2.png"
+            "data\\added_IEA_29\\1.png",
+            "data\\added_IEA_29\\2.png"
         ],
-        "question": "Firstly extract the vehicle segment where China has a negative electric premium in 2022 from the first chart. Then, for this segment, what is the LCOE for solar PV with storage in China in 2022 in the second chart?\nNote that you must answer the full names of subplots and/or labels by default.\nAnswer: The_answer_you_get",
-        "answer": "Small; 50",
+        "question": "Question: First, from the first chart, identify a year **y0** in which China's small vehicle segment has a negative electric premium.  \nThen, in the second chart, when the year is **y0**, what is the **LCOE for solar PV with storage** in China?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nAnswer: The_answer_you_get",
+        "answer": "75",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

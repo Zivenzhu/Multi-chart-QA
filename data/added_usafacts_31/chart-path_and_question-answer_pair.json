@@ -2,44 +2,48 @@
     {
         "id": "added_usafacts_31_question_0",
         "image": [
-            "data/added_usafacts_31/1.png",
-            "data/added_usafacts_31/2.png"
+            "data\\added_usafacts_31\\1.png",
+            "data\\added_usafacts_31\\2.png"
         ],
-        "question": "What is the source of the data used in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Centers for Disease Control and Prevention",
+        "question": "Question:\n1. What is the source of the data used in the second chart? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which two states are highlighted for having the highest percentage of out-of-state residents obtaining abortions in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Kansas and Missouri\nB. Kansas and Washington, DC\nC. Missouri and New York\nD. Maryland and New York\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Centers for Disease Control and Prevention; B",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_31_question_1",
         "image": [
-            "data/added_usafacts_31/1.png",
-            "data/added_usafacts_31/2.png"
+            "data\\added_usafacts_31\\1.png",
+            "data\\added_usafacts_31\\2.png"
         ],
-        "question": "1. How many states did not report data in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the percentage range shown in the legend of the second chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "4; 1.0% to 99.5%",
+        "question": "Question:\n1. How many states did not report data in the first chart? \nNote that your answer should be a natural number.\n2. What is the difference between the maximum and minimum values of the tick labels on the color bar in the second chart? \nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the color bar, including the case when the color bar is shared across multiple subplots. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit color bar tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 98.5%",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_31_question_2",
         "image": [
-            "data/added_usafacts_31/1.png",
-            "data/added_usafacts_31/2.png"
+            "data\\added_usafacts_31\\1.png",
+            "data\\added_usafacts_31\\2.png"
         ],
-        "question": "Question: Which two states are highlighted for having the highest percentage of out-of-state residents obtaining abortions in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Kansas and Missouri\nB. Kansas and Washington, DC\nC. Missouri and New York\nD. Maryland and New York\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question: Between the two charts, are the corresponding percentages for each state generally higher in the first chart or the second chart?\nNote that your answer should be either \"First\" or \"Second\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Second",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_31_question_3",
         "image": [
-            "data/added_usafacts_31/1.png",
-            "data/added_usafacts_31/2.png"
+            "data\\added_usafacts_31\\1.png",
+            "data\\added_usafacts_31\\2.png"
         ],
-        "question": "Question: Firstly identify the state with the highest percentage of abortions obtained by out-of-state residents from the first chart. \nThen determine what percentage of residents received abortions in-state for this state from the second chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "DC, 1.0%",
+        "question": "Question: Firstly, identify the state with the highest percentage of abortions obtained by out-of-state residents from the first chart.  \nThen, is the percentage of residents who received abortions in-state for this state from the second chart greater than 50%?\nNote that your answer should be either \"Yes\" or \"No\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Yes",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_25_question_0",
         "image": [
-            "data/added_weforum_25/1.png",
-            "data/added_weforum_25/2.png",
-            "data/added_weforum_25/3.png"
+            "data\\added_weforum_25\\1.png",
+            "data\\added_weforum_25\\2.png",
+            "data\\added_weforum_25\\3.png"
         ],
-        "question": "What is the sickness absence rate for women in 2022 according to the first chart? \nNote that your answer should be the exact percentage value given for women in 2022. \nAnswer: The_answer_you_get",
-        "answer": "3.2%",
+        "question": "Question:\n1. What is the sickness absence rate for women in 2022 according to the first chart? \nNote that your answer should be the exact percentage value given for women in 2022. \n2. Which condition among the top ten conditions by GDP impact has the highest impact according to the third chart?\nNote that this is a choice question. Your final answer should match one of the conditions listed in the chart.\nA. Depressive disorders\nB. Migraine\nC. Premenstrual syndrome\nD. Osteoarthritis\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3.2%; C",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_25_question_1",
         "image": [
-            "data/added_weforum_25/1.png",
-            "data/added_weforum_25/2.png",
-            "data/added_weforum_25/3.png"
+            "data\\added_weforum_25\\1.png",
+            "data\\added_weforum_25\\2.png",
+            "data\\added_weforum_25\\3.png"
         ],
-        "question": "1. How many distinct reasons for sickness absence are listed in the second chart for 2022? \nNote that your answer should include all distinct categories shown in the legend. \n2. What is the GDP impact of closing the women’s health gap for depressive disorders according to the third chart?\nNote that your answer should be in billions of dollars as shown in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "11; 100 billion",
+        "question": "Question:\n1. How many distinct reasons for sickness absence are listed in the second chart for 2022? \nNote that your answer should include all distinct categories shown in the legend. \n2. What is the GDP impact of closing the women's health gap for depressive disorders in billions according to the third chart?\nNote that your answer should be in billions of dollars as shown in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 100 ",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_25_question_2",
         "image": [
-            "data/added_weforum_25/1.png",
-            "data/added_weforum_25/2.png",
-            "data/added_weforum_25/3.png"
+            "data\\added_weforum_25\\1.png",
+            "data\\added_weforum_25\\2.png",
+            "data\\added_weforum_25\\3.png"
         ],
-        "question": "Question: Which condition among the top ten conditions by GDP impact has the highest impact according to the third chart?\nNote that this is a choice question. Your final answer should match one of the conditions listed in the chart.\nA. Depressive disorders\nB. Migraine\nC. Premenstrual syndrome\nD. Osteoarthritis\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
-        "type": "multiple-choice",
+        "question": "Question: How many years are the same between the first chart and the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_25_question_3",
         "image": [
-            "data/added_weforum_25/1.png",
-            "data/added_weforum_25/2.png",
-            "data/added_weforum_25/3.png"
+            "data\\added_weforum_25\\1.png",
+            "data\\added_weforum_25\\2.png",
+            "data\\added_weforum_25\\3.png"
         ],
-        "question": "Firstly, identify the year with the lowest sickness absence rate for women from the first chart. \nThen, for this year, what was the percentage of sickness absence due to mental health conditions among young women according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2017; 10.5%",
+        "question": "Question: Firstly, identify the year with the highest sickness absence rate for men from the first chart and denote it as \\( y_0 \\).  \nThen, for this year \\( y_0 \\), what was the percentage of sickness absence due to mental health conditions (e.g., stress) among young women according to the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "9.7",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

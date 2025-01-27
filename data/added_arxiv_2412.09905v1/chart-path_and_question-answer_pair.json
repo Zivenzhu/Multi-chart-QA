@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.09905v1_question_0",
         "image": [
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_No_symmetry.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_even.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_odd.png"
+            "data\\added_arxiv_2412.09905v1\\1.png",
+            "data\\added_arxiv_2412.09905v1\\2.png",
+            "data\\added_arxiv_2412.09905v1\\3.png"
         ],
-        "question": "What is the highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "1.0",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09905v1_question_1",
         "image": [
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_No_symmetry.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_even.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_odd.png"
+            "data\\added_arxiv_2412.09905v1\\1.png",
+            "data\\added_arxiv_2412.09905v1\\2.png",
+            "data\\added_arxiv_2412.09905v1\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "5; 4.0",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 4.0",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09905v1_question_2",
         "image": [
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_No_symmetry.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_even.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_odd.png"
+            "data\\added_arxiv_2412.09905v1\\1.png",
+            "data\\added_arxiv_2412.09905v1\\2.png",
+            "data\\added_arxiv_2412.09905v1\\3.png"
         ],
-        "question": "Question: What is the main difference in the distribution shape between the first and second charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The first chart has a more pronounced peak than the second.\nB. The second chart has more skewness to the left compared to the first.\nC. The first chart has a more uniform distribution than the second.\nD. The second chart is more symmetric than the first.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What is the main difference in the distribution shape between the first and second charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The first chart has a more pronounced peak than the second.\nB. The second chart has more skewness to the left compared to the first.\nC. The second chart has a more uniform distribution than the first\nD. The second chart is more symmetric than the first.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09905v1_question_3",
         "image": [
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_No_symmetry.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_even.png",
-            "data/added_arxiv_2412.09905v1/figA1_L13_Nup7_delta05_Lam05_P_odd.png"
+            "data\\added_arxiv_2412.09905v1\\1.png",
+            "data\\added_arxiv_2412.09905v1\\2.png",
+            "data\\added_arxiv_2412.09905v1\\3.png"
         ],
-        "question": "Question: Firstly, what is the value of the parameter 'N' in the first chart? \nThen, for the same value of 'N', what is the value of 'N_up' in the third chart?\nNote that your answer should be in the format: 'N_value; N_up_value'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "13; 7",
+        "question": "Question: First, find the x-coordinate corresponding to the highest point of the bar in the second chart, and denote it as \\( x_0 \\).  \nThen, in the third chart, when the x-coordinate is \\( x_0 \\), what is the projection of the bar's height onto the vertical axis?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.72",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

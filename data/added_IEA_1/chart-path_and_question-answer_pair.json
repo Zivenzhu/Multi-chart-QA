@@ -2,44 +2,48 @@
     {
         "id": "added_IEA_1_question_0",
         "image": [
-            "data/added_IEA_1/1.png",
-            "data/added_IEA_1/2.png"
+            "data\\added_IEA_1\\1.png",
+            "data\\added_IEA_1\\2.png"
         ],
-        "question": "What is the spatially lowest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "0",
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "20000",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_1_question_1",
         "image": [
-            "data/added_IEA_1/1.png",
-            "data/added_IEA_1/2.png"
+            "data\\added_IEA_1\\1.png",
+            "data\\added_IEA_1\\2.png"
         ],
-        "question": "1. How many colors are used for the bars in the first chart?\nNote that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "3; Reduced costs",
+        "question": "Question:\n1. How many colors are used for the bars in the first chart?\nNote that Your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; Reduced costs",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_1_question_2",
         "image": [
-            "data/added_IEA_1/1.png",
-            "data/added_IEA_1/2.png"
+            "data\\added_IEA_1\\1.png",
+            "data\\added_IEA_1\\2.png"
         ],
-        "question": "Question: Which chart shows more detailed categories for cost reductions?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
+        "question": "Question: Which chart shows more detailed categories for cost reductions?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Second chart\nB. First chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_IEA_1_question_3",
         "image": [
-            "data/added_IEA_1/1.png",
-            "data/added_IEA_1/2.png"
+            "data\\added_IEA_1\\1.png",
+            "data\\added_IEA_1\\2.png"
         ],
-        "question": "Question: Firstly identify the cost reduction category that results in the largest decrease in the second chart.\nThen identify if this category is present in the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Evaluation and planning; No",
+        "question": "Question: Firstly identify the cost reduction category that results in the largest decrease in the second chart.\nThen identify if this category is present in the first chart.\nNote that your answer should be either \"Yes\" or \"No\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "No",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,49 +2,53 @@
     {
         "id": "added_arxiv_2412.04030v2_question_0",
         "image": [
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_nodisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_onlydisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_effusion.png"
+            "data\\added_arxiv_2412.04030v2\\1.png",
+            "data\\added_arxiv_2412.04030v2\\2.png",
+            "data\\added_arxiv_2412.04030v2\\3.png"
         ],
-        "question": "What is the mean AUC value for healthy images at a dilation factor of 100 in the first chart?\nNote that your answer should be a number rounded to two decimal places.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "0.80",
+        "question": "Question: What is the mean AUC value for healthy images at a dilation factor of 100 in the first chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.18",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.04030v2_question_1",
         "image": [
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_nodisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_onlydisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_effusion.png"
+            "data\\added_arxiv_2412.04030v2\\1.png",
+            "data\\added_arxiv_2412.04030v2\\2.png",
+            "data\\added_arxiv_2412.04030v2\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 5",
+        "question": "Question: What is the mean AUC value for healthy images at a dilation factor of 0 in the second chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.82",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.04030v2_question_2",
         "image": [
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_nodisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_onlydisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_effusion.png"
+            "data\\added_arxiv_2412.04030v2\\1.png",
+            "data\\added_arxiv_2412.04030v2\\2.png",
+            "data\\added_arxiv_2412.04030v2\\3.png"
         ],
-        "question": "Question: Which chart indicates a higher AUC value for glaucoma images at the smallest dilation factor?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 5",
+        "task": "Parallel_Questions/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.04030v2_question_3",
         "image": [
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_nodisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_dilation_onlydisc.png",
-            "data/added_arxiv_2412.04030v2/mean_auc_effusion.png"
+            "data\\added_arxiv_2412.04030v2\\1.png",
+            "data\\added_arxiv_2412.04030v2\\2.png",
+            "data\\added_arxiv_2412.04030v2\\3.png"
         ],
-        "question": "Question: Firstly extract the maximum mean AUC value for any masking method in the third chart.\nThen, what is the corresponding mean AUC value for healthy images at a dilation factor of 0 in the second chart?\nNote that your answer should be a number rounded to two decimal places.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "0.90",
-        "type": "open-ended",
+        "question": "Question: Which chart indicates a higher AUC value for glaucoma images at the smallest dilation factor?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

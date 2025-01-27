@@ -2,44 +2,48 @@
     {
         "id": "added_datacommons_10_question_0",
         "image": [
-            "data/added_datacommons_10/1.png",
-            "data/added_datacommons_10/2.png"
+            "data\\added_datacommons_10\\1.png",
+            "data\\added_datacommons_10\\2.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "12%",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_10_question_1",
         "image": [
-            "data/added_datacommons_10/1.png",
-            "data/added_datacommons_10/2.png"
+            "data\\added_datacommons_10\\1.png",
+            "data\\added_datacommons_10\\2.png"
         ],
-        "question": "How many colors are used for the bars in the second chart? Note that your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: How many colors are used for the bars in the second chart? \nNote that your final answer should be the total number of colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "1",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_10_question_2",
         "image": [
-            "data/added_datacommons_10/1.png",
-            "data/added_datacommons_10/2.png"
+            "data\\added_datacommons_10\\1.png",
+            "data\\added_datacommons_10\\2.png"
         ],
-        "question": "Question: Which country has a higher percentage of government expenditure on education compared to total spending according to the first chart? Note that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Canada\nB. United States of America\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which country has a lower percentage of government expenditure on education compared to total spending according to both charts? \nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Canada\nB. United States of America\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",
+        "task": "Direct_Questions/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_10_question_3",
         "image": [
-            "data/added_datacommons_10/1.png",
-            "data/added_datacommons_10/2.png"
+            "data\\added_datacommons_10\\1.png",
+            "data\\added_datacommons_10\\2.png"
         ],
-        "question": "Firstly, extract the country with the higher fraction of government expenditure on education compared to GDP in the first chart. Then, which country has a higher fraction of government expenditure on tertiary education in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Canada",
+        "question": "Question: Firstly, extract the country with the higher fraction of government expenditure on education compared to GDP in the first chart. \nThen, what is the fraction of government expenditure on tertiary education of this country in the second chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: \nAnswer: The_answer_you_get",
+        "answer": "0.3",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

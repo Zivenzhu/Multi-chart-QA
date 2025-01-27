@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.03025v1_question_0",
         "image": [
-            "data/added_arxiv_2412.03025v1/negative_positive_emotion_intensity_per_model_total.png",
-            "data/added_arxiv_2412.03025v1/semantic_distance.png",
-            "data/added_arxiv_2412.03025v1/semdistvariation.png"
+            "data\\added_arxiv_2412.03025v1\\1.png",
+            "data\\added_arxiv_2412.03025v1\\2.png",
+            "data\\added_arxiv_2412.03025v1\\3.png"
         ],
-        "question": "What is the highest average intensity value for negative emotions in the first chart?\nNote that Your final answer should be the highest explicitly written value for average intensity of negative emotions across all models. If the chart does not have explicit labeled values for average intensity of negative emotions, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "0.35",
+        "question": "Question: What is the highest average intensity value for negative emotions in the first chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.33",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03025v1_question_1",
         "image": [
-            "data/added_arxiv_2412.03025v1/negative_positive_emotion_intensity_per_model_total.png",
-            "data/added_arxiv_2412.03025v1/semantic_distance.png",
-            "data/added_arxiv_2412.03025v1/semdistvariation.png"
+            "data\\added_arxiv_2412.03025v1\\1.png",
+            "data\\added_arxiv_2412.03025v1\\2.png",
+            "data\\added_arxiv_2412.03025v1\\3.png"
         ],
-        "question": "1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the total number of explicitly labeled ticks across all axes in the third chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "0.45; 12",
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the total number of explicitly labeled ticks across all axes in the third chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "0.40; 12",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03025v1_question_2",
         "image": [
-            "data/added_arxiv_2412.03025v1/negative_positive_emotion_intensity_per_model_total.png",
-            "data/added_arxiv_2412.03025v1/semantic_distance.png",
-            "data/added_arxiv_2412.03025v1/semdistvariation.png"
+            "data\\added_arxiv_2412.03025v1\\1.png",
+            "data\\added_arxiv_2412.03025v1\\2.png",
+            "data\\added_arxiv_2412.03025v1\\3.png"
         ],
-        "question": "Question: Which model has the smallest difference in average intensity between negative and positive emotions in the first chart and the smallest average semantic distance in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. chatGPT\nB. human\nC. cohere\nD. bloomz\nE. dolly\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question: Which model has the smallest difference in average intensity between negative and positive emotions in the first chart and the smallest average semantic distance in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, D, or E, as the answer without the content in the option.\nA. chatGPT\nB. dolly\nC. cohere\nD. bloomz\nE. human\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "E",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03025v1_question_3",
         "image": [
-            "data/added_arxiv_2412.03025v1/negative_positive_emotion_intensity_per_model_total.png",
-            "data/added_arxiv_2412.03025v1/semantic_distance.png",
-            "data/added_arxiv_2412.03025v1/semdistvariation.png"
+            "data\\added_arxiv_2412.03025v1\\1.png",
+            "data\\added_arxiv_2412.03025v1\\2.png",
+            "data\\added_arxiv_2412.03025v1\\3.png"
         ],
-        "question": "Question: Firstly identify which model has the highest average semantic distance in the second chart.\nThen, what is the average intensity of positive emotion for this model in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "chatGPT, 0.42",
+        "question": "Question: Firstly identify which model has the highest average semantic distance in the second chart.\nThen, what is the average intensity of positive emotion for this model in the first chart?\nNote that Your final answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "0.38",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

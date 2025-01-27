@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_19_question_0",
         "image": [
-            "data/added_weforum_19/1.png",
-            "data/added_weforum_19/2.png"
+            "data\\added_weforum_19\\1.png",
+            "data\\added_weforum_19\\2.png"
         ],
-        "question": "What is the estimated correlation coefficient between education and the Gini income inequality index in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "-0.5097",
+        "question": "Question: What is the estimated correlation coefficient of Taxation withtop 1% income share in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "-0.5539",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_19_question_1",
         "image": [
-            "data/added_weforum_19/1.png",
-            "data/added_weforum_19/2.png"
+            "data\\added_weforum_19\\1.png",
+            "data\\added_weforum_19\\2.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2025",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_19_question_2",
         "image": [
-            "data/added_weforum_19/1.png",
-            "data/added_weforum_19/2.png"
+            "data\\added_weforum_19\\1.png",
+            "data\\added_weforum_19\\2.png"
         ],
-        "question": "1. How many colors are used for the bars in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the total number of labeled ticks on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "2; 7",
+        "question": "Question:\n1. How many colors are used for the bars in the first chart?\nNote that your answer should be a natural number.\n2. What is the total number of labeled ticks on the horizontal axis in the second chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 5",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_19_question_3",
         "image": [
-            "data/added_weforum_19/1.png",
-            "data/added_weforum_19/2.png"
+            "data\\added_weforum_19\\1.png",
+            "data\\added_weforum_19\\2.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question.\nA. Trade and Inequality\nB. Education and Health\nC. Taxation and Environment\nD. Inclusiveness and Technology\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question.\nA. Trade and Inequality\nB. Education and Health\nC. Taxation and Environment\nD. Inclusiveness and Inequality\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

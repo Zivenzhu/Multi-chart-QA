@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_31_question_0",
         "image": [
-            "data/added_datacommons_31/1.png",
-            "data/added_datacommons_31/2.png",
-            "data/added_datacommons_31/3.png"
+            "data\\added_datacommons_31\\1.png",
+            "data\\added_datacommons_31\\2.png",
+            "data\\added_datacommons_31\\3.png"
         ],
-        "question": "What is the highest labeled tick on the vertical axis in the third chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the highest labeled tick on the vertical axis in the third chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "100",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_31_question_1",
         "image": [
-            "data/added_datacommons_31/1.png",
-            "data/added_datacommons_31/2.png",
-            "data/added_datacommons_31/3.png"
+            "data\\added_datacommons_31\\1.png",
+            "data\\added_datacommons_31\\2.png",
+            "data\\added_datacommons_31\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart? Note that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the color of the line representing the residential sector in the second chart? Note that Your final answer should be the name of the color used for the line representing the residential sector. If the line is not present, answer 'Not Applicable'. Now that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; Blue",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the first chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the color of the line representing the residential sector in the second chart? \nNote that Your final answer should be the name of the color used for the line representing the residential sector. If the line is not present, answer 'Not Applicable'. \nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; Purple",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_31_question_2",
         "image": [
-            "data/added_datacommons_31/1.png",
-            "data/added_datacommons_31/2.png",
-            "data/added_datacommons_31/3.png"
+            "data\\added_datacommons_31\\1.png",
+            "data\\added_datacommons_31\\2.png",
+            "data\\added_datacommons_31\\3.png"
         ],
-        "question": "Question: Which chart shows a greater increase in solar energy consumption over time?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. None\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
-        "type": "multiple-choice",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the first chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_31_question_3",
         "image": [
-            "data/added_datacommons_31/1.png",
-            "data/added_datacommons_31/2.png",
-            "data/added_datacommons_31/3.png"
+            "data\\added_datacommons_31\\1.png",
+            "data\\added_datacommons_31\\2.png",
+            "data\\added_datacommons_31\\3.png"
         ],
-        "question": "Question: Firstly extract the year when the distributed solar energy consumption for electricity reached its peak in the second chart.\nThen for this year, what is the approximate consumption value in the third chart's electric power sector?\nNote that your answer should be a number followed by the unit 'Trillion Btu'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2020; 90 Trillion Btu",
+        "question": "Question: Firstly extract the year when the monthly residential sector of  the distributed solar energy consumption for electricity reached its peak in the second chart.\nThen for this year, what is the value of the **Distributed Solar Energy Consumption for Electricity, Total, Monthly** in the first chart?\nNote that your final answer must be approximated to the nearest veritcal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "40 TrillionBtu",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

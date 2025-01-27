@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.03730v1_question_0",
         "image": [
-            "data/added_arxiv_2412.03730v1/comparison_different2.png",
-            "data/added_arxiv_2412.03730v1/comparison_different3.png",
-            "data/added_arxiv_2412.03730v1/comparison_different4.png"
+            "data\\added_arxiv_2412.03730v1\\1.png",
+            "data\\added_arxiv_2412.03730v1\\2.png",
+            "data\\added_arxiv_2412.03730v1\\3.png"
         ],
-        "question": "What is the value of the parameter η for 'Optical/NIR + FIR' in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the value of the parameter \u03b7 for 'Optical/NIR + FIR' in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "0.068%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03730v1_question_1",
         "image": [
-            "data/added_arxiv_2412.03730v1/comparison_different2.png",
-            "data/added_arxiv_2412.03730v1/comparison_different3.png",
-            "data/added_arxiv_2412.03730v1/comparison_different4.png"
+            "data\\added_arxiv_2412.03730v1\\1.png",
+            "data\\added_arxiv_2412.03730v1\\2.png",
+            "data\\added_arxiv_2412.03730v1\\3.png"
         ],
-        "question": "1. What is the total number of explicitly labeled ticks across all axes in the first chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\n2. What is the leftmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "10; 0",
+        "question": "Question:\n1. What is the total number of explicitly labeled ticks across all axes in the first chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\n2. What is the leftmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "14; 0",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03730v1_question_2",
         "image": [
-            "data/added_arxiv_2412.03730v1/comparison_different2.png",
-            "data/added_arxiv_2412.03730v1/comparison_different3.png",
-            "data/added_arxiv_2412.03730v1/comparison_different4.png"
+            "data\\added_arxiv_2412.03730v1\\1.png",
+            "data\\added_arxiv_2412.03730v1\\2.png",
+            "data\\added_arxiv_2412.03730v1\\3.png"
         ],
-        "question": "Question: Which chart shows the smallest value of η for 'Optical/NIR'?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which chart shows the smallest value of \u03b7 for 'Optical/NIR'?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03730v1_question_3",
         "image": [
-            "data/added_arxiv_2412.03730v1/comparison_different2.png",
-            "data/added_arxiv_2412.03730v1/comparison_different3.png",
-            "data/added_arxiv_2412.03730v1/comparison_different4.png"
+            "data\\added_arxiv_2412.03730v1\\1.png",
+            "data\\added_arxiv_2412.03730v1\\2.png",
+            "data\\added_arxiv_2412.03730v1\\3.png"
         ],
-        "question": "Firstly extract the highest 'Spec-z' value in the first chart. Then, what is the corresponding 'Photo-z' value for this 'Spec-z' in the third chart?\nNote that your answer should be a numerical value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "5",
+        "question": "Question: Firstly, extract the highest 'Spec-z' value of the 'Optical/NIR' points in the first chart and denote this value as \\( v_0 \\).  \nThen, what is the corresponding 'Photo-z' value of 'Optical/NIR' when 'Spec-z' equals \\( v_0 \\) in the second chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

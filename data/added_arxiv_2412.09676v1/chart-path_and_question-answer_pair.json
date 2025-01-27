@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.09676v1_question_0",
         "image": [
-            "data/added_arxiv_2412.09676v1/OB151609_CMD.png",
-            "data/added_arxiv_2412.09676v1/OB151609_all_chi2_heatmap.png",
-            "data/added_arxiv_2412.09676v1/OB151609_model.png"
+            "data\\added_arxiv_2412.09676v1\\1.png",
+            "data\\added_arxiv_2412.09676v1\\2.png",
+            "data\\added_arxiv_2412.09676v1\\3.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "14",
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "-2",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09676v1_question_1",
         "image": [
-            "data/added_arxiv_2412.09676v1/OB151609_CMD.png",
-            "data/added_arxiv_2412.09676v1/OB151609_all_chi2_heatmap.png",
-            "data/added_arxiv_2412.09676v1/OB151609_model.png"
+            "data\\added_arxiv_2412.09676v1\\1.png",
+            "data\\added_arxiv_2412.09676v1\\2.png",
+            "data\\added_arxiv_2412.09676v1\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct colors are used in the legend in the third chart?\nNote that Your final answer should be the total number of distinct colors represented in the legend of the chart across multiple subplots. If the chart does not have a legend, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "4; 8",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct colors are used in the legend in the third chart?\nNote that Your final answer should be the total number of distinct colors represented in the legend of the chart across multiple subplots. If the chart does not have a legend, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 7",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09676v1_question_2",
         "image": [
-            "data/added_arxiv_2412.09676v1/OB151609_CMD.png",
-            "data/added_arxiv_2412.09676v1/OB151609_all_chi2_heatmap.png",
-            "data/added_arxiv_2412.09676v1/OB151609_model.png"
+            "data\\added_arxiv_2412.09676v1\\1.png",
+            "data\\added_arxiv_2412.09676v1\\2.png",
+            "data\\added_arxiv_2412.09676v1\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Stellar Evolution and Photometry\nB. Economy and Stock Market\nC. Biology and Medicine\nD. Sports and Fitness\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Biology and Medicine\nB. Economy and Stock Market\nC. Stellar Evolution and Photometry\nD. Sports and Fitness\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.09676v1_question_3",
         "image": [
-            "data/added_arxiv_2412.09676v1/OB151609_CMD.png",
-            "data/added_arxiv_2412.09676v1/OB151609_all_chi2_heatmap.png",
-            "data/added_arxiv_2412.09676v1/OB151609_model.png"
+            "data\\added_arxiv_2412.09676v1\\1.png",
+            "data\\added_arxiv_2412.09676v1\\2.png",
+            "data\\added_arxiv_2412.09676v1\\3.png"
         ],
-        "question": "Question: Firstly extract the label of the point with the highest brightness in the first chart.\nThen, in the second chart, which region does this label correspond to?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "RC, Region B",
+        "question": "Question: Firstly, find a point labeled in the legend in the second chart, where the surrounding points are most sparsely distributed, and denote this position as \\( p_0 \\).  \nThen, in the first chart, which region is approximately located at \\( p_0 \\)?\nNote that your final answer should be \"Region [specific name]\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Region C",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,45 +2,49 @@
     {
         "id": "added_usafacts_9_question_0",
         "image": [
-            "data/added_usafacts_9/1.png",
-            "data/added_usafacts_9/2.png"
+            "data\\added_usafacts_9\\1.png",
+            "data\\added_usafacts_9\\2.png"
         ],
-        "question": "What is the percentage of job growth attributed to small businesses in the first chart?\nNote that your answer should be a percentage explicitly shown in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the percentage of job growth attributed to small businesses for **job growth since 1995** in the first chart?\nNote that your answer should be a percentage explicitly shown in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "61.1%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_9_question_1",
         "image": [
-            "data/added_usafacts_9/1.png",
-            "data/added_usafacts_9/2.png"
+            "data\\added_usafacts_9\\1.png",
+            "data\\added_usafacts_9\\2.png"
         ],
-        "question": "What year is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2024",
+        "question": "Question:\n1. What year is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many subplots are there in the first chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2024; 3",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_9_question_2",
         "image": [
-            "data/added_usafacts_9/1.png",
-            "data/added_usafacts_9/2.png"
+            "data\\added_usafacts_9\\1.png",
+            "data\\added_usafacts_9\\2.png"
         ],
-        "question": "Question: What is the primary focus of the first chart compared to the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Business size and employment\nB. Employment rates and business applications\nC. Job growth and economic impact\nD. Business applications and pandemic effects\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question:\n1. What is the percentage of total employment by small businesses in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. Are high-propensity business applications shown separately in the second chart?\nNote that your answer should be 'Yes' or 'No'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "99.9%; Yes",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_9_question_3",
         "image": [
-            "data/added_usafacts_9/1.png",
-            "data/added_usafacts_9/2.png"
+            "data\\added_usafacts_9\\1.png",
+            "data\\added_usafacts_9\\2.png"
         ],
-        "question": "Firstly extract the percentage of total employment by small businesses in the first chart. \nThen, using this information, determine if high-propensity business applications are shown separately in the second chart.\nNote that your answer should be 'Yes' or 'No'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Yes",
-        "type": "open-ended",
+        "question": "Question: What is the primary focus of the first chart compared to the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Job growth and economic impact\nB. Employment rates and business applications\nC. Business size and employment\nD. Business applications and pandemic effects\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

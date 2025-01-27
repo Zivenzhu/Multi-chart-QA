@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_41_question_0",
+        "id": "arxiv_0_2407.00178v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\Event.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
+            "data\\arxiv_0_2407.00178v1\\Event.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
         ],
         "question": "Question: How many labeled ticks are there on the \\( K_{\\text{hit}} [\\text{layers}] \\) axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the \\( K_{\\text{hit}} [\\text{layers}] \\) axis across multiple subplots. If the chart does not have explicit labeled ticks on the \\( K_{\\text{hit}} [\\text{layers}] \\) axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "3",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_41_question_1",
+        "id": "arxiv_0_2407.00178v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\Event.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
+            "data\\arxiv_0_2407.00178v1\\Event.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
         ],
         "question": "Question: 1. What does the x axis of the third chart represent?\nNote that This a choice question. Your final answer should be only one option that most closely matches the question.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. \\(I_{\\text{hit}} \\) [cells]  \nB. \\(J_{\\text{hit}} \\) [cells]  \nC. \\(K_{\\text{hit}} \\) [layers]  \nD. \\(E_{\\text{hit}} \\) [MIP]  \n2.  What is the difference between the maximum and minimum values of the tick labels on the y axis in the first chart?\nNote that Your final answer must be grounded to a number, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; 60",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_41_question_2",
+        "id": "arxiv_0_2407.00178v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\Event.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
+            "data\\arxiv_0_2407.00178v1\\Event.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
         ],
         "question": "Question: How many identical labels are there in the legends of the first chart and the third chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the third chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_41_question_3",
+        "id": "arxiv_0_2407.00178v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\Event.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
-            "modified_local_full_qa\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
+            "data\\arxiv_0_2407.00178v1\\Event.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation10GeV.png",
+            "data\\arxiv_0_2407.00178v1\\SCNet_Simulation80GeV.png"
         ],
         "question": "Question: 1. Which chart has the largest projected area on the three surface?\nNote that your answer should be only one option from (First, Second, Third).\n2. Which chart has the smallest projected area on the three surface?\nNote that your answer should be only one option from (First, Second, Third).\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Third; Second",

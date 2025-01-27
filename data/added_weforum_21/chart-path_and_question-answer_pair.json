@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_21_question_0",
         "image": [
-            "data/added_weforum_21/1.png",
-            "data/added_weforum_21/2.png"
+            "data\\added_weforum_21\\1.png",
+            "data\\added_weforum_21\\2.png"
         ],
-        "question": "What is the sector with the largest percentage of green jobs in the first chart?\nNote that your answer should include the sector name and the percentage.\nAnswer: The_answer_you_get.",
+        "question": "Question: What is the sector with the largest percentage of green jobs in the first chart?\nNote that your answer should include the sector name and the percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Construction, 16.41%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_21_question_1",
         "image": [
-            "data/added_weforum_21/1.png",
-            "data/added_weforum_21/2.png"
+            "data\\added_weforum_21\\1.png",
+            "data\\added_weforum_21\\2.png"
         ],
-        "question": "What percentage of green jobs in Europe are indirect according to the second chart?\nNote that your answer should be the percentage of indirect green jobs.\nAnswer: The_answer_you_get.",
-        "answer": "3.2%",
+        "question": "Question:\n1. Which sector has the smallest percentage in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What percentage of green jobs in Europe are indirect according to the second chart?\nNote that your answer should be the percentage of indirect green jobs.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Electricity, steam and air conditioning supply; 3.2%",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_21_question_2",
         "image": [
-            "data/added_weforum_21/1.png",
-            "data/added_weforum_21/2.png"
+            "data\\added_weforum_21\\1.png",
+            "data\\added_weforum_21\\2.png"
         ],
-        "question": "Which region has the highest overall share of green jobs according to the second chart, and how does it compare to the sector with the largest percentage in the first chart?\nNote that your answer should include the region name and the sectors' percentage from the first chart.\nAnswer: The_answer_you_get.",
-        "answer": "Africa, 11.9% overall green jobs; Construction, 16.41%",
+        "question": "Question: In the second chart, when comparing the **highest overall share of green jobs across all regions** to the second **largest percentage in all sectors in the first chart**, which is greater: **The former**, **The latter**, or **Same**?\nNote that your answer should be **The former**, **The latter**, or **Same**.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "The latter",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_21_question_3",
         "image": [
-            "data/added_weforum_21/1.png",
-            "data/added_weforum_21/2.png"
+            "data\\added_weforum_21\\1.png",
+            "data\\added_weforum_21\\2.png"
         ],
-        "question": "Firstly extract the sector with the smallest percentage in the first chart. \nThen, which region has a higher percentage of direct green jobs than this sector's percentage?\nNote that your answer should include the region name.\nAnswer: The_answer_you_get.",
-        "answer": "Electricity, steam and air conditioning supply, 1.14%; Africa, Latin America, South and West Asia, East, South-East Asia and Oceania, North America",
+        "question": "Question: First, identify the fifth smallest percentage in the pie chart from the first chart and denote it as \\( p_0 \\).  \nThen, in the second chart, how many regions have a **higher percentage of indirect green jobs** than \\( p_0 \\)?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

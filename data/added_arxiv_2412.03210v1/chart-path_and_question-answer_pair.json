@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.03210v1_question_0",
         "image": [
-            "data/added_arxiv_2412.03210v1/center_surround_095.png",
-            "data/added_arxiv_2412.03210v1/center_surround_105.png",
-            "data/added_arxiv_2412.03210v1/gabor.png"
+            "data\\added_arxiv_2412.03210v1\\1.png",
+            "data\\added_arxiv_2412.03210v1\\2.png",
+            "data\\added_arxiv_2412.03210v1\\3.png"
         ],
-        "question": "What is the range of values on the horizontal axis in the first chart? Note that your final answer should include both the minimum and maximum values explicitly labeled on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: min_value to max_value",
+        "question": "Question: What is the range of values on the horizontal axis in the left subplot of the first chart? \nNote that your final answer should include both the minimum and maximum values explicitly labeled on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: min_value to max_value",
         "answer": "-10 to 10",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03210v1_question_1",
         "image": [
-            "data/added_arxiv_2412.03210v1/center_surround_095.png",
-            "data/added_arxiv_2412.03210v1/center_surround_105.png",
-            "data/added_arxiv_2412.03210v1/gabor.png"
+            "data\\added_arxiv_2412.03210v1\\1.png",
+            "data\\added_arxiv_2412.03210v1\\2.png",
+            "data\\added_arxiv_2412.03210v1\\3.png"
         ],
-        "question": "1. What is the spatially highest labeled tick on the vertical axis in the second chart? \nNote that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the total number of explicitly labeled ticks across all axes in the third chart?\nNote that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "0.0010; 6",
+        "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the second chart? \nNote that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the total number of explicitly labeled ticks across all axes in the third chart?\nNote that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "-10; 23",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03210v1_question_2",
         "image": [
-            "data/added_arxiv_2412.03210v1/center_surround_095.png",
-            "data/added_arxiv_2412.03210v1/center_surround_105.png",
-            "data/added_arxiv_2412.03210v1/gabor.png"
+            "data\\added_arxiv_2412.03210v1\\1.png",
+            "data\\added_arxiv_2412.03210v1\\2.png",
+            "data\\added_arxiv_2412.03210v1\\3.png"
         ],
-        "question": "Question: Which chart displays a function with a local maximum at the origin?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nD. None of the Charts\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
+        "question": "Question: Which chart displays a function with only one local maximum at the origin?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Third Chart\nC. Second Chart\nD. None of the Charts\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03210v1_question_3",
         "image": [
-            "data/added_arxiv_2412.03210v1/center_surround_095.png",
-            "data/added_arxiv_2412.03210v1/center_surround_105.png",
-            "data/added_arxiv_2412.03210v1/gabor.png"
+            "data\\added_arxiv_2412.03210v1\\1.png",
+            "data\\added_arxiv_2412.03210v1\\2.png",
+            "data\\added_arxiv_2412.03210v1\\3.png"
         ],
-        "question": "Firstly determine which chart has a pattern that includes multiple peaks and valleys along the horizontal axis. \nThen, what is the function type displayed in the chart identified in the first step?\nNote that your answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Third Chart, Sinusoidal",
+        "question": "Question: Firstly, determine which chart has a pattern that includes multiple peaks and valleys along the horizontal axis.  \nThen, how many peaks are there in this chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

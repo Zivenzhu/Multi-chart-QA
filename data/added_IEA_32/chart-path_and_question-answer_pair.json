@@ -2,48 +2,52 @@
     {
         "id": "added_IEA_32_question_0",
         "image": [
-            "data/added_IEA_32/1.png",
-            "data/added_IEA_32/2.png",
-            "data/added_IEA_32/3.png"
+            "data\\added_IEA_32\\1.png",
+            "data\\added_IEA_32\\2.png",
+            "data\\added_IEA_32\\3.png"
         ],
-        "question": "What is the peak electricity demand index value for India in 2050 under the APS scenario in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the total electricity demand index value for India in 2050 under the APS scenario in the first chart? \nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_32_question_1",
         "image": [
-            "data/added_IEA_32/1.png",
-            "data/added_IEA_32/2.png",
-            "data/added_IEA_32/3.png"
+            "data\\added_IEA_32\\1.png",
+            "data\\added_IEA_32\\2.png",
+            "data\\added_IEA_32\\3.png"
         ],
-        "question": "What is the atmospheric methane concentration in 2020 according to the third chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "1900",
+        "question": "Question:\n1. What is the atmospheric methane concentration in 2020 according to the third chart? \nNote that your answer should be an approximated value.\n2. Which country or region had the most significant contribution to peak electricity demand from heating in 2050 under the APS scenario in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1775; European Union",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_32_question_2",
         "image": [
-            "data/added_IEA_32/1.png",
-            "data/added_IEA_32/2.png",
-            "data/added_IEA_32/3.png"
+            "data\\added_IEA_32\\1.png",
+            "data\\added_IEA_32\\2.png",
+            "data\\added_IEA_32\\3.png"
         ],
-        "question": "Question: Which country or region shows the highest increase in peak electricity demand index from 2022 to 2050 under the STEPS scenario between the first and second charts? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "India",
+        "question": "Question: Which country or region shows the lowest increase in peak electricity demand index from 2022 to 2050 under the STEPS scenario across the first and second charts? \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Japan",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_32_question_3",
         "image": [
-            "data/added_IEA_32/1.png",
-            "data/added_IEA_32/2.png",
-            "data/added_IEA_32/3.png"
+            "data\\added_IEA_32\\1.png",
+            "data\\added_IEA_32\\2.png",
+            "data\\added_IEA_32\\3.png"
         ],
-        "question": "Question: Firstly extract the year when the atmospheric methane concentration reached 1800 in the third chart.\nThen, in the second chart, which country or region had the most significant contribution to peak electricity demand from heating in 2050 under the APS scenario?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "European Union",
+        "question": "Question: First, identify the year when the atmospheric methane concentration reached 1800 in the third chart, and denote it as **y0**.  \nThen, is the year **y0** included in the range of years covered by the data in the first or second chart?\nNote that your answer should be either \"Yes\" or \"No\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "No",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,45 +2,49 @@
     {
         "id": "added_weforum_10_question_0",
         "image": [
-            "data/added_weforum_10/1.png",
-            "data/added_weforum_10/2.png"
+            "data\\added_weforum_10\\1.png",
+            "data\\added_weforum_10\\2.png"
         ],
-        "question": "What is the measles vaccine coverage percentage in the Americas in 2020 according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the measles vaccine coverage percentage in the Americas in 2020 according to the first chart? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "73",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_10_question_1",
         "image": [
-            "data/added_weforum_10/1.png",
-            "data/added_weforum_10/2.png"
+            "data\\added_weforum_10\\1.png",
+            "data\\added_weforum_10\\2.png"
         ],
-        "question": "1. How many WHO regions are listed in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. What is the year range shown on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "6; 1980 to 2021",
+        "question": "Question:\n1. How many WHO regions are listed in the first chart?\nNote that your answer should be a natural  number.\n2. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the second chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 41",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_10_question_2",
         "image": [
-            "data/added_weforum_10/1.png",
-            "data/added_weforum_10/2.png"
+            "data\\added_weforum_10\\1.png",
+            "data\\added_weforum_10\\2.png"
         ],
-        "question": "Question: Which chart provides information specifically about measles vaccinations?\nNote that this is a choice question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Both charts\nD. Neither chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
-        "type": "multiple-choice",
+        "question": "Question:\n1. Which region has the lowest measles vaccine coverage in 2000 according to the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the number of one-year-olds vaccinated against measles in 2000 according to the second chart?\nNote that your answer should be an approximate value.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Western Pacific; 90 million",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_10_question_3",
         "image": [
-            "data/added_weforum_10/1.png",
-            "data/added_weforum_10/2.png"
+            "data\\added_weforum_10\\1.png",
+            "data\\added_weforum_10\\2.png"
         ],
-        "question": "Firstly, identify the region with the lowest measles vaccine coverage in 2000 from the first chart. Then, determine the number of one-year-olds vaccinated against measles in 2000 from the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Western Pacific; Approximately 40 million",
-        "type": "open-ended",
+        "question": "Question: Which chart provides information specifically about measles vaccinations?\nNote that this is a choice question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Both charts\nC. Second chart\nD. Neither chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

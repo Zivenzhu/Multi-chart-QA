@@ -2,44 +2,48 @@
     {
         "id": "added_usafacts_49_question_0",
         "image": [
-            "data/added_usafacts_49/1.png",
-            "data/added_usafacts_49/2.png"
+            "data\\added_usafacts_49\\1.png",
+            "data\\added_usafacts_49\\2.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
-        "answer": "100",
+        "question": "Question: What percentage of US energy consumption was from renewable sources in 2023 according to the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "9%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_49_question_1",
         "image": [
-            "data/added_usafacts_49/1.png",
-            "data/added_usafacts_49/2.png"
+            "data\\added_usafacts_49\\1.png",
+            "data\\added_usafacts_49\\2.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the second chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.",
-        "answer": "2022",
+        "question": "Question:\n1. What is the rightmost labeled tick on the horizontal axis in the second chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n2. What is the title of the first chart?\nNote that your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2022; Renewables were 9% of US energy consumption in 2023.",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_49_question_2",
         "image": [
-            "data/added_usafacts_49/1.png",
-            "data/added_usafacts_49/2.png"
+            "data\\added_usafacts_49\\1.png",
+            "data\\added_usafacts_49\\2.png"
         ],
-        "question": "Question: What percentage of US energy consumption was from renewable sources in 2023 according to the first chart?\nNote that your answer should be a percentage.\nA. 9%\nB. 10%\nC. 11%\nD. 12%\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_49_question_3",
         "image": [
-            "data/added_usafacts_49/1.png",
-            "data/added_usafacts_49/2.png"
+            "data\\added_usafacts_49\\1.png",
+            "data\\added_usafacts_49\\2.png"
         ],
-        "question": "Firstly extract the percentage of US energy consumption from nuclear sources in 2023 in the second chart. \nThen, what is the same percentage for renewable sources in 2023 in the first chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "9%",
+        "question": "Question: Firstly, extract the percentage of US energy consumption from nuclear sources in 2023 from the second chart, and denote it as p0.  \nThen, is the percentage for renewable sources in 2023 in the first chart greater than, equal to, or less than p0?\nNote that your answer should be *greater than*, *equal to*, or *less than*.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "equal to",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

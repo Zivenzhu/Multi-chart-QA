@@ -2,49 +2,53 @@
     {
         "id": "added_arxiv_2412.07758v1_question_0",
         "image": [
-            "data/added_arxiv_2412.07758v1/M-R_wo_DD2.png",
-            "data/added_arxiv_2412.07758v1/M-e_c_DD2.png",
-            "data/added_arxiv_2412.07758v1/omega_M_452_775.png"
+            "data\\added_arxiv_2412.07758v1\\1.png",
+            "data\\added_arxiv_2412.07758v1\\2.png",
+            "data\\added_arxiv_2412.07758v1\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "0",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "22",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.07758v1_question_1",
         "image": [
-            "data/added_arxiv_2412.07758v1/M-R_wo_DD2.png",
-            "data/added_arxiv_2412.07758v1/M-e_c_DD2.png",
-            "data/added_arxiv_2412.07758v1/omega_M_452_775.png"
+            "data\\added_arxiv_2412.07758v1\\1.png",
+            "data\\added_arxiv_2412.07758v1\\2.png",
+            "data\\added_arxiv_2412.07758v1\\3.png"
         ],
-        "question": "1. How many distinct colors are used in the lines of the second chart?\nNote that Your final answer should be the total number of distinct colors used in the lines of the chart across multiple subplots. If the plot does not have distinct colors for lines, answer '0'.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "4; 0",
+        "question": "Question: What is the color used for \u00ce\u00b7D=0.743 in the second chart?\nNote that your answer should be the name of the color.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Green",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.07758v1_question_2",
         "image": [
-            "data/added_arxiv_2412.07758v1/M-R_wo_DD2.png",
-            "data/added_arxiv_2412.07758v1/M-e_c_DD2.png",
-            "data/added_arxiv_2412.07758v1/omega_M_452_775.png"
+            "data\\added_arxiv_2412.07758v1\\1.png",
+            "data\\added_arxiv_2412.07758v1\\2.png",
+            "data\\added_arxiv_2412.07758v1\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these three charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Neutron Stars and Magnetic Fields\nB. Stock Prices and Investment\nC. Climate Change and Weather Patterns\nD. Population Growth and Urban Planning\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question:\n1. How many distinct colors are used in the lines of the second chart?\nNote that Your final answer should be the total number of distinct colors used in the lines of the chart across multiple subplots. If the plot does not have distinct colors for lines, answer '0'.\n2. What is the spatially lowest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 0",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.07758v1_question_3",
         "image": [
-            "data/added_arxiv_2412.07758v1/M-R_wo_DD2.png",
-            "data/added_arxiv_2412.07758v1/M-e_c_DD2.png",
-            "data/added_arxiv_2412.07758v1/omega_M_452_775.png"
+            "data\\added_arxiv_2412.07758v1\\1.png",
+            "data\\added_arxiv_2412.07758v1\\2.png",
+            "data\\added_arxiv_2412.07758v1\\3.png"
         ],
-        "question": "Firstly extract the value of η_D that is common in both the first and second charts.\nThen, for this value of η_D, what is the corresponding color used in the third chart?\nNote that your answer should be the name of the color.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Purple",
-        "type": "open-ended",
+        "question": "Question: What are the two keywords most relevant to these three charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Neutron Stars and Magnetic Fields\nB. Stock Prices and Investment\nC. Climate Change and Weather Patterns\nD. Population Growth and Urban Planning\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

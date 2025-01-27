@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_26_question_0",
         "image": [
-            "data/added_datacommons_26/1.png",
-            "data/added_datacommons_26/2.png",
-            "data/added_datacommons_26/3.png"
+            "data\\added_datacommons_26\\1.png",
+            "data\\added_datacommons_26\\2.png",
+            "data\\added_datacommons_26\\3.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the first chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
+        "question": "Question: What is the spatially highest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1.5B tCO2e",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_26_question_1",
         "image": [
-            "data/added_datacommons_26/1.png",
-            "data/added_datacommons_26/2.png",
-            "data/added_datacommons_26/3.png"
+            "data\\added_datacommons_26\\1.png",
+            "data\\added_datacommons_26\\2.png",
+            "data\\added_datacommons_26\\3.png"
         ],
-        "question": "1. How many explicitly labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis, including the case when vertical axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "7; 2020",
+        "question": "Question:\n1. How many explicitly labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis, including the case when vertical axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "8; 2020",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_26_question_2",
         "image": [
-            "data/added_datacommons_26/1.png",
-            "data/added_datacommons_26/2.png",
-            "data/added_datacommons_26/3.png"
+            "data\\added_datacommons_26\\1.png",
+            "data\\added_datacommons_26\\2.png",
+            "data\\added_datacommons_26\\3.png"
         ],
-        "question": "Question: Which chart shows data over the longest time span?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. All show the same time span\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
+        "question": "Question: Which chart shows data over the longest time span?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. All show the same time span\nB. First chart\nC. Third chart\nD. Second chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_26_question_3",
         "image": [
-            "data/added_datacommons_26/1.png",
-            "data/added_datacommons_26/2.png",
-            "data/added_datacommons_26/3.png"
+            "data\\added_datacommons_26\\1.png",
+            "data\\added_datacommons_26\\2.png",
+            "data\\added_datacommons_26\\3.png"
         ],
-        "question": "Firstly identify the source with the highest greenhouse gas emissions from the first chart.\nThen determine the approximate peak CO2 emissions in the second chart.\nNote that your answer should be in the format 'Source; Peak CO2 Emissions'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Transportation; 6K Mt CO2",
+        "question": "Question: First, from the second chart, identify the year when **CO2 Emissions, Annual in the United States** reaches its maximum value and denote this year as **y0**.  \nThen, from the third chart, what is the value of **CO2 Emissions Per Capita in the United States** in the year **y0**?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20 t",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

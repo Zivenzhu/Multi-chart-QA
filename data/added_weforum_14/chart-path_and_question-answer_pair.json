@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_14_question_0",
         "image": [
-            "data/added_weforum_14/1.png",
-            "data/added_weforum_14/2.png",
-            "data/added_weforum_14/3.png"
+            "data\\added_weforum_14\\1.png",
+            "data\\added_weforum_14\\2.png",
+            "data\\added_weforum_14\\3.png"
         ],
-        "question": "What is the lowest labeled tick on the horizontal axis in the third chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "100",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the third chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "60",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_14_question_1",
         "image": [
-            "data/added_weforum_14/1.png",
-            "data/added_weforum_14/2.png",
-            "data/added_weforum_14/3.png"
+            "data\\added_weforum_14\\1.png",
+            "data\\added_weforum_14\\2.png",
+            "data\\added_weforum_14\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many distinct bars are there in the second chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 47",
+        "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many distinct bars are there in the second chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 45",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_14_question_2",
         "image": [
-            "data/added_weforum_14/1.png",
-            "data/added_weforum_14/2.png",
-            "data/added_weforum_14/3.png"
+            "data\\added_weforum_14\\1.png",
+            "data\\added_weforum_14\\2.png",
+            "data\\added_weforum_14\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Employment and Funding\nB. Exports and Development\nC. Risks and Services\nD. Economy and Trade\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "question": "Question: What are the two keywords most relevant to the first and the third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Employment and Funding\nB. Threat and Exports\nC. Economy and Trade\nD. Risks and Services\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_weforum_14_question_3",
         "image": [
-            "data/added_weforum_14/1.png",
-            "data/added_weforum_14/2.png",
-            "data/added_weforum_14/3.png"
+            "data\\added_weforum_14\\1.png",
+            "data\\added_weforum_14\\2.png",
+            "data\\added_weforum_14\\3.png"
         ],
-        "question": "Question: Firstly extract a country with the highest projected spending in the second chart.\nThen in the first chart, what is this country's classification in terms of income group?\nNote that your answer should be a classification from low, lower middle, upper middle, or high income.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Bangladesh; Lower middle income",
+        "question": "Question: Firstly extract a country with the highest projected spending in the second chart.\nThen in the first chart, what is this country's classification in terms of income group?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Lower middle income",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

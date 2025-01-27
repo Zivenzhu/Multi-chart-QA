@@ -1,9 +1,9 @@
 [
     {
-        "id": "group_2_question_0",
+        "id": "arxiv_0_2406.14998v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\prop2.png",
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\sim_ss.png"
+            "data\\arxiv_0_2406.14998v1\\prop2.png",
+            "data\\arxiv_0_2406.14998v1\\sim_ss.png"
         ],
         "question": "Question: 1. What does the horizontal axis of the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. t [T]\nB. |pij(t) - pij(t0)|\nC. \u03bcRe\nD. 2\u221a3\u03bc*Re / k\u03c9\n2. What is the value of the red dashed line on the upper right side in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; 0.4",
@@ -12,10 +12,10 @@
         "context": null
     },
     {
-        "id": "group_2_question_1",
+        "id": "arxiv_0_2406.14998v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\prop2.png",
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\sim_ss.png"
+            "data\\arxiv_0_2406.14998v1\\prop2.png",
+            "data\\arxiv_0_2406.14998v1\\sim_ss.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -24,10 +24,10 @@
         "context": null
     },
     {
-        "id": "group_2_question_2",
+        "id": "arxiv_0_2406.14998v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\prop2.png",
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\sim_ss.png"
+            "data\\arxiv_0_2406.14998v1\\prop2.png",
+            "data\\arxiv_0_2406.14998v1\\sim_ss.png"
         ],
         "question": "Question: 1. What is the samllest t [T] on the horizontal tick value does |pij(t) - pij(t0)| converge in the first chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart.\n2. What it the smallest t [T] does |pi(t) - p*| on the horizontal tick value converge in the second chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart.\nNow that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2.5",
@@ -36,10 +36,10 @@
         "context": null
     },
     {
-        "id": "group_2_question_3",
+        "id": "arxiv_0_2406.14998v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\prop2.png",
-            "modified_local_full_qa\\arxiv_0_2406.14998v1\\sim_ss.png"
+            "data\\arxiv_0_2406.14998v1\\prop2.png",
+            "data\\arxiv_0_2406.14998v1\\sim_ss.png"
         ],
         "question": "Question: Conclude from these two charts, what is the possible relationship between the number of phases for any line in the upper line subplot and the number of clusters in the 3D subplot on the right of these charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. No relations\nB. positive correlation\nC. negative correlation\nD. Nonlinear relations\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",

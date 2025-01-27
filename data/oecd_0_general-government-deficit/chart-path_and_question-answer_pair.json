@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_82_question_0",
+        "id": "oecd_0_general-government-deficit_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
         ],
         "question": "Question: What does the vertical axis in the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Total number of countries\nB. Government surplus\nC. Percentage of GDP\nD. Population size\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_82_question_1",
+        "id": "oecd_0_general-government-deficit_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
         ],
         "question": "Question: \n1. What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n3. What is the general trend of data from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Decreasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Increasing\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "30; 40; A",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_82_question_2",
+        "id": "oecd_0_general-government-deficit_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
         ],
         "question": "Question: How many of the same countries are there on the horizontal axis in the first chart and the third chart?\nNote that Your final answer should be the number of the same countries on the horizontal axis across multiple subplots in the first chart and the third chart. If a chart has multiple countries from different subplots with the same name, count them as only one distinct country. If the first and the third charts do not have identical countries on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "10",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_82_question_3",
+        "id": "oecd_0_general-government-deficit_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_37_31.297Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_39_01.899Z.png",
+            "data\\oecd_0_general-government-deficit\\export-2024-07-26T02_40_13.069Z.png"
         ],
         "question": "Question: 1. In how many bars is the general government deficit above 0 in 2022 in the first chart?\nNote that your answer should be a natural number.\n2. In how many bars is the general government deficit above 0 in 2017 in the second chart?\nNote that your answer should be a natural number.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "7",

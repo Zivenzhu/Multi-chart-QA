@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_132_question_0",
+        "id": "owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
         ],
         "question": "Question: What does the horizontal axis of the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The number of new armed conflicts per year.\nB. The type of armed conflict over time.\nC. The number of ongoing armed conflicts per year.\nD. The year in which new armed conflicts started.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "D",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_132_question_1",
+        "id": "owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
         ],
         "question": "Question:\n1. How many colours are used for the bars in the first chart? \nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the third chart? \nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "4; 10",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_132_question_2",
+        "id": "owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
         ],
         "question": "Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_132_question_3",
+        "id": "owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
-            "modified_local_full_qa\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\number-of-new-armed-conflicts.png",
+            "data\\owid_0_conflict-measures-how-do-researchers-measure-how-common-and-deadly-armed-conflicts-are\\war-rate-by-type-project-mars.png"
         ],
         "question": "Question: Firstly extract a label from the legend of the second chart whose number of new armed conflicts is the largest among all the labels in 1997.\nThen for this label, which position does its number of armed conflicts rank among all the labels in 1997 in the first chart?\nNote that your answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Third",

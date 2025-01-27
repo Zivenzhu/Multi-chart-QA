@@ -1,0 +1,54 @@
+[
+    {
+        "id": "added_datacommons_3_question_0",
+        "image": [
+            "data\\added_datacommons_3\\1.png",
+            "data\\added_datacommons_3\\2.png",
+            "data\\added_datacommons_3\\3.png"
+        ],
+        "question": "Question: What is the title of the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: \nAnswer: The_answer_you_get",
+        "answer": "GDP of the Information Industry in California",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_3_question_1",
+        "image": [
+            "data\\added_datacommons_3\\1.png",
+            "data\\added_datacommons_3\\2.png",
+            "data\\added_datacommons_3\\3.png"
+        ],
+        "question": "Question:\n1. How many distinct colors are used for the lines in the second chart?\nNote that Your final answer should be the total number of colors used for the lines in the chart across multiple subplots. If the plot is not considered a line plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "14; 7",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_3_question_2",
+        "image": [
+            "data\\added_datacommons_3\\1.png",
+            "data\\added_datacommons_3\\2.png",
+            "data\\added_datacommons_3\\3.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that your answer must be a natural number.\nNote that your answer format should be as follows: \nAnswer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_datacommons_3_question_3",
+        "image": [
+            "data\\added_datacommons_3\\1.png",
+            "data\\added_datacommons_3\\2.png",
+            "data\\added_datacommons_3\\3.png"
+        ],
+        "question": "Question: First, locate the year \\( y_0 \\) in the third chart where the GDP equals 200B USD. Then, find the tick value \\( y_1 \\) on the horizontal axis that is closest to \\( y_0 \\).  \nAfter that, in the second chart, what is the GDP of the Real Estate and Rental and Leasing Industry when the year equals \\( y_1 \\) ?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "300B",
+        "task": "Sequential_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    }
+]

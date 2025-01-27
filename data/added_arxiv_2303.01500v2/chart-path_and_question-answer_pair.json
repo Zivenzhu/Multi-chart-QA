@@ -1,0 +1,54 @@
+[
+    {
+        "id": "added_arxiv_2303.01500v2_question_0",
+        "image": [
+            "data\\added_arxiv_2303.01500v2\\1.png",
+            "data\\added_arxiv_2303.01500v2\\2.png",
+            "data\\added_arxiv_2303.01500v2\\3.png"
+        ],
+        "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the second chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "198",
+        "task": "Direct_Questions/Structure",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2303.01500v2_question_1",
+        "image": [
+            "data\\added_arxiv_2303.01500v2\\1.png",
+            "data\\added_arxiv_2303.01500v2\\2.png",
+            "data\\added_arxiv_2303.01500v2\\3.png"
+        ],
+        "question": "Question: At what x-coordinate does the accuracy difference between early dropout and baseline reach its maximum in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2048",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2303.01500v2_question_2",
+        "image": [
+            "data\\added_arxiv_2303.01500v2\\1.png",
+            "data\\added_arxiv_2303.01500v2\\2.png",
+            "data\\added_arxiv_2303.01500v2\\3.png"
+        ],
+        "question": "Question:\n1. In the third chart, when the x-coordinate is 0.4, what is the accuracy under the \"late stochastic depth\" setting?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the spatially lowest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "82.28; 76.0",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_arxiv_2303.01500v2_question_3",
+        "image": [
+            "data\\added_arxiv_2303.01500v2\\1.png",
+            "data\\added_arxiv_2303.01500v2\\2.png",
+            "data\\added_arxiv_2303.01500v2\\3.png"
+        ],
+        "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the third chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
+        "context": null
+    }
+]

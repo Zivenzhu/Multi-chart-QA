@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_30_question_0",
+        "id": "arxiv_0_2406.19216v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PoutAlpha.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PouvsU.png"
+            "data\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
+            "data\\arxiv_0_2406.19216v1\\PoutAlpha.png",
+            "data\\arxiv_0_2406.19216v1\\PouvsU.png"
         ],
         "question": "Question: What is difference between consecutive numerical tick values on the vertical axis in the second chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "0.1",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_30_question_1",
+        "id": "arxiv_0_2406.19216v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PoutAlpha.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PouvsU.png"
+            "data\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
+            "data\\arxiv_0_2406.19216v1\\PoutAlpha.png",
+            "data\\arxiv_0_2406.19216v1\\PouvsU.png"
         ],
         "question": "Question: 1. What does the horizontal axis of the first chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Transmit SNR.\nB. Probability of Outage.\nC. NOMA-OTFS vs OMA-OTFS.\nD. Data Points in dB.\n2. How many distinct lines are there in the third chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; 4",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_30_question_2",
+        "id": "arxiv_0_2406.19216v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PoutAlpha.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PouvsU.png"
+            "data\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
+            "data\\arxiv_0_2406.19216v1\\PoutAlpha.png",
+            "data\\arxiv_0_2406.19216v1\\PouvsU.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "11",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_30_question_3",
+        "id": "arxiv_0_2406.19216v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PoutAlpha.png",
-            "modified_local_full_qa\\arxiv_0_2406.19216v1\\PouvsU.png"
+            "data\\arxiv_0_2406.19216v1\\NOMAvsOMA.png",
+            "data\\arxiv_0_2406.19216v1\\PoutAlpha.png",
+            "data\\arxiv_0_2406.19216v1\\PouvsU.png"
         ],
         "question": "Question: 1. Which label, starting with Q, in the legend has the highest value of P_{out} across all Transmit SNR rho_T(dB) in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which label, containing \u00ce\u00b1, in the legend has the highest value of P_{out} across all Transmit SNR rho_T(dB) in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Q = 6, OMA-OTFS; LM-\u00ce\u00b1 = 4/5",

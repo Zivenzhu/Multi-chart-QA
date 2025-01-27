@@ -2,44 +2,48 @@
     {
         "id": "added_usafacts_12_question_0",
         "image": [
-            "data/added_usafacts_12/1.png",
-            "data/added_usafacts_12/2.png"
+            "data\\added_usafacts_12\\1.png",
+            "data\\added_usafacts_12\\2.png"
         ],
-        "question": "What is the homicide rate per 100,000 people for New Orleans in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "58.4",
+        "question": "Question:\n1. What is the homicide rate per 100,000 people for New Orleans in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. Which major city had the highest percent change in homicide rate from 2018 to 2022 according to the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "58.4; Portland",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_12_question_1",
         "image": [
-            "data/added_usafacts_12/1.png",
-            "data/added_usafacts_12/2.png"
+            "data\\added_usafacts_12\\1.png",
+            "data\\added_usafacts_12\\2.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the number of homicides in Philadelphia in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "0; 534",
+        "question": "Question:\n1. How many rows are there in the second chart?\nNote that Your final answer should be a natural number.\n2. What is the number of homicides in Philadelphia in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "15; 534",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_12_question_2",
         "image": [
-            "data/added_usafacts_12/1.png",
-            "data/added_usafacts_12/2.png"
+            "data\\added_usafacts_12\\1.png",
+            "data\\added_usafacts_12\\2.png"
         ],
-        "question": "Question: Which city had the highest percent change in homicide rate from 2018 to 2022 according to the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "Portland",
+        "question": "Question: How many of the same major cities are there in the first and the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_12_question_3",
         "image": [
-            "data/added_usafacts_12/1.png",
-            "data/added_usafacts_12/2.png"
+            "data\\added_usafacts_12\\1.png",
+            "data\\added_usafacts_12\\2.png"
         ],
-        "question": "Firstly extract the county with the highest homicide rate in the first chart.\nThen what was the percent change in this county's homicide rate from 2018 to 2022 in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "92%",
+        "question": "Question: Firstly extract the county with the fifth highest homicide rate in the first chart.\nThen what was the percent change in this county's homicide rate from 2018 to 2022 in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "+11.8",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

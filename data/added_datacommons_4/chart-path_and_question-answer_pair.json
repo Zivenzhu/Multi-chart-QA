@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_4_question_0",
         "image": [
-            "data/added_datacommons_4/1.png",
-            "data/added_datacommons_4/2.png",
-            "data/added_datacommons_4/3.png"
+            "data\\added_datacommons_4\\1.png",
+            "data\\added_datacommons_4\\2.png",
+            "data\\added_datacommons_4\\3.png"
         ],
-        "question": "What is the label of the industry with the most establishments in the first chart?\nNote that your answer should be grounded to some text that is explicitly written and relevant to the question in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the label of the industry with the most establishments in the first chart?\nNote that your answer should be grounded to some text that is explicitly written and relevant to the question in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Establishment in Health Care And Social Assistance",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_4_question_1",
         "image": [
-            "data/added_datacommons_4/1.png",
-            "data/added_datacommons_4/2.png",
-            "data/added_datacommons_4/3.png"
+            "data\\added_datacommons_4\\1.png",
+            "data\\added_datacommons_4\\2.png",
+            "data\\added_datacommons_4\\3.png"
         ],
-        "question": "How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_4_question_2",
         "image": [
-            "data/added_datacommons_4/1.png",
-            "data/added_datacommons_4/2.png",
-            "data/added_datacommons_4/3.png"
+            "data\\added_datacommons_4\\1.png",
+            "data\\added_datacommons_4\\2.png",
+            "data\\added_datacommons_4\\3.png"
         ],
-        "question": "Which chart provides information about the ownership type of establishments?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which chart provides information about the ownership type of establishments?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
+        "task": "Direct_Questions/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_4_question_3",
         "image": [
-            "data/added_datacommons_4/1.png",
-            "data/added_datacommons_4/2.png",
-            "data/added_datacommons_4/3.png"
+            "data\\added_datacommons_4\\1.png",
+            "data\\added_datacommons_4\\2.png",
+            "data\\added_datacommons_4\\3.png"
         ],
-        "question": "Firstly, determine which state has the highest number of construction establishments in the third chart.\nThen, how many distinct industries are listed in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "California; 14",
+        "question": "Question: First, in the first chart, find the industry with the highest *Number of Establishments by Industry in the United States* and record it as \\( n_0 \\).  \nThen, in the second chart, is the *2020 Number of Establishments: Privately Owned* greater than or less than six times \\( n_0 \\)?\nNote that your answer should be either \"Greater than\" or \"Less than\".\nNote that your answer format should be as follows: \nAnswer: The_answer_you_get",
+        "answer": "Less than",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

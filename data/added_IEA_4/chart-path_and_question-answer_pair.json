@@ -2,44 +2,48 @@
     {
         "id": "added_IEA_4_question_0",
         "image": [
-            "data/added_IEA_4/1.png",
-            "data/added_IEA_4/2.png"
+            "data\\added_IEA_4\\1.png",
+            "data\\added_IEA_4\\2.png"
         ],
-        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Conventional",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_4_question_1",
         "image": [
-            "data/added_IEA_4/1.png",
-            "data/added_IEA_4/2.png"
+            "data\\added_IEA_4\\1.png",
+            "data\\added_IEA_4\\2.png"
         ],
-        "question": "How many explicitly labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "6",
+        "question": "Question:\n1. How many explicitly labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of explicitly labeled ticks on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7; 500",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_4_question_2",
         "image": [
-            "data/added_IEA_4/1.png",
-            "data/added_IEA_4/2.png"
+            "data\\added_IEA_4\\1.png",
+            "data\\added_IEA_4\\2.png"
         ],
-        "question": "What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Geothermal and Cost\nB. Solar and Wind\nC. Hydro and Nuclear\nD. Biomass and Fossil Fuels\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What are the two keywords most relevant to these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Biomass and Fossil Fuels\nB. Solar and Wind\nC. Hydro and Nuclear\nD. Geothermal and Cost\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_IEA_4_question_3",
         "image": [
-            "data/added_IEA_4/1.png",
-            "data/added_IEA_4/2.png"
+            "data\\added_IEA_4\\1.png",
+            "data\\added_IEA_4\\2.png"
         ],
-        "question": "Firstly extract the year with the lowest levelised cost of electricity for next-generation geothermal in the second chart. \nThen in this year, what is the levelised cost of electricity for conventional geothermal in the first chart?\nNote that your answer should be a number followed by 'USD/MWh'. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "100 USD/MWh",
+        "question": "Question: First, identify the year corresponding to the Levelised Cost of Electricity of geothermal and other low-emissions dispatchable technologies from the first chart, and denote it as y\u2080.  \nThen, in the second chart, for the year y\u2080, which type of cost has the lowest proportion in the Levelised Cost of Electricity of next-generation geothermal?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Drilling costs",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,45 +2,49 @@
     {
         "id": "added_weforum_27_question_0",
         "image": [
-            "data/added_weforum_27/1.png",
-            "data/added_weforum_27/2.png"
+            "data\\added_weforum_27\\1.png",
+            "data\\added_weforum_27\\2.png"
         ],
-        "question": "What percentage of countries with a national cervical cancer screening programme are in the lower-middle-income group according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "50%",
+        "question": "Question: What percentage of countries with a national cervical cancer screening programme are in the lower-middle-income group according to the first chart? \nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "54%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_27_question_1",
         "image": [
-            "data/added_weforum_27/1.png",
-            "data/added_weforum_27/2.png"
+            "data\\added_weforum_27\\1.png",
+            "data\\added_weforum_27\\2.png"
         ],
-        "question": "What is the total number of explicitly labeled segments in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "6",
+        "question": "Question:\n1. What is the total number of explicitly labeled segments in the second chart? \nNote that your answer should be a natural number.\n2. How many bars are there in the first chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 4",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_27_question_2",
         "image": [
-            "data/added_weforum_27/1.png",
-            "data/added_weforum_27/2.png"
+            "data\\added_weforum_27\\1.png",
+            "data\\added_weforum_27\\2.png"
         ],
-        "question": "Question: Which type of cancer is specifically mentioned in both charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Lung Cancer\nB. Cervical Cancer\nC. Breast Cancer\nD. Colorectal Cancer\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question:\n1. Which income group has the highest percentage of countries having a cervical cancer screening programme from the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which cancer type has the highest incidence in Nigeria according to the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "High-income; Breast",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_27_question_3",
         "image": [
-            "data/added_weforum_27/1.png",
-            "data/added_weforum_27/2.png"
+            "data\\added_weforum_27\\1.png",
+            "data\\added_weforum_27\\2.png"
         ],
-        "question": "Question: Firstly, determine the income group with the highest percentage of countries having a cervical cancer screening programme from the first chart.\nThen, identify the cancer type with the highest incidence in Nigeria according to the second chart.\nNote that your answer format should be as follows: Answer: The_income_group; The_cancer_type",
-        "answer": "High-income; Breast Cancer",
-        "type": "open-ended",
+        "question": "Question: Which type of cancer is specifically mentioned in both charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Lung Cancer\nB. Cervical Cancer\nC. Breast Cancer\nD. Colorectal Cancer\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

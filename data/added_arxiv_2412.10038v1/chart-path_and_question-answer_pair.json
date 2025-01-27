@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.10038v1_question_0",
         "image": [
-            "data/added_arxiv_2412.10038v1/kde-tau.png",
-            "data/added_arxiv_2412.10038v1/splines-log-delta.png",
-            "data/added_arxiv_2412.10038v1/wd-beta-hyper-history.png"
+            "data\\added_arxiv_2412.10038v1\\1.png",
+            "data\\added_arxiv_2412.10038v1\\2.png",
+            "data\\added_arxiv_2412.10038v1\\3.png"
         ],
-        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "-4",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.10038v1_question_1",
         "image": [
-            "data/added_arxiv_2412.10038v1/kde-tau.png",
-            "data/added_arxiv_2412.10038v1/splines-log-delta.png",
-            "data/added_arxiv_2412.10038v1/wd-beta-hyper-history.png"
+            "data\\added_arxiv_2412.10038v1\\1.png",
+            "data\\added_arxiv_2412.10038v1\\2.png",
+            "data\\added_arxiv_2412.10038v1\\3.png"
         ],
-        "question": "1. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "-1.0; 4",
+        "question": "Question:\n1. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. How many labeled ticks are there on the horizontal axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "-1.0; 24",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.10038v1_question_2",
         "image": [
-            "data/added_arxiv_2412.10038v1/kde-tau.png",
-            "data/added_arxiv_2412.10038v1/splines-log-delta.png",
-            "data/added_arxiv_2412.10038v1/wd-beta-hyper-history.png"
+            "data\\added_arxiv_2412.10038v1\\1.png",
+            "data\\added_arxiv_2412.10038v1\\2.png",
+            "data\\added_arxiv_2412.10038v1\\3.png"
         ],
-        "question": "Question: Which method appears in all three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. svi-local-hyper\nB. svi-amortized-hyper\nC. svi-classic-hyper\nD. svi-local-bd-hyper\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: Which method does not appear in all three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. svi-local-hyper\nB. mcmc\nC. svi-classic-joint\nD. svi-local-bd-hyper\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "B",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.10038v1_question_3",
         "image": [
-            "data/added_arxiv_2412.10038v1/kde-tau.png",
-            "data/added_arxiv_2412.10038v1/splines-log-delta.png",
-            "data/added_arxiv_2412.10038v1/wd-beta-hyper-history.png"
+            "data\\added_arxiv_2412.10038v1\\1.png",
+            "data\\added_arxiv_2412.10038v1\\2.png",
+            "data\\added_arxiv_2412.10038v1\\3.png"
         ],
-        "question": "Question: Firstly, what is the highest density value for the 'mcmc' method in the first chart?\nThen, which subplot in the second chart shows the steepest upward trend for the 'mcmc' method?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "0.5; year",
+        "question": "Question: First, in the leftmost subplot of the first chart, find the method with the smallest density and denote it as \\( m_0 \\).  \nThen, in the second chart, which subplot shows the steepest upward trend for the method \\( m_0 \\)?  \nNote that your answer should be the horizontal axis label of that subplot to refer to that specific subplot.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "year",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

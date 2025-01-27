@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_122_question_0",
+        "id": "owid_0_12-key-metrics_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
+            "data\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
+            "data\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
+            "data\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
         ],
         "question": "Question: What does the vertical axis in the first chart represent?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The percentage of the population living in extreme poverty.\nB. The total number of people living under different poverty thresholds.\nC. The change in the poverty rate over time.\nD. The percentage of the global population falling under each poverty threshold.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "D",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_122_question_1",
+        "id": "owid_0_12-key-metrics_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
+            "data\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
+            "data\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
+            "data\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
         ],
         "question": "Question: \n1. How many colours are used for the colour bars in the third chart?\nNote that Your final answer should be the total number of colours used for the colour bars in the chart across multiple subplots. If the plot does not have any colour bars, answer '0'.\n2. How many different income ranges are represented in the chart showing the distribution of the population between different poverty thresholds from 1990 to 2022 in the first chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "11; 5",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_122_question_2",
+        "id": "owid_0_12-key-metrics_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
+            "data\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
+            "data\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
+            "data\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
         ],
         "question": "Question: \n1. How many colours are used for the colour bars in the second chart?\nNote that Your final answer should be the total number of colours used for the colour bars in the chart across multiple subplots. If the plot does not have any colour bars, answer '0'.\n2. What is the title of the second chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "7; GDP per capita, 2022",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_122_question_3",
+        "id": "owid_0_12-key-metrics_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
-            "modified_local_full_qa\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
+            "data\\owid_0_12-key-metrics\\distribution-of-population-poverty-thresholds.png",
+            "data\\owid_0_12-key-metrics\\gdp-per-capita-maddison.png",
+            "data\\owid_0_12-key-metrics\\share-of-population-in-extreme-poverty.png"
         ],
         "question": "Question:\nHow many of the same percentage labels are there across all the axes of the third chart and the first chart? \nNote that your final answer should be the number of percentage labels that are the same across all axes of multiple subplots in both the first and third charts. If a chart has multiple identical percentage labels across different subplots on all axes, count them as only one distinct percentage label. If there are no percentage labels that are the same across all axes in both charts, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",

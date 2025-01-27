@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_32_question_0",
         "image": [
-            "data/added_usafacts_32/1.png",
-            "data/added_usafacts_32/2.png",
-            "data/added_usafacts_32/3.png"
+            "data\\added_usafacts_32\\1.png",
+            "data\\added_usafacts_32\\2.png",
+            "data\\added_usafacts_32\\3.png"
         ],
-        "question": "What is the title of the first chart? Note that your answer must be the text that is explicitly written at the top of the chart. If the chart does not have a title, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the title of the first chart? \nNote that your answer must be the text that is explicitly written at the top of the chart. If the chart does not have a title, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "Refugee admissions vary due to international and domestic events",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_32_question_1",
         "image": [
-            "data/added_usafacts_32/1.png",
-            "data/added_usafacts_32/2.png",
-            "data/added_usafacts_32/3.png"
+            "data\\added_usafacts_32\\1.png",
+            "data\\added_usafacts_32\\2.png",
+            "data\\added_usafacts_32\\3.png"
         ],
-        "question": "1. How many explicitly labeled ticks are there on the horizontal axis in the second chart? Note that your final answer should be the total number of labeled ticks on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. What is the ceiling value for the Reagan administration in the second chart? Note that your final answer should be the value represented by the topmost point of the line labeled 'Ceiling' during the Reagan administration. \nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "8; 200k",
+        "question": "Question:\n1. How many explicitly labeled ticks are there on the horizontal axis in the third chart? \nNote that your final answer should be the total number of labeled ticks on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. What is the smallest ceiling value for the Reagan administration in the second chart? \nNote that your final answer should be an approximate value.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 70k",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_32_question_2",
         "image": [
-            "data/added_usafacts_32/1.png",
-            "data/added_usafacts_32/2.png",
-            "data/added_usafacts_32/3.png"
+            "data\\added_usafacts_32\\1.png",
+            "data\\added_usafacts_32\\2.png",
+            "data\\added_usafacts_32\\3.png"
         ],
-        "question": "Question: How do the refugee admissions trend from 2020 compare between the first and second charts? Note that your answer should indicate whether the trend is increasing, decreasing, or stable based on the data shown in both charts. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Increasing in both charts",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the second chart and the third chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the second chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_32_question_3",
         "image": [
-            "data/added_usafacts_32/1.png",
-            "data/added_usafacts_32/2.png",
-            "data/added_usafacts_32/3.png"
+            "data\\added_usafacts_32\\1.png",
+            "data\\added_usafacts_32\\2.png",
+            "data\\added_usafacts_32\\3.png"
         ],
-        "question": "Firstly extract the president during whose term the refugee admissions were lowest in the second chart. Then, determine in which year this low point occurred according to the first chart. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Trump, 2020",
+        "question": "Question: Firstly, extract the president during whose term the refugee admissions were lowest in the second chart, and denote this president's term as \\( t_0 \\).  \nThen, in the first chart, what is the minimum value of the 12-month rolling average refugee admissions within this president's term \\( t_0 \\)?\nNote that your final answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "625",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

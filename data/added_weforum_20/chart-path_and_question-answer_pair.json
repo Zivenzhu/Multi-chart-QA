@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_20_question_0",
         "image": [
-            "data/added_weforum_20/1.jpg",
-            "data/added_weforum_20/2.jpg",
-            "data/added_weforum_20/3.jpg"
+            "data\\added_weforum_20\\1.jpg",
+            "data\\added_weforum_20\\2.jpg",
+            "data\\added_weforum_20\\3.jpg"
         ],
-        "question": "What is the vertical axis label in the first chart?\nNote that your answer should be the text label of the vertical axis, excluding any units or scales.",
-        "answer": "9%",
+        "question": "Question: What is the title of the first chart?\nNote that your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "US inflation and interest rates",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_20_question_1",
         "image": [
-            "data/added_weforum_20/1.jpg",
-            "data/added_weforum_20/2.jpg",
-            "data/added_weforum_20/3.jpg"
+            "data\\added_weforum_20\\1.jpg",
+            "data\\added_weforum_20\\2.jpg",
+            "data\\added_weforum_20\\3.jpg"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your answer should be the tick value on the horizontal axis that is explicitly written. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the second chart?\nNote that your answer should be the tick value on the horizontal axis that is explicitly written. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.",
         "answer": "Oct.",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_20_question_2",
         "image": [
-            "data/added_weforum_20/1.jpg",
-            "data/added_weforum_20/2.jpg",
-            "data/added_weforum_20/3.jpg"
+            "data\\added_weforum_20\\1.jpg",
+            "data\\added_weforum_20\\2.jpg",
+            "data\\added_weforum_20\\3.jpg"
         ],
-        "question": "1. How many distinct lines are there in the first chart?\nNote that your answer should be the total number of distinct lines in the chart across multiple subplots. If the plot is not considered a line plot, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that your answer should be the tick value on the vertical axis that is explicitly written. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "4; 200%",
+        "question": "Question:\n1. How many distinct lines are there in the first chart?\nNote that your answer should be the total number of distinct lines in the chart across multiple subplots. If the plot is not considered a line plot, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that your answer should be the tick value on the vertical axis that is explicitly written. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "3; 200%",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_20_question_3",
         "image": [
-            "data/added_weforum_20/1.jpg",
-            "data/added_weforum_20/2.jpg",
-            "data/added_weforum_20/3.jpg"
+            "data\\added_weforum_20\\1.jpg",
+            "data\\added_weforum_20\\2.jpg",
+            "data\\added_weforum_20\\3.jpg"
         ],
         "question": "Question: Which of the following best describes a common theme in the first and second charts?\nNote that this is a choice question. Your answer should be the option that closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Interest Rates\nB. Stock Market Trends\nC. Inflation Rates\nD. Election Outcomes\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

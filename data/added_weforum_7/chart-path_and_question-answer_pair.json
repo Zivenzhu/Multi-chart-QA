@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_7_question_0",
         "image": [
-            "data/added_weforum_7/1.png",
-            "data/added_weforum_7/2.png",
-            "data/added_weforum_7/3.png"
+            "data\\added_weforum_7\\1.png",
+            "data\\added_weforum_7\\2.png",
+            "data\\added_weforum_7\\3.png"
         ],
-        "question": "What is the largest percentage value in the first chart? Note that your final answer should be the largest percentage value explicitly written in the chart. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the largest percentage value in the first chart? \nNote that your final answer should be the largest percentage value explicitly written in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "48%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_7_question_1",
         "image": [
-            "data/added_weforum_7/1.png",
-            "data/added_weforum_7/2.png",
-            "data/added_weforum_7/3.png"
+            "data\\added_weforum_7\\1.png",
+            "data\\added_weforum_7\\2.png",
+            "data\\added_weforum_7\\3.png"
         ],
-        "question": "1. What is the smallest percentage value in the second chart? \nNote that your final answer should be the smallest percentage value explicitly written in the chart. \n2. What percentage does the 'Social' category represent in the third chart?\nNote that your final answer should be the percentage value explicitly written in the chart. \nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the smallest percentage value in the second chart? \nNote that your final answer should be the smallest percentage value explicitly written in the chart. \n2. What percentage does the 'Social' category represent in the third chart?\nNote that your final answer should be the percentage value explicitly written in the chart. \nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "10%; 14%",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_7_question_2",
         "image": [
-            "data/added_weforum_7/1.png",
-            "data/added_weforum_7/2.png",
-            "data/added_weforum_7/3.png"
+            "data\\added_weforum_7\\1.png",
+            "data\\added_weforum_7\\2.png",
+            "data\\added_weforum_7\\3.png"
         ],
-        "question": "Question: Which category appears in both the first and third charts?\nNote that your answer should be a word or phrase that is explicitly written in both charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Environmental",
+        "question": "Question: In these three charts, how many colors are used in all of them to draw the pie charts?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_7_question_3",
         "image": [
-            "data/added_weforum_7/1.png",
-            "data/added_weforum_7/2.png",
-            "data/added_weforum_7/3.png"
+            "data\\added_weforum_7\\1.png",
+            "data\\added_weforum_7\\2.png",
+            "data\\added_weforum_7\\3.png"
         ],
-        "question": "Firstly, extract the category with the highest percentage in the third chart. \nThen, what is the percentage of 'Customer demand' in the second chart?\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "40%; 34%",
+        "question": "Question: Firstly, extract the category with the highest percentage in the third chart and note the color used to represent this category as c0.  \nThen, what is the percentage of the category represented by color c0 in the second chart?\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "34%",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

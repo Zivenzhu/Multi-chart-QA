@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.03152v1_question_0",
         "image": [
-            "data/added_arxiv_2412.03152v1/wmt23-ende-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-nllb-mbr-bleu-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-zhen-differences.png"
+            "data\\added_arxiv_2412.03152v1\\1.png",
+            "data\\added_arxiv_2412.03152v1\\2.png",
+            "data\\added_arxiv_2412.03152v1\\3.png"
         ],
-        "question": "What is the label of the green shaded area in the first chart? \nNote that Your final answer should be the label written in the legend corresponding to the green shaded area. If the chart does not have a legend, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the label of the green shaded area in the first chart? \nNote that Your final answer should be the label written in the legend corresponding to the green shaded area. If the chart does not have a legend, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "NLLB-MBR-BLEU",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03152v1_question_1",
         "image": [
-            "data/added_arxiv_2412.03152v1/wmt23-ende-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-nllb-mbr-bleu-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-zhen-differences.png"
+            "data\\added_arxiv_2412.03152v1\\1.png",
+            "data\\added_arxiv_2412.03152v1\\2.png",
+            "data\\added_arxiv_2412.03152v1\\3.png"
         ],
-        "question": "1. What is the title of the vertical axis in the second chart?\nNote that Your final answer should be the title of the vertical axis, including any units if present. If the chart does not have a vertical axis title, answer 'Not Applicable'.\n2. How many colors are used for the shaded areas in the third chart?\nNote that Your final answer should be the total number of colors used for the shaded areas in the chart. If the chart does not include shaded areas, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the title of the vertical axis in the second chart?\nNote that Your final answer should be the title of the vertical axis, including any units if present. If the chart does not have a vertical axis title, answer 'Not Applicable'.\n2. How many colors are used for the shaded areas in the third chart?\nNote that Your final answer should be the total number of colors used for the shaded areas in the chart. If the chart does not include shaded areas, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Human MQM; 3",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03152v1_question_2",
         "image": [
-            "data/added_arxiv_2412.03152v1/wmt23-ende-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-nllb-mbr-bleu-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-zhen-differences.png"
+            "data\\added_arxiv_2412.03152v1\\1.png",
+            "data\\added_arxiv_2412.03152v1\\2.png",
+            "data\\added_arxiv_2412.03152v1\\3.png"
         ],
-        "question": "Question: Which chart has the highest XCOMET value in its range?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which chart has the highest XCOMET value in its range?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nD. Same\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03152v1_question_3",
         "image": [
-            "data/added_arxiv_2412.03152v1/wmt23-ende-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-nllb-mbr-bleu-differences.png",
-            "data/added_arxiv_2412.03152v1/wmt23-zhen-differences.png"
+            "data\\added_arxiv_2412.03152v1\\1.png",
+            "data\\added_arxiv_2412.03152v1\\2.png",
+            "data\\added_arxiv_2412.03152v1\\3.png"
         ],
         "question": "Question: Firstly, find the label corresponding to the blue shaded area in the third chart.\nThen, using this label, which chart does it also appear in?\nNote that your answer should be the chart number (e.g., 'first', 'second', 'third').\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "first",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

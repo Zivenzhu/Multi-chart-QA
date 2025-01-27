@@ -2,44 +2,48 @@
     {
         "id": "added_IEA_13_question_0",
         "image": [
-            "data/added_IEA_13/1.png",
-            "data/added_IEA_13/2.png"
+            "data\\added_IEA_13\\1.png",
+            "data\\added_IEA_13\\2.png"
         ],
-        "question": "What is the share of total energy consumption for renewable fuels in 2023 in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "5.0%",
+        "question": "Question: What is the share of total energy consumption for renewable fuels in 2023 in the first chart? \nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5.1%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_13_question_1",
         "image": [
-            "data/added_IEA_13/1.png",
-            "data/added_IEA_13/2.png"
+            "data\\added_IEA_13\\1.png",
+            "data\\added_IEA_13\\2.png"
         ],
-        "question": "1. What is the renewable energy demand in Transport for 2030 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. How many sectors are labeled in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "22 EJ; 4",
+        "question": "Question:\n1. What is the renewable energy demand in Transport for 2030 in the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many sectors are labeled in the second chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "25; 4",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_13_question_2",
         "image": [
-            "data/added_IEA_13/1.png",
-            "data/added_IEA_13/2.png"
+            "data\\added_IEA_13\\1.png",
+            "data\\added_IEA_13\\2.png"
         ],
-        "question": "Which sector has the highest share of demand for renewable fuels in 2023 as shown in the second chart, and which sector sees the largest growth in renewable energy demand by 2030 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Industry; Industry",
+        "question": "Question: How many identical labels are there in the legends of the first and the second chart?\nNote that your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_13_question_3",
         "image": [
-            "data/added_IEA_13/1.png",
-            "data/added_IEA_13/2.png"
+            "data\\added_IEA_13\\1.png",
+            "data\\added_IEA_13\\2.png"
         ],
-        "question": "Firstly identify the energy demand for Buildings in 2023 in the second chart. \nThen determine how much this demand grows by 2030 in the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "7 EJ; 2 EJ",
+        "question": "Question: First, in the first chart, identify the category with the highest renewable fuel growth among Buildings, Industry, and Transport, and denote it as c\u2080.  \nThen, in the second chart, approximately how much is the energy demand for solid bioenergy in this category c\u2080?\nNote that your answer should be an estimated value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "11.2",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

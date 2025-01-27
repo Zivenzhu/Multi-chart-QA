@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_45_question_0",
+        "id": "arxiv_0_2407.00838v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\10percR200.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_3.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_profile.png"
+            "data\\arxiv_0_2407.00838v1\\10percR200.png",
+            "data\\arxiv_0_2407.00838v1\\D1_3.png",
+            "data\\arxiv_0_2407.00838v1\\D1_profile.png"
         ],
         "question": "Question:\n1. What is the general trend of data from left to right in the first chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "B; 0.6",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_45_question_1",
+        "id": "arxiv_0_2407.00838v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\10percR200.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_3.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_profile.png"
+            "data\\arxiv_0_2407.00838v1\\10percR200.png",
+            "data\\arxiv_0_2407.00838v1\\D1_3.png",
+            "data\\arxiv_0_2407.00838v1\\D1_profile.png"
         ],
         "question": "Question: How many of the same tick values are there on the colour bars in the first and the second chart?\nNote that Your final answer should be the number of the same tick values on the colour bars across multiple subplots in the first and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the colour bars, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_45_question_2",
+        "id": "arxiv_0_2407.00838v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\10percR200.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_3.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_profile.png"
+            "data\\arxiv_0_2407.00838v1\\10percR200.png",
+            "data\\arxiv_0_2407.00838v1\\D1_3.png",
+            "data\\arxiv_0_2407.00838v1\\D1_profile.png"
         ],
         "question": "Question: 1. With which r/R200 axis tick value is ICL mass fraction the highest in the first chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. With which r[kpc] axis tick value is ICL mass fraction the highest for the line of True in the third chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "10^-1; 60",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_45_question_3",
+        "id": "arxiv_0_2407.00838v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\10percR200.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_3.png",
-            "modified_local_full_qa\\arxiv_0_2407.00838v1\\D1_profile.png"
+            "data\\arxiv_0_2407.00838v1\\10percR200.png",
+            "data\\arxiv_0_2407.00838v1\\D1_3.png",
+            "data\\arxiv_0_2407.00838v1\\D1_profile.png"
         ],
         "question": "Question: First, extract the label from the legend corresponding to the subplot that appears the brightest in the second chart. Then for this label in the third chart, which position does its ICL mass fraction rank when r[kpc] is larger than 60?\nNote that your answer should be an ordinal numeral, such as First, Second, Third only.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "First",

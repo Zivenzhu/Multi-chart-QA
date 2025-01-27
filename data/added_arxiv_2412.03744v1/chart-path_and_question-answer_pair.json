@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.03744v1_question_0",
         "image": [
-            "data/added_arxiv_2412.03744v1/av_weights_after_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_before_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_comb.png"
+            "data\\added_arxiv_2412.03744v1\\1.png",
+            "data\\added_arxiv_2412.03744v1\\2.png",
+            "data\\added_arxiv_2412.03744v1\\3.png"
         ],
-        "question": "What is the title of the first chart? Note that Your final answer should be the text explicitly written as the title of the chart. If the chart does not have an explicit title, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the title of the first chart? \nNote that Your final answer should be the text explicitly written as the title of the chart. If the chart does not have an explicit title, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "Distribution of average node weight (after filtering)",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03744v1_question_1",
         "image": [
-            "data/added_arxiv_2412.03744v1/av_weights_after_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_before_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_comb.png"
+            "data\\added_arxiv_2412.03744v1\\1.png",
+            "data\\added_arxiv_2412.03744v1\\2.png",
+            "data\\added_arxiv_2412.03744v1\\3.png"
         ],
-        "question": "1. How many distinct line styles are used in the first chart?\nNote that Your final answer should be the total number of distinct line styles used in the chart, such as solid, dashed, or dotted lines. If the chart does not have any lines, answer '0'.\n2. What is the horizontal axis label in the second chart?\nNote that Your final answer should be the text explicitly written as the label of the horizontal axis. If the chart does not have an explicit horizontal axis label, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. How many distinct bar styles are used in the first chart?\nNote that Your final answer should be the total number of distinct bar styles used in the chart, such as solid, dashed, or dotted lines. If the chart does not have any bars, answer '0'.\n2. What is the horizontal axis label in the second chart?\nNote that Your final answer should be the text explicitly written as the label of the horizontal axis. If the chart does not have an explicit horizontal axis label, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "2; Average weight of node",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03744v1_question_2",
         "image": [
-            "data/added_arxiv_2412.03744v1/av_weights_after_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_before_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_comb.png"
+            "data\\added_arxiv_2412.03744v1\\1.png",
+            "data\\added_arxiv_2412.03744v1\\2.png",
+            "data\\added_arxiv_2412.03744v1\\3.png"
         ],
-        "question": "Question: Which condition shows the largest spread in node weight before and after filtering?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Unvaccinated, Unchallenged\nB. Unvaccinated, Challenged (6 DPI)\nC. Unvaccinated, Challenged 10 DPI (10 DPI)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which condition shows the largest spread in node weight before and after filtering based on these three charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Unvaccinated, Unchallenged\nB. Unvaccinated, Challenged (6 DPI)\nC. Unvaccinated, Challenged 10 DPI (10 DPI)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.03744v1_question_3",
         "image": [
-            "data/added_arxiv_2412.03744v1/av_weights_after_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_before_filtering.png",
-            "data/added_arxiv_2412.03744v1/av_weights_comb.png"
+            "data\\added_arxiv_2412.03744v1\\1.png",
+            "data\\added_arxiv_2412.03744v1\\2.png",
+            "data\\added_arxiv_2412.03744v1\\3.png"
         ],
         "question": "Question: Firstly extract the maximum average node weight value from the second chart.\nThen, in the third chart, before filtering, which condition corresponds to this maximum average node weight value?\nNote that your answer should be grounded to the condition explicitly written in the chart. If you need to answer multiple terms, separate them with commas. Note that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "(Tissue) Unvaccinated, Unchallenged",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

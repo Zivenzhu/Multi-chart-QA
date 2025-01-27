@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_56_question_0",
+        "id": "arxiv_0_2407.03210v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\RankGMM.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
+            "data\\arxiv_0_2407.03210v1\\RankGMM.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
         ],
         "question": "Question: What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_56_question_1",
+        "id": "arxiv_0_2407.03210v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\RankGMM.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
+            "data\\arxiv_0_2407.03210v1\\RankGMM.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
         ],
         "question": "Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "0.004; 33",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_56_question_2",
+        "id": "arxiv_0_2407.03210v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\RankGMM.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
+            "data\\arxiv_0_2407.03210v1\\RankGMM.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
         ],
         "question": "Question: How many of the same tick values are there across all axes in the third chart and the second chart?\nNote that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the third chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "9",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_56_question_3",
+        "id": "arxiv_0_2407.03210v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\RankGMM.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
-            "modified_local_full_qa\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
+            "data\\arxiv_0_2407.03210v1\\RankGMM.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-2.15.png",
+            "data\\arxiv_0_2407.03210v1\\sm-applied-152.65.png"
         ],
         "question": "Question: Which chart has vertical or horizontal axes that have a different semantic meaning from those in the other two charts?\nNote that your answer should be an ordinal numeral only, such as First, Second or Third to specify the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "First",

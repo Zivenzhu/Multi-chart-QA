@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_6_question_0",
         "image": [
-            "data/added_weforum_6/1.png",
-            "data/added_weforum_6/2.png"
+            "data\\added_weforum_6\\1.png",
+            "data\\added_weforum_6\\2.png"
         ],
-        "question": "What percentage of chief economists expect monetary policy to remain unchanged in Europe according to the first chart? Note that your final answer should be the percentage value explicitly mentioned in the chart. If the chart does not have explicit percentages, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "91",
+        "question": "Question: What percentage of chief economists expect monetary policy to remain unchanged in Europe according to the first chart? \nNote that your final answer should be the percentage value explicitly mentioned in the chart. If the chart does not have explicit percentages, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "0",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_6_question_1",
         "image": [
-            "data/added_weforum_6/1.png",
-            "data/added_weforum_6/2.png"
+            "data\\added_weforum_6\\1.png",
+            "data\\added_weforum_6\\2.png"
         ],
-        "question": "What is the expected percentage of moderate or lower inflation in East Asia and Pacific according to the second chart? Note that your final answer should be the percentage value explicitly mentioned in the chart. If the chart does not have explicit percentages, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "92",
+        "question": "Question:\n1. What is the expected percentage of moderate or lower inflation in East Asia and Pacific according to the second chart? \nNote that your final answer should be the percentage value explicitly mentioned in the chart. If the chart does not have explicit percentages, answer 'Not Applicable'. \n2. How many regions are listed in the first chart?\nNote that your answer shoul be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "92; 9",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_6_question_2",
         "image": [
-            "data/added_weforum_6/1.png",
-            "data/added_weforum_6/2.png"
+            "data\\added_weforum_6\\1.png",
+            "data\\added_weforum_6\\2.png"
         ],
-        "question": "Question: Which region has the highest expectation for tighter monetary policy in the first chart and for moderate or stronger growth in the second chart?\nNote that your answer should be a region explicitly mentioned in both charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which region has the highest expectation for looser monetary policy in the first chart, and in the second chart, the expectation for moderate or stronger growth is higher than 75%?\nNote that your answer should be a region explicitly mentioned in both charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "United States",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_6_question_3",
         "image": [
-            "data/added_weforum_6/1.png",
-            "data/added_weforum_6/2.png"
+            "data\\added_weforum_6\\1.png",
+            "data\\added_weforum_6\\2.png"
         ],
-        "question": "Question: Firstly extract the region with the highest expectation for looser monetary policy in the first chart. Then, what is the expected percentage for moderate or lower inflation in this region according to the second chart?\nNote that your answer should be the percentage value explicitly mentioned in the second chart. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Middle East and North Africa, 89",
+        "question": "Question: Firstly extract the region with the highest expectation for unchanged monetary policy in the first chart. \nThen, what is the expected percentage for moderate or lower inflation in this region according to the second chart?\nNote that your answer should be the percentage value explicitly mentioned in the second chart. Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "88",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

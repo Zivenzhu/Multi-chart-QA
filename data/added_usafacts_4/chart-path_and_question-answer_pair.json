@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_4_question_0",
         "image": [
-            "data/added_usafacts_4/1.png",
-            "data/added_usafacts_4/2.png",
-            "data/added_usafacts_4/3.png"
+            "data\\added_usafacts_4\\1.png",
+            "data\\added_usafacts_4\\2.png",
+            "data\\added_usafacts_4\\3.png"
         ],
-        "question": "What is the source of the data in the first chart?\nNote that Your final answer should be the source information as explicitly written in the chart.\nIf the chart does not have a source mentioned, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the source of the data in the first chart?\nNote that Your final answer should be the source information as explicitly written in the chart.\nIf the chart does not have a source mentioned, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "Office of Management and Budget",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_4_question_1",
         "image": [
-            "data/added_usafacts_4/1.png",
-            "data/added_usafacts_4/2.png",
-            "data/added_usafacts_4/3.png"
+            "data\\added_usafacts_4\\1.png",
+            "data\\added_usafacts_4\\2.png",
+            "data\\added_usafacts_4\\3.png"
         ],
-        "question": "1. What is the lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written. \n2. How many labeled categories are in the third chart?\nNote that Your final answer should be the total number of distinct labeled categories in the chart. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "0%; 5",
+        "question": "Question:\n1. What is the highest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written. \n2. How many labeled categories are in the third chart?\nNote that Your final answer should be the total number of distinct labeled categories in the chart. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "80%; 5",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_4_question_2",
         "image": [
-            "data/added_usafacts_4/1.png",
-            "data/added_usafacts_4/2.png",
-            "data/added_usafacts_4/3.png"
+            "data\\added_usafacts_4\\1.png",
+            "data\\added_usafacts_4\\2.png",
+            "data\\added_usafacts_4\\3.png"
         ],
-        "question": "Question: Which fiscal year had the highest defense spending, adjusted for inflation, according to the first chart, and what was the share of defense spending in FY 2023 as shown in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. FY 2010, 13.4%\nB. FY 2020, 15.6%\nC. FY 2015, 12.8%\nD. FY 2000, 14.2%\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_4_question_3",
         "image": [
-            "data/added_usafacts_4/1.png",
-            "data/added_usafacts_4/2.png",
-            "data/added_usafacts_4/3.png"
+            "data\\added_usafacts_4\\1.png",
+            "data\\added_usafacts_4\\2.png",
+            "data\\added_usafacts_4\\3.png"
         ],
-        "question": "Question: Firstly extract the fiscal year when national defense spending was highest according to the first chart.\nThen, in the third chart, which category had the largest share of defense spending in FY 2023?\nNote that your answer should be an explicit category from the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Operations",
+        "question": "Question: First, identify the fiscal year when national defense spending was highest according to the first chart, and denote it as **y0**.  \nThen, in the third chart, when the year is **y0**, what is **National defense's share of federal government spending**?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20%",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_42_question_0",
+        "id": "arxiv_0_2407.00285v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2ab.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2cd.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig3.png"
+            "data\\arxiv_0_2407.00285v1\\Fig2ab.png",
+            "data\\arxiv_0_2407.00285v1\\Fig2cd.png",
+            "data\\arxiv_0_2407.00285v1\\Fig3.png"
         ],
         "question": "Question: How many ticks are there on the Y position axis in the first chart?\nNote that Your final answer should be the total number of ticks on the Y position axis across multiple subplots. If the chart does not have ticks on the Y position axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "6",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_42_question_1",
+        "id": "arxiv_0_2407.00285v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2ab.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2cd.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig3.png"
+            "data\\arxiv_0_2407.00285v1\\Fig2ab.png",
+            "data\\arxiv_0_2407.00285v1\\Fig2cd.png",
+            "data\\arxiv_0_2407.00285v1\\Fig3.png"
         ],
         "question": "Question: 1. What does the z-axis in the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots,\nanswer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Integrated Counts  \nB. CCD Counts  \nC. Pixel Intensity  \nD. Y Position  \n2. What does the z-axis in the third chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots,\nanswer based on the subplot on the left and at the bottom.\nA. Y Position\nB. Integrated Counts\nC. X Position\nD. CCD Counts\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; D",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_42_question_2",
+        "id": "arxiv_0_2407.00285v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2ab.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2cd.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig3.png"
+            "data\\arxiv_0_2407.00285v1\\Fig2ab.png",
+            "data\\arxiv_0_2407.00285v1\\Fig2cd.png",
+            "data\\arxiv_0_2407.00285v1\\Fig3.png"
         ],
         "question": "Question: How many of the same explicitly written label values are there on the X position axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same explicitly written label values on the X position axis across multiple subplots in the second chart and the first chart. If a chart has multiple explicitly written labels from different subplots with the same value, count them as only one distinct label value. If the second and the first charts do not have explicitly written label valuesl on the X position axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_42_question_3",
+        "id": "arxiv_0_2407.00285v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2ab.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig2cd.png",
-            "modified_local_full_qa\\arxiv_0_2407.00285v1\\Fig3.png"
+            "data\\arxiv_0_2407.00285v1\\Fig2ab.png",
+            "data\\arxiv_0_2407.00285v1\\Fig2cd.png",
+            "data\\arxiv_0_2407.00285v1\\Fig3.png"
         ],
         "question": "Question: 1. Which (X_position, Y_position) has the highest Integrated Counts in right subplot of the first chart?\nNote that in this question, you should find the X position value and Y position value which has the highest Integrated Counts. And the answer should be in the format of (specified_X_position, specified_Y_position)\n2. Which (X_position, Y_position) has the highest Integrated Counts in left subplot of the second chart?\nNote that in this question, you should find the X position value and Y position value which has the highest Integrated Counts. And the answer should be in the format of (specified_X_position, specified_Y_position)\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "(4, 2); (1, 6)",

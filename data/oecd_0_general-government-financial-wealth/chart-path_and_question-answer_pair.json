@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_83_question_0",
+        "id": "oecd_0_general-government-financial-wealth_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
         ],
         "question": "Question: How many labeled countries are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "18",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_83_question_1",
+        "id": "oecd_0_general-government-financial-wealth_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
         ],
         "question": "Question: 1. What does the horizontal axis of the third chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. General government financial wealth in various countries.\nB. The different countries ranked by their GDP.\nC. The total population of each country.\nD. The percentage change in financial wealth.\n2. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "B; -400",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_83_question_2",
+        "id": "oecd_0_general-government-financial-wealth_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the third chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the third chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the third chart and the second chart do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_83_question_3",
+        "id": "oecd_0_general-government-financial-wealth_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
-            "modified_local_full_qa\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_22_37.039Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_24_08.904Z.png",
+            "data\\oecd_0_general-government-financial-wealth\\export-2024-07-24T19_25_19.677Z.png"
         ],
         "question": "Question: Firstly extract the number of bars whose General government financial wealth is larger than 0 in the year of 2018, 2020, 2022.\nThen what is the general trend of the number of bars whose General government financial wealth is larger than 0 with the passage of years?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Firstly increasing then remaining the same\nB. Monotone increasing\nC. Monotone decreasing\nD. Firstly decreasing then remaining the same\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",

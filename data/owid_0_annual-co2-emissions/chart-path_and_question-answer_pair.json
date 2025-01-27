@@ -1,9 +1,9 @@
 [
     {
-        "id": "group_127_question_0",
+        "id": "owid_0_annual-co2-emissions_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
+            "data\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
+            "data\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
         ],
         "question": "Question: What is the value of the darkest red area in the first chart? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "10 billion",
@@ -12,10 +12,10 @@
         "context": null
     },
     {
-        "id": "group_127_question_1",
+        "id": "owid_0_annual-co2-emissions_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
+            "data\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
+            "data\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
         ],
         "question": "Question: \n1. How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. What is the title of the first chart? \nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "6; Annual CO\u00e2\u201a\u201a emissions, 2022",
@@ -24,10 +24,10 @@
         "context": null
     },
     {
-        "id": "group_127_question_2",
+        "id": "owid_0_annual-co2-emissions_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
+            "data\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
+            "data\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
         ],
         "question": "Question:\n1. How many distinct lines are there in the second chart? \nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\n2. How many labeled ticks are there on the colour scale bar in the first chart? \nNote that Your final answer should be the total number of labeled ticks on the colour scale bar across multiple subplots. If the chart does not have explicit labeled ticks on the colour scale bar, answer '0'. \nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "8; 10",
@@ -36,10 +36,10 @@
         "context": null
     },
     {
-        "id": "group_127_question_3",
+        "id": "owid_0_annual-co2-emissions_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
-            "modified_local_full_qa\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
+            "data\\owid_0_annual-co2-emissions\\annual-co2-emissions-per-country.png",
+            "data\\owid_0_annual-co2-emissions\\annual-share-of-co2-emissions.png"
         ],
         "question": "Question:\nWhich two keywords are most relevant to the two charts provided?\nThis a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Carbon Emissions, Population\nB. CO2 Emissions, Countries\nC. Renewable Energy, Global Warming\nD. Fossil Fuels, Industrial Processes\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",

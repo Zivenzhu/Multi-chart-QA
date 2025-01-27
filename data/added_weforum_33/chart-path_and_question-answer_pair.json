@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_33_question_0",
         "image": [
-            "data/added_weforum_33/1.png",
-            "data/added_weforum_33/2.png",
-            "data/added_weforum_33/3.png"
+            "data\\added_weforum_33\\1.png",
+            "data\\added_weforum_33\\2.png",
+            "data\\added_weforum_33\\3.png"
         ],
-        "question": "What is the year-over-year (YOY) percentage change for the cement sector in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "-4%",
+        "question": "Question:\n1. What is the year-over-year (YOY) percentage change for the cement sector in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. Which sector shows the largest positive year-over-year (YOY) percentage change in demand according to the third chart?\nNote that this is a free form question. Your final answer should be the sector name as explicitly written in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "-4%; Primary chemicals",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_33_question_1",
         "image": [
-            "data/added_weforum_33/1.png",
-            "data/added_weforum_33/2.png",
-            "data/added_weforum_33/3.png"
+            "data\\added_weforum_33\\1.png",
+            "data\\added_weforum_33\\2.png",
+            "data\\added_weforum_33\\3.png"
         ],
-        "question": "1. How many sectors are listed in the second chart?\nNote that Your final answer should be the total number of sectors listed in the chart across multiple subplots.\n2. What is the spatially lowest labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "8; 0",
+        "question": "Question:\n1. How many sectors are listed in the second chart?\nNote that Your final answer should be the total number of sectors listed in the chart across multiple subplots.\n2. What is the rightmost labeled tick on the horizontal axis in the third chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "8; 4,500",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_33_question_2",
         "image": [
-            "data/added_weforum_33/1.png",
-            "data/added_weforum_33/2.png",
-            "data/added_weforum_33/3.png"
+            "data\\added_weforum_33\\1.png",
+            "data\\added_weforum_33\\2.png",
+            "data\\added_weforum_33\\3.png"
         ],
-        "question": "Question: Which sector shows the largest positive year-over-year (YOY) percentage change in demand according to the third chart?\nNote that this is a free form question. Your final answer should be the sector name as explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Primary chemicals",
+        "question": "Question: How many of the same sectors are there in the first chart and the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "8",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_33_question_3",
         "image": [
-            "data/added_weforum_33/1.png",
-            "data/added_weforum_33/2.png",
-            "data/added_weforum_33/3.png"
+            "data\\added_weforum_33\\1.png",
+            "data\\added_weforum_33\\2.png",
+            "data\\added_weforum_33\\3.png"
         ],
         "question": "Question: Firstly extract the sector with the largest absolute direct CO2e emissions in 2023 from the first chart.\nThen find out the emission intensity change for this sector in 2023 from the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "-3%",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

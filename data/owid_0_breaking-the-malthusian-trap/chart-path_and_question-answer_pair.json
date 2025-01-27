@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_128_question_0",
+        "id": "owid_0_breaking-the-malthusian-trap_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
+            "data\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
         ],
         "question": "Question: What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1270",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_128_question_1",
+        "id": "owid_0_breaking-the-malthusian-trap_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
+            "data\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
         ],
         "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the third chart?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when the vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "6; 1500",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_128_question_2",
+        "id": "owid_0_breaking-the-malthusian-trap_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
+            "data\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
         ],
         "question": "Question: How many identical labels are there in the legends of the third chart and the first chart? \nNote that Your final answer should be the number of identical labels in the legends of the third chart and the first chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_128_question_3",
+        "id": "owid_0_breaking-the-malthusian-trap_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
-            "modified_local_full_qa\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
+            "data\\owid_0_breaking-the-malthusian-trap\\englands-economy-over-the-long-run-gdp-per-capita-vs-population.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-in-the-uk-since-1270.png",
+            "data\\owid_0_breaking-the-malthusian-trap\\gdp-per-capita-maddison.png"
         ],
         "question": "Question: 1. What is the general trend of England's Population with the passage of year in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Decreasing\nC. Firstly decreasing then increasing\nD. Firstly increasing then decreasing\n2. Which position does the GDP per capita of the United Kingdom rank in 2022 in the third chart?\nNote that your answer should be an ordinal number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "C; Second",

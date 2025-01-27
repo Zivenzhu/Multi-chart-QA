@@ -2,48 +2,52 @@
     {
         "id": "added_arxiv_2412.08766v1_question_0",
         "image": [
-            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
-            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
-            "data/added_arxiv_2412.08766v1/linder.png"
+            "data\\added_arxiv_2412.08766v1\\1.png",
+            "data\\added_arxiv_2412.08766v1\\2.png",
+            "data\\added_arxiv_2412.08766v1\\3.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "-0.70",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.08766v1_question_1",
         "image": [
-            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
-            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
-            "data/added_arxiv_2412.08766v1/linder.png"
+            "data\\added_arxiv_2412.08766v1\\1.png",
+            "data\\added_arxiv_2412.08766v1\\2.png",
+            "data\\added_arxiv_2412.08766v1\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "10",
+        "question": "Question:\n1. What is the total number of explicitly labeled ticks across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \n2. How many colors are used for the color bar in the third chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "15; 17",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_arxiv_2412.08766v1_question_2",
         "image": [
-            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
-            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
-            "data/added_arxiv_2412.08766v1/linder.png"
+            "data\\added_arxiv_2412.08766v1\\1.png",
+            "data\\added_arxiv_2412.08766v1\\2.png",
+            "data\\added_arxiv_2412.08766v1\\3.png"
         ],
-        "question": "Question: Which chart shows a color gradient for the variable W*?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart",
+        "question": "Question: Which chart shows a color gradient for the variable W*?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_arxiv_2412.08766v1_question_3",
         "image": [
-            "data/added_arxiv_2412.08766v1/hilltop_models_best_fit_legend.png",
-            "data/added_arxiv_2412.08766v1/hilltop_models_pivot_z_legend.png",
-            "data/added_arxiv_2412.08766v1/linder.png"
+            "data\\added_arxiv_2412.08766v1\\1.png",
+            "data\\added_arxiv_2412.08766v1\\2.png",
+            "data\\added_arxiv_2412.08766v1\\3.png"
         ],
-        "question": "Question: Firstly extract the value of W* when W0 is -1.0 in the first chart for Hilltop (K = 3). Then what is the corresponding value of Z_pivot at W0 = -1.0 in the second chart for Hilltop (K = 3)?\nNote that your answer should be grounded to the values explicitly written in the charts.\nNote that your answer format should be as follows: Answer: The_value_for_W*_you_get, The_value_for_Z_pivot_you_get.",
-        "answer": "-0.98, 0.170",
+        "question": "Question: First, in the first chart, when \\( W^* = -0.88 \\), find the \\( W_0 \\) corresponding to the line labeled \"Hilltop (K = 2)\" and denote it as \\( v_0 \\).  \nThen, in the second chart, when \\( W_0 = v_0 \\), what is the \\( Z_{\\text{pivot}} \\) corresponding to the line labeled \"Hilltop (K = 2)\"?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "0.2025",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

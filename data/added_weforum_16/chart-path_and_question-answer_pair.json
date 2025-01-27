@@ -2,45 +2,49 @@
     {
         "id": "added_weforum_16_question_0",
         "image": [
-            "data/added_weforum_16/1.png",
-            "data/added_weforum_16/2.png"
+            "data\\added_weforum_16\\1.png",
+            "data\\added_weforum_16\\2.png"
         ],
-        "question": "What is the cumulative number of agreements in 2020 in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Answer: 360",
+        "question": "Question: What is the cumulative number of agreements in 2020 in the first chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "330",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_16_question_1",
         "image": [
-            "data/added_weforum_16/1.png",
-            "data/added_weforum_16/2.png"
+            "data\\added_weforum_16\\1.png",
+            "data\\added_weforum_16\\2.png"
         ],
-        "question": "How many income groups are represented in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Answer: 4",
+        "question": "Question: How many carbon pricing mechanisms are implemented in upper middle income countries in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "9",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_16_question_2",
         "image": [
-            "data/added_weforum_16/1.png",
-            "data/added_weforum_16/2.png"
+            "data\\added_weforum_16\\1.png",
+            "data\\added_weforum_16\\2.png"
         ],
-        "question": "Question: Which chart has more categories for grouping the data?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Answer: A",
-        "type": "multiple-choice",
+        "question": "Question:\n1. How many income groups are represented in the second chart?\nNote that your answer should be a natural number.\n2. In which year is the number of new agreements with 3 or more provisions highest in the first chart?\nNote that your answer should be a year.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 2021",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_16_question_3",
         "image": [
-            "data/added_weforum_16/1.png",
-            "data/added_weforum_16/2.png"
+            "data\\added_weforum_16\\1.png",
+            "data\\added_weforum_16\\2.png"
         ],
-        "question": "Question: Firstly identify the year when the highest number of new agreements with 3 or more provisions were made in the first chart.\nThen, for this year, how many carbon pricing mechanisms are implemented in upper middle income countries in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Answer: 9",
-        "type": "open-ended",
+        "question": "Question: Which chart has more categories for grouping the data?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Both charts include an equal number of categories.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

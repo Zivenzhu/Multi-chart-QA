@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_19_question_0",
         "image": [
-            "data/added_usafacts_19/1.png",
-            "data/added_usafacts_19/2.png",
-            "data/added_usafacts_19/3.png"
+            "data\\added_usafacts_19\\1.png",
+            "data\\added_usafacts_19\\2.png",
+            "data\\added_usafacts_19\\3.png"
         ],
-        "question": "What percentage of local police SROs interviewed a student in the presence of a parent/guardian according to the first chart? \nNote that your final answer should be the percentage value that is explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What percentage of local police SROs interviewed a student in the presence of a parent/guardian according to the first chart? \nNote that your final answer should be the percentage value that is explicitly written in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "64.8%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_19_question_1",
         "image": [
-            "data/added_usafacts_19/1.png",
-            "data/added_usafacts_19/2.png",
-            "data/added_usafacts_19/3.png"
+            "data\\added_usafacts_19\\1.png",
+            "data\\added_usafacts_19\\2.png",
+            "data\\added_usafacts_19\\3.png"
         ],
-        "question": "1. What is the percentage of school district police SROs who patrolled school facilities according to the second chart? \nNote that your final answer should be the percentage value that is explicitly written in the chart.\n2. How many distinct activities are listed for school district police SROs in the third chart?\nNote that your final answer should be the total number of distinct activities listed in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the percentage of school district police SROs who patrolled school facilities according to the second chart? \nNote that your final answer should be the percentage value that is explicitly written in the chart.\n2. How many distinct activities are listed for school district police SROs in the third chart?\nNote that your final answer should be the total number of distinct activities listed in the chart.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "94.5%; 4",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_19_question_2",
         "image": [
-            "data/added_usafacts_19/1.png",
-            "data/added_usafacts_19/2.png",
-            "data/added_usafacts_19/3.png"
+            "data\\added_usafacts_19\\1.png",
+            "data\\added_usafacts_19\\2.png",
+            "data\\added_usafacts_19\\3.png"
         ],
-        "question": "Question: Which agency type had the highest percentage of SROs conducting searches in the first chart compared to those patrolling school facilities in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Local police\nB. Sheriffs' offices\nC. School district police\nD. All sworn SROs\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "question": "Question: Which agency type had the percentage of SROs conducting searches greater than 54% in the first chart and patrolling school facilities less than 98.5% in the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Local police\nB. Sheriffs' offices\nC. School district police\nD. All sworn SROs\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_usafacts_19_question_3",
         "image": [
-            "data/added_usafacts_19/1.png",
-            "data/added_usafacts_19/2.png",
-            "data/added_usafacts_19/3.png"
+            "data\\added_usafacts_19\\1.png",
+            "data\\added_usafacts_19\\2.png",
+            "data\\added_usafacts_19\\3.png"
         ],
-        "question": "Question: Firstly extract the activity with the highest percentage for all sworn SROs in the second chart.\nThen determine the percentage of all sworn SROs administering special safety programs in the third chart.\nNote that your answer should be the percentage as it is written in the third chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "48.7%",
+        "question": "Question: First, identify the agency type with the smallest percentage of \"Faculty/staff in-service presentations\" in the third chart and denote it as t0.  \nThen, in the second chart, what is the percentage of \"Responded to calls for service on the school campus\" for this agency type t0?\nNote that your answer should be the percentage as it is written in the third chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "91.3%",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

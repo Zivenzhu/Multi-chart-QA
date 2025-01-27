@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_70_question_0",
+        "id": "oecd_0_crop-production_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
         ],
         "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "12",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_70_question_1",
+        "id": "oecd_0_crop-production_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
         ],
         "question": "Question:\n1. What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the spatially lowest labeled tick on the vertical axis in the second chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n3. What is the general trend of data from left to right in the third chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing\nD. Decreasing then increasing\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "12; 0; C",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_70_question_2",
+        "id": "oecd_0_crop-production_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the second and the first charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "17",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_70_question_3",
+        "id": "oecd_0_crop-production_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
-            "modified_local_full_qa\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_35_22.207Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_36_49.192Z.png",
+            "data\\oecd_0_crop-production\\export-2024-07-26T12_38_00.193Z.png"
         ],
         "question": "Question: Note that the light blue bar represents the average crop production. In how many charts the average crop production is above 4?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "3",

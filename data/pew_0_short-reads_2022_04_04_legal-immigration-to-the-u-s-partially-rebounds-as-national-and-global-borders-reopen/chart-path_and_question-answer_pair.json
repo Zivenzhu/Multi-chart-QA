@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_209_question_0",
+        "id": "pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen_question_0",
         "image": [
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
         ],
         "question": "Question: What does the horizontal axis in the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Quarters of each fiscal year\nB. The number of temporary migrants arriving in the U.S.\nC. Types of temporary migrants\nD. Different countries of origin\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_209_question_1",
+        "id": "pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen_question_1",
         "image": [
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
         ],
         "question": "Question: \n1. How many distinct lines are there in the third chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\n2. What are the names of the labels in the legend of the first chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right, and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "3; All legal permanent residents, Adjustments, New arrivals",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_209_question_2",
+        "id": "pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen_question_2",
         "image": [
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "12",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_209_question_3",
+        "id": "pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen_question_3",
         "image": [
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
-            "modified_local_full_qa\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_01.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_02.png",
+            "data\\pew_0_short-reads_2022_04_04_legal-immigration-to-the-u-s-partially-rebounds-as-national-and-global-borders-reopen\\ft_2022.04.04_legalmigration_03.png"
         ],
         "question": "Question: 1. What kind of legal permanent residents has a larger number between Adjustments and New arrivals in 2017, Q1 in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What kind of temporary migrants has the second largest number in 2017, Q1 in the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "New arrivals; Workers",

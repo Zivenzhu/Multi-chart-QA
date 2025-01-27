@@ -2,48 +2,52 @@
     {
         "id": "added_gapminder_2_question_0",
         "image": [
-            "data/added_gapminder_2/1.png",
-            "data/added_gapminder_2/2.png",
-            "data/added_gapminder_2/3.png"
+            "data\\added_gapminder_2\\1.png",
+            "data\\added_gapminder_2\\2.png",
+            "data\\added_gapminder_2\\3.png"
         ],
-        "question": "What percentage of the population was living under extreme poverty in the year 1800? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What percentage of the population was living under extreme poverty in the year 1800? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "81%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gapminder_2_question_1",
         "image": [
-            "data/added_gapminder_2/1.png",
-            "data/added_gapminder_2/2.png",
-            "data/added_gapminder_2/3.png"
+            "data\\added_gapminder_2\\1.png",
+            "data\\added_gapminder_2\\2.png",
+            "data\\added_gapminder_2\\3.png"
         ],
-        "question": "1. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What percentage of the population was living under extreme poverty in the year 1911?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "question": "Question:\n1. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n2. What percentage of the population was living under extreme poverty in the year 1911?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "500; 62%",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gapminder_2_question_2",
         "image": [
-            "data/added_gapminder_2/1.png",
-            "data/added_gapminder_2/2.png",
-            "data/added_gapminder_2/3.png"
+            "data\\added_gapminder_2\\1.png",
+            "data\\added_gapminder_2\\2.png",
+            "data\\added_gapminder_2\\3.png"
         ],
-        "question": "Question: Which year shows the lowest percentage of the population living in extreme poverty?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 1800\nB. 1911\nC. 2023\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "question": "Question: Which year shows the lowest percentage of the population living in extreme poverty?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2023\nB. 1911\nC. 1800\nD. None of the above\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_gapminder_2_question_3",
         "image": [
-            "data/added_gapminder_2/1.png",
-            "data/added_gapminder_2/2.png",
-            "data/added_gapminder_2/3.png"
+            "data\\added_gapminder_2\\1.png",
+            "data\\added_gapminder_2\\2.png",
+            "data\\added_gapminder_2\\3.png"
         ],
-        "question": "Question: Firstly extract the year when the percentage of people living under extreme poverty was the highest across all the years listed.\nThen for this year, what is the income level threshold for extreme poverty?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "1800, Level 1",
+        "question": "Question: Firstly extract the year when the percentage of people living under extreme poverty was the highest across all the years listed.\nThen for this year, what is the income level threshold for extreme poverty?\nNote that your answer should be \"Level 1,\" \"Level 2,\" \"Level 3,\" \"Level 4,\" or \"Level 5.\"\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Level 2",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

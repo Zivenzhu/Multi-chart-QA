@@ -2,49 +2,53 @@
     {
         "id": "added_usafacts_44_question_0",
         "image": [
-            "data/added_usafacts_44/1.png",
-            "data/added_usafacts_44/2.png",
-            "data/added_usafacts_44/3.png"
+            "data\\added_usafacts_44\\1.png",
+            "data\\added_usafacts_44\\2.png",
+            "data\\added_usafacts_44\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "25",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "20",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_44_question_1",
         "image": [
-            "data/added_usafacts_44/1.png",
-            "data/added_usafacts_44/2.png",
-            "data/added_usafacts_44/3.png"
+            "data\\added_usafacts_44\\1.png",
+            "data\\added_usafacts_44\\2.png",
+            "data\\added_usafacts_44\\3.png"
         ],
-        "question": "What is the spatially lowest labeled tick on the vertical axis in the first chart? Note that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "0",
+        "question": "Question:\n1. What is the spatially lowest labeled tick on the vertical axis in the first chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \n2. How many types of Disabilities are listed in the third chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "0; 10",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_44_question_2",
         "image": [
-            "data/added_usafacts_44/1.png",
-            "data/added_usafacts_44/2.png",
-            "data/added_usafacts_44/3.png"
+            "data\\added_usafacts_44\\1.png",
+            "data\\added_usafacts_44\\2.png",
+            "data\\added_usafacts_44\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these two charts? Note that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. A. Compensation and Disability B. Employment and Location C. Education and Income D. Health and Age Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question:\n1. Which combined degree has the highest number of compensation recipients in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. How many veterans fall into the 70% to 100% disabling category in the first chart as of 2020?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "100%; 2.3M",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_44_question_3",
         "image": [
-            "data/added_usafacts_44/1.png",
-            "data/added_usafacts_44/2.png",
-            "data/added_usafacts_44/3.png"
+            "data\\added_usafacts_44\\1.png",
+            "data\\added_usafacts_44\\2.png",
+            "data\\added_usafacts_44\\3.png"
         ],
-        "question": "Firstly extract the combined degree with the highest number of compensation recipients in the second chart. Then determine how many veterans fall into the 70% to 100% disabling category in the first chart as of 2020. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "100%; 2.3M",
-        "type": "open-ended",
+        "question": "Question: What are the two keywords most relevant to these three charts? \nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option. \nA. Population and Compensation \nB. Tinnitus and Disability \nC. Compensation and Disability \nD. Veterans and Age\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

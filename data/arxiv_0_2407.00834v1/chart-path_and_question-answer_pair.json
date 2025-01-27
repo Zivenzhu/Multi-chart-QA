@@ -1,9 +1,9 @@
 [
     {
-        "id": "group_44_question_0",
+        "id": "arxiv_0_2407.00834v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
         ],
         "question": "Question: 1. What is the layout of the subplots in the first chart? (Answers should m by n)?\nNote that Your final answer should follow 'm by n' format, where m is the number of rows and n is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\n2. What is the leftmost labeled tick on the horizontal axis in the SIPI subplot of the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is share\nd across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore u\nnits or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not\nhave explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "3 by 4; 0.3",
@@ -12,10 +12,10 @@
         "context": null
     },
     {
-        "id": "group_44_question_1",
+        "id": "arxiv_0_2407.00834v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the NDVI subplot among the first and the second charts?\nNote that Your final answer should be the number of the same tick values on the vertical axis in the NDVI subplot among the first and the second charts.. If the first chart and the second chart do not have ticks with the same label on the vertical axis in the NDVI subplot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -24,10 +24,10 @@
         "context": null
     },
     {
-        "id": "group_44_question_2",
+        "id": "arxiv_0_2407.00834v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
         ],
         "question": "Question: When comparing each subplot in the same position in both the first and second charts, in how many subplots is the MAPE value in the first chart larger than the MAPE value in the corresponding subplot of the second chart? \nNote that you should examine each subplot pair and count the number of subplots that satisfy this condition.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -36,10 +36,10 @@
         "context": null
     },
     {
-        "id": "group_44_question_3",
+        "id": "arxiv_0_2407.00834v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
-            "modified_local_full_qa\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting.png",
+            "data\\arxiv_0_2407.00834v1\\multi_VIs_forecasting_v2.png"
         ],
         "question": "Question: When comparing each subplot in the same position in both the first and second charts, in how many subplots is the R^2 value in the first chart larger than the R^2 value in the corresponding subplot of the second chart? \nNote that you should examine each subplot pair and count the number of subplots that satisfy this condition.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "8",

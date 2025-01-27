@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_16_question_0",
         "image": [
-            "data/added_datacommons_16/1.png",
-            "data/added_datacommons_16/2.png",
-            "data/added_datacommons_16/3.png"
+            "data\\added_datacommons_16\\1.png",
+            "data\\added_datacommons_16\\2.png",
+            "data\\added_datacommons_16\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "6",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "8",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_16_question_1",
         "image": [
-            "data/added_datacommons_16/1.png",
-            "data/added_datacommons_16/2.png",
-            "data/added_datacommons_16/3.png"
+            "data\\added_datacommons_16\\1.png",
+            "data\\added_datacommons_16\\2.png",
+            "data\\added_datacommons_16\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "2; 10",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct bars are there in the third chart?\nNote that Your final answer should be the total number of distinct bars in the chart across multiple subplots. Note that If a bar has multiple segments, count it as one bar. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2; 17",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_16_question_2",
         "image": [
-            "data/added_datacommons_16/1.png",
-            "data/added_datacommons_16/2.png",
-            "data/added_datacommons_16/3.png"
+            "data\\added_datacommons_16\\1.png",
+            "data\\added_datacommons_16\\2.png",
+            "data\\added_datacommons_16\\3.png"
         ],
         "question": "Question: What are the two states most relevant to these three charts?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. California and Florida\nB. Texas and California\nC. New York and Texas\nD. Florida and New York\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_16_question_3",
         "image": [
-            "data/added_datacommons_16/1.png",
-            "data/added_datacommons_16/2.png",
-            "data/added_datacommons_16/3.png"
+            "data\\added_datacommons_16\\1.png",
+            "data\\added_datacommons_16\\2.png",
+            "data\\added_datacommons_16\\3.png"
         ],
-        "question": "Question: Firstly extract the number for the native population in California from the first chart. \nThen, using this information, determine which foreign-born group has a similar population size according to the third chart.\nNote that your answer should be the explicit group name as stated in the third chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Population: Foreign Born, Asia",
+        "question": "Question: First, in the second chart, identify the state with a higher Foreign-born pre-1990 population.  \nThen, in the first chart, what is the Population: Native for this state?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "26.7M",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

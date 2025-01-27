@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_168_question_0",
+        "id": "owid_0_nuclear-weapons_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
         ],
         "question": "Question: What are the names of the labels in the legend of the first chart? (from top to bottom, then left to right) \nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Deployed strategic warheads, Deployed nonstrategic warheads, Nondeployed warheads, Retired warheads",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_168_question_1",
+        "id": "owid_0_nuclear-weapons_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
         ],
         "question": "Question: \n1. How many colours are used for the bars in the third chart? \nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'. \n2. What does the color dark red indicate in the second chart?\nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "3; Russia",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_168_question_2",
+        "id": "owid_0_nuclear-weapons_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
         ],
         "question": "Question: How many of the same labeled countries are there in the second chart and the first chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "9",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_168_question_3",
+        "id": "owid_0_nuclear-weapons_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
-            "modified_local_full_qa\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-inventories.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-warhead-stockpiles-lines.png",
+            "data\\owid_0_nuclear-weapons\\nuclear-weapons-proliferation.png"
         ],
         "question": "Question: 1. What is the difference in deployed strategic warheads between Russia and United States in the first chart?\nNote that the answer should be an integer.\n2. Which country reached its peak in estimated nuclear warhead stockpiles first, Russia or United States in the second chart?\nNote that the answer should be only one option from (Russia, United States)\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "4; United States",

@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_30_question_0",
         "image": [
-            "data/added_usafacts_30/1.png",
-            "data/added_usafacts_30/2.png",
-            "data/added_usafacts_30/3.png"
+            "data\\added_usafacts_30\\1.png",
+            "data\\added_usafacts_30\\2.png",
+            "data\\added_usafacts_30\\3.png"
         ],
-        "question": "How many distinct color categories are used in the pie chart in the first image? \nNote that Your final answer should be the total number of distinct color categories used for the slices in the pie chart. If the chart does not have explicit color categories, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "6",
+        "question": "Question: How many distinct color categories are used in the pie chart in the first image? \nNote that Your final answer should be the total number of distinct color categories used for the slices in the pie chart. If the chart does not have explicit color categories, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_30_question_1",
         "image": [
-            "data/added_usafacts_30/1.png",
-            "data/added_usafacts_30/2.png",
-            "data/added_usafacts_30/3.png"
+            "data\\added_usafacts_30\\1.png",
+            "data\\added_usafacts_30\\2.png",
+            "data\\added_usafacts_30\\3.png"
         ],
-        "question": "What is the most frequent gestation period for reported abortions in the first chart? \nNote that Your final answer should be the gestation period that has the highest percentage in the pie chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "≤6 weeks",
+        "question": "Question: What is the most frequent gestation period for reported abortions in the first chart? \nNote that Your final answer should be the gestation period that has the highest percentage in the pie chart. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "\u00e2\u2030\u00a46 weeks",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_30_question_2",
         "image": [
-            "data/added_usafacts_30/1.png",
-            "data/added_usafacts_30/2.png",
-            "data/added_usafacts_30/3.png"
+            "data\\added_usafacts_30\\1.png",
+            "data\\added_usafacts_30\\2.png",
+            "data\\added_usafacts_30\\3.png"
         ],
-        "question": "1. How many states are marked with the color representing '6 weeks or less' in the second chart?\nNote that Your final answer should be the total number of states marked with the specific color. \n2. What is the total number of weeks for the third trimester as shown in the third chart?\nNote that Your final answer should be the total number of weeks specified for the third trimester.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "13; 12",
+        "question": "Question:\n1. How many states are marked with the color representing '6 weeks or less' in the second chart?\nNote that Your final answer should be the total number of states marked with the specific color. \n2. What is the total number of weeks for the third trimester as shown in the third chart?\nNote that Your final answer should be the total number of weeks specified for the third trimester.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "17; 12",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_30_question_3",
         "image": [
-            "data/added_usafacts_30/1.png",
-            "data/added_usafacts_30/2.png",
-            "data/added_usafacts_30/3.png"
+            "data\\added_usafacts_30\\1.png",
+            "data\\added_usafacts_30\\2.png",
+            "data\\added_usafacts_30\\3.png"
         ],
-        "question": "Question: Firstly, identify the gestation period with the lowest percentage of reported abortions in the first chart.\nThen, how many states are marked with the color representing '21 weeks or more' in the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "≥21 weeks, 0",
+        "question": "Question: Firstly, identify the gestation period with the lowest percentage of reported abortions in the first chart, denoted as \\( p_0 \\).  \nThen, how many states are marked with the color representing the time period \\( p_0 \\) in the second chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

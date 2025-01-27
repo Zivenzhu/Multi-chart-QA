@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_20_question_0",
         "image": [
-            "data/added_datacommons_20/1.png",
-            "data/added_datacommons_20/2.png",
-            "data/added_datacommons_20/3.png"
+            "data\\added_datacommons_20\\1.png",
+            "data\\added_datacommons_20\\2.png",
+            "data\\added_datacommons_20\\3.png"
         ],
-        "question": "What is the prevalence percentage of high cholesterol in Arizona according to the first chart?\nNote that your answer should be given as a percentage without the percent sign.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the prevalence percentage of high cholesterol in Arizona according to the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "30",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_20_question_1",
         "image": [
-            "data/added_datacommons_20/1.png",
-            "data/added_datacommons_20/2.png",
-            "data/added_datacommons_20/3.png"
+            "data\\added_datacommons_20\\1.png",
+            "data\\added_datacommons_20\\2.png",
+            "data\\added_datacommons_20\\3.png"
         ],
-        "question": "1. How many explicitly labeled ticks are there on the horizontal axis in the second chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct age groups are represented in the third chart?\nNote that your final answer should be the total number of distinct age groups in the chart. If the chart does not have explicit age groups, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 7",
+        "question": "Question:\n1. How many explicitly labeled ticks are there on the horizontal axis in the second chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct age groups are represented in the third chart?\nNote that your final answer should be the total number of distinct age groups in the chart. If the chart does not have explicit age groups, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 9",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_20_question_2",
         "image": [
-            "data/added_datacommons_20/1.png",
-            "data/added_datacommons_20/2.png",
-            "data/added_datacommons_20/3.png"
+            "data\\added_datacommons_20\\1.png",
+            "data\\added_datacommons_20\\2.png",
+            "data\\added_datacommons_20\\3.png"
         ],
-        "question": "Question: Which health condition has shown an increase in prevalence over time according to the second chart?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. High Cholesterol\nB. Cancer (Excluding Skin Cancer)\nC. Diabetes\nD. Stroke\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that your final answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_20_question_3",
         "image": [
-            "data/added_datacommons_20/1.png",
-            "data/added_datacommons_20/2.png",
-            "data/added_datacommons_20/3.png"
+            "data\\added_datacommons_20\\1.png",
+            "data\\added_datacommons_20\\2.png",
+            "data\\added_datacommons_20\\3.png"
         ],
-        "question": "Firstly extract the health condition with the lowest prevalence in Arizona from the first chart.\nThen determine the age group with the fewest cancer deaths from the third chart.\nNote that your answer format should be as follows: Answer: The_health_condition_from_the_first_chart; The_age_group_from_the_third_chart",
-        "answer": "Stroke; 1 - 4 Years Olds",
+        "question": "Question: First, find the health condition related to **Deaths** from the third chart, denoted as **r0**.  \nThen, what is the **prevalence percentage** of **r0** in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7.5",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

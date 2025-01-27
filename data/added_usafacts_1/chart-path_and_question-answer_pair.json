@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_1_question_0",
         "image": [
-            "data/added_usafacts_1/1.png",
-            "data/added_usafacts_1/2.png",
-            "data/added_usafacts_1/3.png"
+            "data\\added_usafacts_1\\1.png",
+            "data\\added_usafacts_1\\2.png",
+            "data\\added_usafacts_1\\3.png"
         ],
-        "question": "What is the peak rate of gun-related deaths in the first chart and around which year does it occur? Note that your answer format should be as follows: Answer: The_peak_rate; The_year",
-        "answer": "15.5; 1993",
+        "question": "Question: Which state on the West Coast of the US has the lowest gun-related death rate in 2023, according to the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "CA",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_1_question_1",
         "image": [
-            "data/added_usafacts_1/1.png",
-            "data/added_usafacts_1/2.png",
-            "data/added_usafacts_1/3.png"
+            "data\\added_usafacts_1\\1.png",
+            "data\\added_usafacts_1\\2.png",
+            "data\\added_usafacts_1\\3.png"
         ],
-        "question": "1. What is the age-adjusted rate of suicides in 2023 in the second chart? \nNote that your answer format should be as follows: Answer: The_rate_for_2023.\n2. What is the highest gun-related death rate in 2023 based on the third chart?\nNote that your answer format should be as follows: Answer: The_highest_rate.",
-        "answer": "8.0; 31",
+        "question": "Question:\n1. What is the peak rate of gun-related deaths in the first chart? \nNote that your answer should be an approximated value.\n2. Which of these categories is higher in the second chart for the year 2023?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Suicides\nB. Homicides\nC. Accidental\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "15; A",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_1_question_2",
         "image": [
-            "data/added_usafacts_1/1.png",
-            "data/added_usafacts_1/2.png",
-            "data/added_usafacts_1/3.png"
+            "data\\added_usafacts_1\\1.png",
+            "data\\added_usafacts_1\\2.png",
+            "data\\added_usafacts_1\\3.png"
         ],
-        "question": "Question: Which of these categories is higher in the second chart for the year 2023?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Suicides\nB. Homicides\nC. Accidental\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question:\n1. What is the age-adjusted rate of suicides in 2020 in the second chart? \nNote that your answer should be an approximated value.\n2. Which place has the highest gun-related death rate in 2023 based on the third chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "7.0; DC",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_1_question_3",
         "image": [
-            "data/added_usafacts_1/1.png",
-            "data/added_usafacts_1/2.png",
-            "data/added_usafacts_1/3.png"
+            "data\\added_usafacts_1\\1.png",
+            "data\\added_usafacts_1\\2.png",
+            "data\\added_usafacts_1\\3.png"
         ],
-        "question": "Firstly extract the state with the lowest gun-related death rate in 2023 from the third chart.\nThen, based on the first chart, what is the general trend for gun-related deaths from the year 2000 to 2023?\nNote that your answer format should be as follows: Answer: The_state_with_lowest_rate; The_trend_description",
-        "answer": "Massachusetts; Slight increase",
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "5",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     }

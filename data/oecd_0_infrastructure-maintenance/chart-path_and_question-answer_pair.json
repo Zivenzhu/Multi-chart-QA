@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_94_question_0",
+        "id": "oecd_0_infrastructure-maintenance_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
         ],
         "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4G",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_94_question_1",
+        "id": "oecd_0_infrastructure-maintenance_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
         ],
         "question": "Question: \n1. What does the horizontal axis of the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Country names\nB. Yearly time periods\nC. Types of infrastructure\nD. Maintenance costs\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n3. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "A; 10G; 5",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_94_question_2",
+        "id": "oecd_0_infrastructure-maintenance_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
         ],
         "question": "Question: How many of the same labels are there on the horizontal axis in the second chart and the third chart?\nNote that Your final answer should be the number of the same labels on the horizontal axis across multiple subplots in the second chart and the third chart. If a chart has multiple identical labels from different subplots, count them as only one distinct label. If these two charts do not have any same labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_94_question_3",
+        "id": "oecd_0_infrastructure-maintenance_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
-            "modified_local_full_qa\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_46_25.233Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_47_54.955Z.png",
+            "data\\oecd_0_infrastructure-maintenance\\export-2024-07-25T21_49_06.150Z.png"
         ],
         "question": "Question: Firstly extract two countries whose Infrastructure maintenance in 2016 rank the first and the second respectively.\nThen for these two countries, in which year do the ranks of these two countries exchange?\nNote that your answer should be a specified year, such as 'Answer: 2011'.",
         "answer": "2011",

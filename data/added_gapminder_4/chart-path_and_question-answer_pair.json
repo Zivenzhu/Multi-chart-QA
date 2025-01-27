@@ -2,48 +2,52 @@
     {
         "id": "added_gapminder_4_question_0",
         "image": [
-            "data/added_gapminder_4/1.png",
-            "data/added_gapminder_4/2.png",
-            "data/added_gapminder_4/3.png"
+            "data\\added_gapminder_4\\1.png",
+            "data\\added_gapminder_4\\2.png",
+            "data\\added_gapminder_4\\3.png"
         ],
-        "question": "What is the highest explicitly labeled tick on the vertical axis in the first chart? Note that your answer should be based on the vertical axis at the left. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.",
+        "question": "Question: What is the highest explicitly labeled tick on the vertical axis in the first chart? \nNote that your answer should be based on the vertical axis at the left. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "100",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gapminder_4_question_1",
         "image": [
-            "data/added_gapminder_4/1.png",
-            "data/added_gapminder_4/2.png",
-            "data/added_gapminder_4/3.png"
+            "data\\added_gapminder_4\\1.png",
+            "data\\added_gapminder_4\\2.png",
+            "data\\added_gapminder_4\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that your answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many distinct segments are there in the area of the third chart?\nNote that your answer should be the total number of distinct segments in the chart across multiple subplots. If the chart does not have distinct segments, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "7; 0",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that your answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is difference between consecutive numerical tick values on the vertical axis in the third chart?\nNote that your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "8; 20",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gapminder_4_question_2",
         "image": [
-            "data/added_gapminder_4/1.png",
-            "data/added_gapminder_4/2.png",
-            "data/added_gapminder_4/3.png"
+            "data\\added_gapminder_4\\1.png",
+            "data\\added_gapminder_4\\2.png",
+            "data\\added_gapminder_4\\3.png"
         ],
         "question": "Question: Which chart shows the largest population represented on the horizontal axis?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. First chart\nB. Second chart\nC. Third chart\nD. All are equal\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
+        "answer": "B",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_gapminder_4_question_3",
         "image": [
-            "data/added_gapminder_4/1.png",
-            "data/added_gapminder_4/2.png",
-            "data/added_gapminder_4/3.png"
+            "data\\added_gapminder_4\\1.png",
+            "data\\added_gapminder_4\\2.png",
+            "data\\added_gapminder_4\\3.png"
         ],
-        "question": "Question: Firstly extract the horizontal axis maximum value in the second chart.\nThen, which position does this value occupy in the order of horizontal axis maximum values of all charts?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly, extract the **maximum value of the projection of points in the yellow region onto the horizontal axis** in the third chart, and denote it as **v0**.  \nThen, what is the rank of **v0** among the maximum projections of points in the yellow region onto the horizontal axis across all charts?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Second",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

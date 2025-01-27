@@ -2,48 +2,52 @@
     {
         "id": "added_weforum_9_question_0",
         "image": [
-            "data/added_weforum_9/1.jpg",
-            "data/added_weforum_9/2.jpg",
-            "data/added_weforum_9/3.jpg"
+            "data\\added_weforum_9\\1.jpg",
+            "data\\added_weforum_9\\2.jpg",
+            "data\\added_weforum_9\\3.jpg"
         ],
-        "question": "What percentage of women have AI skills on their job profiles according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What percentage of women have AI skills on their job profiles according to the first chart? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "29%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_9_question_1",
         "image": [
-            "data/added_weforum_9/1.jpg",
-            "data/added_weforum_9/2.jpg",
-            "data/added_weforum_9/3.jpg"
+            "data\\added_weforum_9\\1.jpg",
+            "data\\added_weforum_9\\2.jpg",
+            "data\\added_weforum_9\\3.jpg"
         ],
-        "question": "1. What is the percentage of Gen Z who report having higher AI skilling opportunities in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get\n2. What percentage of talent with disabilities use AI for problem-solving at work in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question:\n1. What is the percentage of Gen Z who report having higher AI skilling opportunities in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What percentage of talent with disabilities use AI for problem-solving at work in the third chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "45%; 55%",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_9_question_2",
         "image": [
-            "data/added_weforum_9/1.jpg",
-            "data/added_weforum_9/2.jpg",
-            "data/added_weforum_9/3.jpg"
+            "data\\added_weforum_9\\1.jpg",
+            "data\\added_weforum_9\\2.jpg",
+            "data\\added_weforum_9\\3.jpg"
         ],
         "question": "Question: What is the common theme between the first and second charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Gender Gap\nB. Age Group Opportunities\nC. AI Skill Demand\nD. Disability Inclusion\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_weforum_9_question_3",
         "image": [
-            "data/added_weforum_9/1.jpg",
-            "data/added_weforum_9/2.jpg",
-            "data/added_weforum_9/3.jpg"
+            "data\\added_weforum_9\\1.jpg",
+            "data\\added_weforum_9\\2.jpg",
+            "data\\added_weforum_9\\3.jpg"
         ],
-        "question": "Question: Firstly, determine the generation that has the lowest percentage of AI skilling opportunities in the second chart.\nThen, compare this to the percentage of talent without disabilities using AI for problem-solving in the third chart. Which is higher?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Talent without disabilities using AI for problem-solving (39%) is higher than Baby Boomers with 22%.",
+        "question": "Question: Firstly, determine the generation with the lowest percentage of AI skilling opportunities in the second chart.  \nThen, compare this to the percentage of talent without disabilities using AI for problem-solving in the third chart. Which is smaller?\nNote that your answer should be either \"Talent without disabilities\" or the generation you identified.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Baby boomers",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

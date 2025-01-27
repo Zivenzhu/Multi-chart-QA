@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_38_question_0",
         "image": [
-            "data/added_weforum_38/1.png",
-            "data/added_weforum_38/2.png"
+            "data\\added_weforum_38\\1.png",
+            "data\\added_weforum_38\\2.png"
         ],
-        "question": "What is the cumulative total return of US listed REITs in 3Q24TD in the first chart?\nNote that Your final answer should be the numerical value explicitly mentioned on the chart, including any associated symbols or units.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the cumulative total return of US listed REITs in 3Q24TD in the first chart?\nNote that Your final answer should be the numerical value explicitly mentioned on the chart, including any associated symbols or units.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "28.0%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_38_question_1",
         "image": [
-            "data/added_weforum_38/1.png",
-            "data/added_weforum_38/2.png"
+            "data\\added_weforum_38\\1.png",
+            "data\\added_weforum_38\\2.png"
         ],
-        "question": "What is the highest percentage value of multifamily loan defaults in the second chart?\nNote that Your final answer should be the numerical value explicitly mentioned on the chart, including any associated symbols or units.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "5%",
+        "question": "Question: What is the highest percentage value of multifamily loan defaults in the second chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "4.8%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_38_question_2",
         "image": [
-            "data/added_weforum_38/1.png",
-            "data/added_weforum_38/2.png"
+            "data\\added_weforum_38\\1.png",
+            "data\\added_weforum_38\\2.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "20; 70",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "19; 6",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_38_question_3",
         "image": [
-            "data/added_weforum_38/1.png",
-            "data/added_weforum_38/2.png"
+            "data\\added_weforum_38\\1.png",
+            "data\\added_weforum_38\\2.png"
         ],
         "question": "Question: Which chart indicates a higher interest in real estate trends over time?\nNote that this is a choice question. Your final answer should be the chart that most closely matches the question. You should only output the chart number, such as 'Chart 1' or 'Chart 2', as the answer without any additional explanation.\nA. Chart 1\nB. Chart 2\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "A",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

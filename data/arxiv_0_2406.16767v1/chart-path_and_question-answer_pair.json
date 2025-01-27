@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_13_question_0",
+        "id": "arxiv_0_2406.16767v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
+            "data\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
         ],
         "question": "Question: What does the color orange indicate in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "gpt-3.5",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_13_question_1",
+        "id": "arxiv_0_2406.16767v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
+            "data\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
         ],
         "question": "Question:\n1. How many colors are used for the lines in the third chart?\nNote that Your final answer should be the total number of colors used for the lines in the chart across multiple subplots. If the plot is not considered a line plot, answer '0'.\n2. What are the names of the labels in the legend of the second chart? (from top to bottom, then left to right)\nNote that You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is not considered relevant to this plot, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "2; human, gpt-3.5",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_13_question_2",
+        "id": "arxiv_0_2406.16767v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
+            "data\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the second chart and the first chart do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_13_question_3",
+        "id": "arxiv_0_2406.16767v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
-            "modified_local_full_qa\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
+            "data\\arxiv_0_2406.16767v1\\all-avg-by-pov.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t1.png",
+            "data\\arxiv_0_2406.16767v1\\comet_best_by_pov_t2.png"
         ],
         "question": "Question: Among the 6 aspects, in how many aspects is the human score mostly higher or lower than the GPT-3.5 score in both the first and second charts?\nNote that you should only care about the size comparison relationships for most dots in the charts and ignore individual outliers. Your answer should be a number, with the format of 'Answer: the_number_you_get'.",
         "answer": "4",

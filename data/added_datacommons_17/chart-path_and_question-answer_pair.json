@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_17_question_0",
         "image": [
-            "data/added_datacommons_17/1.png",
-            "data/added_datacommons_17/2.png",
-            "data/added_datacommons_17/3.png"
+            "data\\added_datacommons_17\\1.png",
+            "data\\added_datacommons_17\\2.png",
+            "data\\added_datacommons_17\\3.png"
         ],
-        "question": "What is the source of the data in the first chart?\nNote that Your final answer should be the text that is explicitly written as the source of the data on the chart. If the chart does not have a source explicitly labeled, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the source of the data in the first chart?\nNote that Your final answer should be the text that is explicitly written as the source of the data on the chart. If the chart does not have a source explicitly labeled, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "www2.census.gov, wonder.cdc.gov, census.gov",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_17_question_1",
         "image": [
-            "data/added_datacommons_17/1.png",
-            "data/added_datacommons_17/2.png",
-            "data/added_datacommons_17/3.png"
+            "data\\added_datacommons_17\\1.png",
+            "data\\added_datacommons_17\\2.png",
+            "data\\added_datacommons_17\\3.png"
         ],
-        "question": "1. How many distinct colors are used for the bars in the second chart?\nNote that Your final answer should be the total number of distinct colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "7; 6",
+        "question": "Question:\n1. How many distinct colors are used for the bars in the second chart?\nNote that Your final answer should be the total number of distinct colors used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the third chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; 7",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_17_question_2",
         "image": [
-            "data/added_datacommons_17/1.png",
-            "data/added_datacommons_17/2.png",
-            "data/added_datacommons_17/3.png"
+            "data\\added_datacommons_17\\1.png",
+            "data\\added_datacommons_17\\2.png",
+            "data\\added_datacommons_17\\3.png"
         ],
-        "question": "Question: What are the two keywords most relevant to these three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Population and Ethnicity\nB. Income and Employment\nC. Education and Health\nD. Housing and Transportation\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
+        "question": "Question: What are the two keywords most relevant to these three charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Population and Ethnicity\nB. Income and Employment\nC. Race and Breakdown\nD. Housing and Transportation\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_17_question_3",
         "image": [
-            "data/added_datacommons_17/1.png",
-            "data/added_datacommons_17/2.png",
-            "data/added_datacommons_17/3.png"
+            "data\\added_datacommons_17\\1.png",
+            "data\\added_datacommons_17\\2.png",
+            "data\\added_datacommons_17\\3.png"
         ],
         "question": "Question: Firstly extract the state with the highest White Monoracial Population from the first chart.\nThen what is the largest population category for this state in the second chart?\nNote that your answer should be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Texas; White Population, Monoracial/Multiracial",
+        "answer": "White Population, Monoracial/Multiracial",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

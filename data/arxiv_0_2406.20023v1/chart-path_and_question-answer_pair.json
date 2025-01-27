@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_40_question_0",
+        "id": "arxiv_0_2406.20023v1_question_0",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_complete.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_correlation.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\SDO_complete.png"
+            "data\\arxiv_0_2406.20023v1\\HN_complete.png",
+            "data\\arxiv_0_2406.20023v1\\HN_correlation.png",
+            "data\\arxiv_0_2406.20023v1\\SDO_complete.png"
         ],
         "question": "Question: What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the first chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2000",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_40_question_1",
+        "id": "arxiv_0_2406.20023v1_question_1",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_complete.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_correlation.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\SDO_complete.png"
+            "data\\arxiv_0_2406.20023v1\\HN_complete.png",
+            "data\\arxiv_0_2406.20023v1\\HN_correlation.png",
+            "data\\arxiv_0_2406.20023v1\\SDO_complete.png"
         ],
         "question": "Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the third chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. What is the spatially highest labeled tick on the vertical axis of the colour bar in the second chart?\nNote that Your final answer should be the tick value on the vertical axis of the colour bar that is explicitly written, including the case when vertical axis of the colour bar is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis of the colour bar, answer 'Not Applicable'.\n3. What is the spatially lowest labeled tick on the vertical axis which represents RV[m/s] in one specific subplot of the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units orscales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "4000; 4250; -5",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_40_question_2",
+        "id": "arxiv_0_2406.20023v1_question_2",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_complete.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_correlation.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\SDO_complete.png"
+            "data\\arxiv_0_2406.20023v1\\HN_complete.png",
+            "data\\arxiv_0_2406.20023v1\\HN_correlation.png",
+            "data\\arxiv_0_2406.20023v1\\SDO_complete.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis on the bottom in the third chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the third chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the third and the first charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_40_question_3",
+        "id": "arxiv_0_2406.20023v1_question_3",
         "image": [
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_complete.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\HN_correlation.png",
-            "modified_local_full_qa\\arxiv_0_2406.20023v1\\SDO_complete.png"
+            "data\\arxiv_0_2406.20023v1\\HN_complete.png",
+            "data\\arxiv_0_2406.20023v1\\HN_correlation.png",
+            "data\\arxiv_0_2406.20023v1\\SDO_complete.png"
         ],
         "question": "Question: First, extract all the Time[BJD-2455000] axis ticks and identify the tick value t0 where \u00ce\u201dRV[m/s] has the lowest impulse signal in the third chart. \nThen, for Time[BJD-2455000] = t0 in the first chart whose data starts from 2015.03, determine which vertical label has its line around the local minimum. \nNote that If multiple labels are valid, your final answer should be the lowermost label.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "BIS",

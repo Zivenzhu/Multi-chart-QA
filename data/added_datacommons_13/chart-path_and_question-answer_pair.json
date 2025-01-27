@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_13_question_0",
         "image": [
-            "data/added_datacommons_13/1.png",
-            "data/added_datacommons_13/2.png",
-            "data/added_datacommons_13/3.png"
+            "data\\added_datacommons_13\\1.png",
+            "data\\added_datacommons_13\\2.png",
+            "data\\added_datacommons_13\\3.png"
         ],
-        "question": "What is the population count for Spanish spoken at home according to the first chart? \nNote that Your final answer should be the approximate count in millions as represented on the chart. \nIf the chart does not have explicit labeled counts, answer 'Not Applicable'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the population count for Spanish spoken at home according to the first chart? \nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: \nAnswer: The_answer_you_get.",
         "answer": "10M",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_13_question_1",
         "image": [
-            "data/added_datacommons_13/1.png",
-            "data/added_datacommons_13/2.png",
-            "data/added_datacommons_13/3.png"
+            "data\\added_datacommons_13\\1.png",
+            "data\\added_datacommons_13\\2.png",
+            "data\\added_datacommons_13\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the third chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. \nIf the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. How many different languages are represented by bars in the first chart? \nNote that Your final answer should be the total number of different languages represented by bars in the chart. \nIf the chart does not have explicit bars, answer '0'. \nNow that you have got the answers for the two questions. Your answer format should be as follows: \nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "12; 14",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the third chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. \nIf the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. How many different languages are represented by bars in the first chart? \nNote that Your final answer should be the total number of different languages represented by bars in the chart. \nIf the chart does not have explicit bars, answer '0'. \nNow that you have got the answers for the two questions. Your answer format should be as follows: \nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 15",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_13_question_2",
         "image": [
-            "data/added_datacommons_13/1.png",
-            "data/added_datacommons_13/2.png",
-            "data/added_datacommons_13/3.png"
+            "data\\added_datacommons_13\\1.png",
+            "data\\added_datacommons_13\\2.png",
+            "data\\added_datacommons_13\\3.png"
         ],
         "question": "Question: Which chart shows the trend of English versus non-English languages spoken at home over time? \nNote that this is a choice question. Your final answer should be the option that most closely matches the question. \nYou should only output the option, such as A, B, C, or D, as the answer without the content in the option. \nA. First Chart \nB. Second Chart \nC. Third Chart \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_13_question_3",
         "image": [
-            "data/added_datacommons_13/1.png",
-            "data/added_datacommons_13/2.png",
-            "data/added_datacommons_13/3.png"
+            "data\\added_datacommons_13\\1.png",
+            "data\\added_datacommons_13\\2.png",
+            "data\\added_datacommons_13\\3.png"
         ],
-        "question": "Question: Firstly extract the language with the highest population count in the first chart (excluding English). \nThen which county has the highest population speaking this language according to the second chart? \nNote that your answer should be a county name. \nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Los Angeles",
+        "question": "Question: First, find the year from which the data in the second chart originates and denote it as \\( y_0 \\).  \nThen, in the third chart, what is the value of *Population: English Spoken At Home* for the year \\( y_0 \\)?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "20M",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

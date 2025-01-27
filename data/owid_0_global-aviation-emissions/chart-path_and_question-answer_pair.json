@@ -1,9 +1,9 @@
 [
     {
-        "id": "group_148_question_0",
+        "id": "owid_0_global-aviation-emissions_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
+            "data\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
+            "data\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
         ],
         "question": "Question: What is the layout of the subplots of the first chart? (Answers should m by n)?\nNote that your final answer should follow 'm by n' format, where m is the number of rows and n is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "3 by 3",
@@ -12,10 +12,10 @@
         "context": null
     },
     {
-        "id": "group_148_question_1",
+        "id": "owid_0_global-aviation-emissions_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
+            "data\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
+            "data\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
         ],
         "question": "Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the second chart? \nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when the horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. What is the trend of CO\u2082 emissions (billion tonnes) from 1990 to 2021 in the first chart? \nNote that This a choice question. Your final answer should be the option that most closely matches the question.  You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing \nB. Increasing then decreasing \nC. Decreasing then increasing \nD. Decreasing\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "81; B",
@@ -24,10 +24,10 @@
         "context": null
     },
     {
-        "id": "group_148_question_2",
+        "id": "owid_0_global-aviation-emissions_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
+            "data\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
+            "data\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -36,10 +36,10 @@
         "context": null
     },
     {
-        "id": "group_148_question_3",
+        "id": "owid_0_global-aviation-emissions_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
-            "modified_local_full_qa\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
+            "data\\owid_0_global-aviation-emissions\\aviation-demand-efficiency.png",
+            "data\\owid_0_global-aviation-emissions\\aviation-share-co2.png"
         ],
         "question": "Question: 1. Which subplot, among all the subplots in the first chart, explain why the energy intensity (per passenger-km) and CO\u2082 intensity (gCO\u2082 per passenger-km) lines exhibit the same trend?\nNote that your answer should be the title of your selected subplot. \n2. What is the nearest vertical axis tick value to the aviation's share of global CO\u2082 emissions in 2010 in the second chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "CO\u2082 per unit energy (gCO\u2082eq per MJ); 2%",

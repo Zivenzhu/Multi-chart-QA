@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_32_question_0",
         "image": [
-            "data/added_weforum_32/1.png",
-            "data/added_weforum_32/2.png"
+            "data\\added_weforum_32\\1.png",
+            "data\\added_weforum_32\\2.png"
         ],
-        "question": "What is the leftmost labeled tick on the horizontal axis in the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Q1 2016",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_32_question_1",
         "image": [
-            "data/added_weforum_32/1.png",
-            "data/added_weforum_32/2.png"
+            "data\\added_weforum_32\\1.png",
+            "data\\added_weforum_32\\2.png"
         ],
-        "question": "How many labeled ticks are there on the vertical axis in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "4",
+        "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the second chart? \nNote that your answer should be a natural number.\n2. What is the title of the first chart?\nNote that your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; Household saving rate in the euro area",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_32_question_2",
         "image": [
-            "data/added_weforum_32/1.png",
-            "data/added_weforum_32/2.png"
+            "data\\added_weforum_32\\1.png",
+            "data\\added_weforum_32\\2.png"
         ],
-        "question": "Question: Which chart shows a more significant fluctuation in rates over the given period? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which chart shows a more significant fluctuation in rates over the given period? \nNote that your answer should be either \"First chart\" or \"Second chart\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "First chart",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_32_question_3",
         "image": [
-            "data/added_weforum_32/1.png",
-            "data/added_weforum_32/2.png"
+            "data\\added_weforum_32\\1.png",
+            "data\\added_weforum_32\\2.png"
         ],
-        "question": "Firstly extract the quarter with the highest household saving rate in the first chart. Then, in this quarter, what was the household investment rate in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Q2 2020; 8",
+        "question": "Question: Firstly extract the quarter with the highest household saving rate in the first chart. \nThen, in this quarter, what was the smallest household investment rate in the second chart? \nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7.85",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

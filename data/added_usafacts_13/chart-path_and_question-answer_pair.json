@@ -1,0 +1,54 @@
+[
+    {
+        "id": "added_usafacts_13_question_0",
+        "image": [
+            "data\\added_usafacts_13\\1.png",
+            "data\\added_usafacts_13\\2.png",
+            "data\\added_usafacts_13\\3.png"
+        ],
+        "question": "Question: How much did the number of expulsions in the first chart increase from 2020 to 2021?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "858730",
+        "task": "Direct_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_13_question_1",
+        "image": [
+            "data\\added_usafacts_13\\1.png",
+            "data\\added_usafacts_13\\2.png",
+            "data\\added_usafacts_13\\3.png"
+        ],
+        "question": "Question:\n1. What is the number of \"Released or paroled\" in \"BORDER ENCOUNTERS 2023\" in the second chart??\nNote that your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. In the third chart, how much did the \"Number of Encounters\" decrease from 2019 to 2020?\nNote that the unit of your answer should be in K.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1.3M; 519K",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_13_question_2",
+        "image": [
+            "data\\added_usafacts_13\\1.png",
+            "data\\added_usafacts_13\\2.png",
+            "data\\added_usafacts_13\\3.png"
+        ],
+        "question": "Question: How many of the same years are explicitly written in the first and the third chart?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "4",
+        "task": "Comparative_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "added_usafacts_13_question_3",
+        "image": [
+            "data\\added_usafacts_13\\1.png",
+            "data\\added_usafacts_13\\2.png",
+            "data\\added_usafacts_13\\3.png"
+        ],
+        "question": "Question: First, find the year with the highest \"Number of Encounters\" in the third chart and denote it as y0.  \nThen, in the first chart, what is the \"Number of expulsions\" for the year y0?\nNote that your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "564380",
+        "task": "Sequential_Reasoning/Content",
+        "type": "open-ended",
+        "context": null
+    }
+]

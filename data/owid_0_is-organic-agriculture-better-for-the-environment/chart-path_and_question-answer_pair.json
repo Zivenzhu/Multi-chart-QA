@@ -1,9 +1,9 @@
 [
     {
-        "id": "group_163_question_0",
+        "id": "owid_0_is-organic-agriculture-better-for-the-environment_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
         ],
         "question": "Question: How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "8",
@@ -12,10 +12,10 @@
         "context": null
     },
     {
-        "id": "group_163_question_1",
+        "id": "owid_0_is-organic-agriculture-better-for-the-environment_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
         ],
         "question": "Question:\n1. What does the color red indicate in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. How many colors are used for the lines in the first chart?\nNote that Your final answer should be the total number of colors used for the lines in the chart across multiple subplots. If the plot is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "United Kingdom; 11",
@@ -24,10 +24,10 @@
         "context": null
     },
     {
-        "id": "group_163_question_2",
+        "id": "owid_0_is-organic-agriculture-better-for-the-environment_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
         ],
         "question": "Question: How many of the same tick values are there on the horizontal axis in the second chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the second chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",
@@ -36,10 +36,10 @@
         "context": null
     },
     {
-        "id": "group_163_question_3",
+        "id": "owid_0_is-organic-agriculture-better-for-the-environment_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
-            "modified_local_full_qa\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\ghg-emissions-by-sector.png",
+            "data\\owid_0_is-organic-agriculture-better-for-the-environment\\share-of-total-energy-used-in-agriculture-and-forestry.png"
         ],
         "question": "Question: 1. Which sector, among all the labels in the legend, has the third greenhouse gas emissions in 1990 in the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which sector, among all the labels in the legend, has the third largest share of total energy used in agriculture and forestry in 1980 in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Transport; United Kingdom",

@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_89_question_0",
+        "id": "oecd_0_household-savings_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
         ],
         "question": "Question: What is difference between consecutive numerical tick values on the vertical axis in the first chart?\nNote that Your final answer should be the difference between consecutive numerical tick values of the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "10",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_89_question_1",
+        "id": "oecd_0_household-savings_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
         ],
         "question": "Question: 1. What is the general trend of data from left to right in the second chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Decreasing\nC. Decreasing then increasing\nD. Increasing then decreasing\n2. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the third chart?\nNote that your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n3. What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "B; 40; 30",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_89_question_2",
+        "id": "oecd_0_household-savings_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the second chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_89_question_3",
+        "id": "oecd_0_household-savings_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
-            "modified_local_full_qa\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_40_18.458Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_41_50.316Z.png",
+            "data\\oecd_0_household-savings\\export-2024-07-26T00_43_01.268Z.png"
         ],
         "question": "Question: 1. In how many bars is their proportion of household disposable above 10 in 2017 in the second chart?\nNote that your answer should be a natural number.\n2. In how many bars is their proportion of household disposable above 10 in 2022 in the first chart?\nNote that your answer should be a natural number.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",

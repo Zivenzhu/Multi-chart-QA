@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_50_question_0",
         "image": [
-            "data/added_usafacts_50/1.png",
-            "data/added_usafacts_50/2.png",
-            "data/added_usafacts_50/3.png"
+            "data\\added_usafacts_50\\1.png",
+            "data\\added_usafacts_50\\2.png",
+            "data\\added_usafacts_50\\3.png"
         ],
-        "question": "What is the value of energy consumption in 2023 according to the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the value of energy consumption in 2023 according to the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "93.56",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_50_question_1",
         "image": [
-            "data/added_usafacts_50/1.png",
-            "data/added_usafacts_50/2.png",
-            "data/added_usafacts_50/3.png"
+            "data\\added_usafacts_50\\1.png",
+            "data\\added_usafacts_50\\2.png",
+            "data\\added_usafacts_50\\3.png"
         ],
-        "question": "1. How many distinct energy sources are labeled in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the total number of explicitly labeled ticks on the vertical axis in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "6; 8",
+        "question": "Question:\n1. How many distinct energy sources are labeled in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the total number of explicitly labeled ticks on the vertical axis in the third chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 9",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_50_question_2",
         "image": [
-            "data/added_usafacts_50/1.png",
-            "data/added_usafacts_50/2.png",
-            "data/added_usafacts_50/3.png"
+            "data\\added_usafacts_50\\1.png",
+            "data\\added_usafacts_50\\2.png",
+            "data\\added_usafacts_50\\3.png"
         ],
-        "question": "Which energy source shows the largest increase in production between the second and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Coal\nB. Natural Gas\nC. Nuclear\nD. Renewables\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Which energy source shows the largest increase in production between the second and third charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Coal\nB. Natural Gas\nC. Nuclear\nD. Renewables\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_usafacts_50_question_3",
         "image": [
-            "data/added_usafacts_50/1.png",
-            "data/added_usafacts_50/2.png",
-            "data/added_usafacts_50/3.png"
+            "data\\added_usafacts_50\\1.png",
+            "data\\added_usafacts_50\\2.png",
+            "data\\added_usafacts_50\\3.png"
         ],
-        "question": "Firstly, identify the energy source with the lowest production value in 2023 from the second chart. \nThen, specify its production value in the third chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Nuclear; 8.1",
+        "question": "Question: Firstly, identify the energy source with the lowest production value in 2023 from the second chart, and denote it as s0.  \nThen, in the third chart, what was the approximate production of this energy source, s0, in 2005?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2.5",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

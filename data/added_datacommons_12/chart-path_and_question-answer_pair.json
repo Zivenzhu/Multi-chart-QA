@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_12_question_0",
         "image": [
-            "data/added_datacommons_12/1.png",
-            "data/added_datacommons_12/2.png",
-            "data/added_datacommons_12/3.png"
+            "data\\added_datacommons_12\\1.png",
+            "data\\added_datacommons_12\\2.png",
+            "data\\added_datacommons_12\\3.png"
         ],
-        "question": "How many distinct colors are used for the bars in the first chart?\nNote that your final answer should be the total number of distinct colors used for the bars in the chart. If the plot is not considered a bar plot, answer '0'.\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
-        "answer": "8",
+        "question": "Question: How many distinct colors are used for the bars in the first chart?\nNote that your final answer should be the total number of distinct colors used for the bars in the chart. If the plot is not considered a bar plot, answer '0'.\nNote that your answer format should be as follows:\nAnswer: The_answer_you_get",
+        "answer": "7",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_12_question_1",
         "image": [
-            "data/added_datacommons_12/1.png",
-            "data/added_datacommons_12/2.png",
-            "data/added_datacommons_12/3.png"
+            "data\\added_datacommons_12\\1.png",
+            "data\\added_datacommons_12\\2.png",
+            "data\\added_datacommons_12\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that your final answer should be the tick value on the vertical axis that is explicitly written. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "7; 200M",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that your final answer should be the tick value on the vertical axis that is explicitly written. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "6; 200M",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_12_question_2",
         "image": [
-            "data/added_datacommons_12/1.png",
-            "data/added_datacommons_12/2.png",
-            "data/added_datacommons_12/3.png"
+            "data\\added_datacommons_12\\1.png",
+            "data\\added_datacommons_12\\2.png",
+            "data\\added_datacommons_12\\3.png"
         ],
         "question": "Question: Which chart has the greater diversity in racial categories displayed?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, or C, as the answer without the content in the option.\nA. First Chart\nB. Second Chart\nC. Third Chart\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "C",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_datacommons_12_question_3",
         "image": [
-            "data/added_datacommons_12/1.png",
-            "data/added_datacommons_12/2.png",
-            "data/added_datacommons_12/3.png"
+            "data\\added_datacommons_12\\1.png",
+            "data\\added_datacommons_12\\2.png",
+            "data\\added_datacommons_12\\3.png"
         ],
-        "question": "Question: Firstly, identify the racial category with the largest population size in the first chart. \nThen, in the third chart, how does this category rank in terms of population size compared to others?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: Firstly, identify the racial group with the largest population size in the first chart.  \nThen, in the third chart, how does the *Hispanic* category within the racial group identified above rank in terms of population size compared to others?\nNote that your answer should be an ordinal numeral.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Second",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

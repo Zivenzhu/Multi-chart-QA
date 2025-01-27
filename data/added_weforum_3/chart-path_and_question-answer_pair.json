@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_3_question_0",
         "image": [
-            "data/added_weforum_3/1.png",
-            "data/added_weforum_3/2.png"
+            "data\\added_weforum_3\\1.png",
+            "data\\added_weforum_3\\2.png"
         ],
-        "question": "What percentage of cyber leaders believe that inequity within the cybersecurity ecosystem requires urgent action according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What percentage of cyber leaders believe that inequity within the cybersecurity ecosystem requires urgent action according to the first chart? \nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "90%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_3_question_1",
         "image": [
-            "data/added_weforum_3/1.png",
-            "data/added_weforum_3/2.png"
+            "data\\added_weforum_3\\1.png",
+            "data\\added_weforum_3\\2.png"
         ],
-        "question": "1. How many years are explicitly labeled in the horizontal axis of the first chart's left subplot?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the percentage of respondents who believe generative AI will provide a cyber advantage to defenders in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "3; 8.9%",
-        "type": "open-ended",
+        "question": "Question: Which concern about generative AI has the highest percentage according to the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Data leaks\nB. Technical security\nC. Advance of adversarial capabilities\nD. Increased complexity of security governance\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "C",
+        "task": "Direct_Questions/Content",
+        "type": "multiple-choice",
         "context": null
     },
     {
         "id": "added_weforum_3_question_2",
         "image": [
-            "data/added_weforum_3/1.png",
-            "data/added_weforum_3/2.png"
+            "data\\added_weforum_3\\1.png",
+            "data\\added_weforum_3\\2.png"
         ],
-        "question": "Question: Which concern about generative AI has the highest percentage according to the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Data leaks\nB. Technical security\nC. Advance of adversarial capabilities\nD. Increased complexity of security governance\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "C",
-        "type": "multiple-choice",
+        "question": "Question:\n1. How many years are explicitly labeled on the horizontal axis of the subplot in the bottom-right corner of the first chart?\nNote that your answer should be a natural number.\n2. What is the percentage of respondents who believe generative AI will provide a cyber advantage to defenders in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "4; 8.9%",
+        "task": "Parallel_Questions/Mixed",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_3_question_3",
         "image": [
-            "data/added_weforum_3/1.png",
-            "data/added_weforum_3/2.png"
+            "data\\added_weforum_3\\1.png",
+            "data\\added_weforum_3\\2.png"
         ],
-        "question": "Firstly, identify the year when the highest percentage of organizations were classified as having cyber resilience that meets minimum requirements from the first chart.\nThen, what is the percentage of respondents who believe that generative AI will keep the cyber advantage balanced in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2022, 35.1%",
+        "question": "Question:\n1. In which year was the percentage of organizations classified as **having cyber resilience that meets minimum requirements** the highest in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the percentage of respondents who believe that generative AI will keep the cyber advantage balanced in the second chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows: Answer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2022; 35.1%",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     }

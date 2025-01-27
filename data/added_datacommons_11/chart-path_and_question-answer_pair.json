@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_11_question_0",
         "image": [
-            "data/added_datacommons_11/1.png",
-            "data/added_datacommons_11/2.png",
-            "data/added_datacommons_11/3.png"
+            "data\\added_datacommons_11\\1.png",
+            "data\\added_datacommons_11\\2.png",
+            "data\\added_datacommons_11\\3.png"
         ],
-        "question": "What is the source of data mentioned in the first chart?",
+        "question": "Question: What is the source of data mentioned in the first chart?",
         "answer": "census.gov, cdc.gov",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_11_question_1",
         "image": [
-            "data/added_datacommons_11/1.png",
-            "data/added_datacommons_11/2.png",
-            "data/added_datacommons_11/3.png"
+            "data\\added_datacommons_11\\1.png",
+            "data\\added_datacommons_11\\2.png",
+            "data\\added_datacommons_11\\3.png"
         ],
-        "question": "1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "8; 55",
+        "question": "Question:\n1. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. What is the highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 55",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_11_question_2",
         "image": [
-            "data/added_datacommons_11/1.png",
-            "data/added_datacommons_11/2.png",
-            "data/added_datacommons_11/3.png"
+            "data\\added_datacommons_11\\1.png",
+            "data\\added_datacommons_11\\2.png",
+            "data\\added_datacommons_11\\3.png"
         ],
         "question": "Question: Which county is labeled in both the first and third charts?\nNote that your answer should be a county name.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Harris County, TX",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_11_question_3",
         "image": [
-            "data/added_datacommons_11/1.png",
-            "data/added_datacommons_11/2.png",
-            "data/added_datacommons_11/3.png"
+            "data\\added_datacommons_11\\1.png",
+            "data\\added_datacommons_11\\2.png",
+            "data\\added_datacommons_11\\3.png"
         ],
-        "question": "Question: Firstly identify the county with the highest prevalence of obesity in the second chart. \nThen, what is the prevalence of obesity for this county in the first chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "East Carroll Parish, LA; 50%",
+        "question": "Question: First, from all the scatter points in the first chart, find the point corresponding to the third largest *Population Below Poverty Line*, and denote this value as \\( P_0 \\).  \nThen, in the third chart, how many points have *Women Below Poverty Line* greater than \\( P_0 \\)?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "1",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

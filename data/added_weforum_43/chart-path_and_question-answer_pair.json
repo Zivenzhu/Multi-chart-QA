@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_43_question_0",
         "image": [
-            "data/added_weforum_43/1.png",
-            "data/added_weforum_43/2.png"
+            "data\\added_weforum_43\\1.png",
+            "data\\added_weforum_43\\2.png"
         ],
-        "question": "What is the percentage of respondents expecting 'Stable' technological developments in the first chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the percentage of respondents expecting 'Stable' technological developments in the first chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "24",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_43_question_1",
         "image": [
-            "data/added_weforum_43/1.png",
-            "data/added_weforum_43/2.png"
+            "data\\added_weforum_43\\1.png",
+            "data\\added_weforum_43\\2.png"
         ],
-        "question": "What is the percentage for 'Clustered volatility' in the geopolitical and geoeconomic relations category in the first chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "5",
+        "question": "Question:\n1. What is the percentage for 'Clustered volatility' in the geopolitical and geoeconomic relations category in the first chart?\nNote that your answer should be a percentage.\n2. Which region in the second chart has the highest percentage of 'Widespread volatility'?\nNote that your answer should be a region name.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "5; Middle East and North Africa",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_43_question_2",
         "image": [
-            "data/added_weforum_43/1.png",
-            "data/added_weforum_43/2.png"
+            "data\\added_weforum_43\\1.png",
+            "data\\added_weforum_43\\2.png"
         ],
-        "question": "Which region in the second chart has the highest percentage of 'Widespread volatility'?\nNote that your answer should be a region name.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Middle East and North Africa",
+        "question": "Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "3",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_43_question_3",
         "image": [
-            "data/added_weforum_43/1.png",
-            "data/added_weforum_43/2.png"
+            "data\\added_weforum_43\\1.png",
+            "data\\added_weforum_43\\2.png"
         ],
-        "question": "Firstly, identify the category with the highest percentage of 'Stable' responses in the first chart.\nThen, find the region with the same level of 'Stable' responses in the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Economic and financial conditions within and across major economies; South Asia",
+        "question": "Question: Firstly, find the second highest percentage of 'Stable' responses in the first chart, denoted as \\( p_0 \\).  \nThen, which region has the same percentage \\( p_0 \\) of 'Stable' responses in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "United States",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

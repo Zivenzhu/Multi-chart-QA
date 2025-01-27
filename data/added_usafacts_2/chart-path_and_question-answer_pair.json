@@ -2,45 +2,49 @@
     {
         "id": "added_usafacts_2_question_0",
         "image": [
-            "data/added_usafacts_2/1.png",
-            "data/added_usafacts_2/2.png"
+            "data\\added_usafacts_2\\1.png",
+            "data\\added_usafacts_2\\2.png"
         ],
-        "question": "What is the total aid in billions of inflation-adjusted dollars given to Egypt since FY 2001 according to the first chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "Question: What is the total aid in billions of inflation-adjusted dollars given to Egypt since FY 2001 according to the first chart? \nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "45.8",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_2_question_1",
         "image": [
-            "data/added_usafacts_2/1.png",
-            "data/added_usafacts_2/2.png"
+            "data\\added_usafacts_2\\1.png",
+            "data\\added_usafacts_2\\2.png"
         ],
-        "question": "What is the darkest shade representing in the second chart? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "$500M",
+        "question": "Question:\n1. What does the darkest shade on the color bar of the second chart represent?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which country received the most US foreign aid according to the first chart\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "$500M; Afghanistan",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_2_question_2",
         "image": [
-            "data/added_usafacts_2/1.png",
-            "data/added_usafacts_2/2.png"
+            "data\\added_usafacts_2\\1.png",
+            "data\\added_usafacts_2\\2.png"
         ],
-        "question": "Question: Which country received the most US foreign aid according to the first chart, and what is the corresponding range of aid this country received in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Afghanistan; $500M",
+        "question": "Question:\n1. Which country received $15.4B in aid, according to the first chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. How many labeled ticks are there on the color bar in the second chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Kenya; 4",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_2_question_3",
         "image": [
-            "data/added_usafacts_2/1.png",
-            "data/added_usafacts_2/2.png"
+            "data\\added_usafacts_2\\1.png",
+            "data\\added_usafacts_2\\2.png"
         ],
-        "question": "Question: Firstly identify a country that received $15.4B in aid from the first chart. Then, determine the shade range this country falls into on the second chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Kenya; $500M",
-        "type": "open-ended",
+        "question": "Question: What are two keywords of these two charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Foreign Aid and Afghanistan\nB. USAID and Inflation-adjusted Dollars\nC. Disbursements and Kenya\nD. Foreign Aid and Inflation-adjusted disbursements",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

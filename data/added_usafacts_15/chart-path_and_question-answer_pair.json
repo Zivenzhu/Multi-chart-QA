@@ -2,48 +2,52 @@
     {
         "id": "added_usafacts_15_question_0",
         "image": [
-            "data/added_usafacts_15/1.png",
-            "data/added_usafacts_15/2.png",
-            "data/added_usafacts_15/3.png"
+            "data\\added_usafacts_15\\1.png",
+            "data\\added_usafacts_15\\2.png",
+            "data\\added_usafacts_15\\3.png"
         ],
-        "question": "What is the rightmost labeled tick on the horizontal axis in the first chart? Note that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2022",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the second chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "19",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_15_question_1",
         "image": [
-            "data/added_usafacts_15/1.png",
-            "data/added_usafacts_15/2.png",
-            "data/added_usafacts_15/3.png"
+            "data\\added_usafacts_15\\1.png",
+            "data\\added_usafacts_15\\2.png",
+            "data\\added_usafacts_15\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the second chart? Note that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "10",
+        "question": "Question:\n1. What is the rightmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'. \n2. Which type of property crime has consistently had the largest share according to the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Larceny-theft\nB. Motor vehicle theft\nC. Burglary\nD. None of the above\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "2020; A",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_15_question_2",
         "image": [
-            "data/added_usafacts_15/1.png",
-            "data/added_usafacts_15/2.png",
-            "data/added_usafacts_15/3.png"
+            "data\\added_usafacts_15\\1.png",
+            "data\\added_usafacts_15\\2.png",
+            "data\\added_usafacts_15\\3.png"
         ],
-        "question": "Question: Which type of property crime has consistently had the largest share according to the second chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Larceny-theft\nB. Motor vehicle theft\nC. Burglary\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "A",
-        "type": "multiple-choice",
+        "question": "Question: How many of the same tick values are there on the vertical axis in the first chart and the third chart?\nNote that your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7",
+        "task": "Comparative_Reasoning/Structure",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_usafacts_15_question_3",
         "image": [
-            "data/added_usafacts_15/1.png",
-            "data/added_usafacts_15/2.png",
-            "data/added_usafacts_15/3.png"
+            "data\\added_usafacts_15\\1.png",
+            "data\\added_usafacts_15\\2.png",
+            "data\\added_usafacts_15\\3.png"
         ],
         "question": "Question: Firstly extract the year when the national property crime rate decreased to below 3,000 per 100,000 people in the first chart. \nThen, in this year, what was the approximate rate of motor vehicle theft per 100,000 people according to the third chart?\nNote that your answer should be an approximate value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "2010, around 250",
+        "answer": "250",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

@@ -2,45 +2,49 @@
     {
         "id": "added_gallup_7_question_0",
         "image": [
-            "data/added_gallup_7/1.png",
-            "data/added_gallup_7/2.png"
+            "data\\added_gallup_7\\1.png",
+            "data\\added_gallup_7\\2.png"
         ],
-        "question": "What percentage of Black women are interested in starting a business according to the first chart? \nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
+        "question": "Question: What percentage of Black women are interested in starting a business according to the first chart? \nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
         "answer": "57",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gallup_7_question_1",
         "image": [
-            "data/added_gallup_7/1.png",
-            "data/added_gallup_7/2.png"
+            "data\\added_gallup_7\\1.png",
+            "data\\added_gallup_7\\2.png"
         ],
-        "question": "What is the percentage increase in satisfaction with the standard of living for women earning less than $60,000 who own a business compared to those who do not in the second chart?\nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
-        "answer": "+23",
+        "question": "Question: What is the percentage increase in satisfaction with the standard of living for women earning less than $60,000 who own a business compared to those who do not in the second chart?\nNote that your answer should be a percentage value. \nAnswer: The_answer_you_get",
+        "answer": "23",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gallup_7_question_2",
         "image": [
-            "data/added_gallup_7/1.png",
-            "data/added_gallup_7/2.png"
+            "data\\added_gallup_7\\1.png",
+            "data\\added_gallup_7\\2.png"
         ],
-        "question": "Question: What are the two main topics discussed in these charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. \nA. Business Ownership and Health\nB. Entrepreneurship and Satisfaction\nC. Income Levels and Education\nD. Gender Equality and Employment\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
-        "type": "multiple-choice",
+        "question": "Question:\n1. Which group has the lowest interest in starting a business in the first chart\u00ef\u00bc\u0178 \nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What is the income category with the smallest increase in satisfaction with the standard of living for women who own a business compared to those who do not, in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "White women; Women, $120,000+",
+        "task": "Parallel_Questions/Content",
+        "type": "open-ended",
         "context": null
     },
     {
         "id": "added_gallup_7_question_3",
         "image": [
-            "data/added_gallup_7/1.png",
-            "data/added_gallup_7/2.png"
+            "data\\added_gallup_7\\1.png",
+            "data\\added_gallup_7\\2.png"
         ],
-        "question": "Firstly, determine which group has the lowest interest in starting a business from the first chart. \nThen, for this group, identify their income category with the smallest increase in satisfaction with the standard of living in the second chart.\nNote that your answer should be a specific income range. \nAnswer: The_answer_you_get",
-        "answer": "Women, <$60,000",
-        "type": "open-ended",
+        "question": "Question: What are the two main topics discussed in these charts?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. \nA. Business Ownership and Health\nB. Gender Equality and Employment\nC. Income Levels and Education\nD. Entrepreneurship and Satisfaction\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
+        "type": "multiple-choice",
         "context": null
     }
 ]

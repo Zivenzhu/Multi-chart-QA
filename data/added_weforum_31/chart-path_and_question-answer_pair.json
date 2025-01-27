@@ -2,44 +2,48 @@
     {
         "id": "added_weforum_31_question_0",
         "image": [
-            "data/added_weforum_31/1.jpg",
-            "data/added_weforum_31/2.jpg"
+            "data\\added_weforum_31\\1.jpg",
+            "data\\added_weforum_31\\2.jpg"
         ],
-        "question": "What is the country listed at the top in the first chart? Note that your answer should be the name of the country that is explicitly listed at the top of the first chart.",
+        "question": "Question: What is the region listed at the top in the first chart? \nNote that your answer should be the name of the region that is explicitly listed at the top of the first chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Taiwan",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_31_question_1",
         "image": [
-            "data/added_weforum_31/1.jpg",
-            "data/added_weforum_31/2.jpg"
+            "data\\added_weforum_31\\1.jpg",
+            "data\\added_weforum_31\\2.jpg"
         ],
-        "question": "1. How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "8; 0",
+        "question": "Question:\n1. How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. What is the leftmost labeled tick on the horizontal axis in the first chart? \nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "9; 0",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_31_question_2",
         "image": [
-            "data/added_weforum_31/1.jpg",
-            "data/added_weforum_31/2.jpg"
+            "data\\added_weforum_31\\1.jpg",
+            "data\\added_weforum_31\\2.jpg"
         ],
-        "question": "Question: Which country appears in both charts?\nNote that your answer should be the name of the country that is explicitly listed in both charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Korea",
+        "question": "Question: How many regions appear in both charts?\nNote that your answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "6",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_weforum_31_question_3",
         "image": [
-            "data/added_weforum_31/1.jpg",
-            "data/added_weforum_31/2.jpg"
+            "data\\added_weforum_31\\1.jpg",
+            "data\\added_weforum_31\\2.jpg"
         ],
-        "question": "Question: Firstly extract the country with the highest percentage of adults who scored at least 70 points on financial literacy in the second chart.\nThen, for this country, what is the frequency category with the lowest percentage in the first chart?\nNote that your answer should be one of the frequency categories explicitly listed in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Finland; Every Day",
+        "question": "Question: Firstly extract the region with the second highest percentage of adults who scored at least 70 points on financial literacy in the second chart.\nThen, for this country, what is the frequency category with the lowest percentage in the first chart?\nNote that your answer should be one of the frequency categories explicitly listed in the chart.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Never",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

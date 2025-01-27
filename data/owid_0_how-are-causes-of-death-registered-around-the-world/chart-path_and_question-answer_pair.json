@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_153_question_0",
+        "id": "owid_0_how-are-causes-of-death-registered-around-the-world_question_0",
         "image": [
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
         ],
         "question": "Question: What is the difference between the maximum and minimum percentages of the tick labels on the colour bar in the second chart? \nNote that your final answer should be the difference between the maximum and minimum percentages of the tick labels on the colour bar, including the case when the colour bar is shared across multiple subplots. When the colour bar is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit colour bar tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "100",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_153_question_1",
+        "id": "owid_0_how-are-causes-of-death-registered-around-the-world_question_1",
         "image": [
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
         ],
         "question": "Question:\n1. How many labeled ticks are there on the colour bar in the first chart?\nNote that your final answer should be the total number of labeled ticks on the colour bar. If the chart does not have explicit labeled ticks on the colour bar, answer '0'.\n2. What is the title of the third chart?\nNote that your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "7; Share of deaths that are registered, 2019",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_153_question_2",
+        "id": "owid_0_how-are-causes-of-death-registered-around-the-world_question_2",
         "image": [
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
         ],
         "question": "Question:\n1. What is the leftmost labeled tick on the colour bar in the third chart?\nNote that your final answer should be the tick value on the colour bar that is explicitly written. If the chart does not have explicit labeled ticks on the colour bar, answer 'Not Applicable'.\n2. How many distinct colors are there in the second chart representing different percentages?\nNote that your final answer should be the total number of distinct colors in the chart across multiple subplots. If the plot does not contain any colors or is not considered a color plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "0%; 10",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_153_question_3",
+        "id": "owid_0_how-are-causes-of-death-registered-around-the-world_question_3",
         "image": [
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
-            "modified_local_full_qa\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\deaths-registered-with-an-ill-defined-cause-of-death.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-cause-is-registered.png",
+            "data\\owid_0_how-are-causes-of-death-registered-around-the-world\\share-of-deaths-registered.png"
         ],
         "question": "Question: How many of the same tick values are there on the colour bar in the third chart and the first chart?\nNote that your final answer should be the number of the same tick values on the colour bar across multiple subplots in the third chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the third and the first charts do not have ticks with the same label on the colour bar, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "4",

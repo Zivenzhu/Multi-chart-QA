@@ -2,44 +2,48 @@
     {
         "id": "added_IEA_8_question_0",
         "image": [
-            "data/added_IEA_8/1.png",
-            "data/added_IEA_8/2.png"
+            "data\\added_IEA_8\\1.png",
+            "data\\added_IEA_8\\2.png"
         ],
-        "question": "What is the highest production volume of air conditioners in million units in any fiscal year from 2019 to 2023 in the first chart? \nNote that your answer should be a natural number. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "question": "Question: What is the highest production volume of air conditioners in million units in any fiscal year from 2019 to 2023 in the first chart? \nNote that your answer should be a natural number. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
         "answer": "11",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_8_question_1",
         "image": [
-            "data/added_IEA_8/1.png",
-            "data/added_IEA_8/2.png"
+            "data\\added_IEA_8\\1.png",
+            "data\\added_IEA_8\\2.png"
         ],
-        "question": "What is the percentage of 1-star air conditioners on the market in Kenya in 2023 according to the second chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "80%",
+        "question": "Question: What is the percentage of 1-star air conditioners on the market in Kenya in 2023 according to the second chart?\nNote that your answer should be a percentage.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "90%",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_8_question_2",
         "image": [
-            "data/added_IEA_8/1.png",
-            "data/added_IEA_8/2.png"
+            "data\\added_IEA_8\\1.png",
+            "data\\added_IEA_8\\2.png"
         ],
-        "question": "1. How many different efficiency ratings are displayed in the first chart?\nNote that your answer should be a natural number.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
-        "answer": "5; 5",
+        "question": "Question:\n1. How many different efficiency ratings are displayed in the first chart?\nNote that your answer should be a natural number.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that your answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question.",
+        "answer": "5; 2",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_IEA_8_question_3",
         "image": [
-            "data/added_IEA_8/1.png",
-            "data/added_IEA_8/2.png"
+            "data\\added_IEA_8\\1.png",
+            "data\\added_IEA_8\\2.png"
         ],
-        "question": "Question: Which year has the highest production volume of 3-star air conditioners in India, and does Kenya have a higher percentage of 3-star air conditioners in 2023?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2023, Yes\nB. 2023, No\nC. 2022, Yes\nD. 2022, No\nNote that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "B",
+        "question": "Question: Which year has the highest production volume of 3-star air conditioners in India, and does Kenya have a higher percentage of 3-star air conditioners in 2023?\nNote that this is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. 2023, Yes\nB. 2022, No\nC. 2022, Yes\nD. 2020, No\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "D",
+        "task": "Comparative_Reasoning/Content",
         "type": "multiple-choice",
         "context": null
     }

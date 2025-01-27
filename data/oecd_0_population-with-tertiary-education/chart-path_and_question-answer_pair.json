@@ -1,10 +1,10 @@
 [
     {
-        "id": "group_113_question_0",
+        "id": "oecd_0_population-with-tertiary-education_question_0",
         "image": [
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
         ],
         "question": "Question: What is the general trend of data from left to right in the first chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Increasing\nB. Decreasing\nC. Decreasing then increasing\nD. Increasing then decreasing\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "B",
@@ -13,11 +13,11 @@
         "context": null
     },
     {
-        "id": "group_113_question_1",
+        "id": "oecd_0_population-with-tertiary-education_question_1",
         "image": [
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
         ],
         "question": "Question: \n1. What is the title of the second chart?\nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n2. What is the rightmost country on the horizontal axis in the first chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\n3. What is the spatially highest labeled tick on the vertical axis in the third chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. \nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "Population with tertiary education; Italy; 80",
@@ -26,11 +26,11 @@
         "context": null
     },
     {
-        "id": "group_113_question_2",
+        "id": "oecd_0_population-with-tertiary-education_question_2",
         "image": [
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
         ],
         "question": "Question: How many of the same tick values are there on the vertical axis in the third chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the vertical axis across multiple subplots in the third chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the third charts do not have ticks with the same label on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
@@ -39,11 +39,11 @@
         "context": null
     },
     {
-        "id": "group_113_question_3",
+        "id": "oecd_0_population-with-tertiary-education_question_3",
         "image": [
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
-            "modified_local_full_qa\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_57_10.088Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_58_40.805Z.png",
+            "data\\oecd_0_population-with-tertiary-education\\export-2024-07-25T09_59_58.264Z.png"
         ],
         "question": "Question: Firstly extract a name of a country whose population with tertiary education ranks the seventh among the listed horizontal ticks in 2017 in the second chart.\nThen for this country, which position does its population with tertiary education rank in 2012 in the third chart?\nNote that the answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Sixth",

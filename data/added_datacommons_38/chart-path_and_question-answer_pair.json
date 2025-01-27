@@ -2,44 +2,48 @@
     {
         "id": "added_datacommons_38_question_0",
         "image": [
-            "data/added_datacommons_38/1.png",
-            "data/added_datacommons_38/2.png"
+            "data\\added_datacommons_38\\1.png",
+            "data\\added_datacommons_38\\2.png"
         ],
-        "question": "What is the vertical axis label on the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "Count of Housing Units",
+        "question": "Question: Which city shows a significantly higher number of housing units with a specific room count compared to the other city?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "New York City",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_38_question_1",
         "image": [
-            "data/added_datacommons_38/1.png",
-            "data/added_datacommons_38/2.png"
+            "data\\added_datacommons_38\\1.png",
+            "data\\added_datacommons_38\\2.png"
         ],
-        "question": "What is the highest labeled tick value on the vertical axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "8K",
+        "question": "Question:\n1. What is the highest labeled tick value on the vertical axis in the second chart?\nNote that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the total number of explicitly labeled ticks on the horizontal axis in the first chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "8K; 2 ",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_38_question_2",
         "image": [
-            "data/added_datacommons_38/1.png",
-            "data/added_datacommons_38/2.png"
+            "data\\added_datacommons_38\\1.png",
+            "data\\added_datacommons_38\\2.png"
         ],
-        "question": "1. What is the total number of explicitly labeled ticks on the horizontal axis in the first chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.\n2. What is the label of the first tick on the horizontal axis in the second chart?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "2; New York City",
+        "question": "Question: How many of the same tick values are there on the horizontal axis in the first chart and the second chart?\nNote that your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in these two chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "2",
+        "task": "Comparative_Reasoning/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_38_question_3",
         "image": [
-            "data/added_datacommons_38/1.png",
-            "data/added_datacommons_38/2.png"
+            "data\\added_datacommons_38\\1.png",
+            "data\\added_datacommons_38\\2.png"
         ],
-        "question": "Question: Which city shows a significantly higher number of housing units with a specific room count compared to the other city?\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "New York City",
+        "question": "Question: In these two charts, is there a positive or negative correlation between Houses by Room Count and Homes Valued Between $150,000 and $174,999 across different cities?\nNote that your final answer should be either \"Positive\" or \"Negative\".\nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "Positive",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }

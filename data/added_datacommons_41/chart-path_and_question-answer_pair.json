@@ -2,48 +2,52 @@
     {
         "id": "added_datacommons_41_question_0",
         "image": [
-            "data/added_datacommons_41/1.png",
-            "data/added_datacommons_41/2.png",
-            "data/added_datacommons_41/3.png"
+            "data\\added_datacommons_41\\1.png",
+            "data\\added_datacommons_41\\2.png",
+            "data\\added_datacommons_41\\3.png"
         ],
-        "question": "What is the total number of explicitly labeled ticks across all axes in the first chart? Note that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "10",
+        "question": "Question: What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'. \nNote that your answer format should be as follows: Answer: The_answer_you_get.",
+        "answer": "14",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_41_question_1",
         "image": [
-            "data/added_datacommons_41/1.png",
-            "data/added_datacommons_41/2.png",
-            "data/added_datacommons_41/3.png"
+            "data\\added_datacommons_41\\1.png",
+            "data\\added_datacommons_41\\2.png",
+            "data\\added_datacommons_41\\3.png"
         ],
-        "question": "What is the spatially highest labeled tick on the vertical axis in the second chart? Note that your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'. Note that your answer format should be as follows: Answer: The_answer_you_get.",
-        "answer": "2M",
+        "question": "Question:\n1. Which group has the highest impoverished population in California in 2022 in the second chart? \nNote that your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. How many labels are there in the legend of the third chart?\nNote that your final answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "Hispanic or Latino Americans; 9",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_41_question_2",
         "image": [
-            "data/added_datacommons_41/1.png",
-            "data/added_datacommons_41/2.png",
-            "data/added_datacommons_41/3.png"
+            "data\\added_datacommons_41\\1.png",
+            "data\\added_datacommons_41\\2.png",
+            "data\\added_datacommons_41\\3.png"
         ],
-        "question": "Question: Which group has the highest impoverished population in California in 2022 between the second and third charts? Note that your answer format should be as follows: Answer: The_answer_you_get",
-        "answer": "Hispanic or Latino Americans",
+        "question": "Question: How many of the same colors are used to draw bars in the second chart and the third chart?\nNote that your final answer should be a natural number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "7",
+        "task": "Comparative_Reasoning/Content",
         "type": "open-ended",
         "context": null
     },
     {
         "id": "added_datacommons_41_question_3",
         "image": [
-            "data/added_datacommons_41/1.png",
-            "data/added_datacommons_41/2.png",
-            "data/added_datacommons_41/3.png"
+            "data\\added_datacommons_41\\1.png",
+            "data\\added_datacommons_41\\2.png",
+            "data\\added_datacommons_41\\3.png"
         ],
-        "question": "Firstly, what is the trend in the impoverished population for women in the first chart? Then, which racial group has the highest impoverished population in the second chart? Note that your answer format should be as follows: Answer: The_first_answer_you_get; The_second_answer_you_get.",
-        "answer": "Decreasing; Hispanic or Latino Americans",
+        "question": "Question: Firstly, identify the year referenced in the second chart about Impoverished Population by Race in California, and denote it as y0.\nThen, in the first chart, for the year y0, are there more women or men below the poverty line?\nNote that your answer should be either \"Women\" or \"Men\".\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Women",
+        "task": "Sequential_Reasoning/Content",
         "type": "open-ended",
         "context": null
     }
