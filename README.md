@@ -12,6 +12,6 @@ MultiChartQA is an extensive and demanding benchmark that features real-world ch
 
 ## Evaluation
 ```
-python evaluation.py
+python code/evaluation.py
 ```
 
