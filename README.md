@@ -11,7 +11,12 @@ MultiChartQA is an extensive and demanding benchmark that features real-world ch
 ![method_00](https://github.com/user-attachments/assets/99165254-bf8c-43a0-b62e-1ae5e0b9ebdf)
 
 ## Evaluation
+### Model Response Generation
 ```
 python code/evaluation.py
+```
+### Calculate Accuracy
+```
+python code/calculate_acc.py
 ```
 
