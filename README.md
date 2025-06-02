@@ -1,6 +1,6 @@
 # MultiChartQA
 
-This repository contains the questions and answers for our Multi-chart Benchmark. At present, only the data is available, but the test code will be provided soon. We welcome everyone to use and explore our benchmark!
+This repository contains the questions and answers for our MultiChartQA Benchmark. At present, both the data and the test code are available. We welcome everyone to use and explore our benchmark!
 
 ## Introduction
 
@@ -9,4 +9,9 @@ MultiChartQA is an extensive and demanding benchmark that features real-world ch
 ## Overview
 
 ![method_00](https://github.com/user-attachments/assets/99165254-bf8c-43a0-b62e-1ae5e0b9ebdf)
+
+## Evaluation
+```
+python code/evaluation.py
+```
 
